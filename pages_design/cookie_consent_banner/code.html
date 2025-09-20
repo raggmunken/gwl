@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cookie Consent</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#11a4d4",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#101d22",
+                        "foreground-light": "#111618",
+                        "foreground-dark": "#e3e9eb"
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="fixed inset-x-0 bottom-0 z-50">
+<div class="bg-background-light dark:bg-background-dark shadow-[0_-2px_16px_rgba(0,0,0,0.1)] dark:shadow-[0_-2px_16px_rgba(0,0,0,0.2)]">
+<div class="mx-auto max-w-screen-lg p-6 sm:p-8">
+<div class="flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
+<div class="flex-1">
+<h2 class="text-xl font-bold text-foreground-light dark:text-foreground-dark">Your Privacy Matters</h2>
+<p class="mt-2 text-base text-foreground-light/80 dark:text-foreground-dark/80">
+                        We use cookies to enhance your experience, analyze site traffic, and personalize content. By clicking 'Accept All', you consent to our use of cookies. You can customize your preferences or decline non-essential cookies.
+                    </p>
+</div>
+<div class="flex w-full flex-col gap-3 md:w-auto md:flex-row md:items-center">
+<button class="flex h-11 w-full items-center justify-center whitespace-nowrap rounded-lg bg-primary px-6 text-sm font-semibold text-white transition-colors hover:bg-primary/90">
+                        Accept All
+                    </button>
+<button class="flex h-11 w-full items-center justify-center whitespace-nowrap rounded-lg bg-primary/10 px-6 text-sm font-semibold text-primary transition-colors hover:bg-primary/20 dark:bg-primary/20 dark:hover:bg-primary/30">
+                        Customize
+                    </button>
+<button class="flex h-11 w-full items-center justify-center whitespace-nowrap rounded-lg px-6 text-sm font-semibold text-foreground-light/70 transition-colors hover:text-foreground-light dark:text-foreground-dark/70 dark:hover:text-foreground-dark">
+                        Decline
+                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="h-[200vh] p-8">
+<h1 class="text-4xl font-bold text-foreground-light dark:text-foreground-dark">Genetic Wellness Labs</h1>
+<p class="mt-4 text-lg text-foreground-light/80 dark:text-foreground-dark/80">Scroll down to see the sticky cookie banner.</p>
+</div>
+
+</body></html>

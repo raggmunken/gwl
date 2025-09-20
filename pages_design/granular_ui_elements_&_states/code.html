@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<title>Genetic Wellness Labs - UI Kit</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#11a4d4",
+            "background-light": "#f6f8f8",
+            "background-dark": "#101d22",
+            "foreground-light": "#1f2937",
+            "foreground-dark": "#f9fafb",
+            "subtle-light": "#6b7280",
+            "subtle-dark": "#9ca3af",
+            "border-light": "#e5e7eb",
+            "border-dark": "#374151",
+            "success-light": "#10b981",
+            "success-dark": "#34d399",
+            "error-light": "#ef4444",
+            "error-dark": "#f87171",
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .form-checkbox, .form-radio {
+      color: #11a4d4;
+    }
+    .form-checkbox:checked, .form-radio:checked {
+      background-color: currentColor;
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+    }
+    .form-radio:checked {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");
+    }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 140px;
+      background-color: #1f2937;
+      color: #f9fafb;
+      text-align: center;
+      border-radius: 0.5rem;
+      padding: 8px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -70px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .dark .tooltip .tooltiptext {
+        background-color: #f9fafb;
+        color: #1f2937;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-foreground-light dark:text-foreground-dark">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-border-light dark:border-border-dark">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-3">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 12.236C39.9944 12.2537 39.9875 12.2845 39.9748 12.3294C39.9436 12.4399 39.8949 12.5741 39.8346 12.7175C39.8168 12.7597 39.7989 12.8007 39.7813 12.8398C38.5103 13.7113 35.9788 14.9393 33.7095 15.4811C30.9875 16.131 27.6413 16.5217 24 16.5217C20.3587 16.5217 17.0125 16.131 14.2905 15.4811C12.0012 14.9346 9.44505 13.6897 8.18538 12.8168C8.17384 12.7925 8.16216 12.767 8.15052 12.7408C8.09919 12.6249 8.05721 12.5114 8.02977 12.411C8.00356 12.3152 8.00039 12.2667 8.00004 12.2612C8.00004 12.261 8 12.2607 8.00004 12.2612C8.00004 12.2359 8.0104 11.9233 8.68485 11.3686C9.34546 10.8254 10.4222 10.2469 11.9291 9.72276C14.9242 8.68098 19.1919 8 24 8C28.8081 8 33.0758 8.68098 36.0709 9.72276C37.5778 10.2469 38.6545 10.8254 39.3151 11.3686C39.9006 11.8501 39.9857 12.1489 39.998 12.236ZM4.95178 15.2312L21.4543 41.6973C22.6288 43.5809 25.3712 43.5809 26.5457 41.6973L43.0534 15.223C43.0709 15.1948 43.0878 15.1662 43.104 15.1371L41.3563 14.1648C43.104 15.1371 43.1038 15.1374 43.104 15.1371L43.1051 15.135L43.1065 15.1325L43.1101 15.1261L43.1199 15.1082C43.1276 15.094 43.1377 15.0754 43.1497 15.0527C43.1738 15.0075 43.2062 14.9455 43.244 14.8701C43.319 14.7208 43.4196 14.511 43.5217 14.2683C43.6901 13.8679 44 13.0689 44 12.2609C44 10.5573 43.003 9.22254 41.8558 8.2791C40.6947 7.32427 39.1354 6.55361 37.385 5.94477C33.8654 4.72057 29.133 4 24 4C18.867 4 14.1346 4.72057 10.615 5.94478C8.86463 6.55361 7.30529 7.32428 6.14419 8.27911C4.99695 9.22255 3.99999 10.5573 3.99999 12.2609C3.99999 13.1275 4.29264 13.9078 4.49321 14.3607C4.60375 14.6102 4.71348 14.8196 4.79687 14.9689C4.83898 15.0444 4.87547 15.1065 4.9035 15.1529C4.91754 15.1762 4.92954 15.1957 4.93916 15.2111L4.94662 15.223L4.95178 15.2312ZM35.9868 18.996L24 38.22L12.0131 18.996C12.4661 19.1391 12.9179 19.2658 13.3617 19.3718C16.4281 20.1039 20.0901 20.5217 24 20.5217C27.9099 20.5217 31.5719 20.1039 34.6383 19.3718C35.082 19.2658 35.5339 19.1391 35.9868 18.996Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-xl font-bold text-foreground-light dark:text-foreground-dark">Genetic Wellness Labs</h1>
+</div>
+<div class="flex items-center gap-8">
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium text-subtle-light dark:text-subtle-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Services</a>
+<a class="text-sm font-medium text-subtle-light dark:text-subtle-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium text-subtle-light dark:text-subtle-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<button class="bg-primary hover:bg-primary/90 text-white font-bold py-2 px-4 rounded-lg transition-colors">
+              Get Started
+            </button>
+</div>
+</div>
+</div>
+</header>
+<main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-4xl font-bold tracking-tight mb-12 text-center text-foreground-light dark:text-foreground-dark">UI Element States</h2>
+<section class="mb-16">
+<h3 class="text-2xl font-bold mb-6 text-foreground-light dark:text-foreground-dark">Input Field States</h3>
+<div class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-subtle-light dark:text-subtle-dark mb-2" for="default-input">Default</label>
+<input class="w-full bg-background-light dark:bg-background-dark border border-border-light dark:border-border-dark text-foreground-light dark:text-foreground-dark placeholder-subtle-light dark:placeholder-subtle-dark focus:ring-primary focus:border-primary rounded-lg p-3 transition" id="default-input" placeholder="Enter your email" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-subtle-light dark:text-subtle-dark mb-2" for="focus-input">Focus</label>
+<input class="w-full bg-background-light dark:bg-background-dark border border-primary ring-2 ring-primary/50 text-foreground-light dark:text-foreground-dark placeholder-subtle-light dark:placeholder-subtle-dark rounded-lg p-3 transition" id="focus-input" placeholder="I am focused" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-subtle-light dark:text-subtle-dark mb-2" for="disabled-input">Disabled</label>
+<input class="w-full bg-border-light/50 dark:bg-border-dark/50 border border-border-light dark:border-border-dark text-subtle-light dark:text-subtle-dark placeholder-subtle-light/70 dark:placeholder-subtle-dark/70 rounded-lg p-3 cursor-not-allowed" disabled="" id="disabled-input" placeholder="You can't edit me" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-subtle-light dark:text-subtle-dark mb-2" for="error-input">Validation Error</label>
+<div class="relative">
+<input class="w-full bg-background-light dark:bg-background-dark border border-error-light dark:border-error-dark text-error-light dark:text-error-dark placeholder-error-light/70 dark:placeholder-error-dark/70 focus:ring-error-light/50 focus:border-error-light dark:focus:border-error-dark rounded-lg p-3 pr-10 transition" id="error-input" type="email" value="not-an-email"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-error-light dark:text-error-dark">error</span>
+</div>
+<p class="mt-2 text-sm text-error-light dark:text-error-dark">Please enter a valid email address.</p>
+</div>
+<div>
+<label class="block text-sm font-medium text-subtle-light dark:text-subtle-dark mb-2" for="success-input">Success State</label>
+<div class="relative">
+<input class="w-full bg-background-light dark:bg-background-dark border border-success-light dark:border-success-dark text-success-light dark:text-success-dark placeholder-success-light/70 dark:placeholder-success-dark/70 focus:ring-success-light/50 focus:border-success-light dark:focus:border-success-dark rounded-lg p-3 pr-10 transition" id="success-input" type="text" value="correct@email.com"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-success-light dark:text-success-dark">check_circle</span>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-16">
+<h3 class="text-2xl font-bold mb-6 text-foreground-light dark:text-foreground-dark">Button States</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-4 p-6 bg-background-light dark:bg-background-dark border border-border-light dark:border-border-dark rounded-xl">
+<h4 class="font-semibold text-foreground-light dark:text-foreground-dark">Primary</h4>
+<div class="flex flex-wrap gap-4 items-center">
+<button class="bg-primary text-white font-bold py-2 px-4 rounded-lg transition-colors">Default</button>
+<button class="bg-primary/90 text-white font-bold py-2 px-4 rounded-lg transition-colors">Hover</button>
+<button class="bg-primary text-white font-bold py-2 px-4 rounded-lg ring-2 ring-primary/50 ring-offset-2 ring-offset-background-light dark:ring-offset-background-dark">Active</button>
+<button class="bg-primary/50 text-white/80 font-bold py-2 px-4 rounded-lg cursor-not-allowed">Disabled</button>
+<button class="bg-primary flex items-center justify-center text-white font-bold py-2 px-4 rounded-lg transition-colors opacity-75 cursor-wait">
+<svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" fill="currentColor"></path></svg>
+                  Loading
+                </button>
+</div>
+</div>
+<div class="space-y-4 p-6 bg-background-light dark:bg-background-dark border border-border-light dark:border-border-dark rounded-xl">
+<h4 class="font-semibold text-foreground-light dark:text-foreground-dark">Secondary</h4>
+<div class="flex flex-wrap gap-4 items-center">
+<button class="bg-primary/20 dark:bg-primary/20 text-primary font-bold py-2 px-4 rounded-lg transition-colors">Default</button>
+<button class="bg-primary/30 dark:bg-primary/30 text-primary font-bold py-2 px-4 rounded-lg transition-colors">Hover</button>
+<button class="bg-primary/20 dark:bg-primary/20 text-primary font-bold py-2 px-4 rounded-lg ring-2 ring-primary/50 ring-offset-2 ring-offset-background-light dark:ring-offset-background-dark">Active</button>
+<button class="bg-primary/10 dark:bg-primary/10 text-primary/70 font-bold py-2 px-4 rounded-lg cursor-not-allowed">Disabled</button>
+<button class="bg-primary/20 dark:bg-primary/20 flex items-center justify-center text-primary font-bold py-2 px-4 rounded-lg transition-colors opacity-75 cursor-wait">
+<svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" fill="currentColor"></path></svg>
+                  Loading
+                </button>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-16">
+<h3 class="text-2xl font-bold mb-6 text-foreground-light dark:text-foreground-dark">Dropdown / Select States</h3>
+<div class="max-w-xs space-y-4">
+<label class="block text-sm font-medium text-subtle-light dark:text-subtle-dark mb-2" for="select-state">Select an option</label>
+<select class="w-full bg-background-light dark:bg-background-dark border border-border-light dark:border-border-dark text-foreground-light dark:text-foreground-dark focus:ring-primary focus:border-primary rounded-lg p-3 transition form-select" id="select-state">
+<option>Default</option>
+<option>Option Two</option>
+<option>Option Three</option>
+<option disabled="">Disabled Option</option>
+</select>
+</div>
+</section>
+<section class="mb-16">
+<h3 class="text-2xl font-bold mb-6 text-foreground-light dark:text-foreground-dark">Checkbox / Radio Button States</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-4">
+<h4 class="font-semibold text-foreground-light dark:text-foreground-dark">Checkboxes</h4>
+<label class="flex items-center space-x-3 cursor-pointer">
+<input class="form-checkbox h-5 w-5 rounded border-border-light dark:border-border-dark focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark transition" type="checkbox"/>
+<span class="text-foreground-light dark:text-foreground-dark">Unchecked</span>
+</label>
+<label class="flex items-center space-x-3 cursor-pointer">
+<input checked="" class="form-checkbox h-5 w-5 rounded border-border-light dark:border-border-dark focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark transition" type="checkbox"/>
+<span class="text-foreground-light dark:text-foreground-dark">Checked</span>
+</label>
+<label class="flex items-center space-x-3 cursor-not-allowed">
+<input class="form-checkbox h-5 w-5 rounded border-border-light dark:border-border-dark bg-border-light dark:bg-border-dark transition" disabled="" type="checkbox"/>
+<span class="text-subtle-light dark:text-subtle-dark">Disabled</span>
+</label>
+</div>
+<div class="space-y-4">
+<h4 class="font-semibold text-foreground-light dark:text-foreground-dark">Radio Buttons</h4>
+<label class="flex items-center space-x-3 cursor-pointer">
+<input class="form-radio h-5 w-5 border-border-light dark:border-border-dark focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark transition" name="radio-group" type="radio"/>
+<span class="text-foreground-light dark:text-foreground-dark">Unselected</span>
+</label>
+<label class="flex items-center space-x-3 cursor-pointer">
+<input checked="" class="form-radio h-5 w-5 border-border-light dark:border-border-dark focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark transition" name="radio-group" type="radio"/>
+<span class="text-foreground-light dark:text-foreground-dark">Selected</span>
+</label>
+<label class="flex items-center space-x-3 cursor-not-allowed">
+<input class="form-radio h-5 w-5 border-border-light dark:border-border-dark bg-border-light dark:bg-border-dark transition" disabled="" name="radio-group-disabled" type="radio"/>
+<span class="text-subtle-light dark:text-subtle-dark">Disabled</span>
+</label>
+</div>
+</div>
+</section>
+<section class="mb-16">
+<h3 class="text-2xl font-bold mb-6 text-foreground-light dark:text-foreground-dark">Tooltip / Popover Designs</h3>
+<p class="text-foreground-light dark:text-foreground-dark">
+            Hover over this 
+            <span class="tooltip text-primary font-semibold">
+              special text
+              <span class="tooltiptext font-normal">This is a helpful tooltip!</span>
+</span> 
+            to see the tooltip.
+          </p>
+</section>
+<section>
+<h3 class="text-2xl font-bold mb-6 text-foreground-light dark:text-foreground-dark">Progress Indicators (Contextual)</h3>
+<div class="space-y-8">
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-base font-medium text-primary">Account Setup</span>
+<span class="text-sm font-medium text-primary">Step 1 of 3</span>
+</div>
+<div class="w-full bg-border-light dark:bg-border-dark rounded-full h-2.5">
+<div class="bg-primary h-2.5 rounded-full" style="width: 33%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-base font-medium text-primary">Personal Information</span>
+<span class="text-sm font-medium text-primary">Step 2 of 3</span>
+</div>
+<div class="w-full bg-border-light dark:bg-border-dark rounded-full h-2.5">
+<div class="bg-primary h-2.5 rounded-full" style="width: 66%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between mb-1">
+<span class="text-base font-medium text-primary">Payment Details</span>
+<span class="text-sm font-medium text-primary">Step 3 of 3</span>
+</div>
+<div class="w-full bg-border-light dark:bg-border-dark rounded-full h-2.5">
+<div class="bg-primary h-2.5 rounded-full" style="width: 100%"></div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-border-light dark:border-border-dark mt-16">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-subtle-light dark:text-subtle-dark">
+<p>© 2024 Genetic Wellness Labs. All rights reserved.</p>
+</div>
+</footer>
+</div>
+
+</body></html>

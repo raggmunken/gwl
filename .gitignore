@@ -1,0 +1,42 @@
+# Node/Next.js
+node_modules/
+.next/
+out/
+.build/
+build/
+dist/
+
+# Package managers
+.pnpm-store/
+.npm/
+.yarn/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Coverage & tests
+coverage/
+.jest-cache/
+
+# Vercel/Netlify
+.vercel/
+.netlify/
+
+# Turborepo
+.turbo/
+
+# Sanity Studio
+.sanity/
+
+# Misc
+*.local

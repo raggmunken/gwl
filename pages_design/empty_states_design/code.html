@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Genetic Wellness Labs - Empty States</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#11a4d4",
+              "background-light": "#f6f8f8",
+              "background-dark": "#101d22",
+              "neutral-light": "#ffffff",
+              "neutral-dark": "#182c34",
+              "content-light": "#111618",
+              "content-dark": "#f0f3f4",
+            },
+            fontFamily: {
+              display: ["Manrope", "sans-serif"],
+            },
+            borderRadius: { DEFAULT: "0.5rem", lg: "0.75rem", xl: "1rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+</head>
+<body class="font-display bg-background-light text-content-light dark:bg-background-dark dark:text-content-dark">
+<div class="flex min-h-screen flex-col">
+<main class="flex-grow">
+<div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+<div class="mb-12 text-center">
+<h1 class="font-display text-4xl font-extrabold tracking-tight text-content-light dark:text-content-dark sm:text-5xl">Empty States</h1>
+<p class="mt-4 text-lg text-content-light/70 dark:text-content-dark/70">Examples of what you'll see when there's no data to show.</p>
+</div>
+<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="flex flex-col items-center justify-center rounded-lg bg-neutral-light p-8 text-center shadow-sm dark:bg-neutral-dark">
+<div class="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined !text-4xl">shopping_bag</span>
+</div>
+<h2 class="mb-2 text-xl font-bold text-content-light dark:text-content-dark">No Orders Yet</h2>
+<p class="mb-6 text-content-light/70 dark:text-content-dark/70">You haven't placed any orders yet. Explore our products to begin.</p>
+<button class="flex h-10 items-center justify-center rounded-full bg-primary px-6 font-bold text-white transition-opacity hover:opacity-90">
+<span>Start Your First Order</span>
+</button>
+</div>
+<div class="flex flex-col items-center justify-center rounded-lg bg-neutral-light p-8 text-center shadow-sm dark:bg-neutral-dark">
+<div class="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined !text-4xl">mail</span>
+</div>
+<h2 class="mb-2 text-xl font-bold text-content-light dark:text-content-dark">No Messages</h2>
+<p class="mb-6 text-content-light/70 dark:text-content-dark/70">Your inbox is empty. Contact us if you have any questions.</p>
+<button class="flex h-10 items-center justify-center rounded-full bg-primary px-6 font-bold text-white transition-opacity hover:opacity-90">
+<span>Send a Message</span>
+</button>
+</div>
+<div class="flex flex-col items-center justify-center rounded-lg bg-neutral-light p-8 text-center shadow-sm dark:bg-neutral-dark">
+<div class="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined !text-4xl">search_off</span>
+</div>
+<h2 class="mb-2 text-xl font-bold text-content-light dark:text-content-dark">No Results Found</h2>
+<p class="mb-6 text-content-light/70 dark:text-content-dark/70">We couldn't find a match. Try searching with different keywords.</p>
+<button class="flex h-10 items-center justify-center rounded-full bg-primary/20 px-6 font-bold text-primary transition-colors hover:bg-primary/30">
+<span>Clear Search</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#11a4d4",
+              "background-light": "#f6f8f8",
+              "background-dark": "#101d22",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-black dark:text-white">
+<div class="flex min-h-screen w-full">
+<aside class="w-64 flex-shrink-0 bg-white dark:bg-black/10 p-6">
+<div class="flex flex-col h-full">
+<h1 class="text-xl font-bold text-black dark:text-white">Genetic Wellness Labs</h1>
+<nav class="mt-8 flex flex-col gap-2">
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined">inventory_2</span>
+<span>Orders</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined">group</span>
+<span>Customers</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined">inventory</span>
+<span>Products</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800" href="#">
+<span class="material-symbols-outlined">percent</span>
+<span>Discounts</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-2 rounded-lg bg-primary/20 text-primary" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+</nav>
+</div>
+</aside>
+<main class="flex-1 p-8">
+<header class="mb-8">
+<h2 class="text-3xl font-bold text-black dark:text-white">System Settings</h2>
+<p class="text-gray-500 dark:text-gray-400 mt-1">Configure system-wide settings for Genetic Wellness Labs.</p>
+</header>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+<div class="space-y-12">
+<section>
+<h3 class="text-xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6">Integration Settings</h3>
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="stripe-key">Stripe API Key</label>
+<input class="form-input w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="stripe-key" type="password" value="••••••••••••••••"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="crm-key">CRM API Key</label>
+<input class="form-input w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="crm-key" type="password" value="••••••••••••••••"/>
+</div>
+</div>
+</section>
+<section>
+<h3 class="text-xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6">Legal Documents</h3>
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="tos-url">Terms of Service URL</label>
+<input class="form-input w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="tos-url" placeholder="https://example.com/terms" type="url"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="privacy-url">Privacy Policy URL</label>
+<input class="form-input w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="privacy-url" placeholder="https://example.com/privacy" type="url"/>
+</div>
+</div>
+</section>
+<section>
+<h3 class="text-xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6">Platform Toggles</h3>
+<div class="flex items-center justify-between bg-white dark:bg-background-dark/50 p-4 rounded-lg">
+<span class="font-medium text-gray-700 dark:text-gray-300">Maintenance Mode</span>
+<label class="relative inline-flex items-center cursor-pointer">
+<input class="sr-only peer" type="checkbox" value=""/>
+<div class="w-11 h-6 bg-gray-200 dark:bg-gray-700 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white dark:after:bg-gray-300 after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</section>
+</div>
+<div class="space-y-12">
+<section>
+<h3 class="text-xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6">Notification Templates</h3>
+<div class="space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="template-type">Template Type</label>
+<select class="form-select w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="template-type">
+<option>Order Confirmation</option>
+<option>Password Reset</option>
+<option>Shipping Update</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="template-content">Template Content</label>
+<textarea class="form-textarea w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="template-content" placeholder="Enter email template content here..." rows="6"></textarea>
+</div>
+</div>
+</section>
+<section>
+<h3 class="text-xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6">Analytics Configuration</h3>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="tracking-id">Analytics Tracking ID</label>
+<input class="form-input w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="tracking-id" placeholder="UA-12345678-9" type="text"/>
+</div>
+</section>
+<section>
+<h3 class="text-xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6">Security Policies</h3>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="password-expiry">Password Expiry (days)</label>
+<input class="form-input w-full rounded-lg bg-white dark:bg-background-dark border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary" id="password-expiry" placeholder="90" type="number"/>
+</div>
+</section>
+</div>
+</div>
+<section class="mt-12">
+<h3 class="text-xl font-semibold border-b border-gray-200 dark:border-gray-700 pb-2 mb-6">Backend User Management</h3>
+<div class="overflow-x-auto bg-white dark:bg-background-dark/50 rounded-xl">
+<table class="min-w-full text-sm text-left">
+<thead class="bg-gray-50 dark:bg-gray-800/30 text-gray-600 dark:text-gray-300">
+<tr>
+<th class="px-6 py-3 font-medium" scope="col">Name</th>
+<th class="px-6 py-3 font-medium" scope="col">Email</th>
+<th class="px-6 py-3 font-medium" scope="col">Role</th>
+<th class="px-6 py-3 font-medium" scope="col">Status</th>
+<th class="px-6 py-3 font-medium text-right" scope="col">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+<tr>
+<td class="px-6 py-4 whitespace-nowrap text-black dark:text-white font-medium">Ethan Carter</td>
+<td class="px-6 py-4 whitespace-nowrap text-gray-500 dark:text-gray-400">ethan.carter@example.com</td>
+<td class="px-6 py-4 whitespace-nowrap"><span class="px-2 py-1 text-xs font-semibold rounded-full bg-primary/20 text-primary">Admin</span></td>
+<td class="px-6 py-4 whitespace-nowrap"><span class="px-2 py-1 text-xs font-semibold rounded-full bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300">Active</span></td>
+<td class="px-6 py-4 whitespace-nowrap text-right font-medium">
+<a class="text-primary hover:underline" href="#">Edit</a>
+</td>
+</tr>
+<tr>
+<td class="px-6 py-4 whitespace-nowrap text-black dark:text-white font-medium">Olivia Bennett</td>
+<td class="px-6 py-4 whitespace-nowrap text-gray-500 dark:text-gray-400">olivia.bennett@example.com</td>
+<td class="px-6 py-4 whitespace-nowrap"><span class="px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300">Support</span></td>
+<td class="px-6 py-4 whitespace-nowrap"><span class="px-2 py-1 text-xs font-semibold rounded-full bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300">Active</span></td>
+<td class="px-6 py-4 whitespace-nowrap text-right font-medium">
+<a class="text-primary hover:underline" href="#">Edit</a>
+</td>
+</tr>
+<tr>
+<td class="px-6 py-4 whitespace-nowrap text-black dark:text-white font-medium">Liam Harper</td>
+<td class="px-6 py-4 whitespace-nowrap text-gray-500 dark:text-gray-400">liam.harper@example.com</td>
+<td class="px-6 py-4 whitespace-nowrap"><span class="px-2 py-1 text-xs font-semibold rounded-full bg-yellow-100 dark:bg-yellow-900/50 text-yellow-800 dark:text-yellow-300">Analyst</span></td>
+<td class="px-6 py-4 whitespace-nowrap"><span class="px-2 py-1 text-xs font-semibold rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-300">Inactive</span></td>
+<td class="px-6 py-4 whitespace-nowrap text-right font-medium">
+<a class="text-primary hover:underline" href="#">Edit</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<footer class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700 flex justify-end">
+<button class="bg-primary text-white font-bold py-2 px-6 rounded-lg hover:bg-primary/90 transition-colors">Save Settings</button>
+</footer>
+</main>
+</div>
+
+</body></html>

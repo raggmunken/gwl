@@ -1,0 +1,428 @@
+# Genetic Wellness Labs — Website RFP & Build Specification (v1.0)
+
+**Prepared for:** Development Partner
+**Prepared by:** Client (Genetic Wellness Labs)
+**Date:** 10 Sep 2025
+
+---
+
+## 0) Purpose & Scope
+
+This document defines the full scope, requirements, and acceptance criteria for building the Genetic Wellness Labs marketing site and customer platform. It should be used as the single source of truth for discovery, design, implementation, QA, and go‑live.
+
+**High‑level objectives**
+
+* Launch a conversion‑optimized website that explains our offering (genetic testing + personalized nutrition + vitamin subscription), collects qualified leads, and supports direct purchase & account onboarding.
+* Provide a secure, GDPR‑compliant portal for customers to register kits, view results, receive plans, manage subscriptions, and book check‑ups.
+* Enable content and campaign agility via a CMS with component‑driven templates and SEO‑ready structures.
+
+**Out of scope (phase 1)**
+
+* Native mobile apps.
+* Fully custom lab LIMS—Phase 1 uses partner integrations and secure file exchange.
+* AI model training beyond rules/decision‑tree personalization.
+
+---
+
+## 1) Business Context
+
+* Offerings include: DNA Testing Packages (Stage 1/2/3), Personalized Nutrition Plans, Vitamin Subscription Models (Basic/Medium/Full), and Expert Guidance + Check‑ups.
+* Target audiences: health‑conscious individuals, people with specific conditions, athletes/fitness enthusiasts; plus B2B (healthcare, wellness centers, corporate wellness).
+* Key commercial goals: e‑commerce for kits & subscriptions, lead capture for consultations, B2B inquiries, and referral tracking.
+
+---
+
+## 2) Success Metrics (KPIs)
+
+* **Marketing site:**
+
+  * CR for lead forms ≥ 6% (first 90 days)
+  * CR for kit purchase ≥ 2.5% (first 90 days)
+  * Organic traffic: +30% MoM for first 3 months (post‑launch content plan)
+  * Core Web Vitals: ≥ “Good” on LCP/FID/CLS for 90%+ of visits
+* **Customer portal:**
+
+  * Onboarding completion (kit registration → result view) ≥ 85%
+  * Subscription churn ≤ 3% monthly after month 2
+  * CSAT (post‑interaction) ≥ 4.5/5
+
+---
+
+## 3) Information Architecture (IA) & Sitemap
+
+**Public site**
+
+* Home
+* How It Works
+* DNA Testing
+
+  * Stage 1 (Basic)
+  * Stage 2 (Intermediate)
+  * Stage 3 (Comprehensive)
+* Personalized Plans
+* Vitamin Subscriptions (Basic / Medium / Full)
+* Check‑ups & Packages (Health, Longevity, Cardiovascular, Cognitive)
+* Science & Evidence
+* Pricing
+* For Business (Healthcare / Wellness Centers / Corporate Wellness)
+* Resources
+
+  * Guides & Articles
+  * FAQs
+  * Success Stories
+* About (Mission, Team, Values)
+* Contact / Book Consultation
+* Legal (Privacy, Terms, Data Processing Addendum, Cookie Policy)
+
+**Authenticated portal**
+
+* Dashboard
+* Register Kit & Track Status
+* Results & Insights
+* Personalized Nutrition Plan
+* Supplements & Orders
+* Consultations (Book/Manage)
+* Messages & Documents (secure)
+* Account & Profile (health preferences, consents)
+* Billing & Subscriptions
+* Referrals (share, track rewards)
+
+---
+
+## 4) User Personas & Primary Journeys
+
+**Personas**
+
+1. *The Health Optimizer* (25–45): wants data‑driven guidance; buys Stage 2/3 + subscription.
+2. *Condition Manager* (35–65): seeks tailored advice around cardiovascular/metabolic risks; engages check‑ups.
+3. *Athlete* (18–50): performance‑oriented; wants micronutrient optimization and training‑aligned plans.
+4. *B2B Buyer* (HR/Clinic Owner): looking for corporate wellness or clinic partnerships.
+
+**Top journeys**
+
+* Awareness → Educate on science → Compare packages → Purchase kit → Create account → Register kit → Results → Personalized plan → Subscribe vitamins → Book follow‑up.
+* B2B visitor → Benefits → Case examples → Submit inquiry → Sales CRM route.
+
+---
+
+## 5) Page‑by‑Page Requirements (Public)
+
+### 5.1 Home
+
+* Hero: Unique value prop, primary CTAs ("Get Your Kit" / "See How It Works").
+* Proof modules: badges (privacy, lab partners), featured media/press, testimonials.
+* How‑it‑works (3–5 steps) with visuals.
+* Product tiles: DNA packages, plan, subscriptions.
+* Scientific credibility: brief section, link to Science page.
+* Lead capture: email form (newsletter) + consultation form modal.
+* Footer: nav, legal, social, language switch (SV/EN).
+
+**Acceptance criteria**
+
+* Lighthouse performance ≥ 90 (desktop) and ≥ 85 (mobile).
+* SEO meta (title ≤ 60 chars, meta description ≤ 155 chars); H1 unique; JSON‑LD schema (Organization + WebSite + BreadcrumbList).
+
+### 5.2 How It Works
+
+* Step visuals (Order kit → Provide sample → Analysis → Personalized plan → Ongoing support).
+* Security & privacy sidebar (GDPR, encryption, consent flows).
+* CTA: "Choose Your DNA Package".
+
+### 5.3 DNA Testing (Category + 3 product subpages)
+
+* Comparison matrix of Stage 1/2/3 markers depth, deliverables, turnaround, price.
+* Each product page:
+
+  * Benefits, what’s included, turnaround, sample process, limitations.
+  * CTA: Add to cart; secondary: Book consultation.
+  * Scientific references accordion.
+  * FAQ block.
+* JSON‑LD: Product + Offer + FAQ.
+
+### 5.4 Personalized Plans
+
+* Explains algorithm/clinician review, plan examples, update cadence.
+* CTA: Start with DNA kit or Book consultation.
+
+### 5.5 Vitamin Subscriptions
+
+* Tiers comparison (Basic/Medium/Full), recurring pricing, discount logic, cancellation.
+* Safety/quality statements; delivery cadence.
+
+### 5.6 Check‑ups & Packages
+
+* Health, Longevity, Cardiovascular, Cognitive—goals, what’s tested, price, booking CTA.
+* JSON‑LD: Service.
+
+### 5.7 Science & Evidence
+
+* Plain‑language summaries + citations; lab certifications; methodology overview.
+
+### 5.8 Pricing
+
+* Simple table across DNA, Plans, Subscriptions, Check‑ups; financing (Klarna/Stripe).
+
+### 5.9 For Business
+
+* Value for clinics, wellness centers, corporate programs; security & data processing; lead form with fields (company size, use case, timeline).
+
+### 5.10 Resources
+
+* Guides listing (CMS), Article detail, FAQs (CMS managed).
+* JSON‑LD: Article, FAQPage.
+
+### 5.11 About
+
+* Mission, values, team, careers; diversity & ethics statement.
+
+### 5.12 Contact
+
+* Contact form (spam‑protected), phone, address, map, business hours; DPO contact.
+
+---
+
+## 6) Portal Requirements (Authenticated)
+
+### 6.1 Onboarding & Kit Registration
+
+* Code entry (QR/barcode), lab partner lookup, status tracker (Received → In Analysis → Ready).
+* Consent screens (granular: testing, results, marketing, research opt‑in).
+* Health profile: conditions, goals, diet preferences, medications (optional).
+
+### 6.2 Results & Insights
+
+* Modular cards for genetic markers, interpretations, risk categories, confidence levels.
+* Downloadable PDF; print‑safe view; glossary tooltips.
+* Disclaimers (not medical advice), links to articles.
+
+### 6.3 Personalized Plan
+
+* Weekly plan view (nutrition, supplements, habits), dynamic updates over time.
+* “Why this recommendation” explainers; adherence tracking (checkboxes/logs).
+* Regeneration cadence (e.g., monthly refresh) with changelog.
+
+### 6.4 Subscriptions & Orders
+
+* Manage vitamin subscription (tier, quantity, pause/cancel, address).
+* Order history, invoices, shipping tracker.
+* Refill reminders & failed payment handling.
+
+### 6.5 Consultations & Messaging
+
+* Booking with availability (calendar), video link storage, pre‑visit questionnaire.
+* Secure messages; file uploads; staff responses.
+
+### 6.6 Referrals
+
+* Personal referral link, dashboard of credits; limits/anti‑abuse.
+
+### 6.7 Account, Privacy & Security
+
+* Profile, MFA (email + TOTP), session management, data‑export (JSON/PDF), account deletion, consent management center.
+
+**Portal acceptance criteria**
+
+* SSO‑ready (OIDC) pattern.
+* Role‑based access (Customer, Nutritionist, Admin, Support).
+* PII encrypted at rest; TLS 1.2+ in transit; audit logs for PHI/PII access.
+* WCAG 2.2 AA accessible.
+
+---
+
+## 7) Functional Requirements (Cross‑cutting)
+
+* **E‑commerce:** carts, one‑time kit purchase, subscription checkout, VAT handling, discount codes, refunds, invoices.
+* **CMS:** component‑driven pages; authors, editors, approvers; preview & versioning.
+* **Search:** site + knowledge base search; typo tolerance; synonym control.
+* **Forms:** reCAPTCHA or hCaptcha; spam/abuse protections; webhook to CRM.
+* **Localization:** SV/EN; i18n routing; localized metadata and schema.
+* **Notifications:** email (order, shipment, results ready), optional SMS.
+* **Analytics:** GA4 + privacy‑friendly analytics; event taxonomy; consent mode.
+
+---
+
+## 8) Integrations
+
+* **Payments:** Stripe (Klarna, cards, Apple/Google Pay), SEPA Direct Debit optional.
+* **Fulfillment:** Shipping label provider (e.g., nShift/Shippo) for kit shipments/returns.
+* **CRM & Help Desk:** HubSpot/Zendesk or equivalent; referral tracking system.
+* **Email:** Transactional (Postmark/SendGrid) + marketing (Klaviyo/Mailchimp).
+* **Consent & Cookies:** Cookiebot/OneTrust; TCF support.
+* **Lab/LIMS:** Phase 1—secure SFTP/API for status + results files (CSV/JSON/PDF).
+* **Calendaring:** Calendly or Cal.com; ICS attachments.
+
+---
+
+## 9) Data Model (high‑level)
+
+* **User**(id, name, email, locale, MFA\_enabled, roles\[], consents{}, created\_at)
+* **Address**(id, user\_id, type, street, city, postal\_code, country)
+* **Order**(id, user\_id, status, total, currency, payment\_intent\_id, invoice\_url)
+* **Product**(id, slug, type\[DNA|Subscription|Checkup], title, description, price, tax\_class)
+* **Subscription**(id, user\_id, product\_id, status, renews\_at, cancel\_at)
+* **Kit**(id, code, order\_id, user\_id, lab\_partner, status, registered\_at)
+* **Result**(id, kit\_id, summary, report\_url, markers\_json, created\_at)
+* **Plan**(id, user\_id, version, recommendations\_json, generated\_at)
+* **Consultation**(id, user\_id, datetime, type, notes, video\_link)
+* **Referral**(id, user\_id, code, clicks, conversions, credits)
+* **AuditLog**(id, actor, action, target, timestamp, ip)
+
+---
+
+## 10) Security, Privacy & Compliance
+
+* **GDPR:** DPIA before launch; Records of Processing; DPA with all processors; data retention schedule; lawful bases (contract/consent); DSAR workflow (export/delete within 30 days).
+* **PII/PHI:** Encrypt at rest (AES‑256), key management via cloud KMS; minimum data collection; access least privilege; breach notification plan.
+* **Consent:** Separate consents (testing/results, marketing, research/data donations).
+* **Cookies:** Prior consent for non‑essential cookies; Consent Mode integration.
+* **Legal pages:** Privacy Policy, Terms, Cookie Policy, DPA summary, Research Consent, Medical Disclaimer.
+* **Logging & Monitoring:** audit logs; anomaly detection; rate limiting; WAF/CDN.
+
+---
+
+## 11) Accessibility & Performance
+
+* **Accessibility:** WCAG 2.2 AA; semantic HTML; focus states; keyboard nav; color contrast; captions for video; alt text workflow in CMS.
+* **Performance:** Core Web Vitals budgets (LCP ≤ 2.5s on 3G Fast, TTI ≤ 3.2s); lazy‑loading; code‑splitting; image optimization (AVIF/WebP); CDN caching; prefetching; no layout shift.
+
+---
+
+## 12) SEO & Content
+
+* **Technical:** clean URLs, canonical tags, XML sitemap, robots.txt, hreflang, Open Graph/Twitter cards, JSON‑LD (Organization, WebSite, Product, Service, FAQPage, Article, BreadcrumbList).
+* **On‑page:** per‑page title/meta templates; one H1; structured subheads; internal linking strategy; glossary schema.
+* **Content governance:** tone (evidence‑based, empowering, plain language), medical disclaimer rules, review cadence by nutritionist.
+
+**Metadata templates**
+
+* Title: "{Page Topic} | Genetic Wellness Labs"
+* Meta: "Personalized nutrition via DNA insights. {Key Benefit}."
+* OG: image per template (1200×630), title, description; Twitter summary\_large\_image.
+
+---
+
+## 13) Design System
+
+* **Brand:** clean, science‑forward, trustworthy; ample whitespace; subtle gradients.
+* **Typography:** Sans for UI, Humanist Sans for headings.
+* **Color:** Accessible palette with success/info/warning states; dark mode v2.
+* **Components:** header/nav, hero variants, feature grids, comparison tables, cards, tabs, accordions, stepper, pricing table, testimonial carousel, CTAs, form controls, toast, modal, breadcrumb, pagination, footer.
+* **Illustration:** DNA/helix elements, abstract cellular textures; avoid stocky “medical” clichés.
+* **Iconography:** outline set; consistent stroke weight.
+* **Motion:** micro‑interactions <150ms; reduced‑motion media queries respected.
+
+Deliver: brand kit (colors, type, spacing), Figma library w/ components & tokens.
+
+---
+
+## 14) Technology Stack (recommended)
+
+* **Frontend:** Next.js 14 (App Router), TypeScript, React Server Components, Tailwind, shadcn/ui.
+* **CMS:** Headless (Sanity/Storyblok/Strapi) with role workflows + preview.
+* **Backend:** Next API routes or Node service; Prisma ORM; PostgreSQL (Neon/Supabase).
+* **Auth:** NextAuth (OIDC); MFA via TOTP; secure session strategy.
+* **Payments:** Stripe (Subscriptions + Invoices + Tax + Klarna).
+* **Storage:** S3‑compatible (R2/S3) for reports/assets.
+* **Search:** Typesense/Algolia.
+* **Infra/DevOps:** Vercel for web; background workers on Fly.io/Supabase Edge Functions; IaC via Terraform; CI/CD with checks (lint, typecheck, unit/e2e).
+* **Analytics:** GA4 + Plausible/Matomo; GTM; Consent Mode.
+
+---
+
+## 15) Environments & DevOps
+
+* Envs: Dev, Staging, Production; separate keys/secrets & databases.
+* Feature flags for beta modules; maintenance mode page.
+* Backups: daily snapshots (DB + storage), 30‑day retention; restore runbook.
+* Observability: uptime checks, error tracking (Sentry), logs (OpenTelemetry).
+* Security: dependency scanning, SCA, SAST; quarterly pentest.
+
+---
+
+## 16) Testing & QA Plan
+
+* **Automated:** unit (Jest), component (React Testing Library), e2e (Playwright), visual regression (Chromatic/Argos).
+* **Manual:** cross‑browser (Safari/Chrome/Edge/Firefox), mobile (iOS/Android), assistive tech (NVDA/VoiceOver).
+* **Compliance:** DPIA sign‑off; cookie consent validation; accessibility audit report.
+* **Performance:** Lighthouse/Pagespeed; real‑user monitoring.
+
+---
+
+## 17) Content & Copy Deliverables
+
+* Page outlines and copy decks for all public pages.
+* FAQ bank (≥ 30 Q/As).
+* Email templates (order, shipping, results, subscription events).
+* Legal pages (Privacy, Terms, Cookies, DPA overview, Research Consent, Medical Disclaimer).
+* PDF report template (results summary) with brand visuals.
+
+---
+
+## 18) Project Plan & Deliverables
+
+**Milestones**
+
+1. Discovery (1–2 wks): stakeholder interviews, IA confirmation, tech choices.
+2. UX/UI (2–4 wks): wireframes → high‑fidelity + design system; content kickoff.
+3. Build (6–10 wks): CMS + frontend + portal MVP + integrations.
+4. QA & Compliance (2–3 wks): testing, DPIA, accessibility, performance.
+5. Launch & Hypercare (2 wks): monitoring, bugfix, analytics tuning.
+
+**Partner deliverables**
+
+* Figma prototypes + design system tokens.
+* CMS schema + content migration plan.
+* Codebase (repo access), CI/CD pipelines, Infra diagrams.
+* API & data model docs; admin user guides.
+* Test plans + reports; accessibility & DPIA outputs.
+* Go‑live checklist and rollback plan.
+
+---
+
+## 19) Acceptance Criteria (Samples)
+
+* **E‑commerce:**
+
+  * One‑time kit and recurring subscription checkout working in sandbox + live; webhook‑driven fulfillment; taxable items with correct VAT.
+  * Refunds generate credit notes; invoices downloadable from portal.
+* **Kit registration:** barcode/QR can be registered; status shown; email sent on each status change.
+* **Results:** a sample JSON → parsed into UI cards; PDF downloadable; role‑gated visibility.
+* **Consent:** users can opt‑in/out granularly; audit trail captures changes; DSAR export ≤ 5 min to generate.
+* **SEO:** structured data validates in Rich Results; sitemap auto‑updates.
+
+---
+
+## 20) Risks & Mitigations
+
+* **Lab turnaround variability** → Set expectations on PDP; proactive status emails; SLA with lab.
+* **Privacy concerns** → Transparent consent; privacy by design; third‑party minimization.
+* **Subscription churn** → Value reminders, plan refresh cadence, 1‑click pause.
+
+---
+
+## 21) Appendices
+
+**A. Sample Component Inventory (for CMS)**
+Hero, FeatureGrid, Steps, StatBars, ComparisonTable, PricingTable, Testimonial, LogosRow, FAQAccordion, TabbedContent, CardGrid, InlineCTA, LeadForm, ContactBlock, MediaEmbed, ResourceList, ArticleBody, RelatedContent, Breadcrumbs.
+
+**B. Event/Analytics Taxonomy (examples)**
+`lead_form_submit`, `pdp_add_to_cart`, `checkout_start`, `checkout_success`, `register_kit`, `result_view`, `plan_download`, `sub_renewal`, `referral_share`, `consent_update` (include properties: locale, campaign, product\_id, value, etc.).
+
+**C. Content Outline — Key Pages**
+
+* DNA Stage pages: intro → who it’s for → what’s analyzed → what you get → turnaround → price → FAQs.
+* Subscriptions: tier grid → what’s included → cancellation policy → savings calc → testimonials → FAQs.
+* Science: methodology → marker categories → limitations → lab QA → references.
+
+**D. Legal Checklist**
+
+* DPA with all processors; SCCs if outside EU; cookie consent records; Records of Processing; DPIA; retention schedule; DSAR SOP; incident response SOP.
+
+**E. Handover Checklist**
+
+* Admin credentials (password manager), environment variables, DNS, TLS certs, payment webhooks, CMS roles, backup/restore docs, runbooks, uptime monitors.
+
+---
+
+**End of Specification**
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Consent Update Confirmation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#11a4d4",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#101d22",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex items-center justify-center min-h-screen">
+<div class="w-full max-w-lg p-8 space-y-6 bg-white dark:bg-background-dark rounded-xl shadow-lg m-4">
+<div class="text-center">
+<div class="flex justify-center mb-4">
+<div class="p-3 bg-primary/10 dark:bg-primary/20 rounded-full">
+<span class="material-symbols-outlined text-primary text-4xl">
+                            verified_user
+                        </span>
+</div>
+</div>
+<h2 class="text-2xl font-bold text-slate-800 dark:text-white">Consent Update Confirmation</h2>
+<p class="mt-2 text-slate-600 dark:text-slate-400">
+                    You have successfully updated your consent preferences. Please review the changes below and confirm to apply them.
+                </p>
+</div>
+<div class="space-y-4 p-4 bg-background-light dark:bg-slate-800 rounded-lg">
+<h3 class="text-lg font-semibold text-slate-800 dark:text-white">Changes Made</h3>
+<div class="divide-y divide-slate-200 dark:divide-slate-700">
+<div class="flex justify-between items-center py-3">
+<p class="text-slate-500 dark:text-slate-400">Data Sharing</p>
+<span class="flex items-center gap-2 text-green-500 font-medium">
+<span class="material-symbols-outlined text-lg">check_circle</span>
+                            Enabled
+                        </span>
+</div>
+<div class="flex justify-between items-center py-3">
+<p class="text-slate-500 dark:text-slate-400">Research Participation</p>
+<span class="flex items-center gap-2 text-red-500 font-medium">
+<span class="material-symbols-outlined text-lg">cancel</span>
+                            Disabled
+                        </span>
+</div>
+<div class="flex justify-between items-center py-3">
+<p class="text-slate-500 dark:text-slate-400">Marketing Communications</p>
+<span class="flex items-center gap-2 text-green-500 font-medium">
+<span class="material-symbols-outlined text-lg">check_circle</span>
+                            Enabled
+                        </span>
+</div>
+</div>
+</div>
+<div class="text-center text-sm text-slate-600 dark:text-slate-400">
+<p>
+                    For more details, please refer to our updated 
+                    <a class="font-medium text-primary hover:underline" href="#">Privacy Policy</a> 
+                    or view your 
+                    <a class="font-medium text-primary hover:underline" href="#">consent audit log</a>.
+                </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="flex-1 px-6 py-3 text-sm font-bold text-slate-800 dark:text-white bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-600 rounded-lg transition-colors">
+                    Cancel
+                </button>
+<button class="flex-1 px-6 py-3 text-sm font-bold text-white bg-primary hover:bg-primary/90 rounded-lg transition-colors">
+                    Confirm Changes
+                </button>
+</div>
+</div>
+</div>
+
+</body></html>

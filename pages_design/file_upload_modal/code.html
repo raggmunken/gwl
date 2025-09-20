@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>File Upload Modal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#11a4d4",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#101d22",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex items-center justify-center min-h-screen">
+<div class="bg-white dark:bg-background-dark rounded-xl shadow-lg w-full max-w-lg mx-4">
+<div class="p-8">
+<div class="text-center">
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white">Upload Files</h2>
+<p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Securely upload documents for your consultation.</p>
+</div>
+<div class="mt-8 flex flex-col items-center justify-center border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-12 text-center">
+<span class="material-symbols-outlined text-5xl text-primary">
+                        cloud_upload
+                    </span>
+<p class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Drag and drop files here</p>
+<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">or</p>
+<button class="mt-4 bg-primary text-white font-bold py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors" type="button">
+                        Browse Files
+                    </button>
+</div>
+<div class="mt-8">
+<div class="flex justify-between items-center text-sm font-medium text-gray-600 dark:text-gray-300">
+<p>document_final.pdf</p>
+<p>4.2MB</p>
+</div>
+<div class="mt-2 w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+<div class="bg-primary h-2.5 rounded-full" style="width: 75%"></div>
+</div>
+<div class="flex justify-between items-center text-xs text-gray-500 dark:text-gray-400 mt-1">
+<span>Uploading... 75%</span>
+<button class="text-primary hover:text-primary/80">Cancel</button>
+</div>
+</div>
+<div class="mt-6">
+<div class="flex justify-between items-center text-sm font-medium text-gray-600 dark:text-gray-300">
+<p>patient_records.zip</p>
+<span class="material-symbols-outlined text-green-500">
+                            check_circle
+                        </span>
+</div>
+</div>
+<div class="mt-8 text-center text-xs text-gray-500 dark:text-gray-400">
+<p>Supported file types: PDF, DOCX, JPG, PNG. Maximum file size: 10MB.</p>
+<p class="mt-1">Files will be securely transferred and stored.</p>
+</div>
+<div class="mt-8 flex justify-end space-x-3">
+<button class="bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white font-bold py-2 px-4 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors" type="button">
+                        Close
+                    </button>
+<button class="bg-primary text-white font-bold py-2 px-4 rounded-lg hover:bg-primary/90 transition-colors disabled:opacity-50" disabled="" type="button">
+                        Upload
+                    </button>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>

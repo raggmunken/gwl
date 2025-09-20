@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#11a4d4",
+              "background-light": "#f6f8f8",
+              "background-dark": "#101d22",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex flex-col min-h-screen">
+<header class="bg-background-light dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-10 border-b border-background-light-darken dark:border-background-dark-lighten">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-4 text-neutral-800 dark:text-neutral-200">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 12.236C39.9944 12.2537 39.9875 12.2845 39.9748 12.3294C39.9436 12.4399 39.8949 12.5741 39.8346 12.7175C39.8168 12.7597 39.7989 12.8007 39.7813 12.8398C38.5103 13.7113 35.9788 14.9393 33.7095 15.4811C30.9875 16.131 27.6413 16.5217 24 16.5217C20.3587 16.5217 17.0125 16.131 14.2905 15.4811C12.0012 14.9346 9.44505 13.6897 8.18538 12.8168C8.17384 12.7925 8.16216 12.767 8.15052 12.7408C8.09919 12.6249 8.05721 12.5114 8.02977 12.411C8.00356 12.3152 8.00039 12.2667 8.00004 12.2612C8.00004 12.261 8 12.2607 8.00004 12.2612C8.00004 12.2359 8.0104 11.9233 8.68485 11.3686C9.34546 10.8254 10.4222 10.2469 11.9291 9.72276C14.9242 8.68098 19.1919 8 24 8C28.8081 8 33.0758 8.68098 36.0709 9.72276C37.5778 10.2469 38.6545 10.8254 39.3151 11.3686C39.9006 11.8501 39.9857 12.1489 39.998 12.236ZM4.95178 15.2312L21.4543 41.6973C22.6288 43.5809 25.3712 43.5809 26.5457 41.6973L43.0534 15.223C43.0709 15.1948 43.0878 15.1662 43.104 15.1371L41.3563 14.1648C43.104 15.1371 43.1038 15.1374 43.104 15.1371L43.1051 15.135L43.1065 15.1325L43.1101 15.1261L43.1199 15.1082C43.1276 15.094 43.1377 15.0754 43.1497 15.0527C43.1738 15.0075 43.2062 14.9455 43.244 14.8701C43.319 14.7208 43.4196 14.511 43.5217 14.2683C43.6901 13.8679 44 13.0689 44 12.2609C44 10.5573 43.003 9.22254 41.8558 8.2791C40.6947 7.32427 39.1354 6.55361 37.385 5.94477C33.8654 4.72057 29.133 4 24 4C18.867 4 14.1346 4.72057 10.615 5.94478C8.86463 6.55361 7.30529 7.32428 6.14419 8.27911C4.99695 9.22255 3.99999 10.5573 3.99999 12.2609C3.99999 13.1275 4.29264 13.9078 4.49321 14.3607C4.60375 14.6102 4.71348 14.8196 4.79687 14.9689C4.83898 15.0444 4.87547 15.1065 4.9035 15.1529C4.91754 15.1762 4.92954 15.1957 4.93916 15.2111L4.94662 15.223L4.95178 15.2312ZM35.9868 18.996L24 38.22L12.0131 18.996C12.4661 19.1391 12.9179 19.2658 13.3617 19.3718C16.4281 20.1039 20.0901 20.5217 24 20.5217C27.9099 20.5217 31.5719 20.1039 34.6383 19.3718C35.082 19.2658 35.5339 19.1391 35.9868 18.996Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-xl font-bold text-neutral-900 dark:text-white">Genetic Wellness Labs</h1>
+</div>
+<div class="flex items-center gap-4">
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Shop</a>
+<a class="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Learn</a>
+<a class="text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Support</a>
+</nav>
+<div class="flex items-center gap-2">
+<button class="p-2 rounded-full text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-colors">
+<span class="material-symbols-outlined"> search </span>
+</button>
+<button class="p-2 rounded-full text-neutral-600 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-colors">
+<span class="material-symbols-outlined"> shopping_cart </span>
+</button>
+<button class="w-10 h-10 rounded-full bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvrB8Sjg9W2i80vumc7v4uEbJgfjQVggfiez03imSQAh64heCTZMz5xMVDDi_epXwvWfybcnfoYH7uEjjXPK863nxO6k6ackg6u_WfnE_4wi3vD8ideAW0QAFShm0_9xpUaVvO44DtDNKVu4v0JwGKkfgHI2-uiVLlt5S6iPZkY3k6ns88YFnYqmHVhWftjiNE8LUYofd28cwxdpdg3hLxY3D9SyTTpjqWdjIHsmeotCALUflkKCMBhEC-Cr5KeRrdTdqBOMSEXPs");'></button>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+<div class="space-y-8">
+<div class="flex items-center text-sm font-medium text-neutral-500 dark:text-neutral-400">
+<a class="hover:text-primary dark:hover:text-primary transition-colors" href="#">Orders</a>
+<span class="mx-2">/</span>
+<span class="text-neutral-800 dark:text-neutral-200">Invoice</span>
+</div>
+<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+<h2 class="text-3xl font-bold text-neutral-900 dark:text-white">Invoice #INV-2023-001234</h2>
+<div class="flex gap-3">
+<button class="inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-semibold bg-neutral-200 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors">
+<span class="material-symbols-outlined mr-2"> download </span>
+                  Download PDF
+                </button>
+<button class="inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-semibold bg-primary text-white hover:bg-primary/90 transition-colors">
+<span class="material-symbols-outlined mr-2"> print </span>
+                  Print Receipt
+                </button>
+</div>
+</div>
+<div class="bg-white dark:bg-neutral-900 rounded-lg shadow-sm border border-neutral-200 dark:border-neutral-800 divide-y divide-neutral-200 dark:divide-neutral-800">
+<div class="p-6">
+<h3 class="text-lg font-semibold text-neutral-900 dark:text-white mb-4">Order Details</h3>
+<dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4">
+<div>
+<dt class="text-sm font-medium text-neutral-500 dark:text-neutral-400">Order Date</dt>
+<dd class="mt-1 text-sm text-neutral-900 dark:text-neutral-100">October 26, 2023</dd>
+</div>
+<div>
+<dt class="text-sm font-medium text-neutral-500 dark:text-neutral-400">Order Total</dt>
+<dd class="mt-1 text-sm font-semibold text-neutral-900 dark:text-neutral-100">$149.99</dd>
+</div>
+<div>
+<dt class="text-sm font-medium text-neutral-500 dark:text-neutral-400">Payment Method</dt>
+<dd class="mt-1 text-sm text-neutral-900 dark:text-neutral-100">MasterCard ending in 1234</dd>
+</div>
+<div>
+<dt class="text-sm font-medium text-neutral-500 dark:text-neutral-400">Status</dt>
+<dd class="mt-1 inline-flex items-center rounded-full bg-green-100 dark:bg-green-900/50 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:text-green-300">Paid</dd>
+</div>
+</dl>
+</div>
+<div class="p-6">
+<h3 class="text-lg font-semibold text-neutral-900 dark:text-white mb-4">Items</h3>
+<div class="flow-root">
+<div class="-mx-6 -my-2 overflow-x-auto">
+<div class="inline-block min-w-full py-2 align-middle">
+<table class="min-w-full divide-y divide-neutral-200 dark:divide-neutral-800">
+<thead>
+<tr>
+<th class="py-3.5 pl-6 pr-3 text-left text-sm font-semibold text-neutral-900 dark:text-white" scope="col">Item</th>
+<th class="px-3 py-3.5 text-left text-sm font-semibold text-neutral-900 dark:text-white" scope="col">Quantity</th>
+<th class="px-3 py-3.5 text-right text-sm font-semibold text-neutral-900 dark:text-white" scope="col">Price</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-neutral-200 dark:divide-neutral-800">
+<tr>
+<td class="whitespace-nowrap py-4 pl-6 pr-3 text-sm font-medium text-neutral-900 dark:text-neutral-100">Genetic Health Screening Kit</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-neutral-500 dark:text-neutral-400">1</td>
+<td class="whitespace-nowrap px-3 py-4 text-right text-sm text-neutral-500 dark:text-neutral-400">$99.99</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap py-4 pl-6 pr-3 text-sm font-medium text-neutral-900 dark:text-neutral-100">Personalized Wellness Report</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-neutral-500 dark:text-neutral-400">1</td>
+<td class="whitespace-nowrap px-3 py-4 text-right text-sm text-neutral-500 dark:text-neutral-400">$50.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-end">
+<div class="w-full max-w-xs">
+<dl class="space-y-3">
+<div class="flex justify-between text-sm">
+<dt class="text-neutral-500 dark:text-neutral-400">Subtotal</dt>
+<dd class="text-neutral-700 dark:text-neutral-300">$149.99</dd>
+</div>
+<div class="flex justify-between text-sm">
+<dt class="text-neutral-500 dark:text-neutral-400">Shipping</dt>
+<dd class="text-neutral-700 dark:text-neutral-300">$0.00</dd>
+</div>
+<div class="flex justify-between text-sm">
+<dt class="text-neutral-500 dark:text-neutral-400">Tax</dt>
+<dd class="text-neutral-700 dark:text-neutral-300">$0.00</dd>
+</div>
+<div class="flex justify-between text-base font-semibold">
+<dt class="text-neutral-900 dark:text-white">Total</dt>
+<dd class="text-neutral-900 dark:text-white">$149.99</dd>
+</div>
+</dl>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>

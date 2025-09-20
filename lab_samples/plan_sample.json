@@ -1,0 +1,36 @@
+{
+  "user_id": "USER123",
+  "version": 1,
+  "generated_at": "2025-09-19T20:10:00Z",
+  "summary": "Weekly plan tailored to MTHFR (CT), CYP1A2 (AC), and LCT (TT) findings with focus on folate optimization and caffeine moderation.",
+  "weeks": [
+    {
+      "week": 1,
+      "recommendations": [
+        {
+          "type": "nutrition",
+          "title": "Folate-rich meal targets",
+          "details": "Include at least 2 servings/day of leafy greens (spinach, kale) and 1 serving of legumes.",
+          "why": "CT genotype for MTHFR may reduce enzyme activity; dietary folate supports normal homocysteine.",
+          "evidence_level": "B"
+        },
+        {
+          "type": "habit",
+          "title": "Caffeine cutoff",
+          "details": "Limit caffeine intake to < 200 mg after 12:00.",
+          "why": "Intermediate caffeine metabolism (CYP1A2 AC) may increase sensitivity late-day.",
+          "evidence_level": "B"
+        },
+        {
+          "type": "supplement",
+          "title": "Methylfolate (check with clinician)",
+          "details": "Consider 400–800 mcg/day after consultation.",
+          "why": "CT genotype may benefit from methylated folate forms.",
+          "evidence_level": "C"
+        }
+      ]
+    }
+  ],
+  "changelog": [],
+  "disclaimer": "Plans are guidance, not medical advice. Consult qualified professionals for diagnosis and treatment."
+}

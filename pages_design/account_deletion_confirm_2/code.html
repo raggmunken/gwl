@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Account Deletion Confirmation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#d41111",
+            "background-light": "#f8f6f6",
+            "background-dark": "#221010",
+          },
+          fontFamily: {
+            "display": ["Manrope"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex items-center justify-center min-h-screen">
+<div class="bg-background-light dark:bg-background-dark/50 p-8 rounded-xl shadow-2xl w-full max-w-lg border border-primary/20 dark:border-primary/30">
+<div class="text-center">
+<div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-4xl">
+            warning
+          </span>
+</div>
+<h1 class="mt-4 text-2xl font-bold text-black dark:text-white">Delete Account</h1>
+<p class="mt-2 text-base text-black/60 dark:text-white/60">
+          This action is irreversible. All your data, including genetic reports and personal information, will be permanently erased from our systems.
+        </p>
+</div>
+<div class="mt-6">
+<p class="text-sm font-medium text-black dark:text-white mb-2">To confirm this action, please type <strong class="text-primary">'DELETE'</strong> in the box below.</p>
+<input class="form-input w-full rounded-lg border-primary/30 bg-background-light dark:bg-background-dark dark:text-white placeholder:text-black/40 dark:placeholder:text-white/40 focus:border-primary focus:ring-primary h-12 text-center text-lg font-bold tracking-widest" placeholder="DELETE" type="text"/>
+</div>
+<div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+<button class="flex items-center justify-center rounded-lg h-12 px-6 bg-primary text-white text-base font-bold shadow-sm hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background-light dark:focus:ring-offset-background-dark disabled:opacity-50 disabled:cursor-not-allowed" disabled="">
+          Confirm Deletion
+        </button>
+<button class="flex items-center justify-center rounded-lg h-12 px-6 bg-primary/20 dark:bg-primary/30 text-primary hover:bg-primary/30 dark:hover:bg-primary/40 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background-light dark:focus:ring-offset-background-dark">
+          Cancel
+        </button>
+</div>
+</div>
+</div>
+
+</body></html>

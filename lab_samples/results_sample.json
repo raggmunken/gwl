@@ -1,0 +1,53 @@
+{
+  "kit_id": "KIT123456",
+  "user_id": "USER123",
+  "summary": "Elevated genetic risk for folate deficiency; moderate caffeine sensitivity; normal lactose tolerance.",
+  "markers": [
+    {
+      "id": "MTHFR_C677T",
+      "gene": "MTHFR",
+      "rsid": "rs1801133",
+      "genotype": "CT",
+      "category": "Folate metabolism",
+      "risk": "moderate",
+      "confidence": "high",
+      "interpretation": "CT genotype reduces MTHFR activity, potentially raising homocysteine. Folate status should be optimized.",
+      "recommendations": [
+        { "type": "nutrition", "text": "Increase folate-rich foods (leafy greens, legumes).", "evidence_level": "B" },
+        { "type": "supplement", "text": "Consider methylfolate 400–800 mcg/day after clinician review.", "evidence_level": "C" }
+      ],
+      "references": ["doi:10.3945/ajcn.112.052449"]
+    },
+    {
+      "id": "CYP1A2_163C>A",
+      "gene": "CYP1A2",
+      "rsid": "rs762551",
+      "genotype": "AC",
+      "category": "Caffeine metabolism",
+      "risk": "moderate",
+      "confidence": "medium",
+      "interpretation": "Intermediate caffeine metabolism; excess intake may impact sleep and blood pressure.",
+      "recommendations": [
+        { "type": "habit", "text": "Limit caffeine to <200 mg after 12:00.", "evidence_level": "B" }
+      ],
+      "references": ["doi:10.1007/s00394-011-0231-3"]
+    },
+    {
+      "id": "LCT_-13910C>T",
+      "gene": "LCT",
+      "rsid": "rs4988235",
+      "genotype": "TT",
+      "category": "Lactose tolerance",
+      "risk": "low",
+      "confidence": "high",
+      "interpretation": "Likely persistent lactase production; lactose well tolerated.",
+      "recommendations": [
+        { "type": "nutrition", "text": "No restriction needed unless symptoms present.", "evidence_level": "A" }
+      ],
+      "references": ["doi:10.1038/ng1102"]
+    }
+  ],
+  "disclaimer": "Genetic insights are not medical advice. Consult a qualified professional before making changes.",
+  "report_url": "r2://reports/KIT123456.pdf",
+  "created_at": "2025-09-19T20:00:00Z"
+}

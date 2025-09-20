@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#11a4d4",
+            "background-light": "#f6f8f8",
+            "background-dark": "#101d22",
+          },
+          fontFamily: {
+            "display": ["Work Sans"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex flex-col min-h-screen">
+<header class="bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-10 border-b border-black/10 dark:border-white/10">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="size-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 12.236C39.9944 12.2537 39.9875 12.2845 39.9748 12.3294C39.9436 12.4399 39.8949 12.5741 39.8346 12.7175C39.8168 12.7597 39.7989 12.8007 39.7813 12.8398C38.5103 13.7113 35.9788 14.9393 33.7095 15.4811C30.9875 16.131 27.6413 16.5217 24 16.5217C20.3587 16.5217 17.0125 16.131 14.2905 15.4811C12.0012 14.9346 9.44505 13.6897 8.18538 12.8168C8.17384 12.7925 8.16216 12.767 8.15052 12.7408C8.09919 12.6249 8.05721 12.5114 8.02977 12.411C8.00356 12.3152 8.00039 12.2667 8.00004 12.2612C8.00004 12.261 8 12.2607 8.00004 12.2612C8.00004 12.2359 8.0104 11.9233 8.68485 11.3686C9.34546 10.8254 10.4222 10.2469 11.9291 9.72276C14.9242 8.68098 19.1919 8 24 8C28.8081 8 33.0758 8.68098 36.0709 9.72276C37.5778 10.2469 38.6545 10.8254 39.3151 11.3686C39.9006 11.8501 39.9857 12.1489 39.998 12.236ZM4.95178 15.2312L21.4543 41.6973C22.6288 43.5809 25.3712 43.5809 26.5457 41.6973L43.0534 15.223C43.0709 15.1948 43.0878 15.1662 43.104 15.1371L41.3563 14.1648C43.104 15.1371 43.1038 15.1374 43.104 15.1371L43.1051 15.135L43.1065 15.1325L43.1101 15.1261L43.1199 15.1082C43.1276 15.094 43.1377 15.0754 43.1497 15.0527C43.1738 15.0075 43.2062 14.9455 43.244 14.8701C43.319 14.7208 43.4196 14.511 43.5217 14.2683C43.6901 13.8679 44 13.0689 44 12.2609C44 10.5573 43.003 9.22254 41.8558 8.2791C40.6947 7.32427 39.1354 6.55361 37.385 5.94477C33.8654 4.72057 29.133 4 24 4C18.867 4 14.1346 4.72057 10.615 5.94478C8.86463 6.55361 7.30529 7.32428 6.14419 8.27911C4.99695 9.22255 3.99999 10.5573 3.99999 12.2609C3.99999 13.1275 4.29264 13.9078 4.49321 14.3607C4.60375 14.6102 4.71348 14.8196 4.79687 14.9689C4.83898 15.0444 4.87547 15.1065 4.9035 15.1529C4.91754 15.1762 4.92954 15.1957 4.93916 15.2111L4.94662 15.223L4.95178 15.2312ZM35.9868 18.996L24 38.22L12.0131 18.996C12.4661 19.1391 12.9179 19.2658 13.3617 19.3718C16.4281 20.1039 20.0901 20.5217 24 20.5217C27.9099 20.5217 31.5719 20.1039 34.6383 19.3718C35.082 19.2658 35.5339 19.1391 35.9868 18.996Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold text-black dark:text-white">Genetic Wellness Labs</h2>
+</div>
+<div class="flex items-center gap-8">
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium text-black/60 dark:text-white/60 hover:text-primary dark:hover:text-primary transition-colors" href="#">Products</a>
+<a class="text-sm font-medium text-black/60 dark:text-white/60 hover:text-primary dark:hover:text-primary transition-colors" href="#">How it works</a>
+<a class="text-sm font-bold text-primary" href="#">Guides &amp; Articles</a>
+<a class="text-sm font-medium text-black/60 dark:text-white/60 hover:text-primary dark:hover:text-primary transition-colors" href="#">Pricing</a>
+</nav>
+<div class="flex items-center gap-2">
+<button class="px-4 py-2 text-sm font-bold text-white bg-primary rounded-lg hover:bg-primary/80 transition-colors">
+                Order now
+              </button>
+<button class="px-4 py-2 text-sm font-bold text-black dark:text-white bg-black/10 dark:bg-white/10 rounded-lg hover:bg-black/20 dark:hover:bg-white/20 transition-colors">
+                Log in
+              </button>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="max-w-4xl mx-auto">
+<div class="mb-8 text-center">
+<h1 class="text-4xl font-bold tracking-tight text-black dark:text-white sm:text-5xl">Guides &amp; Articles</h1>
+<p class="mt-4 text-lg text-black/60 dark:text-white/60">Your central hub for various resources to navigate and discover our educational content.</p>
+</div>
+<div class="mb-12">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-black/40 dark:text-white/40">search</span>
+<input class="w-full h-12 pl-12 pr-4 bg-white/50 dark:bg-black/20 text-black dark:text-white placeholder:text-black/40 dark:placeholder:text-white/40 border border-black/10 dark:border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Search articles" type="text"/>
+</div>
+</div>
+<section>
+<h2 class="text-2xl font-bold text-black dark:text-white mb-6">Popular Articles</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="flex flex-col gap-4 group">
+<div class="w-full aspect-video overflow-hidden rounded-lg">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDJsb-82ZyrF0VugZQmkAWw9j1xhyFAG3TNHgZ00BLKLCUg2i9p-ebdzLeF7j-o6riwm7LHcgyQWlOShG7l3Z2vX5mnUBZGHXJ6im_LC7YT02mcrQRgCyGZjuPSsYIJ_wrd8-HzaGlFnDqr8Tbh0rMqr6A616Bs8uR8jwtDsYN8yqjXdVwpaA1krwmDknWP8CsWisO4W1OfqdO416_TABqQPdW0zqqqjtdG2FiOxI2xhM2hxw4YdRYWY7rc7bkZch4shxm7ukEoZjs");'></div>
+</div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white group-hover:text-primary transition-colors">Understanding Your Genetic Wellness Report</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Learn how to interpret your results and take action.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 group">
+<div class="w-full aspect-video overflow-hidden rounded-lg">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB7I_0XTB9eUvrMK-lhEOydTZALR-WXKA91YXwnMYYAnFhIXBlKnmxKP8OIt5-bDm8hpdZCfMd2QWlgP6dAy4NJQfZEVBjk_WrdHh3Zo2ExfodTcfkhRwgwEmbab9AgGILf__uIq1FXJcodDUtpXe7hSvCTcDH0tmd4-isYVmhLp1FGTvvCsm0W-ukt1Z7emf6pUpCon1dJVs61jEGGnCEWSMPIk9GGVbr3BCeQlV4uwXRSr6A1auPHJh1iRE8GXTmDl8b73vs3m-A");'></div>
+</div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white group-hover:text-primary transition-colors">The Science Behind Genetic Wellness Testing</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Explore the research and technology driving our tests.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 group">
+<div class="w-full aspect-video overflow-hidden rounded-lg">
+<div class="w-full h-full bg-center bg-cover transition-transform duration-300 group-hover:scale-105" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDOl1V9OeCfAUwDKkdcVHO8fHBDPIKrAV3DvrbM4qx63qSY6KCMSLiZH0m9LWlSUuJu0dXlVkq_5ELZijv0qCMw6Gw6IcQ9Tw-sJePxjwyogufod-QL7zAJFaz3Saw2NRR5gtDXGpeIHDWSnCjnZihO8jWZ9iSWAeUGFbsYP2f4vSZI_WDZH9Z6vX2IqOVgXvkjTz1xrKppKvRcMTHrVn-EnX6ugPTqMnUCOwsQRSH7MpKYlDTr2Ll6NGgaBN_L97Ho4ZRmV8ukKeI");'></div>
+</div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white group-hover:text-primary transition-colors">Optimizing Your Health with Personalized Insights</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Discover how to tailor your lifestyle for better health.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-16">
+<h2 class="text-2xl font-bold text-black dark:text-white mb-6">All Articles</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="flex gap-4 items-start p-4 rounded-lg bg-white/50 dark:bg-black/20 hover:bg-white dark:hover:bg-black/30 transition-colors">
+<div class="w-16 h-16 shrink-0 bg-center bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAhYE4TAc5ky9s9CxVEsEOd1acZJFBQcMBPlnYIx-T4uVWmATUkiiADq18pYk-tT0LXS8lD8pnGsCvbMWjq8d5trnt5ywSts8xHJgs4yZ5tzSRzshUXVRwYFaGNRP_oPhu_5fADu4arNj8DUcqmjBUKNR_hTMqAXmO3PsOPoM_90s_b-HdlBOhowwtgMo3D1F7ebzXsy3P5JwjqizB_R4xJs2CrMjNXyWt8bjLbh8AgDZSxe6W0AIU_xYknsT-YNNOQthH14OaxE0Q");'></div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white">Nutrition and Your Genes</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Discover how your genes influence your dietary needs.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start p-4 rounded-lg bg-white/50 dark:bg-black/20 hover:bg-white dark:hover:bg-black/30 transition-colors">
+<div class="w-16 h-16 shrink-0 bg-center bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDNMa7z6DfUtXbDYQSu_d103PTAtbKc51bAI37c5jvyzfHhlh26Bel2JwLl9rfRqBLygVasNHysqwkams6x6CTXkuswnqS5Uk3O6Lg1gzxfVXVh4hsdQdN8kBWaaAcXfvOWpAR6GlkwcpgRfMyJGPWm31tyiIs_JwVf-qxyWYWs34VbyaBzyvDN8I_KJEdxdQbxGFCJNDJvY9yARErYHAI4DTZ_wtQMRNfjImAPlcEUpc9QWXOIBy6JrdgzfFjbHY40BYOuYCQ3Q90");'></div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white">Mindfulness and Stress Management</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Learn techniques to manage stress and improve mental well-being.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start p-4 rounded-lg bg-white/50 dark:bg-black/20 hover:bg-white dark:hover:bg-black/30 transition-colors">
+<div class="w-16 h-16 shrink-0 bg-center bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCqpWgi2fMsvSAEV-kYJnbtBQHp0HRgrdOE1hTCScCl64nskzsHJ2uI2ObEbcOCM7IA2dBpEKOUmjc2xPrUNlhMuus7uy8DXLIvnqNUWjRjJGrTo53sffUX3Oomhilxxi7Q-yJNiv5zpltBvMuBZls5xNYP52vDZCMdmWPI2EOmSJSw1xXf42ZDlr3w6oKgH0Q8OG6vMea1rwMm3q9nXZOVMrV6MMPmmPqEgwSmlyDIXO6STadWGmw8bfs90k1xsWZjujEy07NQ2bc");'></div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white">Exercise Recommendations Based on Your DNA</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Find the best workout routines tailored to your genetic makeup.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start p-4 rounded-lg bg-white/50 dark:bg-black/20 hover:bg-white dark:hover:bg-black/30 transition-colors">
+<div class="w-16 h-16 shrink-0 bg-center bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBKW84F1r-v3RsLpGIGgLwjt7eV-9fUG7XBTWm9Hwl22NlWecA5xpjd5ebgDJjdf6cYEG_Nm2tRb6nvTCoZA3YZiHCPnJxxTN8PsJkAv6iJU_YZ-72nE0GFZ5LCOQTKnlk1Ziw02cEvKJZxJZTDj72UWoXIHzYKWS0YRturuUspAy_SrMpeaCXKAOa50FR7GI4epccO2JojdskiWPKzvw7ZXyzbiSN4xPGRcZInyFcvlRp6Da7yx_qI38L2Q6A-2w-EU9SE6BHqtDo");'></div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white">Sleep Optimization for Genetic Wellness</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Improve your sleep quality with insights from your genetic data.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start p-4 rounded-lg bg-white/50 dark:bg-black/20 hover:bg-white dark:hover:bg-black/30 transition-colors">
+<div class="w-16 h-16 shrink-0 bg-center bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDKhYoNrRBHmVP2q7zODJhLdHK4BKLzO7YVMg_7Qyj-fTjYnSPLk8SPs5Dj6ZDtPq0bpSW-avEDF1doi48O-rcreAC085lf1AykkZS9iqyyPOxqMuCcgo0nTiBkdIME6vS8kUrSQ5K0XGDTUsCLzXAAKgzufhuuBqQGgi42106hu3EFn8agy5dx-22PtJ0G6Rt-UmlhkW_RrO3AFNM-7u_hZ-3B1S_uZFo72zd11zN85Bz9T_0JScs1y8b12_VTDjFPjgf-IFq7rC4");'></div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white">Supplements and Your Genetic Profile</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Understand which supplements may benefit you based on your genes.</p>
+</div>
+</div>
+<div class="flex gap-4 items-start p-4 rounded-lg bg-white/50 dark:bg-black/20 hover:bg-white dark:hover:bg-black/30 transition-colors">
+<div class="w-16 h-16 shrink-0 bg-center bg-cover rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBT9CQUd7CYci5qUwEUW0Jr8IE7byJFJKbMcv_H-MUX5MwJfyVEThLWrEmudZWFbJsgfnGAsQuzOuQZMoSPmlGx3sckMJ38BH2LjYfjNKBDa9gtokRYLaIyaZAtiXRW59V6eP0w6t2mUNZ-deJHCUGyVv9ziIUOh83UC6-ikUAAMe4JPZ7HgGm_mP3JVWzoBfayzW2kA516Zz7EZBwwuoMs9K0qqOrn538AI_BQEKMja6nBWBfibM4B1Za-PxZlP4Ezs8_1X4i78NY");'></div>
+<div>
+<h3 class="text-base font-bold text-black dark:text-white">Tracking Your Health Journey</h3>
+<p class="text-sm text-black/60 dark:text-white/60 mt-1">Monitor your progress and make informed decisions about your health.</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-black/10 dark:border-white/10">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+<a class="text-sm text-black/60 dark:text-white/60 hover:text-primary dark:hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-sm text-black/60 dark:text-white/60 hover:text-primary dark:hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-sm text-black/60 dark:text-white/60 hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact Us</a>
+</div>
+<p class="text-sm text-black/60 dark:text-white/60 text-center md:text-right">© 2024 Genetic Wellness Labs. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

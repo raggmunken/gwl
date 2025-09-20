@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Data Export Confirmation Modal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#11a4d4",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#101d22",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex items-center justify-center min-h-screen">
+<div class="w-full max-w-md mx-auto bg-white dark:bg-background-dark rounded-xl shadow-lg p-8 m-4">
+<div class="flex flex-col items-center text-center">
+<div class="bg-primary/10 dark:bg-primary/20 rounded-full p-4 mb-6">
+<span class="material-symbols-outlined text-primary text-4xl">
+                        check_circle
+                    </span>
+</div>
+<h1 class="text-2xl font-bold text-slate-800 dark:text-white mb-2">Data Export Requested</h1>
+<p class="text-slate-600 dark:text-slate-300 text-base leading-relaxed mb-6">
+                    Your request to export your personal data has been successfully received. You will receive an email with a secure download link within the next 24 hours.
+                </p>
+<div class="w-full bg-slate-100 dark:bg-slate-800 rounded-lg p-4 text-left text-sm text-slate-600 dark:text-slate-400">
+<p class="font-semibold text-slate-700 dark:text-slate-300 mb-2">Important Security Notice:</p>
+<p>For security reasons, the download link will expire 7 days after you receive it. Please make sure to download your data within this period.</p>
+</div>
+<button class="w-full mt-8 bg-primary hover:bg-primary/90 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary/50">
+                    OK
+                </button>
+</div>
+</div>
+</div>
+
+</body></html>

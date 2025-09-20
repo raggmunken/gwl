@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Genetic Wellness Labs - Add Payment Method</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#11a4d4",
+            "background-light": "#f6f8f8",
+            "background-dark": "#101d22",
+          },
+          fontFamily: {
+            "display": ["Manrope"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .form-input {
+      background-color: transparent;
+      border: 1px solid #e5e7eb;
+      color: #1f2937;
+      padding: 0.75rem 1rem;
+      border-radius: 0.5rem;
+      width: 100%;
+      transition: all 0.2s ease-in-out;
+    }
+    .form-input:focus {
+      outline: none;
+      border-color: #11a4d4;
+      box-shadow: 0 0 0 2px rgba(17, 164, 212, 0.2);
+    }
+    .dark .form-input {
+      border-color: #374151;
+      color: #d1d5db;
+    }
+    .dark .form-input:focus {
+      border-color: #11a4d4;
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="flex items-center justify-center min-h-screen">
+<div class="bg-white dark:bg-background-dark rounded-xl shadow-lg w-full max-w-lg mx-4">
+<div class="p-8">
+<div class="flex justify-between items-start mb-6">
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white">Add Payment Method</h2>
+<button class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+<p class="text-gray-600 dark:text-gray-400 mb-8">Securely add a new payment method to your account.</p>
+<form class="space-y-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="card-number">Card Number</label>
+<div class="relative">
+<input class="form-input pl-12" id="card-number" name="card-number" placeholder="•••• •••• •••• ••••" type="text"/>
+<div class="absolute inset-y-0 left-0 flex items-center pl-4">
+<svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 4H3C1.89543 4 1 4.89543 1 6V18C1 19.1046 1.89543 20 3 20H21C22.1046 20 23 19.1046 23 18V6C23 4.89543 22.1046 4 21 4ZM21 6V8H3V6H21ZM3 18V10H21V18H3Z"></path>
+</svg>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="expiry-date">Expiry Date</label>
+<input class="form-input" id="expiry-date" name="expiry-date" placeholder="MM / YY" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="cvv">CVV</label>
+<input class="form-input" id="cvv" name="cvv" placeholder="•••" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="name-on-card">Name on Card</label>
+<input class="form-input" id="name-on-card" name="name-on-card" placeholder="John Doe" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="billing-address">Billing Address</label>
+<input class="form-input" id="billing-address" name="billing-address" placeholder="1234 Wellness Ave" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="city">City</label>
+<input class="form-input" id="city" name="city" placeholder="San Francisco" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="postal-code">Postal Code</label>
+<input class="form-input" id="postal-code" name="postal-code" placeholder="94107" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="country">Country</label>
+<select class="form-input appearance-none" id="country" name="country">
+<option>United States</option>
+<option>Canada</option>
+<option>Mexico</option>
+</select>
+</div>
+<div class="flex items-center pt-2">
+<input class="h-4 w-4 rounded border-gray-300 text-primary focus:ring-primary" id="save-card" name="save-card" type="checkbox"/>
+<label class="ml-2 block text-sm text-gray-900 dark:text-gray-300" for="save-card">Save this card for future payments</label>
+</div>
+<div class="flex items-center justify-end space-x-4 pt-4">
+<button class="px-6 py-2.5 rounded-lg text-sm font-semibold text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" type="button">
+              Cancel
+            </button>
+<button class="px-6 py-2.5 rounded-lg text-sm font-semibold text-white bg-primary hover:bg-primary/90 transition-colors" type="submit">
+              Save Payment Method
+            </button>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+</body></html>

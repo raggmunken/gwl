@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope:wght@400;500;700;800&amp;family=Noto+Sans:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Genetic Wellness Labs</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#11a4d4",
+              "background-light": "#f6f8f8",
+              "background-dark": "#101d22",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-gray-200/50 dark:border-gray-700/50 px-10 py-4">
+<div class="flex items-center gap-3 text-gray-900 dark:text-white">
+<div class="w-8 h-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 17.4264C16.7203 18.1174 20.2244 18.5217 24 18.5217C27.7756 18.5217 31.2797 18.1174 34.1739 17.4264C36.9144 16.7722 39.9967 15.2331 41.3563 14.1648L24.8486 40.6391C24.4571 41.267 23.5429 41.267 23.1514 40.6391L6.64374 14.1648C8.00331 15.2331 11.0856 16.7722 13.8261 17.4264Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 12.236C39.9944 12.2537 39.9875 12.2845 39.9748 12.3294C39.9436 12.4399 39.8949 12.5741 39.8346 12.7175C39.8168 12.7597 39.7989 12.8007 39.7813 12.8398C38.5103 13.7113 35.9788 14.9393 33.7095 15.4811C30.9875 16.131 27.6413 16.5217 24 16.5217C20.3587 16.5217 17.0125 16.131 14.2905 15.4811C12.0012 14.9346 9.44505 13.6897 8.18538 12.8168C8.17384 12.7925 8.16216 12.767 8.15052 12.7408C8.09919 12.6249 8.05721 12.5114 8.02977 12.411C8.00356 12.3152 8.00039 12.2667 8.00004 12.2612C8.00004 12.261 8 12.2607 8.00004 12.2612C8.00004 12.2359 8.0104 11.9233 8.68485 11.3686C9.34546 10.8254 10.4222 10.2469 11.9291 9.72276C14.9242 8.68098 19.1919 8 24 8C28.8081 8 33.0758 8.68098 36.0709 9.72276C37.5778 10.2469 38.6545 10.8254 39.3151 11.3686C39.9006 11.8501 39.9857 12.1489 39.998 12.236ZM4.95178 15.2312L21.4543 41.6973C22.6288 43.5809 25.3712 43.5809 26.5457 41.6973L43.0534 15.223C43.0709 15.1948 43.0878 15.1662 43.104 15.1371L41.3563 14.1648C43.104 15.1371 43.1038 15.1374 43.104 15.1371L43.1051 15.135L43.1065 15.1325L43.1101 15.1261L43.1199 15.1082C43.1276 15.094 43.1377 15.0754 43.1497 15.0527C43.1738 15.0075 43.2062 14.9455 43.244 14.8701C43.319 14.7208 43.4196 14.511 43.5217 14.2683C43.6901 13.8679 44 13.0689 44 12.2609C44 10.5573 43.003 9.22254 41.8558 8.2791C40.6947 7.32427 39.1354 6.55361 37.385 5.94477C33.8654 4.72057 29.133 4 24 4C18.867 4 14.1346 4.72057 10.615 5.94478C8.86463 6.55361 7.30529 7.32428 6.14419 8.27911C4.99695 9.22255 3.99999 10.5573 3.99999 12.2609C3.99999 13.1275 4.29264 13.9078 4.49321 14.3607C4.60375 14.6102 4.71348 14.8196 4.79687 14.9689C4.83898 15.0444 4.87547 15.1065 4.9035 15.1529C4.91754 15.1762 4.92954 15.1957 4.93916 15.2111L4.94662 15.223L4.95178 15.2312ZM35.9868 18.996L24 38.22L12.0131 18.996C12.4661 19.1391 12.9179 19.2658 13.3617 19.3718C16.4281 20.1039 20.0901 20.5217 24 20.5217C27.9099 20.5217 31.5719 20.1039 34.6383 19.3718C35.082 19.2658 35.5339 19.1391 35.9868 18.996Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold">Genetic Wellness Labs</h2>
+</div>
+<div class="flex flex-1 justify-end items-center gap-6">
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary" href="#">For Individuals</a>
+<a class="text-sm font-medium text-primary" href="#">For Business</a>
+<a class="text-sm font-medium hover:text-primary" href="#">How It Works</a>
+<a class="text-sm font-medium hover:text-primary" href="#">Resources</a>
+</nav>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-sm hover:bg-primary/90">
+<span class="truncate">Get Started</span>
+</button>
+</div>
+</header>
+<main class="flex-1">
+<div class="px-4 md:px-10 lg:px-20 xl:px-40 flex flex-1 justify-center py-10">
+<div class="layout-content-container flex flex-col max-w-5xl flex-1 gap-12">
+<div class="relative min-h-[480px] flex flex-col gap-6 items-start justify-end px-6 pb-10 md:px-10 rounded-xl overflow-hidden bg-cover bg-center" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDXLM6tQi0wHsqAvPhge3xeY0D6Fx2IQr9RiPxGOlal8lZJfUnesYJAf6hwDCtT5lJG0XXESHuM9z9N6xk-JhpSz2SnVD4zYADG7jdYYmauuBJFykuG6GRaq1oTIHWh0tdDt6pzYeSCfMLK2wqgTE2TP6_jZ3xHC2Glui1F-LyTNKl4ZmDHiC5zJf6_63__M28VHqWtR0lOaOX4ZKioe3KCJ5YRSJOCNxx_03k2E7eUv92DFaX6Gpewhwn8maT9WZByjhNKS5bs0nQ");'>
+<div class="flex flex-col gap-4 text-left max-w-2xl">
+<h1 class="text-white text-4xl lg:text-5xl font-extrabold tracking-tight">Empower Your Business with Genetic Wellness Insights</h1>
+<p class="text-gray-200 text-base lg:text-lg">Integrate Genetic Wellness Labs' advanced genetic testing and analysis into your business to enhance your offerings and provide personalized wellness solutions.</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold shadow-lg hover:bg-primary/90">
+<span class="truncate">Get Started</span>
+</button>
+</div>
+<section>
+<h2 class="text-2xl font-bold tracking-tight px-4 pb-4">Who We Serve</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+<div class="flex flex-col gap-4 rounded-lg border border-gray-200/80 dark:border-gray-700/60 bg-white dark:bg-background-dark p-6">
+<span class="material-symbols-outlined text-primary text-3xl">medical_services</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-lg font-bold">Healthcare Providers</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Enhance patient care with personalized treatment plans based on genetic predispositions.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg border border-gray-200/80 dark:border-gray-700/60 bg-white dark:bg-background-dark p-6">
+<span class="material-symbols-outlined text-primary text-3xl">spa</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-lg font-bold">Wellness Centers</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Offer tailored wellness programs and recommendations based on individual genetic profiles.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg border border-gray-200/80 dark:border-gray-700/60 bg-white dark:bg-background-dark p-6">
+<span class="material-symbols-outlined text-primary text-3xl">business_center</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-lg font-bold">Corporate Wellness Programs</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Improve employee health and productivity with customized wellness initiatives.</p>
+</div>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-2xl font-bold tracking-tight px-4 pb-4">Key Benefits</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+<div class="flex flex-col gap-4 rounded-lg border border-gray-200/80 dark:border-gray-700/60 bg-white dark:bg-background-dark p-6">
+<span class="material-symbols-outlined text-primary text-3xl">verified_user</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-lg font-bold">Secure and Compliant</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">We adhere to the highest standards of data security and privacy regulations to ensure the confidentiality of genetic information.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg border border-gray-200/80 dark:border-gray-700/60 bg-white dark:bg-background-dark p-6">
+<span class="material-symbols-outlined text-primary text-3xl">database</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-lg font-bold">Advanced Data Processing</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Our cutting-edge algorithms and analysis tools provide accurate and actionable insights from genetic data.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-lg border border-gray-200/80 dark:border-gray-700/60 bg-white dark:bg-background-dark p-6">
+<span class="material-symbols-outlined text-primary text-3xl">groups</span>
+<div class="flex flex-col gap-1">
+<h3 class="text-lg font-bold">Scalable Solutions</h3>
+<p class="text-sm text-gray-600 dark:text-gray-400">Our platform is designed to accommodate businesses of all sizes, from small clinics to large corporations.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-white dark:bg-background-dark rounded-xl border border-gray-200/80 dark:border-gray-700/60 p-6 md:p-8">
+<h2 class="text-2xl font-bold tracking-tight pb-6">Get Started with Genetic Wellness Labs</h2>
+<form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="flex flex-col gap-1.5">
+<label class="text-sm font-medium" for="company-name">Company Name</label>
+<input class="form-input w-full rounded-lg bg-background-light dark:bg-gray-800 border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary text-gray-900 dark:text-white placeholder-gray-500" id="company-name" placeholder="Enter your company name"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-sm font-medium" for="email">Email</label>
+<input class="form-input w-full rounded-lg bg-background-light dark:bg-gray-800 border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary text-gray-900 dark:text-white placeholder-gray-500" id="email" placeholder="Enter your email address" type="email"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-sm font-medium" for="company-size">Company Size</label>
+<select class="form-select w-full rounded-lg bg-background-light dark:bg-gray-800 border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary text-gray-900 dark:text-white" id="company-size">
+<option>Select size</option>
+<option>1-10 employees</option>
+<option>11-50 employees</option>
+<option>51-200 employees</option>
+<option>201+ employees</option>
+</select>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="text-sm font-medium" for="use-case">Use Case</label>
+<select class="form-select w-full rounded-lg bg-background-light dark:bg-gray-800 border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary text-gray-900 dark:text-white" id="use-case">
+<option>Select use case</option>
+<option>Healthcare Integration</option>
+<option>Wellness Program</option>
+<option>Corporate Wellness</option>
+</select>
+</div>
+<div class="flex flex-col gap-1.5 md:col-span-2">
+<label class="text-sm font-medium" for="timeline">Timeline</label>
+<select class="form-select w-full rounded-lg bg-background-light dark:bg-gray-800 border-gray-300 dark:border-gray-600 focus:ring-primary focus:border-primary text-gray-900 dark:text-white" id="timeline">
+<option>Select timeline</option>
+<option>Within 3 months</option>
+<option>3-6 months</option>
+<option>6+ months</option>
+<option>Just researching</option>
+</select>
+</div>
+<div class="md:col-span-2">
+<button class="flex w-full md:w-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold shadow-md hover:bg-primary/90" type="submit">
+<span class="truncate">Submit</span>
+</button>
+</div>
+</form>
+</section>
+</div>
+</div>
+</main>
+<footer class="flex justify-center border-t border-gray-200/50 dark:border-gray-700/50">
+<div class="flex max-w-5xl flex-1 flex-col px-5 py-8">
+<div class="flex flex-wrap items-center justify-between gap-6">
+<div class="flex flex-wrap gap-6">
+<a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Privacy Policy</a>
+<a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Terms of Service</a>
+<a class="text-sm text-gray-600 dark:text-gray-400 hover:text-primary" href="#">Contact Us</a>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-400">© 2023 Genetic Wellness Labs. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+</body></html>

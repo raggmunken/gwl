@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Newsletter Signup Modal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#11a4d4",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#101d22",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-gray-100 dark:bg-black font-display flex items-center justify-center min-h-screen">
+<div aria-hidden="true" class="fixed inset-0 bg-black/30"></div>
+<div class="relative bg-background-light dark:bg-background-dark rounded-xl shadow-2xl w-full max-w-md mx-4 overflow-hidden">
+<div class="p-8 text-center">
+<div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mb-6">
+<svg class="h-8 w-8 text-primary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white">Stay Informed</h2>
+<p class="mt-2 text-base text-gray-600 dark:text-gray-300">
+                Sign up for our newsletter to receive the latest updates, exclusive offers, and insights into genetic wellness.
+            </p>
+<form class="mt-8 space-y-6">
+<div class="relative">
+<label class="sr-only" for="email">Email address</label>
+<input autocomplete="email" class="form-input w-full rounded-lg border-gray-300 dark:border-gray-600 bg-background-light dark:bg-background-dark/50 focus:ring-primary focus:border-primary text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 py-3 px-4 text-base" id="email" name="email" placeholder="Your email address" required="" type="email"/>
+</div>
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-background-light dark:focus:ring-offset-background-dark transition-colors duration-200" type="submit">
+                    Subscribe
+                </button>
+</form>
+</div>
+<button class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors">
+<span class="sr-only">Close</span>
+<svg aria-hidden="true" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+
+
+</body></html>

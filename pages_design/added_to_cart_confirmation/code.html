@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Added to Cart Confirmation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#11a4d4",
+                        "background-light": "#f6f8f8",
+                        "background-dark": "#101d22",
+                        "content-light": "#111618",
+                        "content-dark": "#e8eef0",
+                        "subtle-light": "#617f89",
+                        "subtle-dark": "#a0b0b6",
+                        "border-light": "#e1e7e9",
+                        "border-dark": "#2a3b42"
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex items-center justify-center min-h-screen">
+<div class="bg-background-light dark:bg-background-dark rounded-xl shadow-lg w-full max-w-md border border-border-light dark:border-border-dark">
+<div class="p-6">
+<div class="flex items-center gap-4">
+<div class="flex-shrink-0">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 dark:bg-primary/20 rounded-full">
+<span class="material-symbols-outlined text-primary text-2xl">check_circle</span>
+</div>
+</div>
+<div class="flex-grow">
+<h3 class="font-bold text-lg text-content-light dark:text-content-dark">Added to Cart</h3>
+</div>
+</div>
+<div class="mt-4 flex items-center gap-4 p-4 bg-primary/10 dark:bg-primary/20 rounded-lg">
+<div class="flex-shrink-0">
+<div class="w-16 h-16 bg-cover bg-center rounded-lg" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDr6lLkzv_6oFvn3yOywMY_PlB-Eu2vWX6zrLGEVvYZkPOnZQhPcNFzIBFuxjpE9RGjhs5b9wXAldTe0IuwDMs87CYN7sLfvLF18j0Yr8mLaBdZ0O9jaT09_pLZfm794yW7GJgiE4mleNJPbYMZthMKIkWrD---ixyT5JYnELGVTqUek6OjE0_lAerKdqXqSJ7lpBgUhvMzAKA4JFjdFVkPztu1f9X8xFBG0gIsWlT_oUVPDF292M3NYFsCli7c6xbTKOMkjng9gHQ");'></div>
+</div>
+<div class="flex-grow">
+<p class="font-bold text-content-light dark:text-content-dark">DNA Test Kit</p>
+<p class="text-sm text-subtle-light dark:text-subtle-dark">Genetic Wellness Labs</p>
+</div>
+</div>
+<div class="mt-6 flex flex-col sm:flex-row gap-3">
+<button class="w-full flex items-center justify-center px-4 py-2.5 rounded-lg bg-primary/20 dark:bg-primary/30 text-primary font-bold hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors">
+                    View Cart
+                </button>
+<button class="w-full flex items-center justify-center px-4 py-2.5 rounded-lg bg-primary text-white font-bold hover:bg-opacity-90 transition-opacity">
+                    Checkout
+                </button>
+</div>
+</div>
+</div>
+</div>
+
+</body></html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Subscription Cancellation Confirmation</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#11a4d4",
+              "background-light": "#f6f8f8",
+              "background-dark": "#101d22",
+              "content-light": "#1f2937",
+              "content-dark": "#d1d5db"
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+</head>
+<body class="bg-gray-200 dark:bg-gray-800 font-display flex items-center justify-center min-h-screen">
+<div class="bg-background-light dark:bg-background-dark p-8 rounded-xl shadow-lg max-w-md w-full text-center">
+<div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mb-4">
+<span class="material-symbols-outlined text-primary text-4xl">
+            warning
+        </span>
+</div>
+<h1 class="text-2xl font-bold text-content-light dark:text-content-dark mb-2">Confirm Cancellation</h1>
+<p class="text-content-light/80 dark:text-content-dark/80 mb-6">
+        Are you sure you want to cancel your subscription? You will lose access to all your premium benefits at the end of your current billing cycle on <strong>July 15, 2024</strong>.
+    </p>
+<div class="flex flex-col space-y-3">
+<button class="w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-primary/90 transition-colors duration-300">
+            Yes, Cancel Subscription
+        </button>
+<button class="w-full bg-primary/10 dark:bg-primary/20 text-primary font-bold py-3 px-4 rounded-lg hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors duration-300">
+            Keep My Subscription
+        </button>
+<a class="text-sm text-content-light/60 dark:text-content-dark/60 hover:text-primary dark:hover:text-primary transition-colors duration-300 mt-2" href="#">
+            Pause subscription instead
+        </a>
+</div>
+</div>
+
+</body></html>

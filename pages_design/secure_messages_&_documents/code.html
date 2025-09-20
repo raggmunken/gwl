@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#11a4d4",
+            "background-light": "#f6f8f8",
+            "background-dark": "#101d22",
+          },
+          fontFamily: {
+            "display": ["Manrope"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex min-h-screen">
+<aside class="w-80 bg-white dark:bg-background-dark/50 p-6 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-3 mb-8">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWF4JjO3KTgSPZEIHvl62jxWe2_w65eH8RfBlJpvk-P68SvWVDvwBIQqZO13JkTVexS6dR7frREvJExiH8S27AX1ZAPX9SVtCEQiEpV2FfoGXqtHGC9eLSLWtNKu3ASnCiQOrYqh4HptV0xJLydWiqUxKyj7JS1cq2P9Xx1lDtZ5sMQO233yKq-DssCUOOnGnAyrSMcDv1NdEvdSsUg7kWIPG5CZDgQPfFJf0bCRBIRdTpiMkjJ16SnJ2UIJhQtxiIaBCZyTxaPTw");'></div>
+<h1 class="text-black dark:text-white text-lg font-bold">Genetic Wellness Labs</h1>
+</div>
+<nav class="flex flex-col gap-2">
+<a class="flex items-center gap-3 px-3 py-2 text-black/60 dark:text-white/60 hover:bg-primary/10 dark:hover:bg-primary/20 rounded-lg" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"></path></svg>
+<span class="text-sm font-medium">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-black/60 dark:text-white/60 hover:bg-primary/10 dark:hover:bg-primary/20 rounded-lg" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M223.68,66.15,135.68,18a15.88,15.88,0,0,0-15.36,0l-88,48.17a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM128,32l80.34,44-29.77,16.3-80.35-44ZM128,120,47.66,76l33.9-18.56,80.34,44ZM40,90l80,43.78v85.79L40,175.82Zm176,85.78h0l-80,43.79V133.82l32-17.51V152a8,8,0,0,0,16,0V107.55L216,90v85.77Z"></path></svg>
+<span class="text-sm font-medium">Orders</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-black/60 dark:text-white/60 hover:bg-primary/10 dark:hover:bg-primary/20 rounded-lg" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M216,40H136V24a8,8,0,0,0-16,0V40H40A16,16,0,0,0,24,56V176a16,16,0,0,0,16,16H79.36L57.75,219a8,8,0,0,0,12.5,10l29.59-37h56.32l29.59,37a8,8,0,1,0,12.5-10l-21.61-27H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,136H40V56H216V176ZM104,120v24a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm32-16v40a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32-16v56a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"></path></svg>
+<span class="text-sm font-medium">Results</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-white bg-primary rounded-lg shadow-lg" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg>
+<span class="text-sm font-medium">Messages</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-black/60 dark:text-white/60 hover:bg-primary/10 dark:hover:bg-primary/20 rounded-lg" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path></svg>
+<span class="text-sm font-medium">Account</span>
+</a>
+</nav>
+</div>
+<div>
+<a class="flex items-center gap-3 px-3 py-2 text-black/60 dark:text-white/60 hover:bg-primary/10 dark:hover:bg-primary/20 rounded-lg" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M140,180a12,12,0,1,1-12-12A12,12,0,0,1,140,180ZM128,72c-22.06,0-40,16.15-40,36v4a8,8,0,0,0,16,0v-4c0-11,10.77-20,24-20s24,9,24,20-10.77,20-24,20a8,8,0,0,0-8,8v8a8,8,0,0,0,16,0v-.72c18.24-3.35,32-17.9,32-35.28C168,88.15,150.06,72,128,72Zm104,56A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"></path></svg>
+<span class="text-sm font-medium">Help</span>
+</a>
+</div>
+</aside>
+<main class="flex-1 p-8">
+<div class="max-w-4xl mx-auto">
+<h1 class="text-3xl font-bold text-black dark:text-white mb-8">Messages &amp; Documents</h1>
+<div class="space-y-8">
+<div>
+<h2 class="text-xl font-bold text-black dark:text-white mb-4">Messages</h2>
+<div class="bg-white dark:bg-background-dark/50 rounded-xl shadow-sm divide-y divide-gray-200 dark:divide-gray-700">
+<div class="flex items-center gap-4 p-4 hover:bg-primary/10 dark:hover:bg-primary/20 cursor-pointer rounded-t-xl">
+<img alt="Genetic Wellness Labs Avatar" class="size-12 rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-JdX8ZWtptQan5i2v75KZeUpRlBQG68robOV9gbRCx-fbhrqhYBwD3ngCGtQTVYrBE-qt9XW1ncTyP2ggXrVbqLcC-Ql-gPbnEhZ8_VXALZZeNiNCUSbVmvCe7b5s5ik-zKsZRbh_1HiEncb4i-lC6_abL5Mz8b1wCTrmzYmr_DgIsMWH5eLPJ0gSZCJ2vAL7l1RXFFqRWLELShAAnLfs4DpZJBZMncSg57vcxJacJMn7k0ebZ0LZOwnkq4tP22aAW_h1zCAL3P4"/>
+<div class="flex-1">
+<p class="font-semibold text-black dark:text-white">Genetic Wellness Labs</p>
+<p class="text-sm text-black/60 dark:text-white/60">Your results are ready to view</p>
+</div>
+<p class="text-sm text-black/60 dark:text-white/60 shrink-0">2d ago</p>
+</div>
+<div class="flex items-center gap-4 p-4 hover:bg-primary/10 dark:hover:bg-primary/20 cursor-pointer rounded-b-xl">
+<img alt="Genetic Wellness Labs Avatar" class="size-12 rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU6fpfFG72hlnIxtAy4RAj3IkjVEMHV3Gc00KWfAjyBk9ZCOfYBEDzq6YBXIAIKfXqywULHmbFCKYY7lcTHjFkuRgQobfuGraVSa6n32maf7ZuBPRTZQtd522XbRFv0MbDPG-97AQe1zI24p-KlXHBNMi4-hYNEfudz6Mm5Y2eoq2B0xiGjjsExDmfkRgqpedbd2jTwyH-L25QzyivW13WxbA6-Q44hnGYsMPsDiUuRdMsr6DLyZB81LKoSWS96lU4qEAehLKqjuw"/>
+<div class="flex-1">
+<p class="font-semibold text-black dark:text-white">Genetic Wellness Labs</p>
+<p class="text-sm text-black/60 dark:text-white/60">Your order has been shipped</p>
+</div>
+<p class="text-sm text-black/60 dark:text-white/60 shrink-0">1w ago</p>
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-xl font-bold text-black dark:text-white mb-4">Documents</h2>
+<div class="bg-white dark:bg-background-dark/50 rounded-xl shadow-sm divide-y divide-gray-200 dark:divide-gray-700">
+<div class="flex items-center gap-4 p-4 hover:bg-primary/10 dark:hover:bg-primary/20 cursor-pointer rounded-t-xl">
+<div class="size-12 rounded-lg bg-primary/20 flex items-center justify-center shrink-0">
+<svg class="text-primary" fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z"></path></svg>
+</div>
+<div class="flex-1">
+<p class="font-semibold text-black dark:text-white">Terms of Service</p>
+<p class="text-sm text-black/60 dark:text-white/60">Genetic Wellness Labs Terms of Service</p>
+</div>
+<p class="text-sm text-black/60 dark:text-white/60 shrink-0">1mo ago</p>
+</div>
+<div class="flex items-center gap-4 p-4 hover:bg-primary/10 dark:hover:bg-primary/20 cursor-pointer rounded-b-xl">
+<div class="size-12 rounded-lg bg-primary/20 flex items-center justify-center shrink-0">
+<svg class="text-primary" fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z"></path></svg>
+</div>
+<div class="flex-1">
+<p class="font-semibold text-black dark:text-white">Privacy Policy</p>
+<p class="text-sm text-black/60 dark:text-white/60">Genetic Wellness Labs Privacy Policy</p>
+</div>
+<p class="text-sm text-black/60 dark:text-white/60 shrink-0">1mo ago</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>

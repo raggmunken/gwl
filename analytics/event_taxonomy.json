@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GWL Event Taxonomy",
+  "version": "1.0.0",
+  "events": [
+    {
+      "name": "lead_form_submit",
+      "description": "Public site lead or consultation form submitted",
+      "properties": ["locale", "campaign", "form_id", "value"]
+    },
+    {
+      "name": "pdp_add_to_cart",
+      "description": "User adds a product (kit/subscription) to cart",
+      "properties": ["product_id", "product_type", "price", "currency", "locale"]
+    },
+    {
+      "name": "checkout_start",
+      "description": "Checkout initiated",
+      "properties": ["cart_value", "currency", "locale", "items"]
+    },
+    {
+      "name": "checkout_success",
+      "description": "Checkout completed successfully",
+      "properties": ["order_id", "value", "currency", "locale", "payment_method"]
+    },
+    {
+      "name": "register_kit",
+      "description": "Customer registers DNA kit",
+      "properties": ["kit_id", "lab_partner", "locale"]
+    },
+    {
+      "name": "result_view",
+      "description": "Results viewed in portal",
+      "properties": ["kit_id", "markers_count", "locale"]
+    },
+    {
+      "name": "plan_download",
+      "description": "Personalized plan downloaded as PDF",
+      "properties": ["plan_version", "format", "locale"]
+    },
+    {
+      "name": "sub_renewal",
+      "description": "Subscription renewal event",
+      "properties": ["subscription_id", "status", "value", "currency"]
+    },
+    {
+      "name": "referral_share",
+      "description": "User shares referral link",
+      "properties": ["channel", "referral_code"]
+    },
+    {
+      "name": "consent_update",
+      "description": "Customer updates consents",
+      "properties": ["consent_keys", "version", "locale"]
+    }
+  ]
+}
