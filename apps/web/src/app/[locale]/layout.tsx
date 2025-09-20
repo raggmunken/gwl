@@ -1,27 +1,27 @@
 import type { Metadata } from "next";
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages, type Locale } from "@/i18n";
-import "../globals.css";
+import type { Locale } from "@/i18n";
+import LocaleSwitcher from "@/components/locale-switcher";
 
 export const metadata: Metadata = {
   title: "Genetic Wellness Labs",
   description: "Personalized nutrition via DNA insights.",
 };
 
-export default async function LocaleLayout({
+export default function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: Locale };
+  params: { locale?: Locale };
 }) {
-  const { locale } = params;
-  const messages = await getMessages(locale);
-
-  // Note: Root html/body are defined in app/layout.tsx
+  // Fallback to 'sv' if params are not yet available
+  const _locale = (params as any)?.locale ?? "sv";
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
+    <>
+      <header className="p-4 flex justify-end">
+        <LocaleSwitcher />
+      </header>
       {children}
-    </NextIntlClientProvider>
+    </>
   );
 }
