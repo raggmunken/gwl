@@ -17,6 +17,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+.env
+.env.example
 
 # IDE & OS
 .DS_Store
