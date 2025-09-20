@@ -6,11 +6,12 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: "sv" | "en" };
+  params: Promise<{ locale: "sv" | "en" }>;
 }) {
-  const messages = (await import(`@/messages/${params.locale}.json`)).default;
+  const { locale } = await params;
+  const messages = (await import(`@/messages/${locale}.json`)).default;
   return (
-    <NextIntlClientProvider locale={params.locale} messages={messages}>
+    <NextIntlClientProvider locale={locale} messages={messages}>
       <header className="p-4 flex justify-end">
         <LocaleSwitcher />
       </header>
