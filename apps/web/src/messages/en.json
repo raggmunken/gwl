@@ -1,0 +1,13 @@
+{
+  "site": {
+    "title": "Genetic Wellness Labs",
+    "tagline": "Personalized nutrition via DNA insights"
+  },
+  "nav": {
+    "switchLocale": "Language"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "cta": "Get your kit"
+  }
+}
