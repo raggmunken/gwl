@@ -493,6 +493,12 @@ if __name__ == '__main__':
     except ImportError:
         pass
 
+    # Load clinical auto-fetched SNPs
+    try:
+        import gwl_clinical_auto
+    except ImportError:
+        pass
+
     parser = argparse.ArgumentParser(description='Clinical SNP coverage analysis')
     parser.add_argument('genome_file', nargs='?', help='Genome file to analyze')
     parser.add_argument('--list', action='store_true', help='List all clinical SNPs')
