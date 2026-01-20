@@ -276,6 +276,8 @@ class SNPediaFetcher:
         # Check cache first
         if self._is_cache_valid(rsid):
             cached = self.cache[rsid]
+            if cached.get('not_found'):
+                return None
             return FetchedSNP(**cached)
 
         print(f"  Fetching {rsid} from SNPedia...")

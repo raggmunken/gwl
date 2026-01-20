@@ -390,6 +390,185 @@ CLINICAL_SNPS = {
     # 9p21 - MI risk
     "rs10757278": {"gene": "CDKN2B-AS1", "category": "cardiovascular", "importance": 2, "notes": "MI risk"},
     "rs1333049": {"gene": "CDKN2B-AS1", "category": "cardiovascular", "importance": 2, "notes": "CAD risk"},
+
+    # =========================================================================
+    # EXPANDED FITNESS & ATHLETIC PERFORMANCE
+    # =========================================================================
+
+    # Endurance
+    "rs1799752": {"gene": "ACE", "category": "fitness", "importance": 2, "notes": "I/D polymorphism - endurance"},
+    "rs1800795": {"gene": "IL6", "category": "fitness", "importance": 2, "notes": "Recovery and inflammation"},
+    "rs1800169": {"gene": "CNTF", "category": "fitness", "importance": 3, "notes": "Muscle strength"},
+    "rs2104772": {"gene": "TNC", "category": "fitness", "importance": 3, "notes": "Tendon injury risk"},
+    "rs12722": {"gene": "COL5A1", "category": "fitness", "importance": 3, "notes": "Achilles tendon injury"},
+    "rs1800012": {"gene": "COL1A1", "category": "fitness", "importance": 3, "notes": "Bone/tendon strength"},
+    "rs679620": {"gene": "MMP3", "category": "fitness", "importance": 3, "notes": "Tendon injury risk"},
+
+    # Power/Sprint
+    "rs2229456": {"gene": "AMPD1", "category": "fitness", "importance": 3, "notes": "Muscle fatigue"},
+    "rs7181866": {"gene": "GALNT13", "category": "fitness", "importance": 3, "notes": "Sprint performance"},
+    "rs1042714": {"gene": "ADRB2", "category": "fitness", "importance": 2, "notes": "Beta-2 receptor - fat loss"},
+
+    # VO2max / Cardio
+    "rs8192678": {"gene": "PPARGC1A", "category": "fitness", "importance": 2, "notes": "PGC1-alpha - mitochondria"},
+    "rs1572312": {"gene": "PPARGC1A", "category": "fitness", "importance": 3, "notes": "Endurance response"},
+    "rs7181866": {"gene": "NRF1", "category": "fitness", "importance": 3, "notes": "Mitochondrial biogenesis"},
+    "rs1800849": {"gene": "UCP3", "category": "fitness", "importance": 3, "notes": "Energy expenditure"},
+
+    # Muscle growth
+    "rs1805086": {"gene": "MSTN", "category": "fitness", "importance": 2, "notes": "Myostatin - muscle mass"},
+    "rs7832552": {"gene": "TRHR", "category": "fitness", "importance": 3, "notes": "Lean body mass"},
+    "rs2854464": {"gene": "ACVR1B", "category": "fitness", "importance": 3, "notes": "Muscle strength"},
+    "rs4253778": {"gene": "PPARA", "category": "fitness", "importance": 3, "notes": "Fat metabolism in exercise"},
+
+    # =========================================================================
+    # ALLERGIES & IMMUNE REACTIONS
+    # =========================================================================
+
+    # Drug allergies
+    "rs2395029": {"gene": "HLA-B*5701", "category": "allergy", "importance": 1, "notes": "Abacavir hypersensitivity"},
+    "rs3909184": {"gene": "HLA-B*1502", "category": "allergy", "importance": 1, "notes": "Carbamazepine SJS risk"},
+    "rs1061235": {"gene": "HLA-A*3101", "category": "allergy", "importance": 2, "notes": "Carbamazepine rash"},
+    "rs9263726": {"gene": "HLA-B*5801", "category": "allergy", "importance": 1, "notes": "Allopurinol hypersensitivity"},
+
+    # Food allergies/sensitivities
+    "rs17616434": {"gene": "STAT6", "category": "allergy", "importance": 3, "notes": "Allergic tendency"},
+    "rs1800925": {"gene": "IL13", "category": "allergy", "importance": 2, "notes": "Allergic inflammation"},
+    "rs20541": {"gene": "IL13", "category": "allergy", "importance": 3, "notes": "IgE levels"},
+    "rs1295686": {"gene": "IL13", "category": "allergy", "importance": 3, "notes": "Atopy risk"},
+    "rs7216389": {"gene": "GSDMB", "category": "allergy", "importance": 2, "notes": "Asthma/allergy"},
+    "rs2305480": {"gene": "GSDMB", "category": "allergy", "importance": 3, "notes": "Asthma risk"},
+
+    # Histamine intolerance
+    "rs10156191": {"gene": "ABP1", "category": "allergy", "importance": 2, "notes": "DAO enzyme - histamine"},
+    "rs1049793": {"gene": "HNMT", "category": "allergy", "importance": 2, "notes": "Histamine N-methyltransferase"},
+    "rs2052129": {"gene": "HDC", "category": "allergy", "importance": 3, "notes": "Histidine decarboxylase"},
+
+    # Gluten beyond celiac
+    "rs2395182": {"gene": "HLA-DQ", "category": "allergy", "importance": 2, "notes": "Gluten sensitivity"},
+
+    # =========================================================================
+    # EXPANDED NUTRITION & DIET
+    # =========================================================================
+
+    # Carbohydrate metabolism
+    "rs5400": {"gene": "SLC2A2", "category": "nutrition", "importance": 2, "notes": "Sugar taste/intake"},
+    "rs1421085": {"gene": "FTO", "category": "nutrition", "importance": 2, "notes": "Carb sensitivity"},
+    "rs1801278": {"gene": "IRS1", "category": "nutrition", "importance": 2, "notes": "Insulin resistance"},
+    "rs4506565": {"gene": "TCF7L2", "category": "nutrition", "importance": 2, "notes": "Carb response"},
+
+    # Fat metabolism
+    "rs1260326": {"gene": "GCKR", "category": "nutrition", "importance": 2, "notes": "Triglyceride levels"},
+    "rs780094": {"gene": "GCKR", "category": "nutrition", "importance": 3, "notes": "Glucose regulation"},
+    "rs2943634": {"gene": "IRS1", "category": "nutrition", "importance": 3, "notes": "Fat storage"},
+    "rs9939609": {"gene": "FTO", "category": "nutrition", "importance": 1, "notes": "Fat mass - diet response"},
+
+    # Protein metabolism
+    "rs17602729": {"gene": "AMPD1", "category": "nutrition", "importance": 3, "notes": "Protein metabolism"},
+    "rs1800849": {"gene": "UCP2", "category": "nutrition", "importance": 3, "notes": "Protein thermogenesis"},
+
+    # Taste receptors
+    "rs713598": {"gene": "TAS2R38", "category": "nutrition", "importance": 2, "notes": "Bitter taste - vegetables"},
+    "rs1726866": {"gene": "TAS2R38", "category": "nutrition", "importance": 3, "notes": "Bitter sensitivity"},
+    "rs10246939": {"gene": "TAS2R38", "category": "nutrition", "importance": 3, "notes": "PROP taster status"},
+    "rs35744813": {"gene": "TAS1R2", "category": "nutrition", "importance": 3, "notes": "Sweet taste"},
+
+    # Satiety/Appetite
+    "rs7799039": {"gene": "LEP", "category": "nutrition", "importance": 2, "notes": "Leptin - satiety"},
+    "rs1137101": {"gene": "LEPR", "category": "nutrition", "importance": 2, "notes": "Leptin receptor"},
+    "rs17782313": {"gene": "MC4R", "category": "nutrition", "importance": 1, "notes": "Appetite regulation"},
+    "rs489693": {"gene": "MC4R", "category": "nutrition", "importance": 2, "notes": "Hunger signaling"},
+
+    # Alcohol metabolism
+    "rs671": {"gene": "ALDH2", "category": "nutrition", "importance": 1, "notes": "Alcohol flush - acetaldehyde"},
+    "rs1229984": {"gene": "ADH1B", "category": "nutrition", "importance": 2, "notes": "Alcohol metabolism"},
+    "rs698": {"gene": "ADH1C", "category": "nutrition", "importance": 3, "notes": "Alcohol clearance"},
+
+    # Salt sensitivity
+    "rs699": {"gene": "AGT", "category": "nutrition", "importance": 2, "notes": "Salt-sensitive blood pressure"},
+    "rs4961": {"gene": "ADD1", "category": "nutrition", "importance": 2, "notes": "Salt sensitivity"},
+    "rs5186": {"gene": "AGTR1", "category": "nutrition", "importance": 3, "notes": "Blood pressure response to salt"},
+
+    # =========================================================================
+    # EXPANDED LONGEVITY & AGING
+    # =========================================================================
+
+    # Core longevity genes
+    "rs2802292": {"gene": "FOXO3", "category": "longevity", "importance": 1, "notes": "Strongest longevity gene"},
+    "rs2764264": {"gene": "FOXO3", "category": "longevity", "importance": 2, "notes": "Longevity association"},
+    "rs1935949": {"gene": "FOXO3", "category": "longevity", "importance": 3, "notes": "Lifespan extension"},
+
+    # Telomere length
+    "rs10936599": {"gene": "TERC", "category": "longevity", "importance": 2, "notes": "Telomere length"},
+    "rs2736100": {"gene": "TERT", "category": "longevity", "importance": 2, "notes": "Telomerase activity"},
+    "rs7726159": {"gene": "TERT", "category": "longevity", "importance": 3, "notes": "Telomere maintenance"},
+
+    # Sirtuins
+    "rs3758391": {"gene": "SIRT1", "category": "longevity", "importance": 2, "notes": "Sirtuin 1 - calorie restriction"},
+    "rs2273773": {"gene": "SIRT1", "category": "longevity", "importance": 3, "notes": "SIRT1 activity"},
+    "rs7895833": {"gene": "SIRT1", "category": "longevity", "importance": 3, "notes": "Metabolic regulation"},
+
+    # mTOR pathway
+    "rs1130214": {"gene": "AKT1", "category": "longevity", "importance": 3, "notes": "Cell growth/survival"},
+    "rs2295080": {"gene": "MTOR", "category": "longevity", "importance": 3, "notes": "mTOR pathway"},
+
+    # DNA repair
+    "rs1052133": {"gene": "OGG1", "category": "longevity", "importance": 3, "notes": "DNA repair"},
+    "rs25487": {"gene": "XRCC1", "category": "longevity", "importance": 3, "notes": "DNA damage repair"},
+    "rs13181": {"gene": "ERCC2", "category": "longevity", "importance": 3, "notes": "DNA repair"},
+
+    # Inflammation/Aging
+    "rs1800896": {"gene": "IL10", "category": "longevity", "importance": 2, "notes": "Anti-inflammatory"},
+    "rs1800795": {"gene": "IL6", "category": "longevity", "importance": 2, "notes": "Inflammaging"},
+
+    # =========================================================================
+    # GENERAL HEALTH & DISEASE RISK
+    # =========================================================================
+
+    # Cancer risk
+    "rs1042522": {"gene": "TP53", "category": "health", "importance": 2, "notes": "P53 - tumor suppressor"},
+    "rs1800566": {"gene": "NQO1", "category": "health", "importance": 2, "notes": "Cancer detox"},
+    "rs1695": {"gene": "GSTP1", "category": "health", "importance": 2, "notes": "Carcinogen detox"},
+
+    # Bone health
+    "rs9594759": {"gene": "RANKL", "category": "health", "importance": 3, "notes": "Bone density"},
+    "rs3736228": {"gene": "LRP5", "category": "health", "importance": 3, "notes": "Bone mass"},
+    "rs4988300": {"gene": "WNT16", "category": "health", "importance": 3, "notes": "Fracture risk"},
+
+    # Eye health
+    "rs10490924": {"gene": "ARMS2", "category": "health", "importance": 2, "notes": "Macular degeneration"},
+    "rs1061170": {"gene": "CFH", "category": "health", "importance": 2, "notes": "AMD risk"},
+    "rs2230199": {"gene": "C3", "category": "health", "importance": 3, "notes": "Eye inflammation"},
+
+    # Skin health
+    "rs1805007": {"gene": "MC1R", "category": "health", "importance": 2, "notes": "Skin pigmentation/sun damage"},
+    "rs1805008": {"gene": "MC1R", "category": "health", "importance": 2, "notes": "Red hair/fair skin"},
+    "rs1805009": {"gene": "MC1R", "category": "health", "importance": 3, "notes": "Melanoma risk"},
+    "rs12203592": {"gene": "IRF4", "category": "health", "importance": 3, "notes": "Skin pigmentation"},
+    "rs4911414": {"gene": "MMP1", "category": "health", "importance": 3, "notes": "Skin aging/wrinkles"},
+    "rs1800012": {"gene": "COL1A1", "category": "health", "importance": 3, "notes": "Skin elasticity"},
+
+    # Gut health
+    "rs11209026": {"gene": "IL23R", "category": "health", "importance": 2, "notes": "IBD/Crohn's"},
+    "rs2066844": {"gene": "NOD2", "category": "health", "importance": 2, "notes": "Crohn's disease"},
+    "rs2066845": {"gene": "NOD2", "category": "health", "importance": 2, "notes": "IBD risk"},
+    "rs5743293": {"gene": "NOD2", "category": "health", "importance": 2, "notes": "Crohn's risk"},
+
+    # Autoimmune
+    "rs2476601": {"gene": "PTPN22", "category": "health", "importance": 2, "notes": "Autoimmune risk"},
+    "rs3087243": {"gene": "CTLA4", "category": "health", "importance": 3, "notes": "T-cell regulation"},
+
+    # Kidney health
+    "rs4293393": {"gene": "UMOD", "category": "health", "importance": 3, "notes": "Kidney function"},
+    "rs2467853": {"gene": "SHROOM3", "category": "health", "importance": 3, "notes": "eGFR/kidney"},
+
+    # Liver health
+    "rs738409": {"gene": "PNPLA3", "category": "health", "importance": 2, "notes": "Fatty liver disease"},
+    "rs58542926": {"gene": "TM6SF2", "category": "health", "importance": 2, "notes": "NAFLD risk"},
+
+    # Thyroid
+    "rs965513": {"gene": "FOXE1", "category": "health", "importance": 3, "notes": "Thyroid cancer"},
+    "rs944289": {"gene": "NKX2-1", "category": "health", "importance": 3, "notes": "Thyroid function"},
 }
 
 
