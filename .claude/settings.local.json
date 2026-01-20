@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(dir:*)",
+      "Bash(wc:*)",
+      "Bash(python gwl_dna_analyzer.py:*)",
+      "Bash(python:*)",
+      "Bash(cd /d D:CLAUDE_CODe)"
+    ]
+  }
+}

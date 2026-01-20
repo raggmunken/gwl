@@ -1,0 +1,175 @@
+# This file was produced by bcftools stats (1.20+htslib-1.20) and can be plotted using plot-vcfstats.
+# The command line was:	bcftools stats  chr21.bcf
+#
+# Definition of sets:
+# ID	[2]id	[3]tab-separated file names
+ID	0	chr21.bcf
+# SN, Summary numbers:
+#   number of records   .. number of data rows in the VCF
+#   number of no-ALTs   .. reference-only sites, ALT is either "." or identical to REF
+#   number of SNPs      .. number of rows with a SNP
+#   number of MNPs      .. number of rows with a MNP, such as CC>TT
+#   number of indels    .. number of rows with an indel
+#   number of others    .. number of rows with other type, for example a symbolic allele or
+#                          a complex substitution, such as ACT>TCGA
+#   number of multiallelic sites     .. number of rows with multiple alternate alleles
+#   number of multiallelic SNP sites .. number of rows with multiple alternate alleles, all SNPs
+# 
+#   Note that rows containing multiple types will be counted multiple times, in each
+#   counter. For example, a row with a SNP and an indel increments both the SNP and
+#   the indel counter.
+# 
+# SN	[2]id	[3]key	[4]value
+SN	0	number of samples:	1
+SN	0	number of records:	1126856
+SN	0	number of no-ALTs:	0
+SN	0	number of SNPs:	1015411
+SN	0	number of MNPs:	0
+SN	0	number of indels:	111364
+SN	0	number of others:	81
+SN	0	number of multiallelic sites:	0
+SN	0	number of multiallelic SNP sites:	0
+# TSTV, transitions/transversions:
+# TSTV	[2]id	[3]ts	[4]tv	[5]ts/tv	[6]ts (1st ALT)	[7]tv (1st ALT)	[8]ts/tv (1st ALT)
+TSTV	0	704058	311353	2.26	704058	311353	2.26
+# SiS, Singleton stats:
+# SiS	[2]id	[3]allele count	[4]number of SNPs	[5]number of transitions	[6]number of transversions	[7]number of indels	[8]repeat-consistent	[9]repeat-inconsistent	[10]not applicable
+SiS	0	1	1015411	704058	311353	111364	0	0	111364
+# AF, Stats by non-reference allele frequency:
+# AF	[2]id	[3]allele frequency	[4]number of SNPs	[5]number of transitions	[6]number of transversions	[7]number of indels	[8]repeat-consistent	[9]repeat-inconsistent	[10]not applicable
+AF	0	0.000000	1015411	704058	311353	111364	0	0	111364
+# QUAL, Stats by quality
+# QUAL	[2]id	[3]Quality	[4]number of SNPs	[5]number of transitions (1st ALT)	[6]number of transversions (1st ALT)	[7]number of indels
+QUAL	0	.	1015411	704058	311353	111364
+# IDD, InDel distribution:
+# IDD	[2]id	[3]length (deletions negative)	[4]number of sites	[5]number of genotypes	[6]mean VAF
+IDD	0	-55	1	0	.
+IDD	0	-54	1	0	.
+IDD	0	-53	1	0	.
+IDD	0	-51	4	0	.
+IDD	0	-50	7	0	.
+IDD	0	-49	5	0	.
+IDD	0	-48	3	0	.
+IDD	0	-47	2	0	.
+IDD	0	-46	6	0	.
+IDD	0	-45	7	0	.
+IDD	0	-44	9	0	.
+IDD	0	-43	7	0	.
+IDD	0	-42	12	0	.
+IDD	0	-41	14	0	.
+IDD	0	-40	11	0	.
+IDD	0	-39	5	0	.
+IDD	0	-38	7	0	.
+IDD	0	-37	8	0	.
+IDD	0	-36	14	0	.
+IDD	0	-35	14	0	.
+IDD	0	-34	20	0	.
+IDD	0	-33	29	0	.
+IDD	0	-32	28	0	.
+IDD	0	-31	16	0	.
+IDD	0	-30	25	0	.
+IDD	0	-29	27	0	.
+IDD	0	-28	44	0	.
+IDD	0	-27	39	0	.
+IDD	0	-26	41	0	.
+IDD	0	-25	63	0	.
+IDD	0	-24	108	0	.
+IDD	0	-23	67	0	.
+IDD	0	-22	102	0	.
+IDD	0	-21	91	0	.
+IDD	0	-20	172	0	.
+IDD	0	-19	119	0	.
+IDD	0	-18	160	0	.
+IDD	0	-17	127	0	.
+IDD	0	-16	338	0	.
+IDD	0	-15	287	0	.
+IDD	0	-14	328	0	.
+IDD	0	-13	223	0	.
+IDD	0	-12	648	0	.
+IDD	0	-11	310	0	.
+IDD	0	-10	700	0	.
+IDD	0	-9	455	0	.
+IDD	0	-8	1108	0	.
+IDD	0	-7	629	0	.
+IDD	0	-6	1593	0	.
+IDD	0	-5	2636	0	.
+IDD	0	-4	8794	0	.
+IDD	0	-3	6324	0	.
+IDD	0	-2	10987	0	.
+IDD	0	-1	26118	0	.
+IDD	0	1	24306	0	.
+IDD	0	2	7633	0	.
+IDD	0	3	2593	0	.
+IDD	0	4	4285	0	.
+IDD	0	5	1279	0	.
+IDD	0	6	1601	0	.
+IDD	0	7	427	0	.
+IDD	0	8	1458	0	.
+IDD	0	9	353	0	.
+IDD	0	10	679	0	.
+IDD	0	11	199	0	.
+IDD	0	12	769	0	.
+IDD	0	13	124	0	.
+IDD	0	14	314	0	.
+IDD	0	15	218	0	.
+IDD	0	16	383	0	.
+IDD	0	17	113	0	.
+IDD	0	18	217	0	.
+IDD	0	19	93	0	.
+IDD	0	20	254	0	.
+IDD	0	21	79	0	.
+IDD	0	22	125	0	.
+IDD	0	23	54	0	.
+IDD	0	24	150	0	.
+IDD	0	25	75	0	.
+IDD	0	26	72	0	.
+IDD	0	27	41	0	.
+IDD	0	28	73	0	.
+IDD	0	29	35	0	.
+IDD	0	30	53	0	.
+IDD	0	31	33	0	.
+IDD	0	32	60	0	.
+IDD	0	33	22	0	.
+IDD	0	34	40	0	.
+IDD	0	35	13	0	.
+IDD	0	36	40	0	.
+IDD	0	37	16	0	.
+IDD	0	38	19	0	.
+IDD	0	39	15	0	.
+IDD	0	40	21	0	.
+IDD	0	41	13	0	.
+IDD	0	42	12	0	.
+IDD	0	43	9	0	.
+IDD	0	44	8	0	.
+IDD	0	45	4	0	.
+IDD	0	46	6	0	.
+IDD	0	47	5	0	.
+IDD	0	48	8	0	.
+IDD	0	49	3	0	.
+IDD	0	50	13	0	.
+IDD	0	51	3	0	.
+IDD	0	52	2	0	.
+IDD	0	53	3	0	.
+IDD	0	54	9	0	.
+IDD	0	55	6	0	.
+IDD	0	56	6	0	.
+IDD	0	57	4	0	.
+IDD	0	58	1	0	.
+IDD	0	59	2	0	.
+IDD	0	60	19	0	.
+# ST, Substitution types:
+# ST	[2]id	[3]type	[4]count
+ST	0	A>C	34218
+ST	0	A>G	130758
+ST	0	A>T	34382
+ST	0	C>A	47376
+ST	0	C>G	40332
+ST	0	C>T	218994
+ST	0	G>A	218694
+ST	0	G>C	40497
+ST	0	G>T	46091
+ST	0	T>A	34419
+ST	0	T>C	135612
+ST	0	T>G	34038
+# DP, Depth distribution
+# DP	[2]id	[3]bin	[4]number of genotypes	[5]fraction of genotypes (%)	[6]number of sites	[7]fraction of sites (%)

@@ -1,0 +1,212 @@
+GENETIC WELLNESS LABS AB - Dokumentstruktur
+===========================================
+
+Senast uppdaterad: 2026-01-18
+Status: Komplett & Organiserad
+
+FILSTRUKTUR:
+============
+
+geneticwell/
+│
+├── README.md                        ← START HÄR! Komplett översikt
+│
+├── HUVUD-DOKUMENT (Senaste versioner med clean filnamn)
+│   │
+│   ├── Executive_Summary.md         (13 KB) - 5 sidor, snabb overview för investerare
+│   ├── Pitch_Deck.md                (33 KB) - 15 slides, komplett investor pitch
+│   ├── Finansmodell.csv             (25 KB) - Excel-kompatibel, År 1-3 projektioner
+│   ├── Kostnadanalys.md             (29 KB) - 90 sidor, alla 9 områden analyserade
+│   ├── Implementation_Roadmap.md    (31 KB) - Månad-för-månad plan (dag 0 → månad 36)
+│   │
+│   ├── Compliance_Guide.md          (39 KB) - 80 sidor, fullständig regulatorisk guide
+│   ├── Founder_Loan_Avtal.md        (11 KB) - Juridisk mall för aktieägarlån
+│   ├── Pitch_Video_Script.md        (15 KB) - 2-3 min video-manus
+│   └── Scalability_Analysis.md      (43 KB) - Djupanalys skalbarhet & bottlenecks
+│
+└── archive/                         (24 filer) - Gamla versioner, använd EJ
+    ├── Affarsplan_Genetic_Wellness_Labs_2026_REVIDERAD.md
+    ├── BEVIS_Kalkylen_Gar_Ihop.md
+    ├── EXECUTIVE_SUMMARY_Forbattrad_Plan.md
+    ├── Finansmodell_FINAL_Founder_Loan.csv
+    ├── Finansmodell_GeneticWellnessLabs.csv
+    ├── Finansmodell_GeneticWellnessLabs_V2_Forbattrad.csv
+    ├── Finansmodell_V3_Med_VD_Lon.md
+    ├── Forbattrad_Ekonomisk_Plan.md
+    ├── Founder_Financing_Strategier.md
+    ├── Konkurrentanalys_Uppdaterad.md
+    ├── Landningssida_PreLaunch_Copywriting.md
+    ├── Pitch_Deck_FINAL_Med_Compliance.md
+    ├── Pitch_Deck_Genetic_Wellness_Labs.md
+    ├── Pitch_Deck_V2_Forbattrad.md
+    └── ... (10 fler gamla versioner)
+
+
+LÄSGUIDE BASERAT PÅ ROL:
+=========================
+
+INVESTERARE:
+  1. Executive_Summary.md           (5 min)
+  2. Pitch_Deck.md                  (15 min)
+  3. Finansmodell.csv               (30 min)
+  4. Kostnadanalys.md               (1 timme, deep dive)
+
+GRUNDARE (Rasmus):
+  1. Implementation_Roadmap.md      (execution plan)
+  2. Founder_Loan_Avtal.md          (juridisk setup)
+  3. Compliance_Guide.md            (regulatoriskt)
+  4. Finansmodell.csv               (ekonomi)
+
+TEKNISK RÅDGIVARE:
+  1. Kostnadanalys.md → Kap 1      (IT-infrastruktur)
+  2. Kostnadanalys.md → Appendix    (Self-hosting vs AWS)
+  3. Scalability_Analysis.md        (tech stack & skalning)
+
+REGULATORISK EXPERT:
+  1. Compliance_Guide.md            (komplett guide)
+  2. Kostnadanalys.md → Kap 2-3    (DNA-lab + Försäkring)
+
+
+NYCKELTAL (snabb referens):
+============================
+
+KAPITALBEHOV:
+  • Seed Round (Dag 1):        3,5M SEK för 17% equity
+  • Serie Seed Extension (M15): 5,0M SEK för 20% equity
+  • Total År 1-2:              8,5M SEK för 37% dilution
+  • Founders equity:           63%
+
+UNIT ECONOMICS:
+  • CLV (Customer Lifetime Value):  9 820 SEK
+  • CAC (Customer Acquisition Cost): 1 713 SEK
+  • CLV/CAC ratio:                   5.7× (Excellent >3.0)
+  • ARPU (Average Revenue Per User): 865 SEK/mån
+  • Bruttomarginal:                  46-54%
+
+PRISSÄTTNING:
+  • DNA-test:          5 995 SEK (Klarna: 1 495 + 12×375)
+  • Bas-prenumeration: 865 SEK/mån
+  • Premium-pren:      1 295 SEK/mån
+  • B2B per användare: 8 000 SEK (6 mån program)
+
+MILESTONES:
+  • Månad 6:     MVP launch + ISO 27001 certified + 81 beta
+  • Månad 14-16: Break-even (368 aktiva prenumeranter)
+  • Månad 15:    Serie Seed Extension 5M (KRITISK)
+  • År 3:        EBITDA +729K, self-funded growth
+
+PROJEKTIONER:
+  • År 1: 235 B2C + 40 B2B = 1,2M revenue, -1,6M EBITDA
+  • År 2: 480 B2C + 200 B2B = 6,2M revenue, -4,6M EBITDA
+  • År 3: 960 B2C + 600 B2B = 20,0M revenue, +0,7M EBITDA ✅
+
+
+VARFÖR HÖGRE KAPITALBEHOV (8,5M vs 2,7M)?
+==========================================
+
+Discovery #1: DNA-lab kostnad 12× högre
+  • Original: 650 SEK/test
+  • Verklig:  3 500 SEK/test (ISO 17025 nutrigenomics)
+  • Impact:   +1,4M År 1
+
+Discovery #2: IT-säkerhet för GDPR Article 9 saknades helt
+  • Original: 0 SEK (glömdes)
+  • Verklig:  2,2M År 1 (ISO 27001 + SIEM + Pen-testing + DPO)
+  • Impact:   +2,2M År 1
+
+Discovery #3: Self-hosting är DYRARE (inte billigare)
+  • AWS cloud:     2,2M År 1
+  • Self-hosting:  4,6-7,4M År 1 (2-3× dyrare)
+  • Beslut:        AWS Stockholm
+
+Discovery #4: Operationella kostnader underestimerade
+  • Payment processing: +211K/år
+  • Support:            +276K/år
+  • Försäkringar:       +155K/år
+  • Accounting:         +80K/år
+  • Impact:             +722K År 1
+
+TOTAL UNDERSKATTNING: +4,5M År 1
+
+
+COMPLIANCE = COMPETITIVE MOAT:
+===============================
+
+✅ 6-12 månaders lead time för konkurrenter
+✅ ISO 27001 kräver 6-12 mån + 580K
+✅ GDPR Article 9 setup: 3-6 mån + 600K
+✅ B2B-access kräver ISO 27001 (företag kräver certifiering)
+✅ Retroaktiva böter för non-compliant: 4% omsättning eller 20M EUR
+✅ Clean due diligence vid exit M&A
+
+INVESTERING: 2,2M År 1 (IT-säkerhet) + 775K (övrigt) = 2,975M
+MOAT: Konkurrenter måste vänta 6-12 mån + betala 2M+
+
+
+NÄSTA STEG:
+============
+
+GRUNDARE:
+  [ ] Läs README.md (komplett översikt)
+  [ ] Läs Implementation_Roadmap.md (månad-för-månad plan)
+  [ ] Registrera AB (vecka -4)
+  [ ] Fundraise: Använd Pitch_Deck.md + Executive_Summary.md
+  [ ] Kickoff compliance: Månad 1 (ISO 27001 + GDPR)
+
+INVESTERARE:
+  [ ] Läs Executive_Summary.md (5 min)
+  [ ] Läs Pitch_Deck.md (15 min)
+  [ ] Due diligence: Finansmodell.csv + Kostnadanalys.md
+  [ ] Decision: Investera 3,5M för 17% equity
+
+
+KONTAKT:
+========
+
+Rasmus Persson
+CEO & Founder
+Genetic Wellness Labs AB
+
+📧 [Din email]
+📱 [Ditt telefonnummer]
+🌐 geneticwellness.se
+📍 Kalmar, Sverige
+
+
+VERSION HISTORY:
+================
+
+v4.0 (2026-01-18) - FINAL REVIDERAD
+  • Omfattande kostnadsanalys 9 områden
+  • DNA-lab kostnad 12× högre upptäckt
+  • IT-säkerhet 2,2M tillagd (GDPR Article 9)
+  • Self-hosting vs AWS-analys (+2× dyrare self-hosting)
+  • Seed round: 3,5M (upp från 1,8M)
+  • Break-even: Månad 14-16 (förskjuten från månad 7)
+  • CLV/CAC: 5.7× (fortfarande excellent)
+  • Dokumentation organiserad med clean filnamn
+
+v3.5 (2026-01-17) - Med Compliance
+  • Regulatorisk compliance-guide tillagd
+  • GDPR Article 9, ISO 27001, IVDR
+  • Seed: 1,8M (inkl 600K compliance)
+
+v3.0 (2026-01-17) - Founder Loan
+  • Founder loan-struktur tillagd
+  • Skatteoptimering: 541K sparad
+  • Seed: 1,2M för 12% equity
+
+v2.0 (2026-01-16) - Förbättrad Plan
+  • Affiliate model tillagd
+  • B2B-stream optimerad
+  • Seed: 1,8M för 14% equity
+
+v1.0 (2026-01-15) - Original
+  • Basic business plan
+  • Seed: 4,5M för 32% equity
+
+
+===========================================
+Detta är inte bara en business plan -
+det är en execution roadmap. 🚀
+===========================================

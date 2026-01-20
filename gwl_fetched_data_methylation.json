@@ -1,0 +1,1021 @@
+{
+  "methylation": {
+    "category": "methylation",
+    "description": "Metyleringscykeln och folatmetabolism",
+    "snps": [
+      {
+        "rsid": "rs1801133",
+        "gene": "MTHFR",
+        "chromosome": "1",
+        "position": 11796321,
+        "ref_allele": "G",
+        "alt_allele": "A",
+        "function": "coding_sequence_variant,missense_variant",
+        "clinical_significance": "Associations of the MTHFR rs1801133 polymorphism with coronary artery disease and lipid levels: a systematic review and updated meta-analysis.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "30115070",
+            "title": "Associations of the MTHFR rs1801133 polymorphism with coronary artery disease and lipid levels: a systematic review and updated meta-analysis.",
+            "authors": "Luo et al.",
+            "journal": "Lipids in health and disease",
+            "year": "2018",
+            "doi": "10.1186/s12944-018-0837-y",
+            "abstract": "The associations of the 5,10-methylenetetrahydrofolate reductase gene (MTHFR) rs1801133 polymorphism with coronary artery disease (CAD) and plasma lipid levels have been widely investigated, but the results were inconsistent and inconclusive. This meta-analysis aimed to clarify the relationships of the rs1801133 polymorphism with CAD and plasma lipid levels."
+          },
+          {
+            "pmid": "26678951",
+            "title": "Association between rs1801133 polymorphism and risk of adult ischemic stroke: Meta-analysis based on case-control studies.",
+            "authors": "Chen et al.",
+            "journal": "Thrombosis research",
+            "year": "2016",
+            "doi": "10.1016/j.thromres.2015.11.037",
+            "abstract": "This study is aimed to quantify the strength of the association between rs1801133 polymorphism and ischemic stroke risk."
+          },
+          {
+            "pmid": "35456437",
+            "title": "Methylenetetrahydrofolate Reductase Polymorphism (rs1801133) and the Risk of Hypertension among African Populations: A Narrative Synthesis of Literature.",
+            "authors": "Mabhida et al.",
+            "journal": "Genes",
+            "year": "2022",
+            "doi": "10.3390/genes13040631",
+            "abstract": ""
+          },
+          {
+            "pmid": "33461193",
+            "title": "Gene-Centric Database Reveals Environmental and Lifestyle Relationships for Potential Risk Modification and Prevention.",
+            "authors": "Martin et al.",
+            "journal": "Lifestyle genomics",
+            "year": "2021",
+            "doi": "10.1159/000512690",
+            "abstract": "The database at Nutrigenetics.net has been under development since 2007 to facilitate the identification and classification of PubMed articles relevant to human genetics. A controlled vocabulary (i.e., standardized terminology) is used to index these records, with links back to PubMed for every article title. This enables the display of indexes (alphabetical subtopic listings) for any given topic, or for any given combination of topics, including for genes and specific genetic variants. Stepwise use of such indexes (first for one topic, then for combinations of topics) can reveal relationships that are otherwise easily overlooked. These relationships include environmental and lifestyle variables with potential relevance to risk modification (both beneficial and detrimental), and to prevention, or at least to the potential delay of symptom onset for health conditions like Alzheimer disease among many others. Thirty-four specific genetic variants have each been mentioned in at least &#x2"
+          },
+          {
+            "pmid": "29325775",
+            "title": "Nutrigenetic variants and cardio-metabolic risk in women with or without gestational diabetes.",
+            "authors": "Franzago et al.",
+            "journal": "Diabetes research and clinical practice",
+            "year": "2018",
+            "doi": "10.1016/j.diabres.2018.01.001",
+            "abstract": "Gestational diabetes mellitus (GDM) is the most frequent metabolic disorder in pregnancy and it can be considered a silent risk associated to T2DM and CVD later in life. The aim of this study was to investigate the association of clinical parameters with nine single nucleotide polymorphisms (SNPs) involved with nutrients and metabolism in women with or without GDM in order to identify potential routine clinical markers for early prevention."
+          },
+          {
+            "pmid": "40488635",
+            "title": "",
+            "authors": "Zeitoun et al.",
+            "journal": "The British journal of nutrition",
+            "year": "2025",
+            "doi": "10.1017/S0007114525103620",
+            "abstract": ""
+          },
+          {
+            "pmid": "32010931",
+            "title": "Methylenetetrahydrofolate reductase C677T (Ala&gt;Val, rs1801133 C&gt;T) polymorphism decreases the susceptibility of hepatocellular carcinoma: a meta-analysis involving 12,628 subjects.",
+            "authors": "Zhang et al.",
+            "journal": "Bioscience reports",
+            "year": "2021",
+            "doi": "10.1042/BSR20194229",
+            "abstract": "C677T (Ala&gt;Val, rs1801133 C&gt;T), a non-synonymous variant of methylenetetrahydrofolate reductase (MTHFR) gene, has been found to be associated with an impair enzyme activity of MTHFR. The relationship of MTHFR rs1801133 with hepatocellular carcinoma (HCC) has been extensively investigated. However, the findings were conflicting. Recently, more investigations have been conducted on the relationship of MTHFR rs1801133 with HCC. To obtain a more precise assessment on the effect of this non-synonymous variant to the development of HCC, a pooled-analysis was performed. This meta-analysis consisted of 19 independent case-control studies. By using the odds ratio (OR) combined with 95% confidence interval (CI), the relationship of MTHFR rs1801133 with HCC risk was determined. A total of 19 independent case-control studies were included. Finally, 6,102 HCC cases and 6,526 controls were recruited to examine the relationship of MTHFR rs1801133 with HCC risk. In recessive model (TT vs. CC/CT)"
+          },
+          {
+            "pmid": "36876707",
+            "title": "The role of MTHFR polymorphisms in the risk of lipedema.",
+            "authors": "Gualtieri et al.",
+            "journal": "European review for medical and pharmacological sciences",
+            "year": "2023",
+            "doi": "10.26355/eurrev_202302_31407",
+            "abstract": "This study examines the role of MTHFR gene polymorphism (rs1801133) in women with lipedema (LIPPY) body composition parameters compared to a control group (CTRL)."
+          },
+          {
+            "pmid": "39164015",
+            "title": "Nutrigenetics and Nutritional Strategies in Systemic Arterial Hypertension: Evidence From a Scoping Review.",
+            "authors": "Holzbach et al.",
+            "journal": "Nutrition reviews",
+            "year": "2025",
+            "doi": "10.1093/nutrit/nuae112",
+            "abstract": "Nutrition and genetics have individual roles in systemic arterial hypertension (SAH); however, they can interact, influencing the regulation of blood pressure (BP) levels. The aim of this study was to evaluate the available evidence regarding gene-nutrient interactions in modulating BP levels in adults with SAH. The review followed the recommendations of the Joanna Briggs Institute and the Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews. Twelve studies met the inclusion criteria for this review, reporting on 20 genes and 31 single nucleotide polymorphisms (SNPs), with 19 of them associated with BP variations. The most frequently evaluated SNPs were ACE rs4646994 and AT1R rs5186. Among the nutritional interventions, dietary sodium content was the focus of most studies (n&#x2009;=&#x2009;11). Interactions with sodium consumption were observed for the following SNPs: KDM1A rs587168, EDNRB rs5351, LSS rs2254524, IRS1 rs1801278, KCNK9 rs69977"
+          },
+          {
+            "pmid": "29722849",
+            "title": "An evidence-based approach to globally assess the covariate-dependent effect of the MTHFR single nucleotide polymorphism rs1801133 on blood homocysteine: a systematic review and meta-analysis.",
+            "authors": "Jin et al.",
+            "journal": "The American journal of clinical nutrition",
+            "year": "2019",
+            "doi": "10.1093/ajcn/nqy035",
+            "abstract": "The single nucleotide polymorphism of the gene 5,10-methylenetetrahydrofolate reductase (MTHFR) C677T (or rs1801133) is the most established genetic factor that increases plasma total homocysteine (tHcy) and consequently results in hyperhomocysteinemia. Yet, given the limited penetrance of this genetic variant, it is necessary to individually predict the risk of hyperhomocysteinemia for an rs1801133 carrier."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:13.501851"
+      },
+      {
+        "rsid": "rs1801131",
+        "gene": "MTHFR",
+        "chromosome": "1",
+        "position": 11794419,
+        "ref_allele": "T",
+        "alt_allele": "A",
+        "function": "coding_sequence_variant,missense_variant",
+        "clinical_significance": "Association between methylenetetrahydrofolate reductase gene rs1801131 A/C polymorphism and urinary tumors' susceptibility.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "32340630",
+            "title": "Association between methylenetetrahydrofolate reductase gene rs1801131 A/C polymorphism and urinary tumors' susceptibility.",
+            "authors": "Xu et al.",
+            "journal": "Hereditas",
+            "year": "2021",
+            "doi": "10.1186/s41065-020-00129-x",
+            "abstract": "The methylenetetrahydrofolate reductase (MTHFR) rs1801131 A/C variant results in a decrease in MTHFR enzymatic activity, which may play an important role in folate metabolism and is also an important source of DNA methylation and DNA synthesis. Several case-control studies have been conducted to assess the association of MTHFR rs1801131 polymorphism with the risk of urinary cancers, yet with conflicting conclusions. To derive a more precise estimation of above relationship, the association between the MTHFR rs1801131 A/C polymorphism and the risk of urinary cancer was performed."
+          },
+          {
+            "pmid": "25074646",
+            "title": "Associations of common variants in methionine metabolism pathway genes with plasma homocysteine and the risk of type 2 diabetes in Han Chinese.",
+            "authors": "Huang et al.",
+            "journal": "Journal of nutrigenetics and nutrigenomics",
+            "year": "2015",
+            "doi": "10.1159/000365007",
+            "abstract": "An association of genetic variants of homocysteine (Hcy) metabolic genes with type 2 diabetes mellitus (T2DM) has been reported. The objective of the present study was to investigate the relationship between the genetic variants in Hcy metabolism-related genes and plasma Hcy levels and T2DM susceptibility in Han Chinese."
+          },
+          {
+            "pmid": "32536231",
+            "title": "Association between Fetal MTHFR A1298C (rs1801131) Polymorphism and Neural Tube Defects Risk: A Systematic Review and Meta-Analysis.",
+            "authors": "Soleimani-Jadidi et al.",
+            "journal": "Fetal and pediatric pathology",
+            "year": "2022",
+            "doi": "10.1080/15513815.2020.1764682",
+            "abstract": "The association of the fetal MTHFR A1298C (rs1801131) polymorphism and neural tube defects (NTDs) susceptibility has been widely demonstrated, but the results remain inconclusive. Thus, we performed a meta-analysis to investigate the association between fetal MTHFR A1298C polymorphism and NTDs risk."
+          },
+          {
+            "pmid": "24014085",
+            "title": "Quantitative assessment of the association between MTHFR rs1801131 polymorphism and risk of liver cancer.",
+            "authors": "Liang et al.",
+            "journal": "Tumour biology : the journal of the International Society for Oncodevelopmental Biology and Medicine",
+            "year": "2014",
+            "doi": "10.1007/s13277-013-1046-y",
+            "abstract": "Methylenetetrahydrofolate reductase (MTHFR) is one of the most important enzymes for folate metabolism which plays a key role in cell metabolism. MTHFR rs1801131 (A1298C) polymorphism can decrease in vitro MTHFR enzyme activity and has been hypothesized to be associated with liver cancer risk. This study aimed to quantify the strength of the association between MTHFR rs1801131 polymorphism and liver cancer risk by performing a meta-analysis. We searched the PubMed and Wanfang databases for studies relating on the association between MTHFR rs1801131 polymorphism and risk of liver cancer. Seven studies with 2,030 cases of liver cancer and 3,096 controls were finally included into the meta-analysis. Meta-analysis of a total of seven studies showed that the homozygote genotype CC of MTHFR rs1801131 polymorphism was significantly associated with decreased risk of liver cancer (for CC versus AA: odds ratio (OR)&#x2009;=&#x2009;0.65, 95% confidence interval (CI) 0.47-0.89, P&#x2009;=&#x2009;0"
+          },
+          {
+            "pmid": "28520345",
+            "title": "Methylenetetrahydrofolate Reductase Deficiency",
+            "authors": "Pratt et al.",
+            "journal": "Genes",
+            "year": "2012",
+            "doi": "10.3390/genes16040441",
+            "abstract": ""
+          },
+          {
+            "pmid": "40282401",
+            "title": "MTHFR Gene Polymorphisms: A Single Gene with Wide-Ranging Clinical Implications-A Review.",
+            "authors": "Araszkiewicz et al.",
+            "journal": "Genes",
+            "year": "2025",
+            "doi": "10.3390/genes16040441",
+            "abstract": ""
+          },
+          {
+            "pmid": "26421712",
+            "title": "The MTHFR C677T Polymorphism Is Related to Plasma Concentration of Oxidized Low-Density Lipoprotein in Adolescents with Cardiovascular Risk Factors.",
+            "authors": "Morais et al.",
+            "journal": "Journal of nutrigenetics and nutrigenomics",
+            "year": "2016",
+            "doi": "10.1159/000439218",
+            "abstract": "The aim of this study was to investigate possible relationships among the A1298C (rs1801131) and C677T (rs1801133) polymorphisms in the methylenetetrahydrofolate reductase (MTHFR) gene and levels of homocysteine, vitamins B6, B12, folic acid and lipid profile, including oxidized low-density lipoprotein (ox-LDL), of adolescents at cardiovascular risk."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:18.349782"
+      },
+      {
+        "rsid": "rs1805087",
+        "gene": "MTR",
+        "chromosome": "1",
+        "position": 236885200,
+        "ref_allele": "A",
+        "alt_allele": "G",
+        "function": "coding_sequence_variant,missense_variant",
+        "clinical_significance": "The relationship between methionine synthase rs1805087 polymorphism and hematological cancers risk.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "32722923",
+            "title": "The relationship between methionine synthase rs1805087 polymorphism and hematological cancers risk.",
+            "authors": "Bai et al.",
+            "journal": "Future oncology (London, England)",
+            "year": "2021",
+            "doi": "10.2217/fon-2020-0627",
+            "abstract": ""
+          },
+          {
+            "pmid": "24956146",
+            "title": "No association between MTR rs1805087 A &gt; G polymorphism and non-Hodgkin lymphoma susceptibility: evidence from 11 486 subjects.",
+            "authors": "He et al.",
+            "journal": "Leukemia &amp; lymphoma",
+            "year": "2016",
+            "doi": "10.3109/10428194.2014.935370",
+            "abstract": "Numerous investigations have examined the association between MTR rs1805087 A&gt; G polymorphism and non-Hodgkin lymphoma (NHL) susceptibility, yet have generated conflicting results. Therefore, the current meta-analysis was performed to comprehensively reevaluate this association. A systematic literature search of PubMed and Embase databases was conducted to seek eligible publications. The final analysis included 13 publications with a total of 4555 cases of NHL and 6931 controls. Overall, pooled analysis did not yield any statistically significant association between MTR rs1805087 A&gt; G and NHL risk. Stratification analysis by source of controls showed a decreased risk of NHL with the polymorphism of interest in hospital-based studies, while no significant association was observed when data were stratified by ethnicity, sample size and NHL subtype. This meta-analysis does not indicate a major role of the MTR rs1805087 A&gt; G polymorphism in modulating NHL risk. However, well-desig"
+          },
+          {
+            "pmid": "28094822",
+            "title": "Analysis of methionine synthase (rs1805087) gene polymorphism in autism patients in Northern Iran.",
+            "authors": "Haghiri et al.",
+            "journal": "Acta neurobiologiae experimentalis",
+            "year": "2017",
+            "doi": "10.21307/ane-2017-030",
+            "abstract": "Autism is characterized by impairment in reciprocal communication and speech, repetitive behaviors, and social communication. The genetic and environmental factors play roles in the pathogenesis of autism. It was recently shown that the genes involved in the folate/homocysteine pathway may be risk factors for autistic children. One of the genes that may be the risk factor for autism is Methionine synthase (MTR). MTR is responsible for the regeneration of methionine from homocysteine. The aim of this study was to analyze the association of MTR A2756G gene polymorphism (rs1805087) and the risk of autism in a population in northern Iran. The prevalence of MTR A2756G polymorphism was determined in 108 children with autism and 130 controls in northern Iran. Genotypes and allele frequencies were determined in patients and controls by polymerase chain reaction-restriction fragment length polymorphism (PCR-RFLP). The prevalence of genotype frequencies of AA, AG and GG in autistic children were"
+          },
+          {
+            "pmid": "35802641",
+            "title": "Association between MTR A2756G polymorphism and susceptibility to congenital heart disease: A meta-analysis.",
+            "authors": "Liu et al.",
+            "journal": "PloS one",
+            "year": "2022",
+            "doi": "10.1371/journal.pone.0270828",
+            "abstract": "The association between methionine synthase (MTR) A2756G (rs1805087) polymorphism and the susceptibility to congenital heart disease (CHD) has not been fully determined. A meta-analysis of case-control studies was performed to systematically evaluate the above association. Studies were identified by searching the PubMed, Embase, Web of Science, China National Knowledge Infrastructure, and WanFang databases from inception to June 20, 2021. Two authors independently performed literature search, data extraction, and quality assessment. Predefined subgroup analyses were carried out to evaluate the impact of the population ethnicity, source of healthy controls (community or hospital-based), and methods used for genotyping on the outcomes. A random-effects model was used to combine the results, and 12 studies were included. Results showed that MTR A2756G polymorphism was not associated with CHD susceptibility under the allele model (odds ratio [OR]: 0.96, 95% confidence interval [CI]: 0.86 t"
+          },
+          {
+            "pmid": "30337500",
+            "title": "A single-nucleotide polymorphism (rs1805087) in the methionine synthase (METH) gene increases the risk of prostate cancer.",
+            "authors": "Zhang et al.",
+            "journal": "Aging",
+            "year": "2019",
+            "doi": "10.18632/aging.101584",
+            "abstract": ""
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:22.445470"
+      },
+      {
+        "rsid": "rs1801394",
+        "gene": "MTRR",
+        "chromosome": "5",
+        "position": 7870860,
+        "ref_allele": "A",
+        "alt_allele": "G",
+        "function": "non_coding_transcript_variant,upstream_transcript_variant,2KB_upstream_variant,missense_variant,coding_sequence_variant",
+        "clinical_significance": "Associations between Folate Metabolism Enzyme Polymorphisms and Lung Cancer: A Meta-Analysis.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "31661627",
+            "title": "Associations between Folate Metabolism Enzyme Polymorphisms and Lung Cancer: A Meta-Analysis.",
+            "authors": "Chen et al.",
+            "journal": "Nutrition and cancer",
+            "year": "2021",
+            "doi": "10.1080/01635581.2019.1677924",
+            "abstract": ""
+          },
+          {
+            "pmid": "26835343",
+            "title": "Association of folate metabolism genes MTHFR and MTRR with multiple complex congenital malformation risk in Chinese population of Shanxi.",
+            "authors": "Zhang et al.",
+            "journal": "Translational pediatrics",
+            "year": "2016",
+            "doi": "10.3978/j.issn.2224-4336.2014.07.10",
+            "abstract": "Birth defects are common, serious malformations with a complex etiology that suggests involvement of both genetic and environmental factors. Low dietary folate and polymorphisms in genes of folate metabolism can influence risk for birth defects. In the present study 250 Chinese birth defects cases who suffered 1-8 types of birth defect disease phenotypes were subjected and two genetic variants in two folate metabolism key enzymes, rs1801394 of methionine synthase reductase (MTRR) and rs1801133 of methylenetetrahydrofolate reductase (MTHFR) were genotyped by using SNaPshot method. The results indicated that rs1801394 and rs1801133 were associated with multiple birth defects. According to homology of organogenesis, the disease phenotypes were classified into ectoderm-, mesoderm-, and endoderm-developed groups. Genetic analysis results displayed that as protective factors, genetic variants of rs1801133 and rs1801394 were associated with the risk of ectoderm-, and endoderm-developed malfor"
+          },
+          {
+            "pmid": "37154151",
+            "title": "Association analysis of MTHFR (rs1801133 and rs1801131) and MTRR (rs1801394) gene polymorphisms towards the development of hypertension in the Bai population from Yunnan, China.",
+            "authors": "Liu et al.",
+            "journal": "Clinical and experimental hypertension (New York, N.Y. : 1993)",
+            "year": "2023",
+            "doi": "10.1080/10641963.2023.2206066",
+            "abstract": "Hypertension is one of the leading causes of human death and disability. MTHFR and MTRR regulate folate metabolism and are closely linked to hypertension, although the relationship is inconsistent among different ethnic groups. The present study aims to investigate the effects of MTHFR C677T (rs1801133), MTHFR A1298C (rs1801131), and MTRR A66G (rs1801394) polymorphisms on hypertension susceptibility in the Bai nationality of the Yunnan Province, China."
+          },
+          {
+            "pmid": "40620272",
+            "title": "",
+            "authors": "Muruganantham et al.",
+            "journal": "Maternal-fetal medicine (Wolters Kluwer Health, Inc.)",
+            "year": "2025",
+            "doi": "10.1097/FM9.0000000000000282",
+            "abstract": ""
+          },
+          {
+            "pmid": "28691890",
+            "title": "MTRR rs1801394 and its interaction with MTHFR rs1801133 in colorectal cancer: a case-control study and meta-analysis.",
+            "authors": "Haerian et al.",
+            "journal": "Pharmacogenomics",
+            "year": "2018",
+            "doi": "10.2217/pgs-2017-0030",
+            "abstract": "This study aims to evaluate the association between the MTRR rs1801394 alone or in interaction with the MTHFR rs1801133 and susceptibility to colorectal cancer (CRC) and its characteristics in Iranian population. Additionally, both a systematic review and meta-analysis were performed to derive a more precise assessment of this association."
+          },
+          {
+            "pmid": "24748989",
+            "title": "Association of methionine synthase rs1801394 and methionine synthase reductase rs1805087 polymorphisms with meningioma in adults: A meta-analysis.",
+            "authors": "Zeng et al.",
+            "journal": "Biomedical reports",
+            "year": "2021",
+            "doi": "10.3892/br.2014.248",
+            "abstract": "Several epidemiological studies suggested that methionine synthase (MTRR) rs1801394 and methionine synthase reductase (MTR) rs1805087 polymorphisms may be involved in the risk of meningioma in adults; however, the results from different case-control studies have been inconsistent. Therefore, we performed a meta-analysis to investigate the association of MTRR and MTR polymorphisms with meningioma. PubMed, Web of Knowledge, China National Knowledge Infrastructure and Wanfang databases were searched up to October 30, 2013 and 3 publications, involving 7 case-control studies, were finally included. Following data extraction, a meta-analysis was conducted using Stata 12.0 software. The pooled results based on the fixed effects model demonstrated that the MTRR rs1801394 polymorphism was associated with an increased risk of meningioma [odds ratio (OR)=1.18, 95% confidence interval (CI): 1.05-1.32 for G vs. A; OR=1.41, 95% CI: 1.12-1.77 for GG vs. AA; OR=1.08, 95% CI: 0.94-1.33 for AG vs. AA; "
+          },
+          {
+            "pmid": "25140779",
+            "title": "[Association of folate metabolism genes MTRR and MTHFR with complex congenital abnormalities among Chinese population in Shanxi Province, China].",
+            "authors": "Zhang et al.",
+            "journal": "Zhongguo dang dai er ke za zhi = Chinese journal of contemporary pediatrics",
+            "year": "2015",
+            "doi": "",
+            "abstract": "To explore the association of polymorphisms in folate metabolism genes, methionine synthase reductase (MTRR) gene and 5,10-methylenetetrahydrofolate reductase (MTHFR) gene, with complex congenital abnormalities and to further investigate its association with complex congenital abnormalities derived from three germ layers."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:26.558386"
+      },
+      {
+        "rsid": "rs162036",
+        "gene": "MTRR",
+        "chromosome": "5",
+        "position": 7885846,
+        "ref_allele": "A",
+        "alt_allele": "G",
+        "function": "non_coding_transcript_variant,missense_variant,3_prime_UTR_variant,coding_sequence_variant",
+        "clinical_significance": "Association Study Between MTRR, TAF4B, PIWIL1 Variants and Non-Obstructive Azoospermia in Northeast Chinese Han Population.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "30336530",
+            "title": "Association Study Between MTRR, TAF4B, PIWIL1 Variants and Non-Obstructive Azoospermia in Northeast Chinese Han Population.",
+            "authors": "Yang et al.",
+            "journal": "Clinical laboratory",
+            "year": "2019",
+            "doi": "10.7754/Clin.Lab.2018.180525",
+            "abstract": "Non-obstructive azoospermia (NOA) is an important factor leading to male infertility and the genetic mechanism is not yet clear. It requires investigation to reveal its occurrence based on sequencing technology from the genetic level. Our previous genome wide association study (GWAS) using targeted high-throughput sequencing technology has identified suspected genetic variants including rs162036, rs161870, rs1677016R and rs1106042R associated with non-obstructive azoospermia (data not published)."
+          },
+          {
+            "pmid": "32203239",
+            "title": "Association of genetic and epigenetic variants in one-carbon metabolism gene with folate treatment response in hyperhomocysteinaemia.",
+            "authors": "Li et al.",
+            "journal": "European journal of clinical nutrition",
+            "year": "2021",
+            "doi": "10.1038/s41430-020-0611-x",
+            "abstract": "Folate supplementation treatment is the first-line therapy in hyperhomocysteinaemia (HHcy). Up to 40% of HHcy patients do not benefit from folate therapy. Genetic and epigenetic factors of one-carbon metabolism (1-CM) might be identified as a predictor of folate supplementation treatment response. In the present study, we attempt to identify whether genetic and epigenetic factors might predict folate treatment response."
+          },
+          {
+            "pmid": "19493349",
+            "title": "118 SNPs of folate-related genes and risks of spina bifida and conotruncal heart defects.",
+            "authors": "Shaw et al.",
+            "journal": "BMC medical genetics",
+            "year": "2009",
+            "doi": "10.1186/1471-2350-10-49",
+            "abstract": "Folic acid taken in early pregnancy reduces risks for delivering offspring with several congenital anomalies. The mechanism by which folic acid reduces risk is unknown. Investigations into genetic variation that influences transport and metabolism of folate will help fill this data gap. We focused on 118 SNPs involved in folate transport and metabolism."
+          },
+          {
+            "pmid": "29644956",
+            "title": "Genetic polymorphisms of key enzymes in folate metabolism affect the efficacy of folate therapy in patients with hyperhomocysteinaemia.",
+            "authors": "Du et al.",
+            "journal": "The British journal of nutrition",
+            "year": "2019",
+            "doi": "10.1017/S0007114518000508",
+            "abstract": "The aim of this study is to analyse the efficacy rate of folate for the treatment of hyperhomocysteinaemia (HHcy) and to explore how folate metabolism-related gene polymorphisms change its efficacy. This study also explored the effects of gene-gene and gene-environment interactions on the efficacy of folate. A prospective cohort study enrolling HHcy patients was performed. The subjects were treated with oral folate (5 mg/d) for 90 d. We analysed the efficacy rate of folate for the treatment of HHcy by measuring homocysteine (Hcy) levels after treatment. Unconditioned logistic regression was conducted to analyse the association between SNP and the efficacy of folic acid therapy for HHcy. The efficacy rate of folate therapy for HHcy was 56&#xb7;41 %. The MTHFR rs1801133 CT genotype, TT genotype and T allele; the MTHFR rs1801131 AC genotype, CC genotype and C allele; the MTRR rs1801394 GA genotype, GG genotype and G allele; and the MTRR rs162036 AG genotype and AG+GG genotypes were associ"
+          },
+          {
+            "pmid": "35434830",
+            "title": "Analysis of the frequency distribution of five single-nucleotide polymorphisms of the MTRRgene in a Chinese pediatric population with acute lymphoblastic leukemia.",
+            "authors": "Li et al.",
+            "journal": "Pharmacotherapy",
+            "year": "2022",
+            "doi": "10.1002/phar.2685",
+            "abstract": "The objective of the present study was to examine the frequency distribution of five single-nucleotide polymorphisms (SNPs; rs1801394 A&gt;G, rs1532268 C&gt;T, rs162036 A&gt;G, rs10380 C&gt;T, and rs9332 C&gt;T) of the methionine synthase reductase (MTRR) gene, their effects on methotrexate (MTX) concentration, and the risk of relapse in a Chinese pediatric population with acute lymphoblastic leukemia (ALL)."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:30.666678"
+      },
+      {
+        "rsid": "rs10380",
+        "gene": "MTRR",
+        "chromosome": "5",
+        "position": 7897078,
+        "ref_allele": "C",
+        "alt_allele": "T",
+        "function": "non_coding_transcript_variant,genic_downstream_transcript_variant,missense_variant,coding_sequence_variant",
+        "clinical_significance": "Polymorphisms in folic acid metabolism genes do not associate with cancer cachexia in Japanese gastrointestinal patients.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "30587867",
+            "title": "Polymorphisms in folic acid metabolism genes do not associate with cancer cachexia in Japanese gastrointestinal patients.",
+            "authors": "Morishita et al.",
+            "journal": "Nagoya journal of medical science",
+            "year": "2019",
+            "doi": "10.18999/nagjms.80.4.529",
+            "abstract": ""
+          },
+          {
+            "pmid": "39702542",
+            "title": "Association of maternal folic acid supplementation and offspring MTRR gene polymorphism with congenital heart disease: a hospital-based case-control study in Han population.",
+            "authors": "Li et al.",
+            "journal": "Journal of health, population, and nutrition",
+            "year": "2024",
+            "doi": "10.1186/s41043-024-00699-w",
+            "abstract": "Although many studies shown that the risk of congenital heart disease (CHD) was closely related to genetic and environmental factors, the exact mechanism was still unclear. This study was to assess the association of maternal folic acid supplementation (FAS), the 5-methyltetrahydrofolate-homocysteine methyltransferase reductase (MTRR) gene polymorphisms in offspring and their interaction effects with the risk of CHD and its subtypes."
+          },
+          {
+            "pmid": "19493349",
+            "title": "118 SNPs of folate-related genes and risks of spina bifida and conotruncal heart defects.",
+            "authors": "Shaw et al.",
+            "journal": "BMC medical genetics",
+            "year": "2009",
+            "doi": "10.1186/1471-2350-10-49",
+            "abstract": "Folic acid taken in early pregnancy reduces risks for delivering offspring with several congenital anomalies. The mechanism by which folic acid reduces risk is unknown. Investigations into genetic variation that influences transport and metabolism of folate will help fill this data gap. We focused on 118 SNPs involved in folate transport and metabolism."
+          },
+          {
+            "pmid": "18515090",
+            "title": "His595Tyr polymorphism in the methionine synthase reductase (MTRR) gene is associated with pancreatic cancer risk.",
+            "authors": "Ohnami et al.",
+            "journal": "Gastroenterology",
+            "year": "2008",
+            "doi": "10.1053/j.gastro.2008.04.016",
+            "abstract": "This study attempts to elucidate a part of the genetic predisposition to the sporadic invasive ductal adenocarcinoma of the pancreas focusing on the genes implicated in the gene-environment interactions in carcinogenesis."
+          },
+          {
+            "pmid": "35434830",
+            "title": "Analysis of the frequency distribution of five single-nucleotide polymorphisms of the MTRRgene in a Chinese pediatric population with acute lymphoblastic leukemia.",
+            "authors": "Li et al.",
+            "journal": "Pharmacotherapy",
+            "year": "2022",
+            "doi": "10.1002/phar.2685",
+            "abstract": "The objective of the present study was to examine the frequency distribution of five single-nucleotide polymorphisms (SNPs; rs1801394 A&gt;G, rs1532268 C&gt;T, rs162036 A&gt;G, rs10380 C&gt;T, and rs9332 C&gt;T) of the methionine synthase reductase (MTRR) gene, their effects on methotrexate (MTX) concentration, and the risk of relapse in a Chinese pediatric population with acute lymphoblastic leukemia (ALL)."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:34.758277"
+      },
+      {
+        "rsid": "rs3733890",
+        "gene": "BHMT",
+        "chromosome": "5",
+        "position": 79126136,
+        "ref_allele": "G",
+        "alt_allele": "A",
+        "function": "missense_variant,coding_sequence_variant",
+        "clinical_significance": "Association between the BHMT gene rs3733890 polymorphism and the efficacy of oral folate therapy in patients with hyperhomocysteinemia.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "31111486",
+            "title": "Association between the BHMT gene rs3733890 polymorphism and the efficacy of oral folate therapy in patients with hyperhomocysteinemia.",
+            "authors": "Ren et al.",
+            "journal": "Annals of human genetics",
+            "year": "2020",
+            "doi": "10.1111/ahg.12326",
+            "abstract": "Oral folate is currently the most common treatment for hyperhomocysteinemia (HHcy), which seriously threatens human health, but its efficacy is unsatisfactory. Betaine-homocysteine methyltransferase (BHMT) is a key enzyme that regulates Hcy metabolism. We investigated the association between the BHMT rs3733890 and the efficacy of oral folate therapy for HHcy in the Chinese Han population and analysed the effects of gene-environmental interactions on the efficacy. Blood samples were collected from 1071 eligible patients at baseline, and these individuals received subsequent folate treatment for 90 days. A total of 638 patients included in the final analysis were grouped into the treatment success group or the treatment failure group based on posttreatment Hcy levels. Hcy concentrations were measured by fluorescence polarization immunoassay. Time-of-flight mass spectrometry (MassArray system) was used to assess the genotype of BHMT rs3733890. Stratified analyses based on additive models "
+          },
+          {
+            "pmid": "27578989",
+            "title": "Association between BHMT gene rs3733890 polymorphism and cancer risk: evidence from a meta-analysis.",
+            "authors": "Xu et al.",
+            "journal": "OncoTargets and therapy",
+            "year": "2016",
+            "doi": "10.2147/OTT.S103901",
+            "abstract": "The gene betaine-homocysteine methyltransferase (BHMT) has drawn much attention during the past decades. An increasing number of clinical and genetic investigations have supposed that BHMT rs3733890 polymorphism might be associated with risk of breast cancer and ovarian cancer. As no consistent conclusion has been achieved, we conducted an up-to-date summary of BHMT rs3733890 polymorphism and cancer risk through a meta-analysis."
+          },
+          {
+            "pmid": "37203835",
+            "title": "BHMT polymorphism and susceptibility to PTE in Chinese patients.",
+            "authors": "Zhang et al.",
+            "journal": "European review for medical and pharmacological sciences",
+            "year": "2023",
+            "doi": "10.26355/eurrev_202305_32317",
+            "abstract": "Pulmonary thromboembolism (PTE) is as a common form of venous thrombosis and a potentially fatal cardiovascular disorder, which has become a severe clinical problem with high incidence and mortality. The PTE has a strong genetic basis, which contributes up to half of the variance in PTE incidence and susceptibility single-nucleotide polymorphisms (SNPs) is associated with PTE. Betaine homocysteine methyltransferase (BHMT) is an essential enzyme that catalyzes the remethylating reaction from homocysteine to methionine and participates in conserving methionine and detoxifying homocysteine. In this work, we aimed to explore BHMT polymorphism and susceptibility to PTE in Chinese patients."
+          },
+          {
+            "pmid": "36164833",
+            "title": "Betaine consumption as a new clinical approach to treatment and prophylaxis of folate-related pathologies.",
+            "authors": "Yeroshkina et al.",
+            "journal": "Nutrition reviews",
+            "year": "2023",
+            "doi": "10.1093/nutrit/nuac084",
+            "abstract": "The most important pathway in the development of folate-related pathologies is an increase in the level of homocysteine (HC). HC, a cytotoxic and neurotoxic amino acid (when its level is &#x2265;12&#x2009;&#x3bc;mol/L), is 1 of the most widely studied compounds in cardiology, neurobiology, oncology, and embryology for the last 20&#x2009;years. Given its toxicity, the processes of endogenous detoxification of HC are of particular interest to medicine. To date, the most studied pathway is that of remethylation (the conversion of HC to methionine), with the participation of B12- and B9-dependent methionine synthase. Less studied is remethylation with the participation of the choline derivatives betaine and betaine-HC-S-methyltransferase (BHMT). Therefore, the aim of this review was to conduct a theoretical analysis of available information regarding the contribution of betaine metabolism, its enzyme, and its genetic polymorphism to folate metabolism disturbances, and the development of fo"
+          },
+          {
+            "pmid": "28582843",
+            "title": "Acute lymphoblastic leukemia and genetic variations in BHMT gene: Case-control study and computational characterization.",
+            "authors": "Bellampalli et al.",
+            "journal": "Cancer biomarkers : section A of Disease markers",
+            "year": "2018",
+            "doi": "10.3233/CBM-160186",
+            "abstract": "Remethylation of homocysteine is catalyzed by B12 dependent methionine synthase (MTR) in all types of cells and by B12 non-dependent betaine homocysteine methyltransferase (BHMT) in liver and kidney cells. Of many etiologies of cancer, an unexplored area is the variations of genes implicated in methylation reaction."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:39.387633"
+      },
+      {
+        "rsid": "rs567754",
+        "gene": "BHMT",
+        "chromosome": "5",
+        "position": 79120593,
+        "ref_allele": "C",
+        "alt_allele": "A",
+        "function": "2KB_upstream_variant,upstream_transcript_variant,intron_variant",
+        "clinical_significance": "Vitamin D: A master example of nutrigenomics.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "37043983",
+            "title": "Vitamin D: A master example of nutrigenomics.",
+            "authors": "Carlberg et al.",
+            "journal": "Redox biology",
+            "year": "2023",
+            "doi": "10.1016/j.redox.2023.102695",
+            "abstract": ""
+          },
+          {
+            "pmid": "36045445",
+            "title": "lncRNA polymorphism affects the prognosis of gastric cancer.",
+            "authors": "Lyu et al.",
+            "journal": "World journal of surgical oncology",
+            "year": "2022",
+            "doi": "10.1186/s12957-022-02723-x",
+            "abstract": "Previous studies have found that lncRNA polymorphisms are associated with the prognosis of gastric cancer (GC), but the specific roles of many lncRNA polymorphism sites in gastric cancer are still unclear. Our study aims to deeply explore the relationship between genetic polymorphism of lncRNA and the prognosis of GC."
+          },
+          {
+            "pmid": "32578026",
+            "title": "Nutrigenetics/Nutrigenomics, Personalized Nutrition, and Precision Healthcare.",
+            "authors": "Marcum et al.",
+            "journal": "Current nutrition reports",
+            "year": "2021",
+            "doi": "10.1007/s13668-020-00327-z",
+            "abstract": "The purposes of the present review are to examine the emergence of nutrigenetics/nutrigenomics, to analyze the relationship between nutrigenetics and nutrigenomics, to explore the impact of nutrigenetics/nutrigenomics on healthcare with respect to noncommunicable diseases, and to discuss the challenges facing the implementation of nutrigenetics/nutrigenomics within healthcare."
+          },
+          {
+            "pmid": "39715198",
+            "title": "Association between vitamin D receptor gene polymorphism and essential hypertension: An updated systematic review, meta-analysis, and meta-regression.",
+            "authors": "Dakota et al.",
+            "journal": "PloS one",
+            "year": "2024",
+            "doi": "10.1371/journal.pone.0314886",
+            "abstract": "The association between Vitamin D Receptor (VDR) gene polymorphisms and essential hypertension (EH) remains controversial. We searched databases (Cochrane Library, EBSCO, EMBASE, LILACS, ProQuest, PubMed, Science Direct, Springer) for studies on VDR gene polymorphisms and EH until May 30, 2024, following PRISMA guidelines. RevMan 5.4.1 provided pooled odds ratio (OR) under Hardy-Weinberg Equilibrium based on allele, additive, dominant, and recessive genetic models. Meta-regression was performed using Comprehensive Meta Analysis V3. Twenty-two studies from thirteen countries were analyzed. The recessive model suggested lower EH risk in individuals with the recessive allele (bb) of BsmI (OR: 0.81; 95%CI, 0.69 to 0.94, p = 0.007; I2 = 35%, p = 0.13). No significant associations were found for FokI, ApaI, and TaqI polymorphisms. Methodological quality significantly influenced EH risk associated with the FokI polymorphism across allele, additive, and dominant models (All p&lt;0.0005). Male "
+          },
+          {
+            "pmid": "21067849",
+            "title": "[Pathogenesis of sarcoidosis].",
+            "authors": "Pacheco et al.",
+            "journal": "La Revue de medecine interne",
+            "year": "2011",
+            "doi": "10.1016/j.revmed.2010.09.011",
+            "abstract": "Many improvements have been obtained in understanding the immune and genetic mechanisms of sarcoidosis. Main immune abnormalities in this disease involve T&#xa0;lymphocytes, macrophages and dendritic cells. Interactions between these various immune cells through the immune synapse are tight. Environmental factors and genetic polymorphisms interact at molecular level in these immune targets. Recent pangenomic studies highlight some regions of the genome such as 6p21&#xa0;where are located important immune genes: MHC, BTNL2&#xa0;and TNF-&#x3b1;. Gene-environment interactions are important in this polymorphic disease. They need accurate clinical analysis for a better definition of patient subgroups and familial disease studies to progress in the role of genetic determinants."
+          },
+          {
+            "pmid": "37994762",
+            "title": "Nutrigenomics: SNPs correlated to vitamins' deficiencies.",
+            "authors": "Micheletti et al.",
+            "journal": "La Clinica terapeutica",
+            "year": "2023",
+            "doi": "10.7417/CT.2023.2485",
+            "abstract": "Nutrients can influence the physiological processes in the body by interacting with molecular systems. Including nutrigenetics and nutrigenomics, nutritional genomics focuses on how bio-active food components interact with the genome. The purpose of this study is to clarify how nutrigenomics and vitamin dietary deficits relate to one another. Food tolerances among human sub-populations are known to vary due to genetic variation, which may also affect dietary needs. This raises the prospect of tailoring a person's nutritional intake for optimum health and illness prevention, based on their unique genome. To better understand the interplay between genes and nutrients and to plan tailored weight loss, nutrigenetic testing may soon become a key approach."
+          },
+          {
+            "pmid": "38565962",
+            "title": "Pleiotropy, epistasis and the genetic architecture of quantitative traits.",
+            "authors": "Mackay et al.",
+            "journal": "Nature reviews. Genetics",
+            "year": "2024",
+            "doi": "10.1038/s41576-024-00711-3",
+            "abstract": "Pleiotropy (whereby one genetic polymorphism affects multiple traits) and epistasis (whereby non-linear interactions between genetic polymorphisms affect the same trait) are fundamental aspects of the genetic architecture of quantitative traits. Recent advances in the ability to characterize the effects of polymorphic variants on molecular and organismal phenotypes in human and model organism populations have revealed the prevalence of pleiotropy and unexpected shared molecular genetic bases among quantitative traits, including diseases. By contrast, epistasis is common between polymorphic loci associated with quantitative traits in model organisms, such that alleles at one locus have different effects in different genetic backgrounds, but is rarely observed for human quantitative traits and common diseases. Here, we review the concepts and recent inferences about pleiotropy and epistasis, and discuss factors that contribute to similarities and differences between the genetic architect"
+          },
+          {
+            "pmid": "21149643",
+            "title": "Genetic polymorphism and toxicology--with emphasis on cytochrome p450.",
+            "authors": "Johansson et al.",
+            "journal": "Toxicological sciences : an official journal of the Society of Toxicology",
+            "year": "2011",
+            "doi": "10.1093/toxsci/kfq374",
+            "abstract": "Individual susceptibility to environmental, chemical, and drug toxicity is to some extent determined by polymorphism in drug-metabolizing enzymes, in particular the cytochromes P450 (CYPs). This polymorphism is in particular translated into risk differences concerning drugs metabolized by the highly polymorphic enzymes CYP2C9, CYP2C19, and CYP2D6, whereas CYP enzymes active in procarcinogen activation are relatively well conserved without important functional polymorphisms. Examples of drug toxicities that can be predicted by P450 polymorphism include those exerted by codeine, tramadol, warfarin, acenocoumarol, and clopidogrel. The polymorphic CYP2A6 has a role in nicotine metabolism and smoking behavior. Besides this genetic variation, genome-wide association studies now allow for the identification of an increasing number of predictive genetic biomarkers among, e.g., human leukocyte antigens and to some extent drug transporters that provide useful information regarding the choice of "
+          },
+          {
+            "pmid": "36479483",
+            "title": "Polymorphisms, diet and nutrigenomics.",
+            "authors": "Kiani et al.",
+            "journal": "Journal of preventive medicine and hygiene",
+            "year": "2022",
+            "doi": "10.15167/2421-4248/jpmh2022.63.2S3.2754",
+            "abstract": "Every human being possesses an exclusive nutritional blueprint inside their genes. Bioactive food components and nutrients affect the expression of such genes. Nutrigenomics is the science that analyzes gene-nutrient interactions (nutrigenetics), which can lead to the development of personalized nutritional recommendations to maintain optimal health and prevent disease. Genomic diversity among various ethnic groups might affect nutrients bioavailability as well as their metabolism. Nutrigenomics combines different branches of science including nutrition, bioinformatics, genomics, molecular biology, molecular medicine, and epidemiology. Genes regulate intake and metabolism of different nutrients, while nutrients positively or negatively influence the expression of a number of genes; testing of specific genetic polymorphisms may therefore become a useful tool to manage weight loss and to fully understand gene-nutrient interactions. Indeed, several approaches are used to study gene-nutrie"
+          },
+          {
+            "pmid": "30729798",
+            "title": "Nutrigenomics: Epigenetics and cancer prevention: A comprehensive review.",
+            "authors": "Nasir et al.",
+            "journal": "Critical reviews in food science and nutrition",
+            "year": "2020",
+            "doi": "10.1080/10408398.2019.1571480",
+            "abstract": "Due to change in lifestyle and food habits, people are more at risk of diet-related diseases and cancers. It is also established that dietary modifications significantly reduce the risk of diseases. Nutrigenomics is relatively fresh discipline, but possess an enormous potential that can apply for prevention and management of certain carcinomas and diseases. This review enables us to generate useful information for scientists and health professionals regarding the role of Nutrigenomics in the prevention of diet and lifestyle-related diseases like cancer. It influences health conditions of individuals and susceptibility of disease by defining the metabolic response and gene expression. Epigenetic modifications can perform a significant role in disease occurrence and pathogenesis. DNA methylation and chromatin remodeling are the most common epigenetic mechanisms. Omega 3 fatty acids are the best example of nutrients and gene interaction not involving DNA methylation while certain bioactiv"
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:43.927610"
+      },
+      {
+        "rsid": "rs234706",
+        "gene": "CBS",
+        "chromosome": "21",
+        "position": 43065240,
+        "ref_allele": "G",
+        "alt_allele": "A",
+        "function": "non_coding_transcript_variant,coding_sequence_variant,synonymous_variant",
+        "clinical_significance": "Genetic studies of the cystathionine beta-synthase gene and myelomeningocele.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "21957013",
+            "title": "Genetic studies of the cystathionine beta-synthase gene and myelomeningocele.",
+            "authors": "Tilley et al.",
+            "journal": "Birth defects research. Part A, Clinical and molecular teratology",
+            "year": "2012",
+            "doi": "10.1002/bdra.22855",
+            "abstract": "Among infants born with spina bifida, the most common defect is myelomeningocele (MM). The prevention of MM by maternal periconceptional folic acid (FA) supplementation has been studied extensively. The protective effect provided by FA suggests that the genes involved in folate metabolism, such as cystathionine beta-synthase (CBS), warrant further investigation."
+          },
+          {
+            "pmid": "26955774",
+            "title": "The association of single nucleotide polymorphisms of the maternal cystathionine-&#x3b2;-synthase gene with early-onset preeclampsia.",
+            "authors": "Holwerda et al.",
+            "journal": "Pregnancy hypertension",
+            "year": "2016",
+            "doi": "10.1016/j.preghy.2015.12.001",
+            "abstract": "Preeclampsia (PE) is a pregnancy complication, characterized by hypertension and proteinuria. The transsulfuration pathway may be involved in its pathophysiology, since homocysteine, cystathionine and cysteine are increased in PE. Cystathionine-&#x3b2;-synthase (CBS) is a key-enzyme in the pathway, converting homocysteine into cysteine via cystathionine. Another product of CBS is hydrogen sulfide (H2S), a vasodilatory, proangiogenic and cytoprotective gas that is thought to play a role in placental and vascular function during pregnancy. Since single nucleotide polymorphisms (SNPs) can affect CBS expression and/or function, we studied tag-SNPs in the CBS gene in PE patients."
+          },
+          {
+            "pmid": "28777022",
+            "title": "Association of cystathionine beta-synthase polymorphisms and aneurysmal subarachnoid hemorrhage.",
+            "authors": "Hendrix et al.",
+            "journal": "Journal of neurosurgery",
+            "year": "2019",
+            "doi": "10.3171/2017.2.JNS162933",
+            "abstract": ""
+          },
+          {
+            "pmid": "34308116",
+            "title": "Genetic factors associated with obesity risks in a Kazakhstani population.",
+            "authors": "Razbekova et al.",
+            "journal": "BMJ nutrition, prevention &amp; health",
+            "year": "2022",
+            "doi": "10.1136/bmjnph-2020-000139",
+            "abstract": "There is limited published literature on the genetic risks of chronic inflammatory related disease (eg, obesity and cardiovascular disease) among the Central Asia population. The aim is to determine potential genetic loci as risk factors for obesity for the Kazakhstani population."
+          },
+          {
+            "pmid": "23882023",
+            "title": "Network-based analysis of genome wide association data provides novel candidate genes for lipid and lipoprotein traits.",
+            "authors": "Sharma et al.",
+            "journal": "Molecular &amp; cellular proteomics : MCP",
+            "year": "2014",
+            "doi": "10.1074/mcp.M112.024851",
+            "abstract": "Genome wide association studies (GWAS) identify susceptibility loci for complex traits, but do not identify particular genes of interest. Integration of functional and network information may help in overcoming this limitation and identifying new susceptibility loci. Using GWAS and comorbidity data, we present a network-based approach to predict candidate genes for lipid and lipoprotein traits. We apply a prediction pipeline incorporating interactome, co-expression, and comorbidity data to Global Lipids Genetics Consortium (GLGC) GWAS for four traits of interest, identifying phenotypically coherent modules. These modules provide insights regarding gene involvement in complex phenotypes with multiple susceptibility alleles and low effect sizes. To experimentally test our predictions, we selected four candidate genes and genotyped representative SNPs in the Malm&#xf6; Diet and Cancer Cardiovascular Cohort. We found significant associations with LDL-C and total-cholesterol levels for a sy"
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:48.201119"
+      },
+      {
+        "rsid": "rs2851391",
+        "gene": "CBS",
+        "chromosome": "21",
+        "position": 43067294,
+        "ref_allele": "T",
+        "alt_allele": "C",
+        "function": "intron_variant,5_prime_UTR_variant",
+        "clinical_significance": "Associations between homocysteine metabolism related SNPs and carotid intima-media thickness: a Chinese sib pair study.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "27822905",
+            "title": "Associations between homocysteine metabolism related SNPs and carotid intima-media thickness: a Chinese sib pair study.",
+            "authors": "Sun et al.",
+            "journal": "Journal of thrombosis and thrombolysis",
+            "year": "2017",
+            "doi": "10.1007/s11239-016-1449-x",
+            "abstract": "Carotid intima-media thickness (CIMT) is a good surrogate for atherosclerosis. Hyperhomocysteinemia is an independent risk factor for cardiovascular diseases. We aim to investigate the relationships between homocysteine (Hcy) related biochemical indexes and CIMT, the associations between Hcy related SNPs and CIMT, as well as the potential gene-gene interactions. The present study recruited full siblings (186 eligible families with 424 individuals) with no history of cardiovascular events from a rural area of Beijing. We examined CIMT, intima-media thickness for common carotid artery (CCA-IMT) and carotid bifurcation, tested plasma levels for Hcy, vitamin B6 (VB6), vitamin B12 (VB12) and folic acid (FA), and genotyped 9 SNPs on MTHFR, MTR, MTRR, BHMT, SHMT1, CBS genes. Associations between SNPs and biochemical indexes and CIMT indexes were analyzed using family-based association test analysis. We used multi-level mixed-effects regression model to verify SNP-CIMT associations and to expl"
+          },
+          {
+            "pmid": "19493349",
+            "title": "118 SNPs of folate-related genes and risks of spina bifida and conotruncal heart defects.",
+            "authors": "Shaw et al.",
+            "journal": "BMC medical genetics",
+            "year": "2009",
+            "doi": "10.1186/1471-2350-10-49",
+            "abstract": "Folic acid taken in early pregnancy reduces risks for delivering offspring with several congenital anomalies. The mechanism by which folic acid reduces risk is unknown. Investigations into genetic variation that influences transport and metabolism of folate will help fill this data gap. We focused on 118 SNPs involved in folate transport and metabolism."
+          },
+          {
+            "pmid": "31864233",
+            "title": "CBS gene polymorphism and promoter methylation-mediating effects on the efficacy of folate therapy in patients with hyperhomocysteinemia.",
+            "authors": "Zhao et al.",
+            "journal": "The journal of gene medicine",
+            "year": "2021",
+            "doi": "10.1002/jgm.3156",
+            "abstract": "A decrease in cystathionine beta-synthase (CBS) enzyme activity could lead to hyperhomocysteinemia (HHcy). Studies have revealed that DNA methylation has a mediating effect on the development of diseases. The present study aimed to explore CBS promoter methylation-mediating effects on the efficacy of folate treatment for HHcy."
+          },
+          {
+            "pmid": "32800907",
+            "title": "Association of maternal dietary intakes and CBS gene polymorphisms with congenital heart disease in offspring.",
+            "authors": "Li et al.",
+            "journal": "International journal of cardiology",
+            "year": "2021",
+            "doi": "10.1016/j.ijcard.2020.08.018",
+            "abstract": "Although it is generally acknowledged that genetic and environmental factors are associated with risk of congenital heart disease (CHD), the causes are not fully understood. This study aimed at assessing the association of maternal dietary intakes, genetic variants of cystathionine beta synthase (CBS) gene and their interactions with risk of CHDs in offspring."
+          },
+          {
+            "pmid": "24524080",
+            "title": "The effect of multiple single nucleotide polymorphisms in the folic acid pathway genes on homocysteine metabolism.",
+            "authors": "Liang et al.",
+            "journal": "BioMed research international",
+            "year": "2014",
+            "doi": "10.1155/2014/560183",
+            "abstract": "To investigate the joint effects of the single nucleotide polymorphisms (SNPs) of genes in the folic acid pathway on homocysteine (Hcy) metabolism."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:52.716563"
+      },
+      {
+        "rsid": "rs1979277",
+        "gene": "SHMT1",
+        "chromosome": "17",
+        "position": 18328782,
+        "ref_allele": "G",
+        "alt_allele": "A",
+        "function": "coding_sequence_variant,missense_variant",
+        "clinical_significance": "Clinical significance of SHMT1 rs1979277 polymorphism in Asian solid tumors: evidence from a meta-analysis.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "26125758",
+            "title": "Clinical significance of SHMT1 rs1979277 polymorphism in Asian solid tumors: evidence from a meta-analysis.",
+            "authors": "Zhao et al.",
+            "journal": "Genetics and molecular research : GMR",
+            "year": "2016",
+            "doi": "10.4238/2015.May.25.12",
+            "abstract": "Published data regarding the association between the cytosolic serine hydroxymethyltransferase (SHMT1) C1420T (Leu474Phe) polymorphism and solid tumor risk have shown inconclusive results. To derive a more precise estimation of the relationship, we performed a meta-analysis of 23 published studies that included 14,409 cancer cases and 16,996 controls. A comprehensive search was conducted to identify all eligible studies of the SHMT1 rs1979277 polymorphism and solid tumor risk. The pooled odds ratios (ORs) and the 95% confidence intervals (95%CIs) were calculated using a fixed- or random-effects model. Heterogeneity was represented by PH; publication bias and sensitivity analysis were also explored. Overall, no significant associations were found for any genetic models tested. However, upon stratification by cancer type, a significant decreased risk of breast cancer risk was identified in the homozygote comparison (OR = 0.79, 95%CI = 0.65-0.97 for TT versus CC). An analysis stratified b"
+          },
+          {
+            "pmid": "35098008",
+            "title": "",
+            "authors": "Efremova et al.",
+            "journal": "International journal of reproductive biomedicine",
+            "year": "2022",
+            "doi": "10.18502/ijrm.v19i12.10057",
+            "abstract": "Key reactions in folate-mediated single-carbon metabolism are regulated by folate cycle enzymes. Violations of the folate cycle may be associated with the occurrence of fetal growth restriction (FGR) in pregnant women."
+          },
+          {
+            "pmid": "21687976",
+            "title": "Polymorphism C1420T of Serine hydroxymethyltransferase gene on maternal risk for Down syndrome.",
+            "authors": "Marucci et al.",
+            "journal": "Molecular biology reports",
+            "year": "2012",
+            "doi": "10.1007/s11033-011-1008-7",
+            "abstract": "Recent researches have investigated the factors that determine the maternal risk for Down syndrome (DS) in young woman. In this context, some studies have demonstrated the association between polymorphisms in genes involved on folate metabolism and the maternal risk for DS. These polymorphisms may result in abnormal folate metabolism and methyl deficiency, which is associated with aberrant chromosome segregation leading to trisomy 21. In this study, we analyzed the influence of the polymorphism C1420T in Serine hydroxymethyltransferase (SHMT) gene on maternal risk for DS and on metabolites concentrations of the folate pathway (serum folate and plasma homocysteine and methylmalonic acid). The study group was composed by 105 mothers with DS children (case group) and 185 mothers who had no children with DS (control group). The genotype distribution did not show significant statistical difference between case and control mothers (P = 0.24) however a protective effect between genotypes CC ("
+          },
+          {
+            "pmid": "30456721",
+            "title": "Association of SHMT1, MAZ, ERG, and L3MBTL3 Gene Polymorphisms with Susceptibility to Multiple Sclerosis.",
+            "authors": "Nazari Mehrabani et al.",
+            "journal": "Biochemical genetics",
+            "year": "2019",
+            "doi": "10.1007/s10528-018-9894-1",
+            "abstract": "Multiple sclerosis (MS) is the most common inflammatory and chronic disease of the central nervous system (CNS). A complex interaction between genetic, environmental, and epigenetic factors is involved in the pathogenesis of MS. With the advancement of GWAS, various variants associated with MS have been identified. This study aimed to evaluate the association of single-nucleotide polymorphisms (SNPs) rs4925166 and rs1979277 in the SHMT1, MAZ rs34286592, ERG rs2836425, and L3MBTL3 rs4364506 with MS. In this case-control study, the association of five SNPs in SHMT1, MAZ, ERG, and L3MBTL3 genes with relapsing-remitting MS (RR-MS) was investigated in 190 patients and 200 healthy individuals. Four SNPs including SHMT1 rs4925166, SHMT1 rs1979277, MAZ rs34286592, and L3MBTL3 rs4364506 were genotyped using PCR-RFLP and genotyping of ERG rs2836425 was performed by tetra-primer ARMS PCR. Our findings showed a significant difference in the allelic frequencies for the four SNPs of SHMT1 rs4925166,"
+          },
+          {
+            "pmid": "33974584",
+            "title": "Association Between SHMT1 rs1979277 Polymorphism and Risk of Acute Lymphoblastic Leukemia: A Systematic Review and Meta-analysis.",
+            "authors": "Yang et al.",
+            "journal": "Journal of pediatric hematology/oncology",
+            "year": "2022",
+            "doi": "10.1097/MPH.0000000000002173",
+            "abstract": "The aim of this study was to explore the potential association the cytosolic serine hydroxy methyltransferase (SHMT1) rs1979277 polymorphism and the risk of acute lymphoblastic leukemia (ALL)."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:53:57.354161"
+      },
+      {
+        "rsid": "rs1051266",
+        "gene": "SLC19A1",
+        "chromosome": "21",
+        "position": 45537880,
+        "ref_allele": "T",
+        "alt_allele": "A",
+        "function": "genic_upstream_transcript_variant,coding_sequence_variant,intron_variant,upstream_transcript_variant,5_prime_UTR_variant,missense_variant",
+        "clinical_significance": "Genetic markers in methotrexate treatments.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "30237581",
+            "title": "Genetic markers in methotrexate treatments.",
+            "authors": "Giletti et al.",
+            "journal": "The pharmacogenomics journal",
+            "year": "2019",
+            "doi": "10.1038/s41397-018-0047-z",
+            "abstract": "Methotrexate (MTX), a structural analog of folic acid, is widely employed in the treatment of different cancers and autoimmune diseases. Despite the successful results observed, the main disadvantage lies in interpatient variability in the pharmacokinetic and pharmacodynamic parameters. In particular, adverse events and toxicities induced by MTX are a matter of concern and can be the cause of dose reduction or treatment discontinuation. Among the different approaches to reduce MTX therapeutic limitations, pharmacogenomics contributes by considering the effect of inherited genetic differences on those parameters. This review provides an update on MTX pharmacogenomics. It reports the contribution of main gene polymorphisms involved in the influx, efflux, cellular effect, and elimination on MTX toxicity and efficacy, on all the diseases treated with this drug. From the analysis of the data presented in this review, we concluded that only gene polymorphisms MTHFR rs1801133, SLC19A1 rs10512"
+          },
+          {
+            "pmid": "33935279",
+            "title": "The Roles of Reduced Folate Carrier-1 (RFC1) A80G (rs1051266) Polymorphism in Congenital Heart Disease: A Meta-Analysis.",
+            "authors": "Yi et al.",
+            "journal": "Medical science monitor : international medical journal of experimental and clinical research",
+            "year": "2021",
+            "doi": "10.12659/MSM.929911",
+            "abstract": "BACKGROUND We performed the present study to better elucidate the correlation of reduced folate carrier-1 (RFC1) A80G (rs1051266) polymorphism with the risk of congenital heart disease (CHD). MATERIAL AND METHODS According to the designed search strategy, a systematic literature search was performed through the PubMed, Cochrane Library, Web of Science, EMBASE, CNKI, VIP, and Wan Fang databases to collect published case-control studies on the correlation between RFC1 A80G polymorphism and CHD. All relevant studies up to October 1, 2019 were identified. The odds ratio (OR) and 95% confidence interval (CI) of the genotype distribution were used as the effect indicators. RESULTS A total of 6 eligible studies was finally included in our meta-analysis, including 724 children with CHD, 760 healthy children, 258 mothers of the children with CHD, and 334 mothers of healthy control children. The meta-analysis revealed that for fetal analysis, only in the heterozygous model (GA vs GG, OR=1.36, 95"
+          },
+          {
+            "pmid": "40156756",
+            "title": "Analysis of the Association Between the SLC19A1 Genetic Variant (rs1051266) and Autism Spectrum Disorders, Cerebral Folate Deficiency, and Clinical and Laboratory Parameters.",
+            "authors": "Stefanyshyn et al.",
+            "journal": "Journal of molecular neuroscience : MN",
+            "year": "2025",
+            "doi": "10.1007/s12031-025-02338-3",
+            "abstract": "Autism spectrum disorders (ASD) are characterized by clinical heterogeneity and may be associated with cerebral folate deficiency (CFD). Among the causes, folate receptor alpha autoantibodies (FRAA) and variants of the SLC19A1 gene are commonly highlighted. The aim of this study was to analyze the rs1051266 variant of the SLC19A1 gene in patients with ASD and CFD and to determine its relationship with clinical and laboratory parameters. The study included 227 children with ASD, 156 of whom had CFD. FRAA detection, genotyping of the rs1051266 variant, and folate metabolism marker measurement (homocysteine, vitamins B9, B12, B6) were performed. FRAA binding was detected in 39.2% of ASD patients, blocking FRAA in 3.5%, and a specific soluble folate receptor in 13.2%. The 80GA genotype was the most common (46.3%), and homocysteine levels tended to be moderately elevated (upper quartile&#xa0;- 7.0). Significant correlations were found between homocysteine levels and vitamins B9, B12, and B6"
+          },
+          {
+            "pmid": "34792727",
+            "title": "Analysis of association between components of the folate metabolic pathway and autism spectrum disorder in eastern Indian subjects.",
+            "authors": "Saha et al.",
+            "journal": "Molecular biology reports",
+            "year": "2022",
+            "doi": "10.1007/s11033-021-06956-z",
+            "abstract": "Folate has a pivotal role in maintaining different cellular processes including DNA integrity and neurotransmitter levels. Further, folate deficiency was reported in subjects with neuropsychiatric disorders including autism spectrum disorder (ASD)."
+          },
+          {
+            "pmid": "24554143",
+            "title": "Serum folic acid and RFC A80G polymorphism in Alzheimer's disease and vascular dementia.",
+            "authors": "Mansoori et al.",
+            "journal": "American journal of Alzheimer's disease and other dementias",
+            "year": "2014",
+            "doi": "10.1177/1533317513505131",
+            "abstract": "Low level of vitamin B12 and folic acid has been reported to play an important role in the pathogenesis of Alzheimer's disease (AD) and vascular dementia (VaD). Serum folic acid and vitamin B12 were assayed in 80 AD and 50 VaD cases and in 120 healthy controls. The reduced folate carrier (RFC1) gene, rs1051266, which encodes the RFC 1, protein was analyzed for polymorphism by polymerase chain reaction-restriction fragment length polymorphism. It was observed that the patients having folic acid &lt;8.45 ng/mL had 2.4 (95% confidence interval [CI]: 1.4-4.5) times higher odds of having AD and 2.1 (95% CI: 1.1-4.2) times higher odds of having VaD than patients having folic acid &#x2265;8.45 ng/mL. Serum vitamin B12 level did not show any such statistically significant effect in altering the odds. No direct association was found between variant (G) allele or genotype of rs1051266 with AD and VaD cases. On serum folate level no association was observed with gene polymorphism."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:54:01.630319"
+      },
+      {
+        "rsid": "rs602662",
+        "gene": "FUT2",
+        "chromosome": "19",
+        "position": 48703728,
+        "ref_allele": "G",
+        "alt_allele": "A",
+        "function": "missense_variant,non_coding_transcript_variant,coding_sequence_variant",
+        "clinical_significance": "The Importance of the FUT2 rs602662 Polymorphism in the Risk of Cardiovascular Complications in Patients after Kidney Transplantation.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "38928269",
+            "title": "The Importance of the FUT2 rs602662 Polymorphism in the Risk of Cardiovascular Complications in Patients after Kidney Transplantation.",
+            "authors": "Kotowski et al.",
+            "journal": "International journal of molecular sciences",
+            "year": "2024",
+            "doi": "10.3390/ijms25126562",
+            "abstract": ""
+          },
+          {
+            "pmid": "34877231",
+            "title": "The Role of Gene Variants in the Iron Metabolism of Anemic Adolescent Girls.",
+            "authors": "Varikuti et al.",
+            "journal": "Cureus",
+            "year": "2021",
+            "doi": "10.7759/cureus.20128",
+            "abstract": "Background and objectives Iron deficiency anemia (IDA) and the role of genetic variants in determining the iron status in adolescent girls are not yet well-understood. This study aims to investigate the association of the rs602662, rs1049296, rs1805051, rs855791, rs224589, and rs11568350 genes with IDA and iron bio-status parameters. Methods This study consisted of 132 patients (IDA group) and 110 healthy controls. The genotype was analyzed through polymerase chain reaction-restriction fragment length polymorphism. Results No differences were noted in the distribution of genotype and allele frequency single nucleotide polymorphism between the IDA and control group. In the IDA group, the GA carriers of rs602662 had a higher hemoglobin concentration (P=0.02) and packed cell volume (P=0.007), whereas transferrin saturation was increased in AA (P=0.02). The genetic variants rs1049296, rs1805051, rs224589, and rs855791 had a non-statistical significance on hematological parameters. Both the"
+          },
+          {
+            "pmid": "19744961",
+            "title": "Genome-wide significant predictors of metabolites in the one-carbon metabolism pathway.",
+            "authors": "Hazra et al.",
+            "journal": "Human molecular genetics",
+            "year": "2010",
+            "doi": "10.1093/hmg/ddp428",
+            "abstract": "Low plasma B-vitamin levels and elevated homocysteine have been associated with cancer, cardiovascular disease and neurodegenerative disorders. Common variants in FUT2 on chromosome 19q13 were associated with plasma vitamin B12 levels among women in a genome-wide association study in the Nurses' Health Study (NHS) NCI-Cancer Genetic Markers of Susceptibility (CGEMS) project. To identify additional loci associated with plasma vitamin B12, homocysteine, folate and vitamin B6 (active form pyridoxal 5'-phosphate, PLP), we conducted a meta-analysis of three GWA scans (total n = 4763, consisting of 1658 women in NHS-CGEMS, 1647 women in Framingham-SNP-Health Association Resource (SHARe) and 1458 men in SHARe). On chromosome 19q13, we confirm the association of plasma vitamin B12 with rs602662 and rs492602 (P-value = 1.83 x 10(-15) and 1.30 x 10(-14), respectively) in strong linkage disequilibrium (LD) with rs601338 (P = 6.92 x 10(-15)), the FUT2 W143X nonsense mutation. We identified additio"
+          },
+          {
+            "pmid": "36263525",
+            "title": "Effect of the variant rs602662 of FUT2 gene on anthropometric and metabolic parameters in a Caucasian obese population.",
+            "authors": "de Luis et al.",
+            "journal": "European review for medical and pharmacological sciences",
+            "year": "2022",
+            "doi": "10.26355/eurrev_202210_29904",
+            "abstract": "Some obese subjects with genetic variants of FUT2 gene could be implied in metabolic disorders. The aim of the present investigation was to evaluate the association between SNP rs602662 in FUT2 gene with different obesity markers."
+          },
+          {
+            "pmid": "39642577",
+            "title": "Personalized nutrition and precision medicine in perimenopausal women: A minireview of genetic polymorphisms COMT, FUT2, and MTHFR.",
+            "authors": "Andrade et al.",
+            "journal": "Clinics (Sao Paulo, Brazil)",
+            "year": "2024",
+            "doi": "10.1016/j.clinsp.2024.100549",
+            "abstract": "This mini-review explores the potential of precision medicine and personalized nutrition in addressing health challenges faced by perimenopausal women, focusing on the role of genetic polymorphisms in key metabolic pathways. Specifically focus on the single nucleotide polymorphisms (SNPs) in the COMT, FUT2, and MTHFR genes, which influence neurotransmitter metabolism, gut microbiota composition, and folate homeostasis, respectively. These polymorphisms are critical in modulating hormonal fluctuations, metabolic imbalances, and nutrient absorption during perimenopause. The review highlights the impact of COMT rs4680 on stress response and mood disorders, FUT2 rs602662 and rs601338 on vitamin B12 absorption and cortisol metabolism, and MTHFR rs1801133 and rs1801131 on homocysteine levels and cardiovascular risk. Furthermore, the integration of machine learning in precision medicine is discussed, offering insights into how genetic data can optimize personalized interventions. This approac"
+          }
+        ],
+        "fetch_date": "2026-01-19T22:54:06.313962"
+      },
+      {
+        "rsid": "rs70991108",
+        "gene": "DHFR",
+        "chromosome": "5",
+        "position": 80654344,
+        "ref_allele": "",
+        "alt_allele": "",
+        "function": "2KB_upstream_variant,upstream_transcript_variant,intron_variant",
+        "clinical_significance": "Associations of plasma betaine, plasma choline, choline intake, and MTHFR polymorphism (rs1801133) with anthropometric parameters of healthy adults are sex-dependent.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "35668704",
+            "title": "Associations of plasma betaine, plasma choline, choline intake, and MTHFR polymorphism (rs1801133) with anthropometric parameters of healthy adults are sex-dependent.",
+            "authors": "Mlodzik-Czyzewska et al.",
+            "journal": "Journal of human nutrition and dietetics : the official journal of the British Dietetic Association",
+            "year": "2022",
+            "doi": "10.1111/jhn.13046",
+            "abstract": "Choline and its metabolites apppear to have relationships with body mass index (BMI), body fat, and body weight, but the research results have proved inconsistent. We thus investigated the associations of plasma levels of trimethylamine N-oxide (TMAO), choline, and betaine with anthropometric measurements, including modulatory effects of genetics and diet."
+          },
+          {
+            "pmid": "28943344",
+            "title": "Polymorphisms of the folate metabolizing enzymes: Association with SLE susceptibility and in silico analysis.",
+            "authors": "Salimi et al.",
+            "journal": "Gene",
+            "year": "2017",
+            "doi": "10.1016/j.gene.2017.09.037",
+            "abstract": "Systemic lupus erythematosus (SLE) is a typical autoimmune disorder with multiple organ involvement and unknown etiology. It has been shown that polymorphic variants of the genes encoding key enzymes of folate and methionine metabolism may influence DNA methylation. Genomic DNA was extracted from blood samples of 150 SLE patients and 160 controls, matching age, sex, and ethnicity. MTHFR rs1801133C&gt;T and MTR rs1805087A&gt;G polymorphisms were genotyped by the polymerase chain reaction-restriction fragment length polymorphism (PCR-RFLP) method. MTHFR rs1801131A&gt;C genotype was determined by the tetra-primer amplification refractory mutation system (Tetra-ARMS), and DHFR rs70991108 polymorphisms' genotyping was performed by PCR methods. In-silico approach was used to analyses the effects of these variations on the structure of mRNA and protein. MTHFR rs1801131AC+CC genotypes were significantly higher in the SLE patients compared to the controls (37 vs. 26%, OR 1.7 (95% CI 1-2.8); p=0"
+          },
+          {
+            "pmid": "22648968",
+            "title": "Risk of retinoblastoma is associated with a maternal polymorphism in dihydrofolatereductase (DHFR) and prenatal folic acid intake.",
+            "authors": "Orjuela et al.",
+            "journal": "Cancer",
+            "year": "2013",
+            "doi": "10.1002/cncr.27621",
+            "abstract": "The incidence of unilateral retinoblastoma varies globally, suggesting possible environmental contributors to disease incidence. Maternal intake of naturally occurring folate from vegetables during pregnancy is associated inversely with the risk of retinoblastoma in offspring."
+          },
+          {
+            "pmid": "34065323",
+            "title": "Genetics and Epigenetics of One-Carbon Metabolism Pathway in Autism Spectrum Disorder: A Sex-Specific Brain Epigenome?",
+            "authors": "Tisato et al.",
+            "journal": "Genes",
+            "year": "2021",
+            "doi": "10.3390/genes12050782",
+            "abstract": ""
+          },
+          {
+            "pmid": "26269242",
+            "title": "The Dihydrofolate Reductase 19 bp Polymorphism Is Not Associated with Biomarkers of Folate Status in Healthy Young Adults, Irrespective of Folic Acid Intake.",
+            "authors": "Ozaki et al.",
+            "journal": "The Journal of nutrition",
+            "year": "2016",
+            "doi": "10.3945/jn.115.216101",
+            "abstract": "Dihydrofolate reductase (DHFR) is essential for the conversion of folic acid to active folate needed for one-carbon metabolism. Common genetic variation within DHFR is restricted to the noncoding regions, and previous studies have focused on a 19 bp deletion/insertion polymorphism (rs70991108) within intron 1. Reports of an association between this polymorphism and blood folate biomarker concentrations are conflicting."
+          }
+        ],
+        "fetch_date": "2026-01-19T22:54:10.556316"
+      },
+      {
+        "rsid": "rs1801198",
+        "gene": "TCN2",
+        "chromosome": "22",
+        "position": 30615623,
+        "ref_allele": "G",
+        "alt_allele": "A",
+        "function": "missense_variant,coding_sequence_variant",
+        "clinical_significance": "Clinical relevance of vitamin B12 level and vitamin B12 metabolic gene variation in pulmonary tuberculosis.",
+        "maf_global": 0.0,
+        "references": [
+          {
+            "pmid": "36275653",
+            "title": "Clinical relevance of vitamin B12 level and vitamin B12 metabolic gene variation in pulmonary tuberculosis.",
+            "authors": "Zhang et al.",
+            "journal": "Frontiers in immunology",
+            "year": "2022",
+            "doi": "10.3389/fimmu.2022.947897",
+            "abstract": ""
+          },
+          {
+            "pmid": "27733392",
+            "title": "Transcobalamin 776C&#x2192;G polymorphism is associated with peripheral neuropathy in elderly individuals with high folate intake.",
+            "authors": "Sawaengsri et al.",
+            "journal": "The American journal of clinical nutrition",
+            "year": "2017",
+            "doi": "10.3945/ajcn.116.139030",
+            "abstract": "The 776C&#x2192;G polymorphism of the vitamin B-12 transport protein transcobalamin gene (TCN2) (rs1801198; Pro259Arg) is associated with a lower holotranscobalamin concentration in plasma. This effect may reduce the availability of vitamin B-12 to tissues even when vitamin B-12 intake is adequate. Clinical outcomes associated with vitamin B-12 insufficiency could potentially be worsened by high folate intake."
+          },
+          {
+            "pmid": "28814397",
+            "title": "",
+            "authors": "Oussalah et al.",
+            "journal": "The American journal of clinical nutrition",
+            "year": "2017",
+            "doi": "10.3945/ajcn.117.156349",
+            "abstract": ""
+          },
+          {
+            "pmid": "39619496",
+            "title": "",
+            "authors": "Zhang et al.",
+            "journal": "Neuropsychiatric disease and treatment",
+            "year": "2024",
+            "doi": "10.2147/NDT.S480417",
+            "abstract": "Post-stroke depression (PSD) is a common neuropsychiatric complication after a stroke with complex mechanisms. However, few studies have identified the role of vitamin B12 and folate in the occurrence and pathophysiology of PSD. The aim of our study is to investigate the relationship among vitamin B12, folate, their transporter genes, and early-onset PSD."
+          },
+          {
+            "pmid": "29537328",
+            "title": "Evaluation of transcobalamin II rs1801198 and transcobalamin II receptor rs2336573 gene polymorphisms in recurrent spontaneous abortion.",
+            "authors": "Hashemi et al.",
+            "journal": "Journal of obstetrics and gynaecology : the journal of the Institute of Obstetrics and Gynaecology",
+            "year": "2018",
+            "doi": "10.1080/01443615.2017.1420045",
+            "abstract": "It has been proposed that transcobalamin 2 (TCN2) and the transcobalamin 2 receptor (TCN2R) are associated with idiopathic recurrent spontaneous abortion (RSA). The aim of the present study was to investigate the impact of TCN2 rs1801198 and TCN2R rs2336573 polymorphism on RSA in a sample of Iranian population. This case-control study was done on 92 RSA patients and 93 normal, fertile women. Genotyping of the TCN2 rs1801198 and TCN2R rs2336573 variants was done by polymerase chain reaction restriction fragment length polymorphism (PCR-RFLP). The findings showed no significant association between the TCN2 rs1801198 and TCN2R rs2336573 polymorphisms and the risk/protection of RSA. Our results did not support an association between the TCN2 polymorphism and the risk of RSA in a sample of southeast Iranian population. Larger studies with different ethnicities are needed to evaluate the possible impact of TCN2 and TCN2R polymorphisms on the pathogenesis of RSA. Impact statement What is alre"
+          }
+        ],
+        "fetch_date": "2026-01-19T22:54:15.225225"
+      }
+    ],
+    "total_references": 89,
+    "fetch_date": "2026-01-19T22:54:15.225452"
+  }
+}

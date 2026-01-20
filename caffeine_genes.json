@@ -1,0 +1,383 @@
+{
+  "rs762551": {
+    "rsid": "rs762551",
+    "gene": "CYP1A2",
+    "chromosome": "15",
+    "position": "15:74749576",
+    "clinical_significance": "likely-benign",
+    "maf": 0,
+    "alleles": [
+      "HGVS=NC_000015.10:g.74749576C>A,NC_000015.10:g.74749576C>G,NC_000015.9:g.75041917C>A,NC_000015.9:g.75041917C>G,NG_008431.2:g.32035C>A,NG_008431.2:g.32035C>G,NG_061543.1:g.5732C>A,NG_061543.1:g.5732C>G,NG_055245.1:g.5246C>A,NG_055245.1:g.5246C>G|SEQ=[C",
+      "A",
+      "G]|LEN=1|GENE=CYP1A2:1544"
+    ],
+    "references": [
+      {
+        "pmid": "41158532",
+        "doi": "10.1530/EO-25-0007",
+        "title": "Impact of single nucleotide variants in estrogen genes on ovarian cancer risk: a systematic review and meta-analysis.",
+        "journal": "Endocrine oncology (Bristol, England)",
+        "year": 2025,
+        "abstract": "Ovarian cancer research increasingly emphasizes the role of genetic factors, particularly estrogen, a key hormone also implicated in breast cancer. Hypotheses such as incessant ovulation and hormonal stimulation of ovarian epithelial cells support a hormonal etiology for ovarian cancer. This systematic review and meta-analysis evaluated the association between estrogen-related gene polymorphisms and ovarian cancer susceptibility. A comprehensive search was conducted in EMBASE, LILACS, PubMed, Scopus, Web of Science, and Google Scholar. Study selection, data extraction, and risk of bias assessment were performed independently by five reviewers. We included observational studies in humans, with no restrictions on language or publication date that investigated associations between estrogen-related gene polymorphisms and ovarian cancer occurrence or susceptibility. Exclusion criteria included studies not addressing the research question, those involving non-human subjects, secondary analyses, and genes unrelated to estrogen. Thirty studies met inclusion criteria. Meta-analysis showed that the A allele of rs4680 in the ",
+        "keywords": [
+          "estrogen",
+          "genetic",
+          "ovarian cancer",
+          "polymorphism"
+        ]
+      },
+      {
+        "pmid": "41156489",
+        "doi": "10.3390/nu17203236",
+        "title": "Disclosure of Genotype Information to Reduce Caffeine Intake in Slow Metabolizers: Findings from a Randomized Controlled Trial on Personalized Dietary Interventions.",
+        "journal": "Nutrients",
+        "year": 2025,
+        "abstract": "",
+        "keywords": [
+          "CYP1A2",
+          "EMA",
+          "caffeine intake",
+          "food intake assessment",
+          "mobile application",
+          "nutrigenetics",
+          "personalized nutrition"
+        ]
+      },
+      {
+        "pmid": "41094118",
+        "doi": "10.1007/s00394-025-03819-2",
+        "title": "Coffee intake, genetic variants, and chronic kidney disease: a cross-sectional analysis of the Japan Multi-Institutional Collaborative Cohort (J-MICC) study.",
+        "journal": "European journal of nutrition",
+        "year": 2025,
+        "abstract": "The present study aimed to clarify associations between coffee intake and kidney function with consideration of the effect modifications from coffee intake-related genetic polymorphisms. This cross-sectional study included 7,468 Japanese participants 35-69 years old (3,953 women: 52.9%) from the baseline survey of the Japan Multi-Institutional Collaborative Cohort study. Coffee intake was estimated with a self-administered questionnaire. Three coffee intake-related single nucleotide polymorphisms (in AHR [rs4410790], HECTD4 [rs2074356], and CYP1A2 [rs762551]) were selected with reference to previous studies. Estimated glomerular filtration rate (eGFR [ml/min/1.73 m In participants with a slow metabolizing genotype of rs4410790, eGFR with higher coffee intake was 1.64 ml/min/1.73 m Associations of coffee intake with kidney function and CKD may differ across coffee intake-related polymorphisms in Japanese adults. These findings suggest that attention should be paid to heterogeneous associations between coffee intake and kidney function according to genetic polymorphisms. Further longitudinal studies are expected to address causal questions of these associations.",
+        "keywords": [
+          "Caffeine metabolism",
+          "Chronic kidney disease",
+          "Coffee",
+          "Genetic variant"
+        ]
+      },
+      {
+        "pmid": "41054698",
+        "doi": "10.1177/20451253251377183",
+        "title": "Impact of ",
+        "journal": "Therapeutic advances in psychopharmacology",
+        "year": 2025,
+        "abstract": "Clozapine is the most effective drug for schizophrenia and is the only drug indicated for use in patients with treatment resistance. The therapeutic range of clozapine is narrow with extensive interindividual differences in serum levels at similar dosing, mainly due to variability in hepatic metabolism mediated by several cytochrome P450 (CYP) enzymes. Tobacco smoking is the most important environmental factor determining clozapine metabolism, while the effect of pharmacogenetic variability is unclear. To investigate the impact of  This is a retrospective naturalistic/observational study. The study population was included from the therapeutic drug monitoring/pharmacogenetics service at the Center for Psychopharmacology, Diakonhjemmet Hospital, Oslo, Norway, during January 2005-November 2024. We assessed the influence of  The study comprised 663 participants (55% smokers).  The ",
+        "keywords": [
+          "personalized treatment",
+          "pharmacogenetics",
+          "pharmacokinetics",
+          "precision psychiatry",
+          "treatment resistant schizophrenia"
+        ]
+      },
+      {
+        "pmid": "40458802",
+        "doi": "10.3389/fphar.2025.1604619",
+        "title": "Study of genetic polymorphisms and steady-state trough concentrations of imatinib and its active metabolite in predicting efficacy in gastrointestinal stromal tumors.",
+        "journal": "Frontiers in pharmacology",
+        "year": 2025,
+        "abstract": "The imatinib (IMA) steady-state trough concentration (C",
+        "keywords": [
+          "N-desmethyl imatinib",
+          "efficacy",
+          "gastrointestinal stromal tumors",
+          "genetic polymorphisms",
+          "imatinib",
+          "steady-state trough concentration"
+        ]
+      },
+      {
+        "pmid": "40297316",
+        "doi": "10.2147/DDDT.S501762",
+        "title": "Model-Informed Precision Dosing of Levamlodipine Besylate in Smoking Patients.",
+        "journal": "Drug design, development and therapy",
+        "year": 2025,
+        "abstract": "To quantitatively investigate the influence of various factors, including nicotine, demographics, biochemical index, and genetic polymorphisms of PAHs and drug metabolising enzymes, on the steady-state trough concentrations of levamlodipine besylate and its therapeutic effects in smokers. Using models to promote rational and accurate medication dosing in smoking patients when administered as initial monotherapy. A prospective study (NCT05126381) enrolled 43 patients receiving levamlodipine monotherapy. Pop PK/PD model of levamlodipine besylate was established to investigate the effects of nicotine concentration, demographics (age, sex, height, weight, BMI), biochemical index (ALT, AST, ALB, UA, eGFR), and the genetic polymorphisms (rs4646903, rs1048943, rs762551, rs12459249, rs776746, rs2740574) on the patients' steady state trough concentrations and the antihypertensive efficacy (ΔSBP) of levamlodipine besylate after dosing. The Pop PK/PD model was conducted using the study data of 43 patients. One-compartment model was used to describe the PK characteristics, and the direct effect model was used to describe the antihypertensive effect of levamlodipine besylate. The final Pop PK/PD model showed that the typical value of V = 3521L, CL = 62.6L·h Patients with lower eGFR and UA levels exhibited lower CL levels, higher dosages may be considered for initial monotherapy in such patients. The current study tentatively do not show that nicotine concentration and PAHs metabolizing enzymes have significant effect on PK and PD in patients taking the drug. More data may be needed in the future to refine the effects of the above covariates on the PK and PD parameters of the levamlodipine besylate.",
+        "keywords": [
+          "Levamlodipine besylate",
+          "model-informed precision dosing",
+          "pop PK/PD model",
+          "smoking patients"
+        ]
+      },
+      {
+        "pmid": "40291342",
+        "doi": "10.3389/fphar.2024.1505557",
+        "title": "Evaluation of drug-drug interaction between Suraxavir Marboxil (GP681) and itraconazole, and assessment of the impact of gene polymorphism.",
+        "journal": "Frontiers in pharmacology",
+        "year": 2024,
+        "abstract": "Suraxavir Marboxil (GP681) is a prodrug metabolized to GP1707D07, which inhibits influenza viral replication by targeting cap-dependent endonuclease through a single oral dose. This study assesses the in vivo drug-drug interaction (DDI) potential between GP681 (including its major metabolite GP1707D07, a substrate of CYP3A4) and itraconazole in healthy Chinese subjects, along with the safety profiles during co-administration. Additionally, it evaluates the impact of CYP1A2, CYP2C19, and CYP3A4 gene polymorphisms on GP1707D07 metabolism. The study enrolled twelve healthy adult subjects to receive the treatments consisting of GP681 monotherapy and GP681-itraconazole co-administration in a fixed-sequence. Single nucleotide polymorphisms (SNPs) in CYP gene loci were also analyzed. Co-administration of itraconazole increased the GP1707D07 AUC0-  The pharmacokinetic changes of GP1707D07 during itraconazole co-administration are insufficient to warrant clinical action. Random forest algorithm enhances the understanding of pharmacogenetic variants involved in GP1707D07 metabolism and may serve as a potent tool for assessing gene polymorphism data in small clinical samples. clinicaltrials.gov, identifier NCT05789342.",
+        "keywords": [
+          "DDI (drug-drug interaction)",
+          "Suraxavir Marboxil (GP681)",
+          "genetic polymorfism",
+          "itraconazole",
+          "pharmacokinetic",
+          "safety"
+        ]
+      },
+      {
+        "pmid": "40048458",
+        "doi": "10.1371/journal.pone.0319037",
+        "title": "Predictors of clozapine concentration and psychiatric symptoms in patients with schizophrenia.",
+        "journal": "PloS one",
+        "year": 2025,
+        "abstract": "Clozapine has superior efficacy to other antipsychotics, especially in patients with treatment-resistant schizophrenia. However, its pharmacokinetics and pharmacodynamics vary largely among patients. We aimed to evaluate the clinical and genetic factors associated with the pharmacokinetics and pharmacodynamics of clozapine in patients with schizophrenia. Blood samples for clozapine pharmacokinetic assessment were collected from patients with schizophrenia at weeks 2 (visit 2), 8 (visit 3), and 18 (visit 4) from the initiation of clozapine treatment. The Positive and Negative Syndrome Scale (PANSS) score was assessed at baseline (visit 1) and visits 3 and 4. Linear mixed models were used to identify the clinical and genetic variables associated with the clozapine concentration and total PANSS score. A total of 45 patients were included in the pharmacogenomic analysis. Owing to the small sample size, we categorized concomitant medications into four groups. However, individual drugs may have different effects on clozapine concentration. Clozapine concentration was significantly associated with smoking status and cumulative clozapine dose. Clozapine concentration was significantly associated with five single nucleotide polymorphisms (SNPs) in three genes (rs28371726 and rs202102799 in CYP2D6, rs4148323 and rs34946978 in UGT1A1, and rs2011404 in UGT1A4). Furthermore, follow-up time, body mass index, and total bilirubin levels were significantly associated with the total PANSS scores. The PANSS score was significantly associated with four SNPs in two genes (rs7787082 and rs10248420 in ABCB1 and rs2133251840 and rs762502 in DRD4). This study suggests potential clinical and genetic predictors of clozapine concentration and psychiatric symptoms in patients with schizophrenia treated with clozapine. With further investigations in diverse populations, our findings may provide important information on variables to be considered in individualized clozapine treatment.",
+        "keywords": []
+      },
+      {
+        "pmid": "39723111",
+        "doi": "10.2147/PGPM.S490030",
+        "title": "PEAR1, PON1, CYP2C19, CYP1A2 and F2R Polymorphisms are Associated with MACE in Clopidogrel-Treated Patients with Acute Coronary Syndrome Undergoing Percutaneous Coronary Intervention.",
+        "journal": "Pharmacogenomics and personalized medicine",
+        "year": 2024,
+        "abstract": "The objective of this study was to evaluate the impact of clopidogrel-related gene polymorphisms on the occurrence of recurrent thrombotic events and cardiovascular death in patients with acute coronary syndrome (ACS) following percutaneous coronary intervention (PCI). We conducted genotype testing for 26 specific loci mapped to 18 clopidogrel-associated genes in ACS patients who had undergone PCI and were receiving dual antiplatelet therapy only involving clopidogrel. We documented major adverse cardiovascular events (MACE) and clinical endpoints, analyzing the effect of genetic polymorphisms on treatment outcomes. A total of 200 patients were enrolled in the study, with ischemic events occurring in 21 cases. Carriers of the T-allele for rs41273215 ( Polymorphisms in rs41273215 (",
+        "keywords": [
+          "MACE",
+          "acute coronary syndrome",
+          "clopidogrel",
+          "percutaneous coronary intervention",
+          "single nucleotide polymorphism"
+        ]
+      },
+      {
+        "pmid": "39508042",
+        "doi": "10.3389/fphar.2024.1477755",
+        "title": "Case report: Acute liver failure during deferasirox therapy and the potential role of pharmacogenetics.",
+        "journal": "Frontiers in pharmacology",
+        "year": 2024,
+        "abstract": "A number of case reports have documented the occurrence of acute hepatic and renal toxicity during treatment with deferasirox (DFX). The precise mechanisms underlying these adverse events remain unclear, with the time to toxicity varying considerably between patients-some experiencing it within weeks of treatment initiation, while others after several years. Recent studies have underscored the association of pharmacogenetic variants in genes responsible for the metabolism and clearance of DFX ( Sanger sequencing was performed for the most extensively studied single nucleotide polymorphisms (SNPs) studied associated with changes in transporter/enzyme function:  The patient is heterozygous for two  The precise mechanism by which toxicity developed in this case remains unclear and is likely multifactorial. However, it is probable that the presence of SNPs in the gene ",
+        "keywords": [
+          "ABCC2",
+          "ABCG2",
+          "UGT1A1",
+          "beta thalassemia",
+          "deferasirox",
+          "liver failure",
+          "pharmacogenetic",
+          "toxicity"
+        ]
+      }
+    ],
+    "extracted_alleles": [
+      "coffee",
+      "levamlodipine besylate",
+      "percutaneous coronary intervention",
+      "deferasirox",
+      "precision psychiatry",
+      "beta thalassemia",
+      "caffeine intake",
+      "ema",
+      "smoking patients",
+      "safety",
+      "gastrointestinal stromal tumors",
+      "caffeine metabolism",
+      "polymorphism",
+      "pop pk/pd model",
+      "ovarian cancer",
+      "liver failure",
+      "cyp1a2",
+      "personalized treatment",
+      "genetic polymorfism",
+      "pharmacokinetic",
+      "treatment resistant schizophrenia",
+      "itraconazole",
+      "chronic kidney disease",
+      "n-desmethyl imatinib",
+      "genetic variant",
+      "steady-state trough concentration",
+      "personalized nutrition",
+      "food intake assessment",
+      "suraxavir marboxil (gp681)",
+      "ddi (drug-drug interaction)",
+      "genetic",
+      "ugt1a1",
+      "single nucleotide polymorphism",
+      "clopidogrel",
+      "abcg2",
+      "pharmacogenetic",
+      "toxicity",
+      "nutrigenetics",
+      "pharmacogenetics",
+      "pharmacokinetics",
+      "abcc2",
+      "mobile application",
+      "estrogen",
+      "mace",
+      "acute coronary syndrome",
+      "efficacy",
+      "genetic polymorphisms",
+      "model-informed precision dosing",
+      "imatinib"
+    ],
+    "category": "caffeine"
+  },
+  "rs4410790": {
+    "rsid": "rs4410790",
+    "gene": "LOC101927609",
+    "chromosome": "7",
+    "position": "7:17244953",
+    "clinical_significance": "",
+    "maf": 0,
+    "alleles": [
+      "HGVS=NC_000007.14:g.17244953T>C,NC_000007.13:g.17284577T>C|SEQ=[T",
+      "C]|LEN=1|GENE=LOC101927609:101927609"
+    ],
+    "references": [
+      {
+        "pmid": "41094118",
+        "doi": "10.1007/s00394-025-03819-2",
+        "title": "Coffee intake, genetic variants, and chronic kidney disease: a cross-sectional analysis of the Japan Multi-Institutional Collaborative Cohort (J-MICC) study.",
+        "journal": "European journal of nutrition",
+        "year": 2025,
+        "abstract": "The present study aimed to clarify associations between coffee intake and kidney function with consideration of the effect modifications from coffee intake-related genetic polymorphisms. This cross-sectional study included 7,468 Japanese participants 35-69 years old (3,953 women: 52.9%) from the baseline survey of the Japan Multi-Institutional Collaborative Cohort study. Coffee intake was estimated with a self-administered questionnaire. Three coffee intake-related single nucleotide polymorphisms (in AHR [rs4410790], HECTD4 [rs2074356], and CYP1A2 [rs762551]) were selected with reference to previous studies. Estimated glomerular filtration rate (eGFR [ml/min/1.73 m In participants with a slow metabolizing genotype of rs4410790, eGFR with higher coffee intake was 1.64 ml/min/1.73 m Associations of coffee intake with kidney function and CKD may differ across coffee intake-related polymorphisms in Japanese adults. These findings suggest that attention should be paid to heterogeneous associations between coffee intake and kidney function according to genetic polymorphisms. Further longitudinal studies are expected to address causal questions of these associations.",
+        "keywords": [
+          "Caffeine metabolism",
+          "Chronic kidney disease",
+          "Coffee",
+          "Genetic variant"
+        ]
+      },
+      {
+        "pmid": "40806132",
+        "doi": "10.3390/nu17152548",
+        "title": "Mediterranean-DASH Intervention for Neurodegenerative Delay (MIND) Trial: Genetic Resource for Precision Nutrition.",
+        "journal": "Nutrients",
+        "year": 2025,
+        "abstract": "",
+        "keywords": [
+          "clinical trial",
+          "dementia",
+          "diet pattern",
+          "genotype",
+          "quality control"
+        ]
+      },
+      {
+        "pmid": "39438936",
+        "doi": "10.1186/s12967-024-05737-z",
+        "title": "Genetic susceptibility to caffeine intake and metabolism: a systematic review.",
+        "journal": "Journal of translational medicine",
+        "year": 2024,
+        "abstract": "Coffee and tea consumption account for most caffeine intake and 2-3 billion cups are taken daily around the world. Caffeine dependence is a widespread but under recognized problem. To conduct a systematic review on the genetic susceptibility factors affecting caffeine metabolism and caffeine reward and their association with caffeine intake. We conducted PubMed and Embase searches using the terms \"caffeine\", \"reward\", \"gene\", \"polymorphism\", \"addiction\", \"dependence\" and \"habit\" from inception till 2024. The demographics, genetic and clinical data from included studies were extracted and analyzed. Only case-control studies on habitual caffeine drinkers with at least 100 in each arm were included. A total of 2552 studies were screened and 26 studies involving 1,851,428 individuals were included. Several genes that were involved with caffeine metabolism such as CYP1A2, ADORA2A, AHR, POR, ABCG2, CYP2A6, PDSS2 and HECTD4 rs2074356 (A allele specific to East Asians and monomorphic in Europeans, Africans and Americans) were associated with habitual caffeine consumption with effect size difference of 3% to 32% in number of cups of caffeinated drink per day per effect allele. In addition, ALDH2 was linked to the Japanese population. Genes associated with caffeine reward included BDNF, SLC6A4, GCKR, MLXIPL and dopaminergic genes such as DRD2 and DAT1 which had around 2-5% effect size difference in number of cups of caffeinated drink for each allele per day. Several genes that were involved in caffeine metabolism and reward were associated with up to 30% effect size difference in number of cups of caffeinated drink per day, and some associations were specific to certain ethnicities. Identification of at-risk caffeine dependence individuals can lead to early diagnosis and stratification of at-risk vulnerable individuals such as pregnant women and children, and can potentially lead to development of drug targets for dependence to caffeine.",
+        "keywords": []
+      },
+      {
+        "pmid": "39002811",
+        "doi": "10.1016/j.nbd.2024.106603",
+        "title": "Caffeine consumption outcomes on amyotrophic lateral sclerosis disease progression and cognition.",
+        "journal": "Neurobiology of disease",
+        "year": 2024,
+        "abstract": "Caffeine consumption outcomes on Amyotrophic Lateral Sclerosis (ALS) including progression, survival and cognition remain poorly defined and may depend on its metabolization influenced by genetic variants. 378 ALS patients with a precise evaluation of their regular caffeine consumption were monitored as part of a prospective multicenter study. Demographic, clinical characteristics, functional disability as measured with revised ALS Functional Rating Scale (ALSFRS-R), cognitive deficits measured using Edinburgh Cognitive and Behavioural ALS Screen (ECAS), survival and riluzole treatment were recorded. 282 patients were genotyped for six single nucleotide polymorphisms tagging different genes involved in caffeine intake and/or metabolism: CYP1A1 (rs2472297), CYP1A2 (rs762551), AHR (rs4410790), POR (rs17685), XDH (rs206860) and ADORA2A (rs5751876) genes. Association between caffeine consumption and ALSFRS-R, ALSFRS-R rate, ECAS and survival were statistically analyzed to determine the outcome of regular caffeine consumption on ALS disease progression and cognition. No association was observed between caffeine consumption and survival (p = 0.25), functional disability (ALSFRS-R; p = 0.27) or progression of ALS (p = 0.076). However, a significant association was found with higher caffeine consumption and better cognitive performance on ECAS scores in patients carrying the C/T and T/T genotypes at rs2472297 (p-het = 0.004). Our results support the safety of regular caffeine consumption on ALS disease progression and survival and also show its beneficial impact on cognitive performance in patients carrying the minor allele T of rs2472297, considered as fast metabolizers, that would set the ground for a new pharmacogenetic therapeutic strategy.",
+        "keywords": [
+          "Amyotrophic lateral sclerosis",
+          "Caffeine",
+          "Cognition",
+          "Nutrition",
+          "Single nucleotide polymorphism"
+        ]
+      },
+      {
+        "pmid": "35326157",
+        "doi": "10.3390/antiox11030507",
+        "title": "Genetic Variations on Redox Control in Cardiometabolic Diseases: The Role of Nrf2.",
+        "journal": "Antioxidants (Basel, Switzerland)",
+        "year": 2022,
+        "abstract": "The transcription factor Nrf2 is a master regulator of multiple cytoprotective genes that maintain redox homeostasis and exert anti-inflammatory functions. The Nrf2-Keap1 signaling pathway is a paramount target of many cardioprotective strategies, because redox homeostasis is essential in cardiovascular health. ",
+        "keywords": [
+          "Nrf2",
+          "cardiometabolic diseases",
+          "redox control",
+          "single nucleotide polymorphisms"
+        ]
+      },
+      {
+        "pmid": "32303460",
+        "doi": "10.1016/j.dmpk.2020.03.003",
+        "title": null,
+        "journal": "Drug metabolism and pharmacokinetics",
+        "year": 2020,
+        "abstract": "We performed a caffeine (N-3-methyl-",
+        "keywords": [
+          "(13)C-caffeine breath test",
+          "Adenosine A(2A) receptor",
+          "Aryl hydrocarbon receptor",
+          "CYP1A2",
+          "Single nucleotide polymorphism"
+        ]
+      },
+      {
+        "pmid": "31486166",
+        "doi": "10.1111/joim.12970",
+        "title": "Coffee intake protects against symptomatic gallstone disease in the general population: a Mendelian randomization study.",
+        "journal": "Journal of internal medicine",
+        "year": 2020,
+        "abstract": "Coffee intake is associated with low risk of symptomatic gallstone disease (GSD). We tested the hypothesis that high coffee intake causally protects against symptomatic GSD using a Mendelian randomization design. First, we tested whether high coffee intake was associated with low risk of GSD in 104 493 individuals from the general population. Mean follow-up was 8 years (range: <1-13 years). Secondly, we tested whether two genetic variants near CYP1A1/A2 (rs2472297) and AHR (rs4410790), combined as an allele score, were associated with higher coffee intake measured as a continuous variable. Thirdly, we tested whether the allele score was associated with lower risk of GSD in 114 220 individuals including 7294 gallstone events. Mean follow-up was 38 years (range: <1-40 years). In observational analysis, those with coffee intake of >6 cups daily had 23% lower risk of GSD compared to individuals without coffee intake [hazard ratio (HR) = 0.77 (95% confidence interval: 0.61-0.94)]. In genetic analysis, there was a stepwise higher coffee intake of up to 41% (caffeine per day) in individuals with 4 (highest) versus 0 (lowest) coffee intake alleles (P for trend = 3 x 10 High coffee intake is associated observationally with low risk of GSD, and with genetic evidence to support a causal relationship.",
+        "keywords": []
+      },
+      {
+        "pmid": "29025033",
+        "doi": "10.1093/ije/dyx147",
+        "title": "Heavier smoking increases coffee consumption: findings from a Mendelian randomization analysis.",
+        "journal": "International journal of epidemiology",
+        "year": 2017,
+        "abstract": "There is evidence for a positive relationship between cigarette and coffee consumption in smokers. Cigarette smoke increases metabolism of caffeine, so this may represent a causal effect of smoking on caffeine intake. We performed Mendelian randomization analyses in the UK Biobank (N = 114 029), the Norwegian HUNT study (N = 56 664) and the Copenhagen General Population Study (CGPS) (N = 78 650). We used the rs16969968 genetic variant as a proxy for smoking heaviness in all studies and rs4410790 and rs2472297 as proxies for coffee consumption in UK Biobank and CGPS. Analyses were conducted using linear regression and meta-analysed across studies. Each additional cigarette per day consumed by current smokers was associated with higher coffee consumption (0.10 cups per day, 95% CI: 0.03, 0.17). There was weak evidence for an increase in tea consumption per additional cigarette smoked per day (0.04 cups per day, 95% CI: -0.002, 0.07). There was strong evidence that each additional copy of the minor allele of rs16969968 (which increases daily cigarette consumption) in current smokers was associated with higher coffee consumption (0.16 cups per day, 95% CI: 0.11, 0.20), but only weak evidence for an association with tea consumption (0.04 cups per day, 95% CI: -0.01, 0.09). There was no clear evidence that rs16969968 was associated with coffee or tea consumption in never or former smokers or that the coffee-related variants were associated with cigarette consumption. Higher cigarette consumption causally increases coffee intake. This is consistent with faster metabolism of caffeine by smokers, but could also reflect a behavioural effect of smoking on coffee drinking.",
+        "keywords": [
+          "Coffee, tea, smoking, Mendelian randomization"
+        ]
+      },
+      {
+        "pmid": "27845333",
+        "doi": "10.1038/srep36500",
+        "title": "Habitual coffee consumption and risk of type 2 diabetes, ischemic heart disease, depression and Alzheimer's disease: a Mendelian randomization study.",
+        "journal": "Scientific reports",
+        "year": 2016,
+        "abstract": "Observationally, coffee is inversely associated with type 2 diabetes mellitus (T2DM), depression and Alzheimer's disease, but not ischemic heart disease (IHD). Coffee features as possibly protective in the 2015 Dietary Guidelines for Americans. Short-term trials suggest coffee has neutral effect on most glycemic traits, but raises lipids and adiponectin. To clarify we compared T2DM, depression, Alzheimer's disease, and IHD and its risk factors by genetically predicted coffee consumption using two-sample Mendelian randomization applied to large extensively genotyped case-control and cross-sectional studies. Childhood cognition was used as a negative control outcome. Genetically predicted coffee consumption was not associated with T2DM (odds ratio (OR) 1.02, 95% confidence interval (CI) 0.76 to 1.36), depression (0.89, 95% CI 0.66 to 1.21), Alzheimer's disease (1.17, 95% CI 0.96 to 1.43), IHD (0.96, 95% CI 0.80 to 1.14), lipids, glycemic traits, adiposity or adiponectin. Coffee was unrelated to childhood cognition. Consistent with observational studies, coffee was unrelated to IHD, and, as expected, childhood cognition. However, contrary to observational findings, coffee may not have beneficial effects on T2DM, depression or Alzheimer's disease. These findings clarify the role of coffee with relevance to dietary guidelines and suggest interventions to prevent these complex chronic diseases should be sought elsewhere.",
+        "keywords": []
+      },
+      {
+        "pmid": "27741566",
+        "doi": "10.1002/ijc.30462",
+        "title": "Investigating the possible causal role of coffee consumption with prostate cancer risk and progression using Mendelian randomization analysis.",
+        "journal": "International journal of cancer",
+        "year": 2017,
+        "abstract": "Coffee consumption has been shown in some studies to be associated with lower risk of prostate cancer. However, it is unclear if this association is causal or due to confounding or reverse causality. We conducted a Mendelian randomisation analysis to investigate the causal effects of coffee consumption on prostate cancer risk and progression. We used two genetic variants robustly associated with caffeine intake (rs4410790 and rs2472297) as proxies for coffee consumption in a sample of 46,687 men of European ancestry from 25 studies in the PRACTICAL consortium. Associations between genetic variants and prostate cancer case status, stage and grade were assessed by logistic regression and with all-cause and prostate cancer-specific mortality using Cox proportional hazards regression. There was no clear evidence that a genetic risk score combining rs4410790 and rs2472297 was associated with prostate cancer risk (OR per additional coffee increasing allele: 1.01, 95% CI: 0.98,1.03) or having high-grade compared to low-grade disease (OR: 1.01, 95% CI: 0.97,1.04). There was some evidence that the genetic risk score was associated with higher odds of having nonlocalised compared to localised stage disease (OR: 1.03, 95% CI: 1.01, 1.06). Amongst men with prostate cancer, there was no clear association between the genetic risk score and all-cause mortality (HR: 1.00, 95% CI: 0.97,1.04) or prostate cancer-specific mortality (HR: 1.03, 95% CI: 0.98,1.08). These results, which should have less bias from confounding than observational estimates, are not consistent with a substantial effect of coffee consumption on reducing prostate cancer incidence or progression.",
+        "keywords": [
+          "Mendelian randomization",
+          "coffee",
+          "prostate cancer"
+        ]
+      }
+    ],
+    "extracted_alleles": [
+      "coffee",
+      "coffee, tea, smoking, mendelian randomization",
+      "cardiometabolic diseases",
+      "redox control",
+      "aryl hydrocarbon receptor",
+      "dementia",
+      "mendelian randomization",
+      "caffeine metabolism",
+      "prostate cancer",
+      "quality control",
+      "cyp1a2",
+      "nutrition",
+      "diet pattern",
+      "chronic kidney disease",
+      "genetic variant",
+      "adenosine a(2a) receptor",
+      "single nucleotide polymorphisms",
+      "amyotrophic lateral sclerosis",
+      "clinical trial",
+      "caffeine",
+      "single nucleotide polymorphism",
+      "nrf2",
+      "genotype",
+      "cognition",
+      "(13)c-caffeine breath test"
+    ],
+    "category": "caffeine"
+  }
+}

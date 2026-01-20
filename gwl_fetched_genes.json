@@ -1,0 +1,242 @@
+{
+  "rs1801133": {
+    "rsid": "rs1801133",
+    "gene": "MTHFR",
+    "chromosome": "1",
+    "position": "1:11796321",
+    "clinical_significance": "benign,other,conflicting-interpretations-of-pathogenicity,not-provided,uncertain-significance,drug-response,likely-benign",
+    "maf": 0,
+    "alleles": [
+      "HGVS=NC_000001.11:g.11796321G>A,NC_000001.11:g.11796321G>C,NC_000001.11:g.11796321G>T,NC_000001.10:g.11856378G>A,NC_000001.10:g.11856378G>C,NC_000001.10:g.11856378G>T,NG_013351.1:g.14783C>T,NG_013351.1:g.14783C>G,NG_013351.1:g.14783C>A,NM_005957.5:c.665C>T,NM_005957.5:c.665C>G,NM_005957.5:c.665C>A,NM_005957.4:c.665C>T,NM_005957.4:c.665C>G,NM_005957.4:c.665C>A,NM_001330358.2:c.788C>T,NM_001330358.2:c.788C>G,NM_001330358.2:c.788C>A,NM_001330358.1:c.788C>T,NM_001330358.1:c.788C>G,NM_001330358.1:c.788C>A,NM_001410750.1:c.785C>T,NM_001410750.1:c.785C>G,NM_001410750.1:c.785C>A,XM_005263462.5:c.665C>T,XM_005263462.5:c.665C>G,XM_005263462.5:c.665C>A,XM_005263462.4:c.665C>T,XM_005263462.4:c.665C>G,XM_005263462.4:c.665C>A,XM_005263462.3:c.665C>T,XM_005263462.3:c.665C>G,XM_005263462.3:c.665C>A,XM_005263462.2:c.665C>T,XM_005263462.2:c.665C>G,XM_005263462.2:c.665C>A,XM_005263462.1:c.665C>T,XM_005263462.1:c.665C>G,XM_005263462.1:c.665C>A,XM_005263463.5:c.419C>T,XM_005263463.5:c.419C>G,XM_005263463.5:c.419C>A,XM_005263463.4:c.419C>T,XM_005263463.4:c.419C>G,XM_005263463.4:c.419C>A,XM_005263463.3:c.419C>T,XM_005263463.3:c.419C>G,XM_005263463.3:c.419C>A,XM_005263463.2:c.419C>T,XM_005263463.2:c.419C>G,XM_005263463.2:c.419C>A,XM_005263463.1:c.419C>T,XM_005263463.1:c.419C>G,XM_005263463.1:c.419C>A,XM_011541496.4:c.788C>T,XM_011541496.4:c.788C>G,XM_011541496.4:c.788C>A,XM_011541496.3:c.788C>T,XM_011541496.3:c.788C>G,XM_011541496.3:c.788C>A,XM_011541496.2:c.788C>T,XM_011541496.2:c.788C>G,XM_011541496.2:c.788C>A,XM_011541496.1:c.788C>T,XM_011541496.1:c.788C>G,XM_011541496.1:c.788C>A,XM_017001328.3:c.788C>T,XM_017001328.3:c.788C>G,XM_017001328.3:c.788C>A,XM_017001328.2:c.788C>T,XM_017001328.2:c.788C>G,XM_017001328.2:c.788C>A,XM_017001328.1:c.788C>T,XM_017001328.1:c.788C>G,XM_017001328.1:c.788C>A,XM_047421178.1:c.665C>T,XM_047421178.1:c.665C>G,XM_047421178.1:c.665C>A,XM_047421174.1:c.785C>T,XM_047421174.1:c.785C>G,XM_047421174.1:c.785C>A,XM_047421180.1:c.665C>T,XM_047421180.1:c.665C>G,XM_047421180.1:c.665C>A,XM_047421181.1:c.665C>T,XM_047421181.1:c.665C>G,XM_047421181.1:c.665C>A,XM_047421179.1:c.665C>T,XM_047421179.1:c.665C>G,XM_047421179.1:c.665C>A,NP_005948.3:p.Ala222Val,NP_005948.3:p.Ala222Gly,NP_005948.3:p.Ala222Asp,NP_001317287.1:p.Ala263Val,NP_001317287.1:p.Ala263Gly,NP_001317287.1:p.Ala263Asp,XP_005263519.1:p.Ala222Val,XP_005263519.1:p.Ala222Gly,XP_005263519.1:p.Ala222Asp,XP_005263520.1:p.Ala140Val,XP_005263520.1:p.Ala140Gly,XP_005263520.1:p.Ala140Asp,XP_011539798.1:p.Ala263Val,XP_011539798.1:p.Ala263Gly,XP_011539798.1:p.Ala263Asp,XP_016856817.1:p.Ala263Val,XP_016856817.1:p.Ala263Gly,XP_016856817.1:p.Ala263Asp,XP_047277134.1:p.Ala222Val,XP_047277134.1:p.Ala222Gly,XP_047277134.1:p.Ala222Asp,XP_047277130.1:p.Ala262Val,XP_047277130.1:p.Ala262Gly,XP_047277130.1:p.Ala262Asp,XP_047277136.1:p.Ala222Val,XP_047277136.1:p.Ala222Gly,XP_047277136.1:p.Ala222Asp,XP_047277137.1:p.Ala222Val,XP_047277137.1:p.Ala222Gly,XP_047277137.1:p.Ala222Asp,XP_047277135.1:p.Ala222Val,XP_047277135.1:p.Ala222Gly,XP_047277135.1:p.Ala222Asp|SEQ=[G",
+      "A",
+      "C",
+      "T]|LEN=1|GENE=MTHFR:4524"
+    ],
+    "references": [
+      {
+        "pmid": "41201764",
+        "doi": "10.1007/s43440-025-00802-w",
+        "title": "Εffects of MTR and AS3MT variants on antipsychotic response: prospective evidence from a naturalistic study in Greece.",
+        "journal": "Pharmacological reports : PR",
+        "year": 2026,
+        "abstract": "Schizophrenia and related psychotic disorders represent a major cause of global disability, while patients show wide variability in their response to antipsychotic therapy. Genetic variants in one-carbon metabolism (folate and vitamin B12-dependent), catecholamine degradation, and methylation pathways may influence symptom severity and treatment outcomes. This study aimed to assess whether polymorphisms in these pathways are associated with baseline symptomatology and treatment response in a naturalistic setting. In this prospective observational study, we examined common polymorphisms in methylenetetrahydrofolate reductase (MTHFR; rs1801133), methionine synthase (MTR; rs1805087), methionine synthase reductase (MTRR; rs1801394), catechol-O-methyltransferase (COMT; rs4680), and a variable number tandem repeat in arsenite methyltransferase (AS3MT) in relation to baseline symptoms and four-week treatment response in 163 patients with schizophrenia spectrum or other psychotic disorders. Symptoms were assessed with the Positive and Negative Syndrome Scale and the Calgary Depression Scale. The COMT rs4680 polymorphism was associated with higher baseline severity of negative symptoms in methionine homozygotes and with greater reduction in depressive symptoms. The MTR rs1805087 polymorphism was significantly associated with improvement in positive symptoms, particularly in patients with higher baseline vitamin B12 levels, whereas the AS3MT variable number tandem repeat showed a nominal association with positive symptom improvement in patients with lower B12 levels. No significant effects were observed for MTHFR rs1801133 or MTRR rs1801394. Polymorphisms in one-carbon metabolism, particularly MTR rs1805087, may predict positive symptom response under adequate vitamin B12 conditions, while AS3MT variation may influence outcomes at lower B12 levels. COMT rs4680 is linked to both negative symptom severity and improvement in depressive symptoms. Although limited by modest sample size, lack of dietary and homocysteine data, and inclusion of non-drug-naïve patients, these findings support the potential of genetic and metabolic profiling for personalized antipsychotic treatment. Not applicable.",
+        "keywords": [
+          "Antipsychotic treatment response",
+          "Arsenite methyltransferase",
+          "Catechol-O-methyltransferase",
+          "Methionine synthase",
+          "One-carbon metabolism",
+          "Schizophrenia"
+        ]
+      },
+      {
+        "pmid": "41194031",
+        "doi": "10.1186/s12882-025-04553-x",
+        "title": "Whole-exome sequencing of kidney transplant recipients and donors: insights into end-stage renal disease and post-transplant genetic risk.",
+        "journal": "BMC nephrology",
+        "year": 2025,
+        "abstract": "Kidney transplantation is the preferred treatment for end-stage renal disease (ESRD), yet challenges persist in long-term graft survival and post-transplant complications. Genomic profiling, especially whole-exome sequencing (WES), offers new opportunities to personalize donor-recipient matching and predict transplant outcomes. This study aimed to explore the genetic landscape of both transplant recipients and donors using WES. This prospective cohort study included 64 kidney transplant recipients (51 adults, 13 pediatric) and 61 donors in Kazakhstan. WES was performed to identify monogenic causes of ESRD, evaluate rejection-associated immune polymorphisms (31 SNPs), and screen for post-transplant risk using a 355-gene Transplant Morbidity Panel. Variants were classified following ACMG/AMP guidelines, and allele frequencies were compared to global reference datasets. Among recipients, pathogenic/likely pathogenic variants were found in 15.4% of pediatric and 9.1% of adult cases, with additional variants of uncertain significance detected in 23.1% and 23.6%, respectively. WES identified monogenic nephropathies including Alport syndrome, cystinuria, and polycystic kidney disease. In donors, 13.1% carried variants associated with latent renal or systemic conditions despite no clinical manifestation at donation. The APOE p.Cys130Arg variant, linked to lipid dysregulation, was observed more frequently in recipients (allele frequency 0.17) than donors (0.09), though not statistically significant. Among the 31 SNPs evaluated, significant associations with acute rejection were observed for IL1B rs1143634 and TP53 rs1625895 under dominant models. IL1B carriers showed increased rejection risk (OR = 4.62, p = 0.039), whereas TP53 carriers appeared protected (OR = 0.058, p = 0.027). Given the limited number of rejection cases, these findings should be considered exploratory and require validation in larger cohorts. Additionally, 44.3% of recipients carried at least one pathogenic or likely pathogenic variant in the Transplant Morbidity Panel, particularly in genes related to malignancy, cardiomyopathy, and monogenic diabetes. This study provides one of the first applications of WES in a Central Asian kidney transplant population. Findings highlight the prevalence of monogenic and comorbid risk variants in both recipients and donors and support the use of genomic screening for improving pre- and post-transplant care. The identification of immune-related SNPs and extra-renal findings further underscores the utility of WES for personalized transplant management. Integration of genomics into transplant workflows may help address the ongoing gap between clinical need and transplant outcomes, particularly in low-resource settings.",
+        "keywords": [
+          "Allograft rejection",
+          "End-stage renal disease",
+          "Kidney transplantation",
+          "Precision medicine",
+          "Transplant morbidity",
+          "Whole-exome sequencing"
+        ]
+      },
+      {
+        "pmid": "41153409",
+        "doi": "10.3390/genes16101192",
+        "title": "Newborn ",
+        "journal": "Genes",
+        "year": 2025,
+        "abstract": "",
+        "keywords": [
+          "MTHFR",
+          "PON1",
+          "bronchopulmonary dysplasia (BPD)",
+          "extremely low birth weight (ELBW)",
+          "extremely low gestational age (ELGA)",
+          "fetal genotype",
+          "genetic variants",
+          "homocysteine metabolism",
+          "patent ductus arteriosus (PDA)",
+          "prematurity"
+        ]
+      },
+      {
+        "pmid": "41150742",
+        "doi": "10.3390/cimb47100794",
+        "title": "Genotype Combinations and Genetic Risk Score Analyses of ",
+        "journal": "Current issues in molecular biology",
+        "year": 2025,
+        "abstract": "Hypothyroidism is a multifactorial endocrine disorder where genetic predisposition plays a significant role. The ",
+        "keywords": [
+          "folate metabolism",
+          "genetic risk factors",
+          "genetic risk score",
+          "genotype combination analysis",
+          "homocysteine",
+          "hypothyroidism"
+        ]
+      },
+      {
+        "pmid": "41079121",
+        "doi": "10.3389/fonc.2025.1560776",
+        "title": "Association of folate metabolism-related enzymes (MTHFR, MYD88, and TP53) and their single nucleotide polymorphisms with breast cancer susceptibility in women from Southwest China: a Bayesian network approach.",
+        "journal": "Frontiers in oncology",
+        "year": 2025,
+        "abstract": "Breast cancer remains one of the most prevalent malignant tumors affecting women globally. Genetic factors are significant contributors to its pathogenesis. Single nucleotide polymorphisms (SNPs), as a common form of genetic variation, have garnered considerable attention in recent years. However, most studies have predominantly focused on associations between individual loci and breast cancer susceptibility, while the complex interactions among multiple loci across different genes remain insufficiently explored. To analyze high-dimensional multi-locus variables, chi-square test and random forests were employed. Bayesian networks, a sophisticated statistical model, were used to investigate SNP interactions across multiple genes and to construct a comprehensive genetic susceptibility model for female breast cancer. The study analyzed 980 samples, comprising 490 breast cancer patients and 490 controls. Key intergenic genotypes were identified involving SNPs in TP53 (rs1042522), MTHFR (rs1801133), MTHFR (rs56221660), MTRR (rs1801394), MTR-A2756G (rs1805087), MYD88 (rs7744), and rs7851696. These interactions were associated with a significant increase in breast cancer prevalence, rising from 48.2% in the original data to 99% under the largest posterior probability combination. External validation further demonstrated a breast cancer prevalence of 70%, underscoring the robustness of the model. Interactions among the TP53, MYD88, and folate metabolism-related genes (MTHFR, MTR, and MTRR) may play a critical role in breast cancer susceptibility.",
+        "keywords": [
+          "Bayesian networks (BNs)",
+          "MyD88",
+          "SNPs (single nucleotide polymorphism)",
+          "TP53",
+          "breast cancer",
+          "folate(folic acid)"
+        ]
+      },
+      {
+        "pmid": "40889739",
+        "doi": "10.1016/j.jgg.2025.08.009",
+        "title": "Estimating genetic load from 5000 Chinese exomes.",
+        "journal": "Journal of genetics and genomics = Yi chuan xue bao",
+        "year": 2025,
+        "abstract": "Recent advancements in genome sequencing have enabled the estimation of genetic load through deleterious mutation profiling. However, Chinese populations remain underexplored in this context. We analyze whole-exome sequencing data from 5002 individuals, encompassing major Han subgroups-North Han (N-Han), South Han (S-Han), and Guangxi Han (G-Han)-as well as 13 ethnic minorities. Notably, G-Han exhibits significant genetic affinity with the Zhuang population. Systematic curation of 2110 ClinVar pathogenic or likely pathogenic variants reveals 93.4% are ultra-rare. Exceptions include GJB2 rs72474224-A (hearing loss), which shows higher frequencies in Zhuang and G-Han, and β-thalassemia-associated HBB variants (rs33986703-A and rs33950507-T), which are elevated in G-Han compared to other Han subgroups. Among 96 autosomal dominant mutation carriers, LDLR variants are predominant (∼25%), with comparable frequencies across Han subgroups. Adaptive signatures highlight gene-environment interactions: MTHFR rs1801133-A (UV adaptation) declines southward, while ALDH2 rs671-A (alcohol metabolism) displays the opposite trend. ABCC11 rs17822931-A, associated with cold adaptation, is particularly low frequency in G-Han. Gene-based rare-variant collapsing analyses identify an elevated risk of retinitis pigmentosa in S-Han (PRPF4, TUB). Our findings demonstrate that genetic load in Chinese populations is influenced by demographic history, population structure, and regional adaptation, emphasizing the importance of population-specific frameworks in precision medicine.",
+        "keywords": [
+          "Chinese",
+          "Ethnic stratification",
+          "Genetic load",
+          "Rare variants",
+          "Whole exome sequencing"
+        ]
+      },
+      {
+        "pmid": "40869351",
+        "doi": "10.3390/ijms26168030",
+        "title": "The Role of GCH1 Deficiency and Tetrahydrobiopterin in Mental Health.",
+        "journal": "International journal of molecular sciences",
+        "year": 2025,
+        "abstract": "Treatment-resistant mental health concerns significantly contribute to society in terms of financial costs and individually by creating emotional and functional costs. An important yet little-recognized cause of treatment-resistant mental health conditions is tetrahydrobiopterin (BH4) deficiency. BH4 is an essential cofactor for producing serotonin, dopamine, norepinephrine, and nitric oxide-molecules critical to mood and focus. The enzyme GTP Cyclohydrolase 1 (GCH1), produced by a gene of the same name, catalyzes the first step in synthesizing BH4. Variants in this gene have been associated with low BH4 levels, as well as depression and ADHD. The case reports presented in this article illustrate that a partial BH4 deficiency, as conveyed by the ",
+        "keywords": [
+          "BH4",
+          "GCH1",
+          "anxiety",
+          "clinical decision support tool",
+          "depression",
+          "genomics",
+          "mental health",
+          "neurotransmitters",
+          "personalized psychiatry",
+          "precision medicine",
+          "tetrahydrobiopterin"
+        ]
+      },
+      {
+        "pmid": "40859829",
+        "doi": "10.1161/CIRCGEN.124.005039",
+        "title": "Genetic Variants Associated With Congenital Heart Disease: A Meta-Analysis of Ethnicity and Subtype-Specific Susceptibility.",
+        "journal": "Circulation. Genomic and precision medicine",
+        "year": 2025,
+        "abstract": "Congenital heart disease (CHD) is the most common heterogeneous birth defect, with prevalence varying across populations. A comprehensive meta-analysis could refine the genetic risk estimates and enhance our understanding of CHD susceptibility. We conducted a meta-analysis of 175 case-control studies investigating 107 genetic variants across 72 gene regions. Pooled odds ratios were calculated using 6 genetic models, with subgroup analyses by ethnicity and CHD subtype. Gene Ontology and network analyses elucidated the functional significance of implicated genes. Thirty-six variants were significantly associated with CHD ( This meta-analysis refines CHD risk estimates across diverse ancestries and subtypes, underscoring the complex genetic architecture of the disease. Variants involved in cardiac development and metabolic pathways represent promising targets for precision medicine in CHD.",
+        "keywords": [
+          "ethnicity",
+          "genetic association studies",
+          "genetic variation",
+          "heart defects, congenital",
+          "meta-analysis",
+          "polymorphism, single nucleotide"
+        ]
+      },
+      {
+        "pmid": "40843562",
+        "doi": "10.29271/jcpsp.2025.08.975",
+        "title": "<em>MTHFR</em> Gene Polymorphisms (rs1801133 and rs1801131) and Their Association with Type 2 Diabetes Mellitus and Diabetic Foot Ulcers: A Study from Karachi, Pakistan.",
+        "journal": "Journal of the College of Physicians and Surgeons--Pakistan : JCPSP",
+        "year": 2025,
+        "abstract": "To explore the methylenetetrahydrofolate reductase (MTHFR) gene polymorphisms (rs1801133 and rs1801131) and their association with type 2 diabetes mellitus (T2D) and diabetic foot ulcers (DFU). A cross-sectional study. Place and Duration of the Study: Department of Physiology, Baqai Medical University, Karachi, Pakistan, from June 2023 to June 2024. One hundred and thirty-eight individuals were enrolled and categorised into healthy (n = 46), type 2 diabetic (n = 46), and diabetic foot ulcer patients (n = 46). Patients having insulin-dependent diabetes mellitus were excluded. The blood samples of participants were collected, and MTHFR (rs1801133 and rs1801131) gene polymorphisms were determined using the amplification refractory mutation system-polymerase chain reaction (ARMS-PCR). Statistical analysis included the Pearson's Chi-square test, with the risk assessment based on 95% confidence intervals (CI) and odds ratios (OR). MTHFR [rs1801133(C677T)] heterozygous CT allele was present in 91%, i.e. 42 out of 46 DFU patients (p = 0.002). In contrast, the MTHFR [rs1801131(A1298C)] homozygous CC allele was observed in 39% of healthy controls. Significant associations were found across the three groups for both MTHFR mutations (p <0.05). The CT genotype of MTHFR showed a risk associated with DFU (OR = 4.59, CI: 1.38-15.2), while the homozygous CC genotype was also significantly associated with DFU (OR = 2.22, CI: 0.80-6.11). The findings suggest that the genetic polymorphism of the MTHFR genotype CT of rs1801133 is associated with DFU among the clinical population from Karachi, Pakistan. Diabetes mellitus, Diabetic foot ulcer, Gene, Genetic polymorphisms, MTHFR C677T\" or \"A1298C.",
+        "keywords": []
+      },
+      {
+        "pmid": "40832604",
+        "doi": "10.3389/fphar.2025.1561818",
+        "title": "Risk factors associated with high-dose methotrexate induced toxicities in primary central nervous system lymphoma.",
+        "journal": "Frontiers in pharmacology",
+        "year": 2025,
+        "abstract": "High-dose methotrexate (HDMTX) is the cornerstone of the treatment for primary central nervous system lymphoma (PCNSL). The prevention of drug-induced toxicities is critical. This study aims to identify key factors associated with HDMTX-induced toxicities (hematotoxicity, hepatotoxicity and nephrotoxicit) in 713 Chinese PCNSL patients undergoing 3021 HDMTX treatment courses. Demographic data, administration information, laboratory tests, area under the curve, co-medications, and 30 single nucleotide polymorphisms were collected to analyze the association of HDMTX-related toxicities using PLINK and SPSS. Higher ALB level, female, ABCB1 rs1045642, MTHFR rs1801131, and MTHFD1 rs2236225 were associated with lower risk of anemia, while the combination of furosemide, torasemide, bumetanide, and levetiracetam associating with higher risk. Co-use of torasemide had higher incidence of neutropenia. Higher level of ALB was correlated with less leukopenia; torasemide and rs2236225 were related to more leukopenia. Female, furosemide, rs1801133, ABCG2 rs2231142, ABCC2 rs717620 were related to more thrombocytopenia, while rs1045642 and high ALB were related to less. Rs1801131 and female were correlated with more hepatotoxicity, whereas furosemide was correlated with less. In nephrotoxicity, female and rs1801394 were correlated with less, MTHFR rs1801131 and rs1801133 were correlated with more. In conclusion, higher ALB levels had a lower risk of HDMTX toxicities; loop diuretics and levetiracetam generally accelerated the occurrence of toxicities. Rs1801133 GG, rs1128503 GG + AG, rs2231142 AA+ AC, rs717620 TT + GT were associated with increased risk of toxicity; rs1045642 TT and rs1801394 GG + AG were less likely to develop toxicity.",
+        "keywords": [
+          "hematotoxicity",
+          "hepatotoxicity",
+          "high dose methotrexate",
+          "nephrotoxicity",
+          "risk factors",
+          "single nucleotide polymorphism"
+        ]
+      }
+    ],
+    "extracted_alleles": [
+      "personalized psychiatry",
+      "bayesian networks (bns)",
+      "whole exome sequencing",
+      "ethnic stratification",
+      "schizophrenia",
+      "genotype combination analysis",
+      "patent ductus arteriosus (pda)",
+      "arsenite methyltransferase",
+      "antipsychotic treatment response",
+      "genetic risk score",
+      "rare variants",
+      "polymorphism, single nucleotide",
+      "genetic association studies",
+      "fetal genotype",
+      "one-carbon metabolism",
+      "depression",
+      "extremely low gestational age (elga)",
+      "snps (single nucleotide polymorphism)",
+      "bronchopulmonary dysplasia (bpd)",
+      "neurotransmitters",
+      "chinese",
+      "meta-analysis",
+      "prematurity",
+      "end-stage renal disease",
+      "catechol-o-methyltransferase",
+      "folate metabolism",
+      "allograft rejection",
+      "precision medicine",
+      "clinical decision support tool",
+      "mthfr",
+      "heart defects, congenital",
+      "methionine synthase",
+      "risk factors",
+      "myd88",
+      "homocysteine",
+      "bh4",
+      "anxiety",
+      "pon1",
+      "extremely low birth weight (elbw)",
+      "genetic variation",
+      "ethnicity",
+      "genetic load",
+      "nephrotoxicity",
+      "genomics",
+      "high dose methotrexate",
+      "kidney transplantation",
+      "whole-exome sequencing",
+      "breast cancer",
+      "tp53",
+      "single nucleotide polymorphism",
+      "mental health",
+      "homocysteine metabolism",
+      "genetic risk factors",
+      "hematotoxicity",
+      "hepatotoxicity",
+      "folate(folic acid)",
+      "hypothyroidism",
+      "tetrahydrobiopterin",
+      "gch1",
+      "transplant morbidity",
+      "genetic variants"
+    ]
+  }
+}

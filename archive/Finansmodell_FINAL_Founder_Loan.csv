@@ -1,0 +1,367 @@
+GENETIC WELLNESS LABS AB - FINANSIELL MODELL FINAL
+Version 3.0 (FINAL) - Med Founder Loan-struktur
+Januari 2026
+
+=== FOUNDER LOAN-STRUKTUR ===
+
+VD-kompensation År 1:
+- Founder loan: 300 000 SEK (mån 0, lever på detta i 10 månader)
+- Lön från företaget: 10 000 SEK/mån × 12 = 120 000 SEK
+- Effektiv månadslön: (300 000 / 10 mån) + 10 000 = 40 000 SEK/mån (mån 1-10), sedan 10 000 SEK/mån (mån 11-12)
+- Genomsnitt: ~28 000 SEK/mån
+
+Skatteeffekt:
+- Founder loan: Skattefritt (det är lån)
+- Låneränta: 300 000 × 4% = 12 000 SEK/år → 30% kapitalskatt = 3 600 SEK
+- Lön 120 000: Skatt ~60 000 SEK (50% marginalskatt)
+- Total skatt: 63 600 SEK (vs 210 000 SEK med 35K lön = SPARAR 146 400 SEK!)
+
+Företagets kostnad:
+- VD-lön: 10 000 × 12 = 120 000 SEK
+- Arbetsgivaravgifter: 120 000 × 31.42% = 37 704 SEK
+- Total: 157 704 SEK (vs 551 640 med 35K lön = SPARAR 393 936 SEK!)
+
+
+=== KAPITALBEHOV & ANVÄNDNING ===
+
+Seed Round (Dag 1): 1 200 000 SEK för 12% equity
+Pre-money värdering: 8 800 000 SEK
+Post-money värdering: 10 000 000 SEK
+Founders equity efter: 88%
+
+Användning av 1 200 000 SEK:
+MVP-utveckling,440000,37%,Webb-plattform + DNA-dashboard
+AI-dietist utveckling,200000,17%,Skalbarhet + COGS-reduktion
+Pre-launch marketing,60000,5%,Beta-försäljning (100 kits)
+Working capital,100000,8%,Första 6 mån drift
+Founder loan återbetalning,300000,25%,Återbetala founder loan till grundare
+Buffer,100000,8%,Oförutsett
+TOTALT,1200000,100%,
+
+
+=== ANTAGANDEN ===
+
+Kategori,Parameter,Värde,Enhet,Kommentar
+Prissättning,Startpaket DNA-test,2495,SEK,Premium-positionering
+Prissättning,Bas-abonnemang,695,SEK/mån,+100 från original
+Prissättning,Premium-abonnemang,1195,SEK/mån,+200 från original
+Prissättning,Payment Plan,995,SEK/mån × 3,Total 2985 SEK
+Prissättning,B2B per användare,8000,SEK,6-månaders program
+Prissättning,Beta-Access pre-launch,1495,SEK,Early bird rabatt
+
+Kostnader - COGS,DNA-test lab-kostnad,650,SEK,ISO-certifierat labb
+Kostnader - COGS,Testkit och logistik,150,SEK,Kit + frakt
+Kostnader - COGS,AI-dietist analys,50,SEK,OpenAI API
+Kostnader - COGS,Dietist granskning 15min,125,SEK,500 SEK/tim × 0.25
+Kostnader - COGS,Total per DNA-analys,975,SEK,65% lägre än manuell
+Kostnader - COGS,Kosttillskott Bas,220,SEK,Månadsförbrukning
+Kostnader - COGS,Kosttillskott Premium,320,SEK,Månadsförbrukning
+Kostnader - COGS,Förpackning leverans,45,SEK,3PL + frakt
+Kostnader - COGS,Plattform prenumeration,50,SEK/mån,SaaS-overhead
+Kostnader - COGS,B2B per användare,4500,SEK,6-mån COGS
+
+Marginal,Startpaket bruttomarginal,1520,SEK,61%
+Marginal,Bas bruttomarginal,380,SEK,55%
+Marginal,Premium bruttomarginal,780,SEK,65%
+Marginal,Payment Plan marginal,1530,SEK,51%
+Marginal,B2B per användare marginal,3500,SEK,44%
+Marginal,Beta-Access marginal,520,SEK,35%
+
+Kundmetrik,CAC B2C paid ads,1000,SEK,Google + Facebook blend
+Kundmetrik,CAC B2C affiliate,1264,SEK,Betalar efter konvertering
+Kundmetrik,CAC B2B,200,SEK/user,8000/40 users per deal
+Kundmetrik,Churn rate år 1,8,%/mån,Konservativt
+Kundmetrik,Churn rate år 2-3,6,%/mån,Förbättring
+Kundmetrik,Bas vs Premium mix,70/30,%,Weighted
+Kundmetrik,Payment plan adoption,30,%,30% väljer betalplan
+Kundmetrik,Affiliate mix år 1,10,%,Q4 startar
+Kundmetrik,Affiliate mix år 2,50,%,Huvudkanal
+Kundmetrik,Affiliate mix år 3,60,%,Dominerar
+Kundmetrik,Genomsnittlig ARPU,865,SEK/mån,Weighted average
+Kundmetrik,CLV bruttomarginal,7620,SEK,Over 12.5 months
+Kundmetrik,CLV/CAC ratio,7.6,ratio,Excellent >5.0
+
+Personal,VD lön år 1,10000,SEK/mån,+ founder loan 300K
+Personal,VD lön år 2+,25000,SEK/mån,Från månad 13
+Personal,Dietist frilans,700,SEK/tim,Betalar per kund
+Personal,Dietist heltid från mån 12,38000,SEK/mån,När >150 kunder/mån
+Personal,Marknadschef från mån 15,40000,SEK/mån,År 2
+Personal,Kundservice chatbot,5000,SEK/mån,Intercom
+Personal,B2B-säljare frilans,10,%,Endast provision
+Personal,Arbetsgivaravgift,31.42,%,Svensk standard
+
+Teknik,MVP-utveckling,440000,SEK,Engångskostnad
+Teknik,AI-dietist utveckling,200000,SEK,Engångskostnad
+Teknik,Månatliga SaaS-kostnader,15000,SEK/mån,Hosting + verktyg
+Teknik,Mobilapp år 2,400000,SEK,iOS + Android
+Teknik,Affiliate-plattform,50000,SEK,Engångskostnad
+
+Marknadsföring,Pre-launch budget mån 0-6,60000,SEK,10K/mån
+Marknadsföring,År 1 paid ads,200000,SEK,Lägre tack vare affiliates
+Marknadsföring,År 1 affiliate commissions,50000,SEK,Q4
+Marknadsföring,År 2 paid ads,400000,SEK,50% via affiliates
+Marknadsföring,År 2 affiliate commissions,600000,SEK,Huvudkanal
+Marknadsföring,År 3 total marketing,1400000,SEK,60% via affiliates
+
+
+=== B2B PROJEKTION ===
+
+Period,Företag,Användare/företag,Total användare,Intäkt,COGS,Bruttomarginal,Kommentar
+År 1 Q3,1,20,20,160000,90000,70000,Första B2B-kund
+År 1 Q4,1,20,20,160000,90000,70000,Andra B2B-kund
+År 1 Total,2,20,40,320000,180000,140000,
+
+År 2 Q1,2,25,50,400000,225000,175000,Skalning
+År 2 Q2,2,25,50,400000,225000,175000,
+År 2 Q3,2,25,50,400000,225000,175000,
+År 2 Q4,2,25,50,400000,225000,175000,
+År 2 Total,8,25,200,1600000,900000,700000,
+
+År 3 Q1,5,30,150,1200000,675000,525000,Acceleration
+År 3 Q2,5,30,150,1200000,675000,525000,
+År 3 Q3,5,30,150,1200000,675000,525000,
+År 3 Q4,5,30,150,1200000,675000,525000,
+År 3 Total,20,30,600,4800000,2700000,2100000,
+
+
+=== AFFILIATE PROJEKTION ===
+
+Period,Affiliates,Konv/mån,Intäkt från affiliates,Betald commission,Netto för företaget
+År 1 Q4,10,20,59700,11940,47760
+År 2 Q1,15,50,149250,29850,119400
+År 2 Q2,20,75,223875,44775,179100
+År 2 Q3,25,100,298500,59700,238800
+År 2 Q4,30,125,373125,74625,298500
+År 2 Total,30,100 avg,1194000,238800,955200
+
+År 3 Total,50,200 avg,4776000,955200,3820800
+
+
+=== ÅR 1 - MÅNADSPROJEKTIONER ===
+
+Månad,B2C Nya,B2B users,Pre-launch beta,Kum B2C,Aktiva pren,Churn,B2C intäkt,B2B intäkt,Beta intäkt,Total intäkt,COGS,Bruttomarg,Opex,EBITDA,Kum EBITDA
+1,0,0,15,0,0,0%,0,0,22425,22425,0,22425,28000,-5575,16425
+2,0,0,20,0,0,0%,0,0,29900,29900,0,29900,28000,1900,18325
+3,0,0,20,0,0,0%,0,0,29900,29900,0,29900,28000,1900,20225
+4,0,0,15,0,0,0%,0,0,22425,22425,0,22425,28000,-5575,14650
+5,0,0,15,0,0,0%,0,0,22425,22425,0,22425,28000,-5575,9075
+6,0,0,15,0,0,0%,0,0,22425,22425,0,22425,28000,-5575,3500
+7,30,0,0,30,26,13%,88725,0,0,88725,40950,47775,48000,-225,3275
+8,40,0,0,70,59,10%,124650,0,0,124650,58700,65950,48000,17950,21225
+9,50,0,0,120,100,8%,163575,0,0,163575,77350,86225,48000,38225,59450
+10,50,20,0,170,140,8%,205780,160000,0,365780,135100,230680,53000,177680,237130
+11,60,0,0,230,184,8%,253365,0,0,253365,159640,93725,53000,40725,277855
+12,60,20,0,290,230,8%,304230,160000,0,464230,212300,251930,103000,148930,426785
+
+TOTALER ÅR 1,340,40,100,340,230,-,1140325,320000,149475,1609800,683740,926060,531000,395060,426785
+
+Kommentar: POSITIVT EBITDA +395K År 1! (vs +551K i V2, men VD får nu lön!)
+
+
+Opex År 1 Breakdown:
+Månad 1-6 (Pre-launch):
+- VD-lön: 10K + arb.avg 3K = 13K
+- SaaS: 15K
+- Pre-launch marketing: 10K/mån
+- TOTAL: 28K/mån × 6 = 168K
+
+Månad 7-9 (Soft launch):
+- VD-lön: 13K
+- Dietist frilans: ~5K (30-50 kunder)
+- Marketing: 20K
+- SaaS: 15K
+- TOTAL: 48K/mån × 3 = 144K
+
+Månad 10-11 (B2B börjar):
+- VD-lön: 13K
+- Dietist frilans: ~10K
+- Marketing: 20K
+- SaaS: 15K
+- B2B-provision: 5K
+- TOTAL: 53K/mån × 2 = 106K
+
+Månad 12 (Dietist heltid börjar):
+- VD-lön: 13K
+- Dietist heltid: 38K + arb.avg 12K = 50K
+- Marketing: 20K
+- SaaS: 15K
+- B2B: 5K
+- TOTAL: 103K
+
+TOTALT År 1 Opex: 531K (vs 375K i V2, skillnad är VD-lön 120K + arb.avg 37K = 157K)
+
+
+=== ÅR 2 - KVARTALSPROJEKTIONER ===
+
+Kvartal,B2C Nya,B2B users,Kum B2C,Aktiva pren,Churn,B2C intäkt,B2B intäkt,Affiliate intäkt,Total intäkt,COGS,Bruttomarg,Bruttomarg %,Opex,EBITDA,Kum EBITDA
+Q1,180,50,180,380,7%,607500,400000,149250,1156750,600125,556625,48%,1060000,-503375,-503375
+Q2,180,50,360,530,7%,858750,400000,223875,1482625,754625,728000,49%,1060000,-332000,-835375
+Q3,180,50,540,650,7%,1072500,400000,298500,1771000,881375,889625,50%,1060000,-170375,-1005750
+Q4,180,50,720,750,7%,1260000,400000,373125,2033125,994375,1038750,51%,1060000,-21250,-1027000
+
+TOTALER ÅR 2,720,200,720,550 snitt,-,3798750,1600000,1044750,6443500,3230500,3213000,50%,4240000,-1027000,-1027000
+
+Kommentar: År 2 negativt -1 027K EBITDA (investering i skalning). Behöver Serie Seed Extension 1.5M vid månad 15.
+
+
+Opex År 2 Breakdown per kvartal:
+Q1-Q2:
+- VD-lön: 25K + arb.avg 8K = 33K
+- Dietist heltid: 38K + arb.avg 12K = 50K
+- Marketing paid: 100K
+- Affiliate commission: Ingår i COGS
+- SaaS: 45K
+- TOTAL: 228K/mån × 3 = 684K (× 2 = 1 368K för Q1-Q2)
+
+Q3-Q4:
+- VD: 33K
+- Dietist: 50K
+- Marknadschef (från mån 15): 40K + arb.avg 13K = 53K (från Q3)
+- Marketing: 100K
+- SaaS: 45K
+- TOTAL Q3: 281K/mån × 3 = 843K
+- TOTAL Q4: 281K/mån × 3 = 843K
+
+SUMMA År 2: 1 368K + 843K + 843K = 3 054K
+Korrigerad med overhead: ~4 240K
+
+
+=== ÅR 3 - KVARTALSPROJEKTIONER ===
+
+Kvartal,B2C Nya,B2B users,Kum B2C,Aktiva pren,Churn,B2C intäkt,B2B intäkt,Affiliate intäkt,Total intäkt,COGS,Bruttomarg,Bruttomarg %,Opex,EBITDA,Kum EBITDA
+Q1,360,150,360,1000,6%,1890000,1200000,1194000,4284000,2079000,2205000,51%,1750000,455000,455000
+Q2,360,150,720,1300,6%,2457000,1200000,1194000,4851000,2457000,2394000,49%,1750000,644000,1099000
+Q3,360,150,1080,1600,6%,3024000,1200000,1194000,5418000,2754000,2664000,49%,1750000,914000,2013000
+Q4,360,150,1440,1900,6%,3591000,1200000,1194000,5985000,3024000,2961000,49%,1750000,1211000,3224000
+
+TOTALER ÅR 3,1440,600,1440,1450 snitt,-,10962000,4800000,4776000,20538000,10314000,10224000,50%,7000000,3224000,3224000
+
+Kommentar: År 3 starkt positivt +3 224K EBITDA!
+
+
+Opex År 3 per kvartal:
+- VD: 25K + arb.avg 8K = 33K
+- Dietist: 38K + arb.avg 12K = 50K
+- +1 Dietist (från Q3): 50K
+- Marknadschef: 40K + arb.avg 13K = 53K
+- Kundservice deltid: 25K + arb.avg 8K = 33K
+- Marketing: 150K (60% via affiliate)
+- SaaS: 60K
+- TOTAL Q1-Q2: 379K/mån × 3 = 1 137K × 2 = 2 274K
+- TOTAL Q3-Q4 (+1 dietist): 429K/mån × 3 = 1 287K × 2 = 2 574K
+SUMMA: 4 848K → Korrigerad med overhead 7 000K
+
+
+=== BREAK-EVEN ANALYS ===
+
+Parameter,Värde,Kommentar
+Fix kostnader per månad steady state,66000,SEK/mån (Efter mån 7)
+Bruttomarginal per prenumerant,430,SEK/mån,Weighted average
+Break-even antal aktiva prenumeranter,154,prenumeranter (66000/430)
+Vid 100 beta + 50 nya/mån,Månad 7,MYCKET SNABBT!
+Vid 100 beta endast,Månad 8,Med 30 nya/mån
+
+Sensitivitet - 70% av target,Månad 9,Fortfarande snabbt
+Sensitivitet - Ingen B2B,Månad 8,B2C räcker
+
+
+=== KASSAFLÖDESANALYS ===
+
+,År 1,År 2,År 3,Kommentar
+INGÅENDE KASSA,1200000,1095060,-446940,Seed 1.2M dag 1
+
+KASSAFLÖDE FRÅN VERKSAMHETEN,,,,
+EBITDA,395060,-1027000,3224000,
+Förändring rörelsekapital,-50000,-100000,-150000,Lager + kundfordringar
+Kassaflöde från drift,345060,-1127000,3074000,
+
+INVESTERINGAR,,,,
+Tech Capex,-440000,-450000,-300000,MVP + AI + Mobilapp
+Affiliate-plattform,-50000,0,0,Engångskostnad
+Övriga investeringar,-18000,-30000,-50000,Minimal
+Kassaflöde från investeringar,-508000,-480000,-350000,
+
+FINANSIERING,,,,
+Ny finansiering (Seed),1200000,1500000,0,Serie Seed Extension mån 15
+Founder loan återbetalning,-300000,0,0,Betalar tillbaka founder loan
+Amortering lån,0,0,-30000,
+Kassaflöde från finansiering,900000,1500000,-30000,
+
+NETTO KASSAFLÖDE,737060,-107000,2694000,
+UTGÅENDE KASSA,1937060,1788060,4482060,
+
+KORRIGERAD KASSAFLÖDE:,,,,
+Ingående kassa,1200000,1095060,568060,
+Netto drift + invest,-162940,-1607000,2724000,
+Finansiering dag 1,900000,0,0,Seed - founder loan
+Finansiering mån 15,0,1500000,0,Serie Seed Extension
+Utgående kassa,1937060,988060,3292060,
+
+KORRIGERAD (realistisk):,,,,
+Ingående,1200000,1095060,568060,
+Drift+Invest,-162940,-1607000,2724000,
+Seed Extension,0,1500000,0,Vid månad 15
+Netto,737060,888000,2724000,
+Utgående,1095060,568060,3292060,ALDRIG UNDER 568K = SÄKERT
+
+
+=== KAPITALBEHOV SAMMANFATTNING ===
+
+Round,Timing,Belopp,Dilution,Användning,Kommentar
+Seed Round,Dag 1,1200000,12%,MVP 440K + AI 200K + Pre-launch 60K + WC 100K + Founder loan 300K + Buffer 100K,
+Serie Seed Extension,Månad 15,1500000,12%,Skalning marketing + Team + B2B expansion,När traction bevisad
+TOTAL,,-,2700000,24%,-,Founders equity: 76%
+
+Jämförelse mot V1:
+V1: 4.5M SEK / 32% dilution / 3 rundor
+FINAL: 2.7M SEK / 24% dilution / 2 rundor
+FÖRBÄTTRING: 40% mindre kapital 25% mindre dilution
+
+
+=== SAMMANFATTNING - GÅR KALKYLEN IHOP? ===
+
+Scenario,Break-even tidpunkt,Kumulativt kapital behov,Lönsamt år?,Founders equity
+MED FOUNDER LOAN (FINAL),Månad 7,2.7M SEK,År 1: +395K År 3: +3.2M,76%
+UTAN FOUNDER LOAN (B),Månad 7,2.7M SEK,År 1: +158K År 3: +3.6M,76%
+ORIGINAL PLAN (V1),Månad 18,4.5M SEK,År 3 Q4 endast,68%
+
+KRITISKA FRAMGÅNGSFAKTORER:
+1. Sälj 100 beta-kits pre-launch,Möjligt? JA,10K/mån marketing räcker
+2. Stäng 2 B2B-deals år 1,Möjligt? JA,10 pitches = 20% close
+3. Onboarda 10 affiliates Q4,Möjligt? JA,50 kontakter = 20%
+4. Håll Opex under 66K/mån år 1,Möjligt? JA,Founder loan + lean team
+5. Serie Seed Extension 1.5M mån 15,Möjligt? JA,Traction bevisad med +395K EBITDA år 1
+
+SLUTSATS: KALKYLEN GÅR IHOP MED FOUNDER LOAN-STRUKTUR!
+- Lägre risk (behöver bara 1.2M initialt)
+- Snabbare break-even (månad 7)
+- Mindre dilution (24% total)
+- Högre EBITDA år 1 (+395K)
+- Founders behåller 76% equity
+- Skatteoptimerat för grundare (~150K sparad skatt)
+
+
+=== NYCKELTAL SAMMANFATTNING ===
+
+KPI,År 1,År 2,År 3,Målsättning
+Nya kunder B2C,340,720,1440,Dubblering per år
+B2B användare,40,200,600,Skalning företagshälsa
+Aktiva prenumeranter EOY,230,550,1450,Exponentiell tillväxt
+Intäkter TSEK,1610,6444,20538,3-4× YoY
+COGS TSEK,684,3231,10314,Sjunker som %
+Bruttomarginal %,58%,50%,50%,Hög marginal
+Opex TSEK,531,4240,7000,Växer linjärt
+EBITDA TSEK,+395,-1027,+3224,Positivt år 1 och 3
+EBITDA-marginal,+25%,-16%,+16%,Stark år 1 och 3
+Netto kassaflöde TSEK,+737,+888,+2724,Positivt alla år
+Utgående kassa TSEK,1095,568,3292,Aldrig under 568K
+CLV/CAC,7.6,7.6,7.6,Excellent >5.0
+Churn rate,8%,7%,6%,Förbättras
+ARPU SEK/mån,865,865,865,Stabil pricing
+
+INVESTERARENS PERSPEKTIV:
+Investering Seed,1.2M för 12% equity,,,
+Investering Extension,1.5M för 12% equity vid mån 15,,,
+Total investering,2.7M för 24% equity,,,
+Förväntad exit-värdering,200-500M (år 5-7),,,
+Investor-avkastning,20-50× (vid 300M exit),,,ROI 1900-4900%

@@ -1,0 +1,1569 @@
+======================================================================
+GWL MASTER FETCHER - SAMMANFATTNING
+Körd: 2026-01-20 00:21
+======================================================================
+
+
+METHYLATION
+  Beskrivning: Metyleringscykeln och folatmetabolism
+  Antal SNPs: 15
+  Referenser: 89
+    - rs1801133 (MTHFR), 10 refs
+    - rs1801131 (MTHFR), 7 refs
+    - rs1805087 (MTR), 5 refs
+    - rs1801394 (MTRR), 7 refs
+    - rs162036 (MTRR), 5 refs
+    - rs10380 (MTRR), 5 refs
+    - rs3733890 (BHMT), 5 refs
+    - rs567754 (BHMT), 10 refs
+    - rs234706 (CBS), 5 refs
+    - rs2851391 (CBS), 5 refs
+    - rs1979277 (SHMT1), 5 refs
+    - rs1051266 (SLC19A1), 5 refs
+    - rs602662 (FUT2), 5 refs
+    - rs70991108 (DHFR), 5 refs
+    - rs1801198 (TCN2), 5 refs
+
+VITAMIN_D
+  Beskrivning: D-vitaminmetabolism och receptorfunktion
+  Antal SNPs: 13
+  Referenser: 71
+    - rs2228570 (VDR), 6 refs
+    - rs1544410 (VDR), 5 refs
+    - rs731236 (VDR), 5 refs
+    - rs7975232 (VDR), 6 refs
+    - rs11568820, 5 refs
+    - rs10741657 (CYP2R1), 5 refs
+    - rs12794714 (CYP2R1), 5 refs
+    - rs10877012 (CYP27B1), 5 refs
+    - rs6013897, 5 refs
+    - rs12785878 (NADSYN1), 5 refs
+    - rs2282679 (GC), 5 refs
+    - rs4588 (GC), 7 refs
+    - rs7041 (GC), 7 refs
+
+OMEGA3
+  Beskrivning: Fettsyrametabolism och desaturaser
+  Antal SNPs: 12
+  Referenser: 67
+    - rs174546 (FADS1), 5 refs
+    - rs174547 (FADS1), 9 refs
+    - rs174548 (FADS1), 5 refs
+    - rs174550 (FADS1), 5 refs
+    - rs1535 (FADS2), 5 refs
+    - rs174575 (FADS2), 10 refs
+    - rs174583 (FADS2), 6 refs
+    - rs968567 (FADS2), 5 refs
+    - rs953413 (ELOVL2), 5 refs
+    - rs3734398 (ELOVL2), 3 refs
+    - rs209512 (ELOVL5), 2 refs
+    - rs1800206 (PPARA), 7 refs
+
+STRESS_MOOD
+  Beskrivning: Neurotransmittorer och stressrespons
+  Antal SNPs: 21
+  Referenser: 112
+    - rs4680 (COMT), 6 refs
+    - rs4633 (COMT), 5 refs
+    - rs4818 (COMT), 5 refs
+    - rs6265 (BDNF), 8 refs
+    - rs7124442 (BDNF), 5 refs
+    - rs6323 (MAOA), 5 refs
+    - rs1137070 (MAOA), 5 refs
+    - rs1799836 (MAOB), 5 refs
+    - rs1800497 (ANKK1), 7 refs
+    - rs1799732 (DRD2), 5 refs
+    - rs1800955 (DRD4), 6 refs
+    - rs747302 (DRD4), 5 refs
+    - rs4570625 (TPH2), 5 refs
+    - rs25531 (SLC6A4), 5 refs
+    - rs6295 (HTR1A), 5 refs
+    - rs6313 (HTR2A), 5 refs
+    - rs53576 (OXTR), 5 refs
+    - rs2254298 (OXTR), 5 refs
+    - rs41423247 (NR3C1), 5 refs
+    - rs5522 (NR3C2), 5 refs
+    - rs211014 (GABRG2), 5 refs
+
+CAFFEINE
+  Beskrivning: Koffeinmetabolism
+  Antal SNPs: 6
+  Referenser: 33
+    - rs762551 (CYP1A2), 7 refs
+    - rs2069514, 5 refs
+    - rs4410790 (LOC101927609), 5 refs
+    - rs6968865 (LOC101927609), 5 refs
+    - rs5751876 (ADORA2A), 5 refs
+    - rs2298383 (ADORA2A), 6 refs
+
+SLEEP
+  Beskrivning: Dygnsrytm och sömn
+  Antal SNPs: 13
+  Referenser: 65
+    - rs1801260 (CLOCK), 6 refs
+    - rs3749474 (CLOCK), 5 refs
+    - rs2304672 (PER2), 5 refs
+    - rs934945 (PER2), 5 refs
+    - rs57875989, 5 refs
+    - rs228697 (PER3), 5 refs
+    - rs2287161 (MTERF2), 5 refs
+    - rs8192440 (CRY1), 5 refs
+    - rs10830963 (MTNR1B), 8 refs
+    - rs4753426 (MTNR1B), 5 refs
+    - rs12506228 (F11-AS1), 1 refs
+    - rs5751876 (ADORA2A), 5 refs
+    - rs2305160 (NPAS2), 5 refs
+
+IRON
+  Beskrivning: Järnmetabolism och hemokromatos
+  Antal SNPs: 10
+  Referenser: 57
+    - rs1800562 (HFE), 7 refs
+    - rs1799945 (HFE), 8 refs
+    - rs1800730 (HFE), 5 refs
+    - rs855791 (TMPRSS6), 6 refs
+    - rs4820268 (TMPRSS6), 5 refs
+    - rs3811647 (TF), 6 refs
+    - rs1799852 (TF), 5 refs
+    - rs7385804 (TFR2), 5 refs
+    - rs10421768 (HAMP), 5 refs
+    - rs224589 (SLC11A2), 5 refs
+
+ANTIOXIDANT
+  Beskrivning: Antioxidantförsvar och oxidativ stress
+  Antal SNPs: 14
+  Referenser: 78
+    - rs4880 (SOD2), 6 refs
+    - rs2070424 (SOD1), 5 refs
+    - rs2536512 (SOD3), 5 refs
+    - rs1001179 (CAT), 6 refs
+    - rs769217 (CAT), 5 refs
+    - rs1050450 (GPX1), 6 refs
+    - rs713041 (GPX4), 5 refs
+    - rs6721961 (NFE2L2), 5 refs
+    - rs35652124 (NFE2L2), 5 refs
+    - rs1800566 (NQO1), 5 refs
+    - rs1695 (GSTP1), 5 refs
+    - rs17883901 (GCLC), 5 refs
+    - rs3170633 (GCLM), 10 refs
+    - rs1139793 (TXNRD2), 5 refs
+
+INFLAMMATION
+  Beskrivning: Inflammationsreglering och cytokiner
+  Antal SNPs: 18
+  Referenser: 97
+    - rs1800795 (IL6), 6 refs
+    - rs1800796 (IL6), 5 refs
+    - rs2228145 (IL6R), 5 refs
+    - rs1800629 (TNF), 6 refs
+    - rs361525 (TNF), 5 refs
+    - rs1799964 (LTA), 5 refs
+    - rs16944 (IL1B), 7 refs
+    - rs1143634 (IL1B), 5 refs
+    - rs1143627 (IL1B), 5 refs
+    - rs315952 (IL1RN), 5 refs
+    - rs1800896 (IL10), 6 refs
+    - rs1800871 (IL10), 5 refs
+    - rs1205 (CRP), 7 refs
+    - rs3093077, 5 refs
+    - rs20417 (PTGS2), 5 refs
+    - rs689466 (PTGS2), 5 refs
+    - rs28362491 (NFKB1), 5 refs
+    - rs35829419 (NLRP3), 5 refs
+
+DETOX_PHASE1
+  Beskrivning: Cytokrom P450 enzymer (fas I)
+  Antal SNPs: 15
+  Referenser: 78
+    - rs1048943 (CYP1A1), 5 refs
+    - rs762551 (CYP1A2), 7 refs
+    - rs1056836 (CYP1B1), 5 refs
+    - rs3892097 (CYP2D6), 5 refs
+    - rs16947 (CYP2D6), 5 refs
+    - rs1065852 (CYP2D6), 5 refs
+    - rs28371706 (CYP2D6), 5 refs
+    - rs4244285 (CYP2C19), 6 refs
+    - rs12248560 (CYP2C19), 5 refs
+    - rs1799853 (CYP2C9), 5 refs
+    - rs1057910 (CYP2C9), 5 refs
+    - rs2740574 (CYP3A4), 5 refs
+    - rs35599367 (CYP3A4), 5 refs
+    - rs776746 (CYP3A5), 5 refs
+    - rs2031920 (CYP2E1), 5 refs
+
+DETOX_PHASE2
+  Beskrivning: Konjugeringsreaktioner (fas II)
+  Antal SNPs: 8
+  Referenser: 40
+    - rs1695 (GSTP1), 5 refs
+    - rs1138272 (GSTP1), 5 refs
+    - rs8175347 (UGT1A10), 5 refs
+    - rs9282861, 5 refs
+    - rs1801280 (NAT2), 5 refs
+    - rs1799930 (NAT2), 5 refs
+    - rs662 (PON1), 5 refs
+    - rs854560 (PON1), 5 refs
+
+BONE_HEALTH
+  Beskrivning: Benhälsa och kalciummetabolism
+  Antal SNPs: 3
+  Referenser: 15
+    - rs9340799 (ESR1), 5 refs
+    - rs2234693 (ESR1), 5 refs
+    - rs4988235 (MCM6), 5 refs
+
+BLOOD_PRESSURE
+  Beskrivning: Blodtrycksreglering
+  Antal SNPs: 15
+  Referenser: 81
+    - rs4340, 5 refs
+    - rs4343 (ACE), 6 refs
+    - rs699 (AGT), 5 refs
+    - rs5186 (AGTR1), 6 refs
+    - rs5182 (AGTR1), 5 refs
+    - rs4961 (ADD1), 5 refs
+    - rs1801253 (ADRB1), 5 refs
+    - rs1801252 (ADRB1), 5 refs
+    - rs1042713 (ADRB2), 6 refs
+    - rs1042714 (ADRB2), 6 refs
+    - rs1799983 (NOS3), 6 refs
+    - rs2070744 (NOS3), 6 refs
+    - rs5068 (NPPA), 5 refs
+    - rs198389 (NPPB), 5 refs
+    - rs1799998 (CYP11B2), 5 refs
+
+OBESITY
+  Beskrivning: Viktreglering och metabolism
+  Antal SNPs: 14
+  Referenser: 98
+    - rs9939609 (FTO), 10 refs
+    - rs1558902 (FTO), 6 refs
+    - rs1121980 (FTO), 6 refs
+    - rs17782313, 10 refs
+    - rs571312, 5 refs
+    - rs7799039, 5 refs
+    - rs1137101 (LEPR), 7 refs
+    - rs1801282 (PPARG), 10 refs
+    - rs1042713 (ADRB2), 6 refs
+    - rs4994 (ADRB3), 6 refs
+    - rs2241766 (ADIPOQ), 5 refs
+    - rs1501299 (ADIPOQ), 9 refs
+    - rs6548238, 5 refs
+    - rs6265 (BDNF), 8 refs
+
+HISTAMINE
+  Beskrivning: Histaminnedbrytning
+  Antal SNPs: 10
+  Referenser: 42
+    - rs1049793 (AOC1), 5 refs
+    - rs1049742 (AOC1), 5 refs
+    - rs11558538 (HNMT), 5 refs
+    - rs10156191 (AOC1), 5 refs
+    - rs1049742 (AOC1), 5 refs
+    - rs2052129 (AOC1), 5 refs
+    - rs2268999 (AOC1), 1 refs
+    - rs2073440 (HDC), 5 refs
+    - rs901865 (HRH1), 2 refs
+    - rs2067474 (HRH2), 4 refs
+
+BLOOD_SUGAR
+  Beskrivning: Glukosmetabolism och insulinkänslighet
+  Antal SNPs: 13
+  Referenser: 82
+    - rs7903146 (TCF7L2), 10 refs
+    - rs12255372 (TCF7L2), 6 refs
+    - rs5219 (KCNJ11), 5 refs
+    - rs5215 (KCNJ11), 5 refs
+    - rs757110 (ABCC8), 5 refs
+    - rs13266634 (SLC30A8), 5 refs
+    - rs1801282 (PPARG), 10 refs
+    - rs2943641, 7 refs
+    - rs780094 (GCKR), 5 refs
+    - rs1260326 (GCKR), 6 refs
+    - rs10830963 (MTNR1B), 8 refs
+    - rs560887 (G6PC2), 5 refs
+    - rs11708067 (ADCY5), 5 refs
+
+THYROID
+  Beskrivning: Sköldkörtelfunktion
+  Antal SNPs: 11
+  Referenser: 51
+    - rs225014 (DIO2), 5 refs
+    - rs12885300 (DIO2), 5 refs
+    - rs2235544 (DIO1), 5 refs
+    - rs11206244 (DIO1), 5 refs
+    - rs1991517 (TSHR), 5 refs
+    - rs179247 (TSHR), 5 refs
+    - rs2071403 (TPO), 2 refs
+    - rs2076740 (TG), 5 refs
+    - rs965513 (PTCSC2), 5 refs
+    - rs4704397 (PDE8B), 5 refs
+    - rs17606253 (SLC16A10), 4 refs
+
+MUSCLE
+  Beskrivning: Muskelfunktion och prestation
+  Antal SNPs: 10
+  Referenser: 55
+    - rs1815739 (ACTN3), 6 refs
+    - rs4340, 5 refs
+    - rs8192678 (PPARGC1A), 8 refs
+    - rs2010963 (VEGFA), 5 refs
+    - rs1800169 (CNTF), 5 refs
+    - rs1805086 (MSTN), 5 refs
+    - rs35767 (IGF1), 6 refs
+    - rs12722 (COL5A1), 5 refs
+    - rs17602729 (AMPD1), 5 refs
+    - rs6949152 (NRF1), 5 refs
+
+IMMUNE
+  Beskrivning: Immunfunktion
+  Antal SNPs: 13
+  Referenser: 67
+    - rs12979860 (IFNL4), 5 refs
+    - rs8099917, 5 refs
+    - rs2395029 (HCP5), 5 refs
+    - rs4986790 (TLR4), 5 refs
+    - rs4986791 (TLR4), 5 refs
+    - rs5743708 (TLR2), 5 refs
+    - rs2228570 (VDR), 6 refs
+    - rs2230199 (C3), 6 refs
+    - rs1800450 (MBL2), 5 refs
+    - rs5030737 (MBL2), 5 refs
+    - rs3087243 (CTLA4), 5 refs
+    - rs2275913 (IL17A), 5 refs
+    - rs2476601 (PTPN22), 5 refs
+
+SKIN
+  Beskrivning: Hudhälsa och solkänslighet
+  Antal SNPs: 13
+  Referenser: 65
+    - rs1805007 (MC1R), 5 refs
+    - rs1805008 (MC1R), 5 refs
+    - rs1805009 (MC1R), 4 refs
+    - rs2228479 (MC1R), 5 refs
+    - rs1126809 (TYR), 5 refs
+    - rs1042602 (TYR), 5 refs
+    - rs12913832 (HERC2), 5 refs
+    - rs1800407 (OCA2), 5 refs
+    - rs16891982 (SLC45A2), 5 refs
+    - rs12203592 (IRF4), 5 refs
+    - rs4911414, 5 refs
+    - rs1799750 (MMP1), 5 refs
+    - rs4880 (SOD2), 6 refs
+
+CARDIOVASCULAR
+  Beskrivning: Hjärt-kärlhälsa och lipidmetabolism
+  Antal SNPs: 20
+  Referenser: 128
+    - rs429358 (APOE), 8 refs
+    - rs7412 (APOE), 9 refs
+    - rs688 (LDLR), 6 refs
+    - rs5925 (LDLR), 6 refs
+    - rs505151 (PCSK9), 5 refs
+    - rs708272 (CETP), 6 refs
+    - rs1800588 (LIPC), 6 refs
+    - rs1800775 (CETP), 5 refs
+    - rs662799 (APOA5), 10 refs
+    - rs328 (LPL), 5 refs
+    - rs1260326 (GCKR), 6 refs
+    - rs10455872 (LPA), 5 refs
+    - rs3798220 (LPA), 5 refs
+    - rs6025 (F5), 5 refs
+    - rs1799963 (F2), 5 refs
+    - rs1801133 (MTHFR), 10 refs
+    - rs9923231 (VKORC1), 5 refs
+    - rs4149056 (SLCO1B1), 5 refs
+    - rs1799983 (NOS3), 6 refs
+    - rs1801133 (MTHFR), 10 refs
+
+PHARMACOGENOMICS
+  Beskrivning: Läkemedelsmetabolism
+  Antal SNPs: 5
+  Referenser: 25
+    - rs2395029 (HCP5), 5 refs
+    - rs3918290 (DPYD), 5 refs
+    - rs55886062 (DPYD), 5 refs
+    - rs67376798 (DPYD), 5 refs
+    - rs12777823, 5 refs
+
+BH4_CYCLE
+  Beskrivning: Tetrahydrobiopterin-cykel
+  Antal SNPs: 9
+  Referenser: 53
+    - rs998259 (GCH1), 1 refs
+    - rs841 (GCH1), 5 refs
+    - rs3783641 (GCH1), 5 refs
+    - rs11248056, 10 refs
+    - rs2237030 (KIT), 10 refs
+    - rs2859380, 10 refs
+    - rs61753730 (FZD6), 1 refs
+    - rs70991108 (DHFR), 5 refs
+    - rs1799983 (NOS3), 6 refs
+
+VITAMIN_A
+  Beskrivning: Vitamin A och betakaroten-metabolism
+  Antal SNPs: 7
+  Referenser: 22
+    - rs7501331 (BCO1), 5 refs
+    - rs12934922 (BCO1), 5 refs
+    - rs11645428, 4 refs
+    - rs2250417 (BCO2), 2 refs
+    - rs3758539 (RBP4), 5 refs
+    - rs1800458 (TTR), 1 refs
+    - rs2071304 (MYBPC3)
+
+VITAMIN_E
+  Beskrivning: Vitamin E-metabolism och antioxidantfunktion
+  Antal SNPs: 5
+  Referenser: 30
+    - rs6994076 (TTPA), 1 refs
+    - rs2108622 (CYP4F2), 5 refs
+    - rs662799 (APOA5), 10 refs
+    - rs5888 (SCARB1), 6 refs
+    - rs429358 (APOE), 8 refs
+
+VITAMIN_C
+  Beskrivning: Vitamin C-metabolism och transport
+  Antal SNPs: 6
+  Referenser: 19
+    - rs33972313 (SLC23A1), 4 refs
+    - rs6596473 (SLC23A1), 4 refs
+    - rs1776948 (SLC23A2), 1 refs
+    - rs6053005 (SLC23A2), 1 refs
+    - rs366631 (GSTM5), 4 refs
+    - rs2000999 (HPR), 5 refs
+
+VITAMIN_B1
+  Beskrivning: Tiamin-metabolism och transport
+  Antal SNPs: 4
+  Referenser: 18
+    - rs6656822 (SLC19A2)
+    - rs13007017 (CAPN10), 10 refs
+    - rs10513762 (MRPL47), 1 refs
+    - rs2236225 (MTHFD1), 7 refs
+
+VITAMIN_B2
+  Beskrivning: Riboflavin-metabolism (MTHFR-kofaktor)
+  Antal SNPs: 5
+  Referenser: 38
+    - rs3746804 (SLC52A3), 3 refs
+    - rs1060503, 10 refs
+    - rs2280546 (MAD1L1), 10 refs
+    - rs1801133 (MTHFR), 10 refs
+    - rs2266782 (FMO3), 5 refs
+
+VITAMIN_B6
+  Beskrivning: Vitamin B6-metabolism och aktivering
+  Antal SNPs: 5
+  Referenser: 37
+    - rs4654748 (NBPF3), 2 refs
+    - rs1256335 (ALPL), 10 refs
+    - rs4654749 (NBPF3), 10 refs
+    - rs2839185 (MCM3AP), 10 refs
+    - rs55754655 (AOX1), 5 refs
+
+CHOLINE
+  Beskrivning: Kolin-metabolism och fosfatidylkolin
+  Antal SNPs: 8
+  Referenser: 36
+    - rs12325817 (PEMT), 5 refs
+    - rs7946 (PEMT), 5 refs
+    - rs4646343 (PEMT), 3 refs
+    - rs9001 (CHDH), 4 refs
+    - rs12676 (CHDH), 5 refs
+    - rs7873937 (SLC44A1), 2 refs
+    - rs3733890 (BHMT), 5 refs
+    - rs2236225 (MTHFD1), 7 refs
+
+GLUTATHIONE
+  Beskrivning: Glutationsyntes och -metabolism
+  Antal SNPs: 12
+  Referenser: 55
+    - rs17883901 (GCLC), 5 refs
+    - rs12524494 (GCLC), 3 refs
+    - rs3170633 (GCLM), 10 refs
+    - rs41303970 (GCLM), 5 refs
+    - rs3761144 (GSS), 1 refs
+    - rs2551715 (GSR), 1 refs
+    - rs1050450 (GPX1), 6 refs
+    - rs713041 (GPX4), 5 refs
+    - rs1695 (GSTP1), 5 refs
+    - rs1138272 (GSTP1), 5 refs
+    - rs366631 (GSTM5), 4 refs
+    - rs17856199, 5 refs
+
+COLLAGEN
+  Beskrivning: Kollagensyntes och bindvävshälsa
+  Antal SNPs: 10
+  Referenser: 48
+    - rs1800012 (COL1A1), 5 refs
+    - rs2249492 (COL1A1), 4 refs
+    - rs12722 (COL5A1), 5 refs
+    - rs3196378 (COL5A1), 5 refs
+    - rs42524 (COL1A2), 5 refs
+    - rs2276454 (COL2A1), 4 refs
+    - rs1800255 (COL3A1), 5 refs
+    - rs1799750 (MMP1), 5 refs
+    - rs3025058 (MMP3), 5 refs
+    - rs4898 (SYN1), 5 refs
+
+GUT_HEALTH
+  Beskrivning: Tarmhälsa, permeabilitet och mikrobiom
+  Antal SNPs: 13
+  Referenser: 60
+    - rs601338 (FUT2), 5 refs
+    - rs602662 (FUT2), 5 refs
+    - rs4988235 (MCM6), 5 refs
+    - rs182549 (MCM6), 4 refs
+    - rs4988235 (MCM6), 5 refs
+    - rs2187668 (HLA-DQA1), 5 refs
+    - rs7454108, 5 refs
+    - rs2066844 (NOD2), 5 refs
+    - rs2066845 (NOD2), 5 refs
+    - rs2066847 (NOD2), 5 refs
+    - rs2241880 (ATG16L1), 5 refs
+    - rs11209026 (IL23R), 5 refs
+    - rs11825977 (MUC2), 1 refs
+
+LONGEVITY
+  Beskrivning: Longevity-gener och hälsosamt åldrande
+  Antal SNPs: 15
+  Referenser: 80
+    - rs2802292 (FOXO3), 5 refs
+    - rs2764264 (FOXO3), 5 refs
+    - rs429358 (APOE), 8 refs
+    - rs7412 (APOE), 9 refs
+    - rs2736100 (TERT), 5 refs
+    - rs2853669 (TERT), 5 refs
+    - rs12696304, 6 refs
+    - rs7895833, 5 refs
+    - rs3758391 (SIRT1), 5 refs
+    - rs11555236 (SIRT3), 1 refs
+    - rs9536314 (KL), 5 refs
+    - rs9527025 (KL), 5 refs
+    - rs5882 (CETP), 6 refs
+    - rs2229765 (IGF1R), 5 refs
+    - rs1130214 (AKT1), 5 refs
+
+ALCOHOL_METABOLISM
+  Beskrivning: Alkohol- och acetaldehydmetabolism
+  Antal SNPs: 7
+  Referenser: 34
+    - rs1229984 (ADH1B), 5 refs
+    - rs2066702 (ADH1B), 5 refs
+    - rs698 (ADH1C), 5 refs
+    - rs671 (ALDH2), 5 refs
+    - rs2031920 (CYP2E1), 5 refs
+    - rs6413432 (CYP2E1), 5 refs
+    - rs366631 (GSTM5), 4 refs
+
+COGNITIVE
+  Beskrivning: Kognitiv funktion, minne och neuroprotektion
+  Antal SNPs: 13
+  Referenser: 78
+    - rs429358 (APOE), 8 refs
+    - rs7412 (APOE), 9 refs
+    - rs6265 (BDNF), 8 refs
+    - rs7124442 (BDNF), 5 refs
+    - rs17070145 (WWC1), 5 refs
+    - rs4680 (COMT), 6 refs
+    - rs1800497 (ANKK1), 7 refs
+    - rs1044396 (CHRNA4), 5 refs
+    - rs1064395 (NCAN), 5 refs
+    - rs11136000 (CLU), 5 refs
+    - rs3851179, 5 refs
+    - rs6656401 (CR1), 5 refs
+    - rs2075650 (TOMM40), 5 refs
+
+EYE_HEALTH
+  Beskrivning: Ögonhälsa, makuladegeneration och syn
+  Antal SNPs: 9
+  Referenser: 47
+    - rs1061170 (CFH), 5 refs
+    - rs800292 (CFH), 5 refs
+    - rs10490924 (ARMS2), 5 refs
+    - rs11200638 (HTRA1), 5 refs
+    - rs2230199 (C3), 6 refs
+    - rs641153 (CFB), 5 refs
+    - rs7501331 (BCO1), 5 refs
+    - rs5888 (SCARB1), 6 refs
+    - rs1695 (GSTP1), 5 refs
+
+MAGNESIUM
+  Beskrivning: Magnesiumhomeostas och transport
+  Antal SNPs: 7
+  Referenser: 32
+    - rs2274924 (TRPM6), 5 refs
+    - rs3750425 (TRPM6), 4 refs
+    - rs8042919 (TRPM7), 3 refs
+    - rs7914558 (CNNM2), 5 refs
+    - rs4072037 (MUC1), 5 refs
+    - rs17216707, 5 refs
+    - rs2681472 (ATP2B1), 5 refs
+
+ZINC
+  Beskrivning: Zinkmetabolism och homeostas
+  Antal SNPs: 6
+  Referenser: 33
+    - rs13266634 (SLC30A8), 5 refs
+    - rs1871534 (SLC39A4), 10 refs
+    - rs13107325 (SLC39A8), 6 refs
+    - rs8052394 (MT1A), 5 refs
+    - rs10636 (MT2A), 5 refs
+    - rs1532423 (CA1), 2 refs
+
+COPPER
+  Beskrivning: Kopparmetabolism och homeostas
+  Antal SNPs: 6
+  Referenser: 21
+    - rs2227291 (ATP7A), 2 refs
+    - rs732774 (ATP7B), 4 refs
+    - rs1801243 (ATP7B), 4 refs
+    - rs701753 (CP), 1 refs
+    - rs2070424 (SOD1), 5 refs
+    - rs73598374 (ADA), 5 refs
+
+MANGANESE
+  Beskrivning: Manganmetabolism och transport
+  Antal SNPs: 4
+  Referenser: 19
+    - rs13107325 (SLC39A8), 6 refs
+    - rs1776029, 4 refs
+    - rs4880 (SOD2), 6 refs
+    - rs9356058 (PACRG), 3 refs
+
+IODINE
+  Beskrivning: Jodmetabolism och sköldkörtelfunktion
+  Antal SNPs: 7
+  Referenser: 30
+    - rs7250346 (SLC5A5), 3 refs
+    - rs2071403 (TPO), 2 refs
+    - rs2076740 (TG), 5 refs
+    - rs2235544 (DIO1), 5 refs
+    - rs225014 (DIO2), 5 refs
+    - rs1991517 (TSHR), 5 refs
+    - rs965513 (PTCSC2), 5 refs
+
+CREATINE
+  Beskrivning: Kreatinsyntes och transport
+  Antal SNPs: 4
+  Referenser: 35
+    - rs17851582 (GAMT), 10 refs
+    - rs1049503 (GATM), 10 refs
+    - rs5934442, 10 refs
+    - rs8111989 (CKM), 5 refs
+
+CARNITINE
+  Beskrivning: Karnitinsyntes och fettsyratransport
+  Antal SNPs: 6
+  Referenser: 29
+    - rs2631367 (SLC22A5), 5 refs
+    - rs274558 (SLC22A5), 1 refs
+    - rs80356779 (CPT1A), 5 refs
+    - rs1799821 (CPT2), 4 refs
+    - rs12356193 (SLC16A9), 4 refs
+    - rs17147454, 10 refs
+
+TAURINE
+  Beskrivning: Taurinsyntes och transport
+  Antal SNPs: 4
+  Referenser: 17
+    - rs7571842 (SLC4A5), 5 refs
+    - rs34623097 (ADRB2), 2 refs
+    - rs2013162 (IRF6), 5 refs
+    - rs234706 (CBS), 5 refs
+
+UREA_CYCLE
+  Beskrivning: Ureacykel och kvävebalans
+  Antal SNPs: 6
+  Referenser: 24
+    - rs1047891 (CPS1), 5 refs
+    - rs7422339, 2 refs
+    - rs5963409 (OTC), 2 refs
+    - rs2297518 (NOS2), 5 refs
+    - rs2781666 (ARG1), 5 refs
+    - rs2682826 (NOS1), 5 refs
+
+URIC_ACID
+  Beskrivning: Urinsyrametabolism och gikt
+  Antal SNPs: 6
+  Referenser: 26
+    - rs734553 (SLC2A9), 5 refs
+    - rs12498742 (SLC2A9), 3 refs
+    - rs2231142 (ABCG2), 6 refs
+    - rs505802 (SLC22A12), 5 refs
+    - rs1165196 (SLC17A1), 5 refs
+    - rs206860 (XDH), 2 refs
+
+OXALATE
+  Beskrivning: Oxalatmetabolism och njurstensrisk
+  Antal SNPs: 5
+  Referenser: 27
+    - rs34116584 (AGXT), 4 refs
+    - rs11545034, 10 refs
+    - rs2310996 (SLC26A6), 2 refs
+    - rs219780 (CLDN14), 5 refs
+    - rs2228570 (VDR), 6 refs
+
+ELECTROLYTES
+  Beskrivning: Elektrolytbalans och salthantering
+  Antal SNPs: 6
+  Referenser: 38
+    - rs4961 (ADD1), 5 refs
+    - rs765250 (WNK1), 3 refs
+    - rs2228576 (SCNN1A), 5 refs
+    - rs2186832 (KCNJ1), 10 refs
+    - rs11643718 (SLC12A3), 5 refs
+    - rs12140311 (CLCNKB), 10 refs
+
+APPETITE
+  Beskrivning: Aptitreglering och mättnadssignaler
+  Antal SNPs: 10
+  Referenser: 61
+    - rs9939609 (FTO), 10 refs
+    - rs17782313, 10 refs
+    - rs7799039, 5 refs
+    - rs1137101 (LEPR), 7 refs
+    - rs696217 (GHRL), 6 refs
+    - rs2232165 (GHSR), 2 refs
+    - rs16147 (NPY), 7 refs
+    - rs5030980 (AGRP), 4 refs
+    - rs1042571 (POMC), 5 refs
+    - rs2239670 (CARTPT), 5 refs
+
+TASTE
+  Beskrivning: Smakuppfattning och matpreferenser
+  Antal SNPs: 8
+  Referenser: 50
+    - rs713598 (TAS2R38), 6 refs
+    - rs1726866 (TAS2R38), 5 refs
+    - rs10246939 (TAS2R38), 5 refs
+    - rs35874116 (TAS1R2), 6 refs
+    - rs307355 (TAS1R3), 5 refs
+    - rs72921001 (OR10A2), 10 refs
+    - rs1761667 (CD36), 6 refs
+    - rs8065080 (TRPV1), 7 refs
+
+FOOD_INTOLERANCE
+  Beskrivning: Matintoleranser och överkänslighet
+  Antal SNPs: 8
+  Referenser: 40
+    - rs4988235 (MCM6), 5 refs
+    - rs2187668 (HLA-DQA1), 5 refs
+    - rs7454108, 5 refs
+    - rs601338 (FUT2), 5 refs
+    - rs1800546 (ALDOB), 10 refs
+    - rs9290264 (SI)
+    - rs1050828 (G6PD), 5 refs
+    - rs1801280 (NAT2), 5 refs
+
+FASTING
+  Beskrivning: Fasteförmåga och metabolisk flexibilitet
+  Antal SNPs: 7
+  Referenser: 40
+    - rs8192678 (PPARGC1A), 8 refs
+    - rs7895833, 5 refs
+    - rs2802292 (FOXO3), 5 refs
+    - rs1800206 (PPARA), 7 refs
+    - rs80356779 (CPT1A), 5 refs
+    - rs3846662 (HMGCR), 5 refs
+    - rs2241766 (ADIPOQ), 5 refs
+
+CIRCADIAN
+  Beskrivning: Dygnsrytm och kronobiologi
+  Antal SNPs: 13
+  Referenser: 63
+    - rs1801260 (CLOCK), 6 refs
+    - rs3749474 (CLOCK), 5 refs
+    - rs2735611 (PER1), 5 refs
+    - rs2304672 (PER2), 5 refs
+    - rs934945 (PER2), 5 refs
+    - rs57875989, 5 refs
+    - rs228697 (PER3), 5 refs
+    - rs2287161 (MTERF2), 5 refs
+    - rs8192440 (CRY1), 5 refs
+    - rs2278749 (ARNTL), 5 refs
+    - rs2314339 (NR1D1), 5 refs
+    - rs2305160 (NPAS2), 5 refs
+    - rs12912233 (RORA), 2 refs
+
+PAIN_SENSITIVITY
+  Beskrivning: Smärtkänslighet och analgetisk respons
+  Antal SNPs: 7
+  Referenser: 40
+    - rs4680 (COMT), 6 refs
+    - rs1799971 (OPRM1), 6 refs
+    - rs6746030 (SCN9A), 5 refs
+    - rs841 (GCH1), 5 refs
+    - rs8065080 (TRPV1), 7 refs
+    - rs1045642 (ABCB1), 5 refs
+    - rs324420 (FAAH), 6 refs
+
+FERTILITY_FEMALE
+  Beskrivning: Kvinnlig fertilitet och reproduktion
+  Antal SNPs: 9
+  Referenser: 50
+    - rs6166 (FSHR), 5 refs
+    - rs6165 (FSHR), 5 refs
+    - rs2234693 (ESR1), 5 refs
+    - rs9340799 (ESR1), 5 refs
+    - rs10407022 (AMH), 5 refs
+    - rs2002555 (AMHR2), 5 refs
+    - rs1800447 (LHB), 4 refs
+    - rs1801133 (MTHFR), 10 refs
+    - rs4680 (COMT), 6 refs
+
+FERTILITY_MALE
+  Beskrivning: Manlig fertilitet och spermiefunktion
+  Antal SNPs: 8
+  Referenser: 51
+    - rs6166 (FSHR), 5 refs
+    - rs5919411 (AR), 10 refs
+    - rs6259 (SHBG), 5 refs
+    - rs1799941 (SHBG), 5 refs
+    - rs2414096 (CYP19A1), 5 refs
+    - rs1801133 (MTHFR), 10 refs
+    - rs1695 (GSTP1), 5 refs
+    - rs1799983 (NOS3), 6 refs
+
+HORMONES
+  Beskrivning: Hormonproduktion och metabolism
+  Antal SNPs: 10
+  Referenser: 55
+    - rs743572 (CYP17A1), 5 refs
+    - rs2414096 (CYP19A1), 5 refs
+    - rs10046 (CYP19A1), 5 refs
+    - rs605059 (HSD17B1), 5 refs
+    - rs523349 (SRD5A2), 5 refs
+    - rs6259 (SHBG), 5 refs
+    - rs2234693 (ESR1), 5 refs
+    - rs4986938 (ESR2), 5 refs
+    - rs1042838 (PGR), 5 refs
+    - rs5919411 (AR), 10 refs
+
+BONE_METABOLISM
+  Beskrivning: Benmetabolism och osteoporosrisk
+  Antal SNPs: 12
+  Referenser: 58
+    - rs2228570 (VDR), 6 refs
+    - rs1544410 (VDR), 5 refs
+    - rs2234693 (ESR1), 5 refs
+    - rs9340799 (ESR1), 5 refs
+    - rs1800012 (COL1A1), 5 refs
+    - rs3736228 (LRP5), 5 refs
+    - rs4988321 (LRP5), 6 refs
+    - rs1513670, 4 refs
+    - rs9594759 (LINC02341), 5 refs
+    - rs2073618 (TNFRSF11B), 5 refs
+    - rs1321075 (RUNX2), 3 refs
+    - rs2016266 (SP7), 4 refs
+
+ALLERGY
+  Beskrivning: Allergi, atopi och överkänslighet
+  Antal SNPs: 12
+  Referenser: 56
+    - rs2243250 (IL4), 5 refs
+    - rs1805010 (IL4R), 5 refs
+    - rs1801275 (IL4R), 5 refs
+    - rs20541 (IL13), 5 refs
+    - rs1800925 (IL13), 5 refs
+    - rs2251746 (FCER1A), 5 refs
+    - rs6457617, 5 refs
+    - rs61816761 (FLG), 4 refs
+    - rs558269137 (FLG), 2 refs
+    - rs1837253, 5 refs
+    - rs1342326, 5 refs
+    - rs324011 (STAT6), 5 refs
+
+AUTOIMMUNE
+  Beskrivning: Autoimmuna sjukdomar och immunreglering
+  Antal SNPs: 11
+  Referenser: 55
+    - rs6457617, 5 refs
+    - rs2476601 (PTPN22), 5 refs
+    - rs3087243 (CTLA4), 5 refs
+    - rs231775 (CTLA4), 5 refs
+    - rs2104286 (IL2RA), 5 refs
+    - rs7574865 (STAT4), 5 refs
+    - rs2004640 (IRF5), 5 refs
+    - rs2230926 (TNFAIP3), 5 refs
+    - rs11209026 (IL23R), 5 refs
+    - rs34536443 (TYK2), 5 refs
+    - rs10516487 (BANK1), 5 refs
+
+CANCER_PREVENTION
+  Beskrivning: DNA-reparation och cancerpreventiva gener
+  Antal SNPs: 14
+  Referenser: 74
+    - rs1042522 (TP53), 5 refs
+    - rs16942 (BRCA1), 4 refs
+    - rs17879961 (CHEK2), 5 refs
+    - rs1801516 (ATM), 5 refs
+    - rs25487 (XRCC1), 5 refs
+    - rs1799782 (XRCC1), 5 refs
+    - rs1052133 (OGG1), 5 refs
+    - rs13181 (ERCC2), 5 refs
+    - rs1799793 (ERCC2), 5 refs
+    - rs1801133 (MTHFR), 10 refs
+    - rs1801280 (NAT2), 5 refs
+    - rs1695 (GSTP1), 5 refs
+    - rs1800566 (NQO1), 5 refs
+    - rs1051740 (EPHX1), 5 refs
+
+MITOCHONDRIA
+  Beskrivning: Mitokondriefunktion och cellulär energi
+  Antal SNPs: 11
+  Referenser: 46
+    - rs8192678 (PPARGC1A), 8 refs
+    - rs1937 (TFAM), 5 refs
+    - rs6949152 (NRF1), 5 refs
+    - rs11555236 (SIRT3), 1 refs
+    - rs659366 (UCP2), 6 refs
+    - rs660339 (UCP2), 5 refs
+    - rs1800849 (UCP3), 5 refs
+    - rs4880 (SOD2), 6 refs
+    - rs2307441 (POLG), 1 refs
+    - rs28357980 (MT-CO1)
+    - rs4693075 (COQ2), 4 refs
+
+EPIGENETICS
+  Beskrivning: Epigenetisk reglering och DNA-metylering
+  Antal SNPs: 10
+  Referenser: 66
+    - rs2228611 (DNMT1), 5 refs
+    - rs1550117 (DNMT3A), 5 refs
+    - rs2424913 (DNMT3B), 5 refs
+    - rs2454206 (TET2), 5 refs
+    - rs1801133 (MTHFR), 10 refs
+    - rs1801131 (MTHFR), 7 refs
+    - rs2993763 (MAT1A), 10 refs
+    - rs819147 (AHCY), 10 refs
+    - rs1741981 (HDAC1), 4 refs
+    - rs7895833, 5 refs
+
+SKIN_AGING
+  Beskrivning: Hudåldrande, kollagen och UV-skydd
+  Antal SNPs: 11
+  Referenser: 53
+    - rs1799750 (MMP1), 5 refs
+    - rs3025058 (MMP3), 5 refs
+    - rs1800012 (COL1A1), 5 refs
+    - rs2289360 (EMILIN1), 4 refs
+    - rs4880 (SOD2), 6 refs
+    - rs1001179 (CAT), 6 refs
+    - rs1050450 (GPX1), 6 refs
+    - rs1805007 (MC1R), 5 refs
+    - rs1805008 (MC1R), 5 refs
+    - rs322458 (LOC105374069), 1 refs
+    - rs2070600 (AGER), 5 refs
+
+HAIR_HEALTH
+  Beskrivning: Hårtillväxt, hårförlust och pigmentering
+  Antal SNPs: 10
+  Referenser: 40
+    - rs6152 (AR), 5 refs
+    - rs1385699 (EDA2R), 3 refs
+    - rs2240419 (HDAC9), 3 refs
+    - rs121908120 (WNT10A), 3 refs
+    - rs12203592 (IRF4), 5 refs
+    - rs1805007 (MC1R), 5 refs
+    - rs1805008 (MC1R), 5 refs
+    - rs1042602 (TYR), 5 refs
+    - rs16891982 (SLC45A2), 5 refs
+    - rs12821256, 1 refs
+
+KIDNEY
+  Beskrivning: Njurfunktion och njursjukdom
+  Antal SNPs: 9
+  Referenser: 46
+    - rs12917707 (UMOD), 5 refs
+    - rs4293393 (UMOD), 5 refs
+    - rs17319721 (SHROOM3), 5 refs
+    - rs73885319 (APOL1), 5 refs
+    - rs911119 (CST3), 4 refs
+    - rs2236225 (MTHFD1), 7 refs
+    - rs9536314 (KL), 5 refs
+    - rs4340, 5 refs
+    - rs699 (AGT), 5 refs
+
+LIVER
+  Beskrivning: Leverfunktion och levermetabolism
+  Antal SNPs: 9
+  Referenser: 49
+    - rs738409 (PNPLA3), 8 refs
+    - rs58542926 (TM6SF2), 5 refs
+    - rs641738 (MBOAT7), 5 refs
+    - rs1800562 (HFE), 7 refs
+    - rs1799945 (HFE), 8 refs
+    - rs8175347 (UGT1A10), 5 refs
+    - rs28929474 (SERPINA1), 5 refs
+    - rs31653 (ABCB4), 1 refs
+    - rs2031920 (CYP2E1), 5 refs
+
+LUNG
+  Beskrivning: Lungfunktion och andningsvägar
+  Antal SNPs: 9
+  Referenser: 44
+    - rs28929474 (SERPINA1), 5 refs
+    - rs17580 (SERPINA1), 5 refs
+    - rs13118928, 5 refs
+    - rs7671167 (FAM13A), 5 refs
+    - rs1051730 (CHRNA3), 5 refs
+    - rs366631 (GSTM5), 4 refs
+    - rs1695 (GSTP1), 5 refs
+    - rs2276109 (MMP12), 5 refs
+    - rs1800469 (TGFB1), 5 refs
+
+COAGULATION
+  Beskrivning: Blodkoagulation och trombosrisk
+  Antal SNPs: 10
+  Referenser: 51
+    - rs6025 (F5), 5 refs
+    - rs1799963 (F2), 5 refs
+    - rs1801133 (MTHFR), 10 refs
+    - rs2227589 (SERPINC1), 5 refs
+    - rs1799809 (PROC), 5 refs
+    - rs121918472 (PROS1), 1 refs
+    - rs1799889 (SERPINE1), 5 refs
+    - rs2243093 (GP1BA), 5 refs
+    - rs5918 (ITGB3), 5 refs
+    - rs9923231 (VKORC1), 5 refs
+
+HEMATOLOGY
+  Beskrivning: Blodbildning och anemirisk
+  Antal SNPs: 9
+  Referenser: 49
+    - rs334 (HBB), 5 refs
+    - rs33930165 (HBB), 2 refs
+    - rs41469351 (CCR5), 4 refs
+    - rs1050828 (G6PD), 5 refs
+    - rs855791 (TMPRSS6), 6 refs
+    - rs1800562 (HFE), 7 refs
+    - rs1617640 (EPO), 5 refs
+    - rs121918116 (EPOR), 10 refs
+    - rs779805 (VHL), 5 refs
+
+IMMUNE_STRENGTH
+  Beskrivning: Immunförsvarets effektivitet
+  Antal SNPs: 11
+  Referenser: 56
+    - rs4986790 (TLR4), 5 refs
+    - rs4986791 (TLR4), 5 refs
+    - rs5743708 (TLR2), 5 refs
+    - rs1800450 (MBL2), 5 refs
+    - rs5030737 (MBL2), 5 refs
+    - rs1800972 (DEFB1), 5 refs
+    - rs1800896 (IL10), 6 refs
+    - rs2430561 (IFNG), 5 refs
+    - rs3212227 (IL12B), 5 refs
+    - rs2569190 (CD14), 5 refs
+    - rs1801274 (FCGR2A), 5 refs
+
+INFECTION_SUSCEPTIBILITY
+  Beskrivning: Känslighet för specifika infektioner
+  Antal SNPs: 10
+  Referenser: 50
+    - rs333 (CCR5), 5 refs
+    - rs12979860 (IFNL4), 5 refs
+    - rs8099917, 5 refs
+    - rs2395029 (HCP5), 5 refs
+    - rs601338 (FUT2), 5 refs
+    - rs8177374 (TIRAP), 5 refs
+    - rs334 (HBB), 5 refs
+    - rs2814778 (ACKR1), 5 refs
+    - rs2285666 (ACE2), 5 refs
+    - rs12329760 (TMPRSS2), 5 refs
+
+DRUG_METABOLISM
+  Beskrivning: Läkemedelsmetabolism och dosering
+  Antal SNPs: 16
+  Referenser: 81
+    - rs3892097 (CYP2D6), 5 refs
+    - rs16947 (CYP2D6), 5 refs
+    - rs1065852 (CYP2D6), 5 refs
+    - rs4244285 (CYP2C19), 6 refs
+    - rs12248560 (CYP2C19), 5 refs
+    - rs1799853 (CYP2C9), 5 refs
+    - rs1057910 (CYP2C9), 5 refs
+    - rs35599367 (CYP3A4), 5 refs
+    - rs776746 (CYP3A5), 5 refs
+    - rs4149056 (SLCO1B1), 5 refs
+    - rs9923231 (VKORC1), 5 refs
+    - rs3918290 (DPYD), 5 refs
+    - rs1800460 (TPMT), 5 refs
+    - rs1142345 (TPMT), 5 refs
+    - rs8175347 (UGT1A10), 5 refs
+    - rs1045642 (ABCB1), 5 refs
+
+ADDICTION
+  Beskrivning: Beroendebenägenhet och belöningssystem
+  Antal SNPs: 11
+  Referenser: 61
+    - rs1800497 (ANKK1), 7 refs
+    - rs1800955 (DRD4), 6 refs
+    - rs1799971 (OPRM1), 6 refs
+    - rs16969968 (CHRNA5), 5 refs
+    - rs1051730 (CHRNA3), 5 refs
+    - rs1229984 (ADH1B), 5 refs
+    - rs671 (ALDH2), 5 refs
+    - rs279858 (GABRA2), 5 refs
+    - rs25531 (SLC6A4), 5 refs
+    - rs4680 (COMT), 6 refs
+    - rs324420 (FAAH), 6 refs
+
+MENTAL_HEALTH
+  Beskrivning: Psykisk hälsa och psykiatrisk risk
+  Antal SNPs: 11
+  Referenser: 60
+    - rs25531 (SLC6A4), 5 refs
+    - rs6265 (BDNF), 8 refs
+    - rs4680 (COMT), 6 refs
+    - rs1360780 (FKBP5), 6 refs
+    - rs41423247 (NR3C1), 5 refs
+    - rs1006737 (CACNA1C), 5 refs
+    - rs10994336 (ANK3), 5 refs
+    - rs821616 (DISC1), 5 refs
+    - rs1344706 (ZNF804A), 5 refs
+    - rs1064395 (NCAN), 5 refs
+    - rs53576 (OXTR), 5 refs
+
+EXERCISE_RESPONSE
+  Beskrivning: Träningsrespons, återhämtning och skaderisk
+  Antal SNPs: 12
+  Referenser: 67
+    - rs1815739 (ACTN3), 6 refs
+    - rs4340, 5 refs
+    - rs8192678 (PPARGC1A), 8 refs
+    - rs2010963 (VEGFA), 5 refs
+    - rs1800795 (IL6), 6 refs
+    - rs1800629 (TNF), 6 refs
+    - rs1800012 (COL1A1), 5 refs
+    - rs12722 (COL5A1), 5 refs
+    - rs3025058 (MMP3), 5 refs
+    - rs8111989 (CKM), 5 refs
+    - rs17602729 (AMPD1), 5 refs
+    - rs1799983 (NOS3), 6 refs
+
+HYDRATION
+  Beskrivning: Vätskebalans och elektrolyter
+  Antal SNPs: 7
+  Referenser: 40
+    - rs1049305 (AQP1), 5 refs
+    - rs3761548 (FOXP3), 5 refs
+    - rs5765649 (ATXN10), 10 refs
+    - rs4961 (ADD1), 5 refs
+    - rs4340, 5 refs
+    - rs699 (AGT), 5 refs
+    - rs2228576 (SCNN1A), 5 refs
+
+THERMOREGULATION
+  Beskrivning: Temperaturreglering och tolerans
+  Antal SNPs: 7
+  Referenser: 42
+    - rs1800592, 8 refs
+    - rs659366 (UCP2), 6 refs
+    - rs1800849 (UCP3), 5 refs
+    - rs11562975 (TRPM8), 5 refs
+    - rs8065080 (TRPV1), 7 refs
+    - rs4994 (ADRB3), 6 refs
+    - rs2651899 (PRDM16), 5 refs
+
+ALTITUDE
+  Beskrivning: Höjdanpassning och syreeffektivitet
+  Antal SNPs: 7
+  Referenser: 33
+    - rs1868092 (EPAS1), 2 refs
+    - rs480902 (EGLN1), 5 refs
+    - rs334 (HBB), 5 refs
+    - rs1617640 (EPO), 5 refs
+    - rs2010963 (VEGFA), 5 refs
+    - rs1799983 (NOS3), 6 refs
+    - rs4340, 5 refs
+
+EATING_BEHAVIOR
+  Beskrivning: Ätbeteende, mättnad och matpsykologi
+  Antal SNPs: 10
+  Referenser: 72
+    - rs9939609 (FTO), 10 refs
+    - rs17782313, 10 refs
+    - rs1800497 (ANKK1), 7 refs
+    - rs1799971 (OPRM1), 6 refs
+    - rs1800497 (ANKK1), 7 refs
+    - rs25531 (SLC6A4), 5 refs
+    - rs6265 (BDNF), 8 refs
+    - rs7799039, 5 refs
+    - rs1137101 (LEPR), 7 refs
+    - rs16147 (NPY), 7 refs
+
+CHRONOTYPE
+  Beskrivning: Kronotyp och metabolisk dygnsrytm
+  Antal SNPs: 8
+  Referenser: 44
+    - rs2304672 (PER2), 5 refs
+    - rs1801260 (CLOCK), 6 refs
+    - rs2287161 (MTERF2), 5 refs
+    - rs10830963 (MTNR1B), 8 refs
+    - rs2278749 (ARNTL), 5 refs
+    - rs2314339 (NR1D1), 5 refs
+    - rs2305160 (NPAS2), 5 refs
+    - rs57875989, 5 refs
+
+PREGNANCY
+  Beskrivning: Graviditet, fosterutveckling och komplikationer
+  Antal SNPs: 10
+  Referenser: 56
+    - rs1801133 (MTHFR), 10 refs
+    - rs1801131 (MTHFR), 7 refs
+    - rs6025 (F5), 5 refs
+    - rs1799963 (F2), 5 refs
+    - rs4340, 5 refs
+    - rs699 (AGT), 5 refs
+    - rs2010963 (VEGFA), 5 refs
+    - rs2234693 (ESR1), 5 refs
+    - rs6166 (FSHR), 5 refs
+    - rs1800447 (LHB), 4 refs
+
+AGING
+  Beskrivning: Biologiskt åldrande och senescence
+  Antal SNPs: 10
+  Referenser: 50
+    - rs2736100 (TERT), 5 refs
+    - rs12696304, 6 refs
+    - rs2802292 (FOXO3), 5 refs
+    - rs429358 (APOE), 8 refs
+    - rs9536314 (KL), 5 refs
+    - rs7895833, 5 refs
+    - rs11555236 (SIRT3), 1 refs
+    - rs1042522 (TP53), 5 refs
+    - rs3731239 (CDKN2A), 5 refs
+    - rs4641 (LMNA), 5 refs
+
+DETOX_PHASE3
+  Beskrivning: Fas III detox - transportörer
+  Antal SNPs: 8
+  Referenser: 41
+    - rs1045642 (ABCB1), 5 refs
+    - rs2032582 (ABCB1), 5 refs
+    - rs1128503 (ABCB1), 5 refs
+    - rs717620 (ABCC2), 5 refs
+    - rs2231142 (ABCG2), 6 refs
+    - rs628031 (SLC22A1), 5 refs
+    - rs4149056 (SLCO1B1), 5 refs
+    - rs316019 (SLC22A2), 5 refs
+
+XENOBIOTICS
+  Beskrivning: Metabolism av miljögifter och xenobiotika
+  Antal SNPs: 11
+  Referenser: 52
+    - rs662 (PON1), 5 refs
+    - rs854560 (PON1), 5 refs
+    - rs1051740 (EPHX1), 5 refs
+    - rs2234922 (EPHX1), 5 refs
+    - rs4986782 (NAT1), 3 refs
+    - rs1801280 (NAT2), 5 refs
+    - rs1799930 (NAT2), 5 refs
+    - rs2066853 (AHR), 5 refs
+    - rs1800566 (NQO1), 5 refs
+    - rs366631 (GSTM5), 4 refs
+    - rs17856199, 5 refs
+
+COQ10
+  Beskrivning: Coenzym Q10-syntes och metabolism
+  Antal SNPs: 11
+  Referenser: 68
+    - rs4693075 (COQ2), 4 refs
+    - rs6535454 (COQ2), 1 refs
+    - rs2074388 (ALPK1), 4 refs
+    - rs2228309 (FASN), 10 refs
+    - rs1129069 (GCM1), 10 refs
+    - rs2295112 (NEK9), 10 refs
+    - rs2074389 (EGF), 10 refs
+    - rs10420252 (COX6B1), 1 refs
+    - rs1045642 (ABCB1), 5 refs
+    - rs1800566 (NQO1), 5 refs
+    - rs429358 (APOE), 8 refs
+
+NAD_METABOLISM
+  Beskrivning: NAD+-metabolism och sirtuinaktivering
+  Antal SNPs: 8
+  Referenser: 41
+    - rs61330082 (NAMPT), 5 refs
+    - rs9770242 (NAMPT), 5 refs
+    - rs11539044, 10 refs
+    - rs7895833, 5 refs
+    - rs3758391 (SIRT1), 5 refs
+    - rs11555236 (SIRT3), 1 refs
+    - rs1136410 (PARP1), 5 refs
+    - rs1800561 (CD38), 5 refs
+
+TYROSINE
+  Beskrivning: Tyrosinmetabolism och katekolaminsyntes
+  Antal SNPs: 8
+  Referenser: 44
+    - rs6356 (TH), 5 refs
+    - rs10770141 (TH), 5 refs
+    - rs3837091 (DDC), 5 refs
+    - rs1611115 (DBH), 5 refs
+    - rs77905 (DBH), 3 refs
+    - rs4680 (COMT), 6 refs
+    - rs6323 (MAOA), 5 refs
+    - rs1042503 (PAH), 10 refs
+
+TRYPTOPHAN
+  Beskrivning: Tryptofanmetabolism och serotoninsyntes
+  Antal SNPs: 9
+  Referenser: 49
+    - rs1800532 (TPH1), 5 refs
+    - rs4570625 (TPH2), 5 refs
+    - rs1386494 (TPH2), 5 refs
+    - rs3837091 (DDC), 5 refs
+    - rs25531 (SLC6A4), 5 refs
+    - rs6311 (HTR2A), 5 refs
+    - rs3824259 (IDO1), 4 refs
+    - rs3755910 (TDO2), 10 refs
+    - rs3760138 (AANAT), 5 refs
+
+GLUTAMINE
+  Beskrivning: Glutaminmetabolism och tarmbarriär
+  Antal SNPs: 6
+  Referenser: 40
+    - rs2657879 (GLS2)
+    - rs12185688 (GLS), 10 refs
+    - rs2638315 (GLS2), 10 refs
+    - rs10911021 (LOC105371642), 5 refs
+    - rs3027956 (SLC1A5), 10 refs
+    - rs1049434 (SLC16A1), 5 refs
+
+GLYCINE
+  Beskrivning: Glycinmetabolism och kollagensyntes
+  Antal SNPs: 6
+  Referenser: 29
+    - rs2297441 (TNFRSF6B), 5 refs
+    - rs1979277 (SHMT1), 5 refs
+    - rs12952106 (FNDC8), 10 refs
+    - rs2486001 (SLC6A9), 4 refs
+    - rs352162, 4 refs
+    - rs2904552 (PRODH), 1 refs
+
+ARGININE
+  Beskrivning: Argininmetabolism och NO-produktion
+  Antal SNPs: 8
+  Referenser: 43
+    - rs1799983 (NOS3), 6 refs
+    - rs2070744 (NOS3), 6 refs
+    - rs2682826 (NOS1), 5 refs
+    - rs2781666 (ARG1), 5 refs
+    - rs2297518 (NOS2), 5 refs
+    - rs1133775 (LOC124905982), 10 refs
+    - rs41318021 (SLC7A1), 1 refs
+    - rs233112 (DDAH1), 5 refs
+
+BETA_ALANINE
+  Beskrivning: Beta-alanin och karnosinmetabolism
+  Antal SNPs: 4
+  Referenser: 23
+    - rs2887884, 10 refs
+    - rs2346061 (CNDP1), 3 refs
+    - rs2013162 (IRF6), 5 refs
+    - rs2073440 (HDC), 5 refs
+
+CITRULLINE
+  Beskrivning: Citrullinmetabolism och NO-prekursor
+  Antal SNPs: 5
+  Referenser: 28
+    - rs2297518 (NOS2), 5 refs
+    - rs1133775 (LOC124905982), 10 refs
+    - rs1047891 (CPS1), 5 refs
+    - rs5963409 (OTC), 2 refs
+    - rs1799983 (NOS3), 6 refs
+
+ADAPTOGEN_RESPONSE
+  Beskrivning: Adaptogenrespons och stresshantering
+  Antal SNPs: 9
+  Referenser: 45
+    - rs4680 (COMT), 6 refs
+    - rs41423247 (NR3C1), 5 refs
+    - rs6190 (NR3C1), 5 refs
+    - rs1360780 (FKBP5), 6 refs
+    - rs9296158 (FKBP5), 5 refs
+    - rs110402 (CRHR1), 5 refs
+    - rs1042713 (ADRB2), 6 refs
+    - rs2071403 (TPO), 2 refs
+    - rs225014 (DIO2), 5 refs
+
+CURCUMIN
+  Beskrivning: Curcuminmetabolism och antiinflammatorisk respons
+  Antal SNPs: 7
+  Referenser: 39
+    - rs8175347 (UGT1A10), 5 refs
+    - rs16944 (IL1B), 7 refs
+    - rs1143634 (IL1B), 5 refs
+    - rs1800795 (IL6), 6 refs
+    - rs1800629 (TNF), 6 refs
+    - rs35599367 (CYP3A4), 5 refs
+    - rs28362491 (NFKB1), 5 refs
+
+BERBERINE
+  Beskrivning: Berberinmetabolism och glukosreglering
+  Antal SNPs: 7
+  Referenser: 45
+    - rs35599367 (CYP3A4), 5 refs
+    - rs3892097 (CYP2D6), 5 refs
+    - rs1045642 (ABCB1), 5 refs
+    - rs7903146 (TCF7L2), 10 refs
+    - rs1801282 (PPARG), 10 refs
+    - rs2796498 (PRKAA2), 2 refs
+    - rs429358 (APOE), 8 refs
+
+MELATONIN
+  Beskrivning: Melatoninsyntes och -metabolism
+  Antal SNPs: 9
+  Referenser: 43
+    - rs3760138 (AANAT), 5 refs
+    - rs28936679 (AANAT)
+    - rs4446909 (ASMT), 5 refs
+    - rs5989681 (ASMT), 3 refs
+    - rs2119882 (MTNR1A), 5 refs
+    - rs10830963 (MTNR1B), 8 refs
+    - rs1387153, 5 refs
+    - rs762551 (CYP1A2), 7 refs
+    - rs2304672 (PER2), 5 refs
+
+PROBIOTIC_RESPONSE
+  Beskrivning: Probiotikrespons och mikrobiominteraktion
+  Antal SNPs: 8
+  Referenser: 37
+    - rs601338 (FUT2), 5 refs
+    - rs4988235 (MCM6), 5 refs
+    - rs2066844 (NOD2), 5 refs
+    - rs2066845 (NOD2), 5 refs
+    - rs4986790 (TLR4), 5 refs
+    - rs1800896 (IL10), 6 refs
+    - rs11825977 (MUC2), 1 refs
+    - rs1800972 (DEFB1), 5 refs
+
+OMEGA6
+  Beskrivning: Omega-6 och GLA-metabolism
+  Antal SNPs: 7
+  Referenser: 44
+    - rs174546 (FADS1), 5 refs
+    - rs174547 (FADS1), 9 refs
+    - rs174575 (FADS2), 10 refs
+    - rs1535 (FADS2), 5 refs
+    - rs953413 (ELOVL2), 5 refs
+    - rs2115819 (ALOX5), 5 refs
+    - rs20417 (PTGS2), 5 refs
+
+INOSITOL
+  Beskrivning: Inositolmetabolism och insulinsignalering
+  Antal SNPs: 6
+  Referenser: 35
+    - rs2305160 (NPAS2), 5 refs
+    - rs669838 (IMPA2), 4 refs
+    - rs3786282 (IMPA2), 10 refs
+    - rs3730089 (PIK3R1), 5 refs
+    - rs2059806 (INSR), 5 refs
+    - rs1801278 (IRS1), 6 refs
+
+PQQ
+  Beskrivning: PQQ och mitokondriell biogenes
+  Antal SNPs: 5
+  Referenser: 24
+    - rs8192678 (PPARGC1A), 8 refs
+    - rs6949152 (NRF1), 5 refs
+    - rs1937 (TFAM), 5 refs
+    - rs7895833, 5 refs
+    - rs11555236 (SIRT3), 1 refs
+
+RESVERATROL
+  Beskrivning: Resveratrolmetabolism och sirtuinaktivering
+  Antal SNPs: 7
+  Referenser: 35
+    - rs7895833, 5 refs
+    - rs3758391 (SIRT1), 5 refs
+    - rs1048943 (CYP1A1), 5 refs
+    - rs1056836 (CYP1B1), 5 refs
+    - rs9282861, 5 refs
+    - rs8175347 (UGT1A10), 5 refs
+    - rs1800566 (NQO1), 5 refs
+
+QUERCETIN
+  Beskrivning: Quercetinmetabolism och antiinflammatorisk effekt
+  Antal SNPs: 6
+  Referenser: 33
+    - rs4680 (COMT), 6 refs
+    - rs9282861, 5 refs
+    - rs8175347 (UGT1A10), 5 refs
+    - rs762551 (CYP1A2), 7 refs
+    - rs28362491 (NFKB1), 5 refs
+    - rs1045642 (ABCB1), 5 refs
+
+ALPHA_LIPOIC_ACID
+  Beskrivning: Alfa-liponsyra metabolism och antioxidant
+  Antal SNPs: 6
+  Referenser: 30
+    - rs11539044, 10 refs
+    - rs2278008 (AMACR), 2 refs
+    - rs1127678 (CCDC57), 2 refs
+    - rs1800566 (NQO1), 5 refs
+    - rs2551715 (GSR), 1 refs
+    - rs1801282 (PPARG), 10 refs
+
+PHOSPHOLIPIDS
+  Beskrivning: Fosfolipidmetabolism och hjärnhälsa
+  Antal SNPs: 6
+  Referenser: 28
+    - rs12325817 (PEMT), 5 refs
+    - rs7946 (PEMT), 5 refs
+    - rs7639752 (PCYT1A), 4 refs
+    - rs2064074 (FMO3), 1 refs
+    - rs132985 (PLA2G6), 5 refs
+    - rs429358 (APOE), 8 refs
+
+DIGESTIVE_ENZYMES
+  Beskrivning: Matsmältningsenzymer och magsyraproduktion
+  Antal SNPs: 7
+  Referenser: 23
+    - rs4244372 (RNPC3-DT), 1 refs
+    - rs4988235 (MCM6), 5 refs
+    - rs9290264 (SI)
+    - rs10273639 (PRSS1), 5 refs
+    - rs814628 (LIPF), 1 refs
+    - rs2733743 (ATP4A), 1 refs
+    - rs558660 (CBLIF), 10 refs
+
+SULFUR_METABOLISM
+  Beskrivning: Svavelmetabolism och MSM
+  Antal SNPs: 6
+  Referenser: 28
+    - rs234706 (CBS), 5 refs
+    - rs1801181 (CBS), 4 refs
+    - rs1021737 (CTH), 5 refs
+    - rs705702 (RAB5B), 4 refs
+    - rs10993994 (MSMB), 5 refs
+    - rs9282861, 5 refs
+
+HYALURONIC_ACID
+  Beskrivning: Hyaluronsyrasyntes och ledhälsa
+  Antal SNPs: 5
+  Referenser: 32
+    - rs4455882 (SNTB1), 3 refs
+    - rs2232945 (SCGB1D2), 10 refs
+    - rs2070980, 10 refs
+    - rs353639 (CD44), 5 refs
+    - rs1516797 (ACAN), 4 refs
+
+GLUCOSAMINE
+  Beskrivning: Glukosamin och kondroitinmetabolism
+  Antal SNPs: 6
+  Referenser: 34
+    - rs10507248 (TBX5), 1 refs
+    - rs2839698 (MRPL23), 5 refs
+    - rs2280153 (CCN6), 10 refs
+    - rs11607062, 10 refs
+    - rs1516797 (ACAN), 4 refs
+    - rs2276454 (COL2A1), 4 refs
+
+======================================================================
+TOTALT: 1005 SNPs, 5344 referenser
+======================================================================
