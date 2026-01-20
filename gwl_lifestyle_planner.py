@@ -84,6 +84,337 @@ class LifestylePlan:
     # General lifestyle
     lifestyle_recommendations: List[str]
 
+    # Genetic explanations (what each profile means)
+    genetic_explanations: Dict[str, Dict[str, str]] = field(default_factory=dict)
+
+# =============================================================================
+# GENETIC PROFILE EXPLANATIONS
+# =============================================================================
+
+GENETIC_PROFILE_EXPLANATIONS = {
+    "MTHFR_impaired": {
+        "name": "MTHFR (Metylentetrahydrofolatreduktas)",
+        "what_it_is": """MTHFR är ett enzym som omvandlar folat (vitamin B9) till dess aktiva form,
+metylfolat (5-MTHF). Metylfolat är avgörande för metyleringscykeln - en fundamental
+biokemisk process som påverkar DNA-reparation, neurotransmittorproduktion,
+avgiftning och över 200 andra reaktioner i kroppen.""",
+        "what_variant_means": """Du har en genetisk variant som minskar MTHFR-enzymets aktivitet
+med 30-70%. Detta innebär att din kropp har svårare att:
+• Omvandla syntetisk folsyra till användbart metylfolat
+• Producera tillräckligt med SAMe (kroppens huvudmetyldonator)
+• Hålla homocystein på hälsosamma nivåer
+• Tillverka neurotransmittorer som serotonin och dopamin""",
+        "why_recommendation": """Därför rekommenderas:
+• METYLFOLAT istället för folsyra - du kan använda det direkt
+• B12 som metylkobalamin - arbetar tillsammans med metylfolat
+• B2 (riboflavin) - kofaktor som MTHFR-enzymet behöver
+• UNDVIK syntetisk folsyra - kan blockera receptorer utan att ge nytta
+• UNDVIK lustgas vid operation - inaktiverar B12 och förvärrar metyleringsproblem"""
+    },
+
+    "COMT_slow": {
+        "name": "COMT Långsam (Met/Met - 'Worrier')",
+        "what_it_is": """COMT (Katekol-O-metyltransferas) är ett enzym som bryter ner
+katekolaminer - dopamin, adrenalin och noradrenalin. Det bryter även ner
+östrogen och vissa gifter. COMT använder SAMe (från metyleringscykeln)
+för att göra detta.""",
+        "what_variant_means": """Du har den 'långsamma' varianten (Met/Met) som ger 3-4 gånger
+lägre enzymaktivitet. Detta betyder:
+
+FÖRDELAR:
+• Högre dopaminnivåer = bättre fokus och arbetsminne under lugna förhållanden
+• Bättre smärthantering
+• Kan prestera bra i förutsägbara situationer
+
+NACKDELAR:
+• Dopamin och adrenalin stannar längre = känsligare för stress
+• Kan känna dig överstimulerad av koffein, stress, stimulantia
+• Långsammare nedbrytning av östrogen
+• Mer benägen för ångest under press""",
+        "why_recommendation": """Därför rekommenderas:
+• UNDVIK EGCG/grönt te-extrakt - hämmar COMT ytterligare, kan orsaka ångest
+• Begränsa koffein (<200mg/dag) - du är känsligare för stimulantia
+• L-Theanin - balanserar dopamin, ger lugn utan sedation
+• Magnesium - COMT-kofaktor, lugnande för nervsystemet
+• Stresshantering kritisk - meditation, yoga hjälper dig hantera högt dopamin
+• DIM för östrogenstöd - hjälper bryta ner östrogen via alternativ väg"""
+    },
+
+    "COMT_fast": {
+        "name": "COMT Snabb (Val/Val - 'Warrior')",
+        "what_it_is": """COMT (Katekol-O-metyltransferas) bryter ner dopamin, adrenalin och
+noradrenalin. Du har den 'snabba' varianten som arbetar 3-4 gånger snabbare
+än den långsamma varianten.""",
+        "what_variant_means": """Du har den snabba varianten (Val/Val) som betyder:
+
+FÖRDELAR:
+• Bättre stresshantering - adrenalin rensas snabbt
+• Presterar bra under press ('warrior' fenotyp)
+• Mindre benägen för ångest
+• Snabbare återhämtning från stress
+
+NACKDELAR:
+• Lägre basala dopaminnivåer kan ge sämre fokus i lugna situationer
+• Kan behöva mer stimulans för att känna motivation
+• Risk för att söka sensation/stimulans""",
+        "why_recommendation": """Därför rekommenderas:
+• L-Tyrosin - aminosyra som är byggsten för dopamin
+• Proteinrik frukost - ger tyrosin för dopaminproduktion
+• Kaffe är OK för dig - du metaboliserar katekolaminer snabbt
+• Du kan hantera stress bättre, men behöver fokusstrategier i lugna miljöer"""
+    },
+
+    "APOE4_carrier": {
+        "name": "APOE e4 (Apolipoprotein E4)",
+        "what_it_is": """APOE är ett protein som transporterar fett och kolesterol i blodet och
+hjärnan. Det finns tre varianter: e2, e3 (vanligast), och e4. APOE4 är den
+evolutionärt äldsta varianten, utvecklad när människor var jägare-samlare
+med helt annan kost och livsstil.""",
+        "what_variant_means": """Du bär på APOE e4-allelen vilket innebär:
+
+ÖKAD RISK FÖR:
+• Alzheimers sjukdom (e4/e4: 10-15x, e3/e4: 2-3x ökad risk)
+• Hjärt-kärlsjukdom
+• Högre LDL-kolesterol som svar på mättat fett
+• Sämre reparation av hjärnceller
+
+VARFÖR e4 FINNS:
+• Fördelaktig i infektionsrik miljö (bättre immunförsvar)
+• Bra för fasta och lågkalorikost (effektiv fettmetabolism)
+• Men missmatchad med modern diet med mycket mättat fett
+
+VIKTIGT:
+• Genetik är inte öde - livsstil har ENORM påverkan
+• e4-bärare som lever hälsosamt kan ha LÄGRE risk än e3-bärare med ohälsosam livsstil""",
+        "why_recommendation": """Därför rekommenderas:
+• MÄTTAT FETT <7% av kalorier - din kropp svarar starkt negativt
+• OMEGA-3 HÖGDOS (2-3g EPA/DHA) - neuroprotektion, antiinflammation
+• MCT-olja - alternativ energikälla för hjärnan (ketoner)
+• Medelhavsbaserad kost - bevisat skyddande för e4-bärare
+• UNDVIK alkohol - e4 + alkohol = extra hjärnskada
+• Aerob träning 30+ min/dag - KRITISKT för kognitiv hälsa
+• Tidig screening från 50 års ålder"""
+    },
+
+    "FADS_low": {
+        "name": "FADS1/FADS2 Låg Aktivitet",
+        "what_it_is": """FADS1 och FADS2 (Fettsyradesaturas) är enzymer som omvandlar
+växtbaserat omega-3 (ALA från linfrö, chiafrön, valnötter) till de aktiva
+formerna EPA och DHA som kroppen använder för hjärna, ögon, hjärta och
+antiinflammatoriska processer.""",
+        "what_variant_means": """Du har genetiska varianter som ger låg FADS-aktivitet:
+
+VAD DET BETYDER:
+• Du kan INTE effektivt omvandla ALA (växtomega-3) till EPA/DHA
+• Konverteringsgraden kan vara så låg som 0.5-5% istället för normala 5-15%
+• Att äta linfrö och chiafrön ger dig nästan ingen EPA/DHA
+• Du är beroende av direkt EPA/DHA från fisk eller tillskott
+
+KONSEKVENSER OM EJ ÅTGÄRDAT:
+• Ökad inflammation
+• Sämre hjärnfunktion
+• Torr hud, torra ögon
+• Högre risk för hjärt-kärlsjukdom
+• Sämre immunförsvar""",
+        "why_recommendation": """Därför rekommenderas:
+• FET FISK minst 3 ggr/vecka - lax, makrill, sardiner, sill (direkt EPA/DHA)
+• FISKOLJA/ALGEOLJA dagligen 2-3g - du MÅSTE ha förformad EPA/DHA
+• FÖRLITA DIG INTE på växtomega-3 - det fungerar inte för dig
+• För vegetarianer: Algbaserad omega-3 (DHA+EPA) är OBLIGATORISKT
+• Minska omega-6 (solrosolja) - minskar inflammatorisk konkurrens"""
+    },
+
+    "VDR_impaired": {
+        "name": "VDR (Vitamin D-receptor) / CYP2R1",
+        "what_it_is": """VDR är receptorn som vitamin D binder till för att utöva sina effekter
+i cellerna. CYP2R1 är enzymet i levern som omvandlar D-vitamin till dess
+cirkulerande form (25-OH-D). Vitamin D är inte bara ett vitamin utan fungerar
+som ett hormon som påverkar över 2000 gener.""",
+        "what_variant_means": """Du har genetiska varianter som påverkar D-vitaminmetabolismen:
+
+VAD DET KAN BETYDA:
+• Lägre respons på samma mängd D-vitamin
+• Svårare att nå optimala blodnivåer (75-125 nmol/L)
+• Kan behöva 25-50% högre dos för samma effekt
+• Större behov av kofaktorer (K2, magnesium)
+
+VARFÖR D-VITAMIN ÄR VIKTIGT:
+• Immunförsvar (förebygger infektioner)
+• Benhälsa (kalciumupptag)
+• Muskelfunktion
+• Mental hälsa (depression kopplat till lågt D)
+• Kan påverka 5-10% av alla gener""",
+        "why_recommendation": """Därför rekommenderas:
+• HÖGRE DOS D3 (3000-5000 IE/dag) - du behöver mer för samma effekt
+• K2 (MK-7) ALLTID MED D3 - styr kalcium till skelett, inte kärl
+• Magnesium - krävs för att aktivera D-vitamin (25-hydroxylering)
+• Testa blodnivåer 2x/år - sikta på 75-100 nmol/L
+• Solexponering 15-20 min/dag utan solskydd (när möjligt)
+• Ta med FET MÅLTID - D-vitamin är fettlösligt"""
+    },
+
+    "CYP1A2_slow": {
+        "name": "CYP1A2 Långsam Koffeinmetabolism",
+        "what_it_is": """CYP1A2 är ett leverenzym som bryter ner koffein. Det ansvarar för
+~95% av koffeinmetabolismen. Koffein har en halveringstid på 3-7 timmar
+beroende på din CYP1A2-aktivitet.""",
+        "what_variant_means": """Du är en 'långsam metaboliserare' av koffein:
+
+VAD DET BETYDER:
+• Koffein stannar längre i ditt system (längre halveringstid)
+• En kopp kaffe kl 14 kan påverka sömnen kl 22
+• Större risk för biverkningar: hjärtklappning, ångest, sömnstörning
+• Ökad risk för hjärtinfarkt vid hög koffeinkonsumtion (>3 koppar/dag)
+
+GENETISK FÖRKLARING:
+• AC eller CC genotyp på rs762551
+• Enzymet arbetar långsammare
+• Samma dos koffein ger dig högre och längre exponering""",
+        "why_recommendation": """Därför rekommenderas:
+• MAX 1-2 koppar kaffe/dag
+• INGET koffein efter kl 14 (eller tidigare om sömnproblem)
+• Välj grönt te (lägre koffein, L-theanin balanserar)
+• Koffeinfritt kaffe om du vill ha smaken
+• UNDVIK energidrycker
+• Räkna med att koffein påverkar dig ~8-10 timmar"""
+    },
+
+    "CYP1A2_fast": {
+        "name": "CYP1A2 Snabb Koffeinmetabolism",
+        "what_it_is": """Du har hög CYP1A2-enzymaktivitet som bryter ner koffein snabbt.""",
+        "what_variant_means": """Du är en 'snabb metaboliserare' av koffein:
+
+VAD DET BETYDER:
+• Koffein rensas snabbt från ditt system
+• Du kan dricka kaffe på kvällen utan sömnpåverkan (för många)
+• Kaffe kan till och med vara HJÄRTSKYDDANDE för dig
+• Lägre risk för koffeinrelaterade biverkningar""",
+        "why_recommendation": """Därför rekommenderas:
+• Kaffe är OK för dig (upp till 4 koppar/dag kan vara skyddande)
+• Du kan tolerera koffein senare på dagen
+• Men lyssna fortfarande på din kropp - genetik är bara en faktor"""
+    },
+
+    "inflammation_high": {
+        "name": "Pro-inflammatorisk Genetisk Profil (IL-6/TNF-α)",
+        "what_it_is": """IL-6 (Interleukin-6) och TNF-α (Tumörnekrosfaktor-alfa) är cytokiner -
+signalmolekyler som styr inflammation. Viss inflammation är nödvändig för
+läkning och immunförsvar, men kronisk låggradig inflammation ('inflammaging')
+är kopplat till de flesta kroniska sjukdomar.""",
+        "what_variant_means": """Du har genetiska varianter som ger högre basal inflammation:
+
+VAD DET BETYDER:
+• Dina gener programmerar för högre IL-6 och/eller TNF-α produktion
+• Du har troligen kronisk låggradig inflammation
+• Starkare inflammatoriskt svar på triggers (stress, dålig kost, infektioner)
+
+ÖKAD RISK FÖR:
+• Hjärt-kärlsjukdom (inflammation = åderförkalkning)
+• Typ 2-diabetes (inflammation stör insulinkänslighet)
+• Depression (inflammation påverkar hjärnan)
+• Autoimmuna tendenser
+• Snabbare åldrande
+
+TRIGGERS SOM FÖRVÄRRAR:
+• Socker, raffinerade kolhydrater
+• Omega-6 oljor (solros, majs, soja)
+• Stress
+• Dålig sömn
+• Visceralt bukfett""",
+        "why_recommendation": """Därför rekommenderas:
+• OMEGA-3 HÖGDOS (2-3g EPA) - direkt antiinflammatoriskt
+• Kurkumin med piperin - naturlig COX-2/NF-κB hämmare
+• ELIMINERA socker och raffinerade kolhydrater
+• MINSKA omega-6 (byt solrosolja mot olivolja)
+• Anti-inflammatoriska livsmedel dagligen: fet fisk, bär, grönt te, ingefära
+• Träning (antiinflammatoriskt vid måttlig intensitet)
+• Sömn 7-9h (brist ökar inflammation dramatiskt)"""
+    },
+
+    "estrogen_metabolism_impaired": {
+        "name": "Östrogenmetabolism (CYP1B1 + COMT)",
+        "what_it_is": """Östrogen bryts ner i levern via två steg:
+1. Fas I (CYP1B1, CYP1A1): Omvandlar östrogen till metaboliter (2-OH, 4-OH, 16-OH)
+2. Fas II (COMT): Metylerar och inaktiverar dessa metaboliter
+
+4-OH-östrogen är potentiellt cancerframkallande, medan 2-OH är säkrare.""",
+        "what_variant_means": """Du har en ogynnsam kombination:
+• CYP1B1-variant: Producerar MER av den skadliga 4-OH-östrogen metaboliten
+• COMT slow: Bryter ner 4-OH-östrogen LÅNGSAMMARE
+
+KONSEKVENS:
+• 4-OH-östrogen ackumuleras
+• 4-OH-östrogen kan skada DNA (quinon-bildning)
+• Ökad risk för östrogenkänsliga cancerformer
+• Viktigare att stödja 2-OH-vägen istället
+
+GÄLLER SÄRSKILT:
+• Kvinnor (högre östrogennivåer)
+• Vid HRT/p-piller
+• Vid övervikt (fettvävnad producerar östrogen)""",
+        "why_recommendation": """Därför rekommenderas:
+• DIM (Diindolylmetan) 100-200mg/dag - skiftar metabolism till säkra 2-OH-vägen
+• KORSBLOMMIGA GRÖNSAKER DAGLIGEN: broccoli, blomkål, grönkål, rucola, brysselkål
+• Broccoligroddar - extra högt I3C/DIM-innehåll
+• Fiber - binder och eliminerar östrogen via tarmen
+• Linfrön - lignaner stödjer hälsosam östrogenbalans
+• Diskutera med läkare vid HRT/p-piller
+• Undvik plastförpackningar (BPA = xenoöstrogen)
+• Begränsa alkohol (ökar östrogen)"""
+    },
+
+    "HFE_iron_risk": {
+        "name": "HFE (Järnmetabolism / Hemokromatos-risk)",
+        "what_it_is": """HFE-genen styr hur mycket järn kroppen absorberar från maten.
+Mutationer kan leda till för hög järnabsorption (hereditär hemokromatos)
+vilket orsakar järninlagring i organ.""",
+        "what_variant_means": """Du har HFE-varianter som kan öka järnupptaget:
+
+POTENTIELLA KONSEKVENSER:
+• Gradvis järnansamling i lever, hjärta, bukspottkörtel
+• Ökad oxidativ stress (järn är pro-oxidant)
+• Risk för organskador vid obehandlad hemokromatos
+
+VIKTIGT:
+• Heterozygot (en kopia) = oftast mild, men bör monitoreras
+• Homozygot (två kopior) = signifikant risk, kräver uppföljning""",
+        "why_recommendation": """Därför rekommenderas:
+• Testa ferritin och transferrinmättnad regelbundet
+• BEGRÄNSA rött kött (hemjärn absorberas lätt)
+• Te eller kaffe MED måltider - hämmar järnupptag
+• UNDVIK C-vitamin tillsammans med järnrika måltider (ökar upptag)
+• Överväg blodgivning om ferritin är förhöjt
+• Diskutera med läkare för regelbunden monitorering"""
+    },
+
+    "detox_support": {
+        "name": "Avgiftningskapacitet (GST-enzymer)",
+        "what_it_is": """Glutathion S-transferaser (GSTM1, GSTT1, GSTP1) är fas II-avgiftningsenzymer
+som kopplar glutathion till toxiner för att göra dem vattenlösliga och
+utsöndringsbara. De skyddar mot oxidativ stress, tungmetaller, cancerframkallande
+ämnen och läkemedelsmetaboliter.""",
+        "what_variant_means": """Du har varianter som minskar avgiftningskapaciteten:
+
+GSTM1 null (saknas helt): ~50% av befolkningen
+GSTT1 null (saknas helt): ~20% av befolkningen
+GSTP1 varianter: Reducerad aktivitet
+
+KONSEKVENSER:
+• Långsammare avgiftning av miljögifter
+• Ökad känslighet för oxidativ stress
+• Potentiellt sämre tolerans för vissa läkemedel
+• Viktigare att stödja andra avgiftningsvägar""",
+        "why_recommendation": """Därför rekommenderas:
+• NAC (N-Acetyl Cystein) 600-1200mg - prekursor till glutathion
+• Korsblommiga grönsaker - aktiverar alternativa avgiftningsvägar
+• Lök, vitlök - svavelföreningar stödjer avgiftning
+• Minimera toxinexponering (ekologiskt när möjligt, filtrera vatten)
+• Undvik onödiga läkemedel
+• Svettning (bastu, träning) - eliminerar vissa toxiner via huden
+• Fiber - binder toxiner i tarmen"""
+    }
+}
+
 # =============================================================================
 # GENETIC FOOD DATABASE
 # =============================================================================
@@ -899,6 +1230,12 @@ def generate_lifestyle_plan(analysis: Dict) -> LifestylePlan:
     if profiles["APOE4_carrier"]:
         lifestyle_recs.insert(0, "APOE e4: Regelbunden aerob traning 30+ min/dag for kognitiv halsa.")
 
+    # Get explanations for active profiles
+    genetic_explanations = {}
+    for profile, is_active in profiles.items():
+        if is_active and profile in GENETIC_PROFILE_EXPLANATIONS:
+            genetic_explanations[profile] = GENETIC_PROFILE_EXPLANATIONS[profile]
+
     return LifestylePlan(
         name=name,
         generated_date=datetime.now().isoformat(),
@@ -912,7 +1249,8 @@ def generate_lifestyle_plan(analysis: Dict) -> LifestylePlan:
         snack_recommendations=snack,
         weekly_meal_plan=weekly_plan,
         critical_warnings=warnings,
-        lifestyle_recommendations=lifestyle_recs
+        lifestyle_recommendations=lifestyle_recs,
+        genetic_explanations=genetic_explanations
     )
 
 def generate_markdown_report(plan: LifestylePlan) -> str:
@@ -941,6 +1279,40 @@ def generate_markdown_report(plan: LifestylePlan) -> str:
         for warning in plan.critical_warnings:
             lines.append(f"- {warning}")
         lines.append("")
+
+    # Genetic explanations
+    if plan.genetic_explanations:
+        lines.append("---")
+        lines.append("")
+        lines.append("## DINA GENETISKA PROFILER - VAD DE BETYDER")
+        lines.append("")
+        lines.append("*Nedan förklaras vad varje identifierad genetisk profil innebär för dig.*")
+        lines.append("")
+
+        for profile_key, explanation in plan.genetic_explanations.items():
+            lines.append(f"### {explanation['name']}")
+            lines.append("")
+
+            lines.append("**Vad är detta?**")
+            lines.append("")
+            for paragraph in explanation['what_it_is'].strip().split('\n\n'):
+                lines.append(paragraph.strip())
+                lines.append("")
+
+            lines.append("**Vad din variant innebär:**")
+            lines.append("")
+            for paragraph in explanation['what_variant_means'].strip().split('\n\n'):
+                lines.append(paragraph.strip())
+                lines.append("")
+
+            lines.append("**Varför dessa rekommendationer?**")
+            lines.append("")
+            for paragraph in explanation['why_recommendation'].strip().split('\n\n'):
+                lines.append(paragraph.strip())
+                lines.append("")
+
+            lines.append("---")
+            lines.append("")
 
     # Supplement Protocol
     lines.append("---")

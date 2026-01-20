@@ -20,6 +20,209 @@
 
 ---
 
+## DINA GENETISKA PROFILER - VAD DE BETYDER
+
+*Nedan förklaras vad varje identifierad genetisk profil innebär för dig.*
+
+### COMT Långsam (Met/Met - 'Worrier')
+
+**Vad är detta?**
+
+COMT (Katekol-O-metyltransferas) är ett enzym som bryter ner
+katekolaminer - dopamin, adrenalin och noradrenalin. Det bryter även ner
+östrogen och vissa gifter. COMT använder SAMe (från metyleringscykeln)
+för att göra detta.
+
+**Vad din variant innebär:**
+
+Du har den 'långsamma' varianten (Met/Met) som ger 3-4 gånger
+lägre enzymaktivitet. Detta betyder:
+
+FÖRDELAR:
+• Högre dopaminnivåer = bättre fokus och arbetsminne under lugna förhållanden
+• Bättre smärthantering
+• Kan prestera bra i förutsägbara situationer
+
+NACKDELAR:
+• Dopamin och adrenalin stannar längre = känsligare för stress
+• Kan känna dig överstimulerad av koffein, stress, stimulantia
+• Långsammare nedbrytning av östrogen
+• Mer benägen för ångest under press
+
+**Varför dessa rekommendationer?**
+
+Därför rekommenderas:
+• UNDVIK EGCG/grönt te-extrakt - hämmar COMT ytterligare, kan orsaka ångest
+• Begränsa koffein (<200mg/dag) - du är känsligare för stimulantia
+• L-Theanin - balanserar dopamin, ger lugn utan sedation
+• Magnesium - COMT-kofaktor, lugnande för nervsystemet
+• Stresshantering kritisk - meditation, yoga hjälper dig hantera högt dopamin
+• DIM för östrogenstöd - hjälper bryta ner östrogen via alternativ väg
+
+---
+
+### VDR (Vitamin D-receptor) / CYP2R1
+
+**Vad är detta?**
+
+VDR är receptorn som vitamin D binder till för att utöva sina effekter
+i cellerna. CYP2R1 är enzymet i levern som omvandlar D-vitamin till dess
+cirkulerande form (25-OH-D). Vitamin D är inte bara ett vitamin utan fungerar
+som ett hormon som påverkar över 2000 gener.
+
+**Vad din variant innebär:**
+
+Du har genetiska varianter som påverkar D-vitaminmetabolismen:
+
+VAD DET KAN BETYDA:
+• Lägre respons på samma mängd D-vitamin
+• Svårare att nå optimala blodnivåer (75-125 nmol/L)
+• Kan behöva 25-50% högre dos för samma effekt
+• Större behov av kofaktorer (K2, magnesium)
+
+VARFÖR D-VITAMIN ÄR VIKTIGT:
+• Immunförsvar (förebygger infektioner)
+• Benhälsa (kalciumupptag)
+• Muskelfunktion
+• Mental hälsa (depression kopplat till lågt D)
+• Kan påverka 5-10% av alla gener
+
+**Varför dessa rekommendationer?**
+
+Därför rekommenderas:
+• HÖGRE DOS D3 (3000-5000 IE/dag) - du behöver mer för samma effekt
+• K2 (MK-7) ALLTID MED D3 - styr kalcium till skelett, inte kärl
+• Magnesium - krävs för att aktivera D-vitamin (25-hydroxylering)
+• Testa blodnivåer 2x/år - sikta på 75-100 nmol/L
+• Solexponering 15-20 min/dag utan solskydd (när möjligt)
+• Ta med FET MÅLTID - D-vitamin är fettlösligt
+
+---
+
+### Pro-inflammatorisk Genetisk Profil (IL-6/TNF-α)
+
+**Vad är detta?**
+
+IL-6 (Interleukin-6) och TNF-α (Tumörnekrosfaktor-alfa) är cytokiner -
+signalmolekyler som styr inflammation. Viss inflammation är nödvändig för
+läkning och immunförsvar, men kronisk låggradig inflammation ('inflammaging')
+är kopplat till de flesta kroniska sjukdomar.
+
+**Vad din variant innebär:**
+
+Du har genetiska varianter som ger högre basal inflammation:
+
+VAD DET BETYDER:
+• Dina gener programmerar för högre IL-6 och/eller TNF-α produktion
+• Du har troligen kronisk låggradig inflammation
+• Starkare inflammatoriskt svar på triggers (stress, dålig kost, infektioner)
+
+ÖKAD RISK FÖR:
+• Hjärt-kärlsjukdom (inflammation = åderförkalkning)
+• Typ 2-diabetes (inflammation stör insulinkänslighet)
+• Depression (inflammation påverkar hjärnan)
+• Autoimmuna tendenser
+• Snabbare åldrande
+
+TRIGGERS SOM FÖRVÄRRAR:
+• Socker, raffinerade kolhydrater
+• Omega-6 oljor (solros, majs, soja)
+• Stress
+• Dålig sömn
+• Visceralt bukfett
+
+**Varför dessa rekommendationer?**
+
+Därför rekommenderas:
+• OMEGA-3 HÖGDOS (2-3g EPA) - direkt antiinflammatoriskt
+• Kurkumin med piperin - naturlig COX-2/NF-κB hämmare
+• ELIMINERA socker och raffinerade kolhydrater
+• MINSKA omega-6 (byt solrosolja mot olivolja)
+• Anti-inflammatoriska livsmedel dagligen: fet fisk, bär, grönt te, ingefära
+• Träning (antiinflammatoriskt vid måttlig intensitet)
+• Sömn 7-9h (brist ökar inflammation dramatiskt)
+
+---
+
+### Östrogenmetabolism (CYP1B1 + COMT)
+
+**Vad är detta?**
+
+Östrogen bryts ner i levern via två steg:
+1. Fas I (CYP1B1, CYP1A1): Omvandlar östrogen till metaboliter (2-OH, 4-OH, 16-OH)
+2. Fas II (COMT): Metylerar och inaktiverar dessa metaboliter
+
+4-OH-östrogen är potentiellt cancerframkallande, medan 2-OH är säkrare.
+
+**Vad din variant innebär:**
+
+Du har en ogynnsam kombination:
+• CYP1B1-variant: Producerar MER av den skadliga 4-OH-östrogen metaboliten
+• COMT slow: Bryter ner 4-OH-östrogen LÅNGSAMMARE
+
+KONSEKVENS:
+• 4-OH-östrogen ackumuleras
+• 4-OH-östrogen kan skada DNA (quinon-bildning)
+• Ökad risk för östrogenkänsliga cancerformer
+• Viktigare att stödja 2-OH-vägen istället
+
+GÄLLER SÄRSKILT:
+• Kvinnor (högre östrogennivåer)
+• Vid HRT/p-piller
+• Vid övervikt (fettvävnad producerar östrogen)
+
+**Varför dessa rekommendationer?**
+
+Därför rekommenderas:
+• DIM (Diindolylmetan) 100-200mg/dag - skiftar metabolism till säkra 2-OH-vägen
+• KORSBLOMMIGA GRÖNSAKER DAGLIGEN: broccoli, blomkål, grönkål, rucola, brysselkål
+• Broccoligroddar - extra högt I3C/DIM-innehåll
+• Fiber - binder och eliminerar östrogen via tarmen
+• Linfrön - lignaner stödjer hälsosam östrogenbalans
+• Diskutera med läkare vid HRT/p-piller
+• Undvik plastförpackningar (BPA = xenoöstrogen)
+• Begränsa alkohol (ökar östrogen)
+
+---
+
+### Avgiftningskapacitet (GST-enzymer)
+
+**Vad är detta?**
+
+Glutathion S-transferaser (GSTM1, GSTT1, GSTP1) är fas II-avgiftningsenzymer
+som kopplar glutathion till toxiner för att göra dem vattenlösliga och
+utsöndringsbara. De skyddar mot oxidativ stress, tungmetaller, cancerframkallande
+ämnen och läkemedelsmetaboliter.
+
+**Vad din variant innebär:**
+
+Du har varianter som minskar avgiftningskapaciteten:
+
+GSTM1 null (saknas helt): ~50% av befolkningen
+GSTT1 null (saknas helt): ~20% av befolkningen
+GSTP1 varianter: Reducerad aktivitet
+
+KONSEKVENSER:
+• Långsammare avgiftning av miljögifter
+• Ökad känslighet för oxidativ stress
+• Potentiellt sämre tolerans för vissa läkemedel
+• Viktigare att stödja andra avgiftningsvägar
+
+**Varför dessa rekommendationer?**
+
+Därför rekommenderas:
+• NAC (N-Acetyl Cystein) 600-1200mg - prekursor till glutathion
+• Korsblommiga grönsaker - aktiverar alternativa avgiftningsvägar
+• Lök, vitlök - svavelföreningar stödjer avgiftning
+• Minimera toxinexponering (ekologiskt när möjligt, filtrera vatten)
+• Undvik onödiga läkemedel
+• Svettning (bastu, träning) - eliminerar vissa toxiner via huden
+• Fiber - binder toxiner i tarmen
+
+---
+
+---
+
 ## TILLSKOTTSPROTOKOLL
 
 ### Morgon (med frukost)
@@ -103,10 +306,10 @@
 - Magnesiumrika livsmedel (mork choklad, pumpakaernor)
 
 **Undvik:**
-- Hog koffein (>200mg/dag)
-- Alkohol
 - Alkohol (okar ostrogen)
 - Stimulerande livsmedel pa kvallen
+- Alkohol
+- Hog koffein (>200mg/dag)
 
 **Exempel:**
 - Ugnsbakad lax med sparris och sotpotatis

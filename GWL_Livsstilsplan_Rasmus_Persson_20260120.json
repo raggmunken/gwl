@@ -1,6 +1,6 @@
 {
   "name": "Rasmus Persson",
-  "generated_date": "2026-01-20T08:51:55.111437",
+  "generated_date": "2026-01-20T08:59:33.733685",
   "genetic_summary": {
     "Comt Slow": "Ja",
     "Vdr Impaired": "Ja",
@@ -254,9 +254,9 @@
       "Komplexa kolhydrater (sötpotatis, quinoa)"
     ],
     "foods_to_avoid": [
-      "Socker och raffinerade kolhydrater",
+      "Processad mat",
       "Processad mat med tillsatser",
-      "Processad mat"
+      "Socker och raffinerade kolhydrater"
     ],
     "example_meals": [
       "Laxsallad med avokado, rodbeta och olivolja",
@@ -275,10 +275,10 @@
       "Magnesiumrika livsmedel (mork choklad, pumpakaernor)"
     ],
     "foods_to_avoid": [
-      "Hog koffein (>200mg/dag)",
-      "Alkohol",
       "Alkohol (okar ostrogen)",
-      "Stimulerande livsmedel pa kvallen"
+      "Stimulerande livsmedel pa kvallen",
+      "Alkohol",
+      "Hog koffein (>200mg/dag)"
     ],
     "example_meals": [
       "Ugnsbakad lax med sparris och sotpotatis",
@@ -297,9 +297,9 @@
       "Gront te eller ortte"
     ],
     "foods_to_avoid": [
-      "Socker och raffinerade kolhydrater",
+      "Processad mat",
       "Processad mat med tillsatser",
-      "Processad mat"
+      "Socker och raffinerade kolhydrater"
     ],
     "example_meals": [
       "En handfull valnotter + en handfull blabor",
@@ -360,5 +360,37 @@
     "Stresshantering dagligen (meditation, djupandning, promenader)",
     "Begransat skarmtid 1h fore laggdags",
     "Rikligt vatten (2-3 liter/dag)"
-  ]
+  ],
+  "genetic_explanations": {
+    "COMT_slow": {
+      "name": "COMT Långsam (Met/Met - 'Worrier')",
+      "what_it_is": "COMT (Katekol-O-metyltransferas) är ett enzym som bryter ner\nkatekolaminer - dopamin, adrenalin och noradrenalin. Det bryter även ner\nöstrogen och vissa gifter. COMT använder SAMe (från metyleringscykeln)\nför att göra detta.",
+      "what_variant_means": "Du har den 'långsamma' varianten (Met/Met) som ger 3-4 gånger\nlägre enzymaktivitet. Detta betyder:\n\nFÖRDELAR:\n• Högre dopaminnivåer = bättre fokus och arbetsminne under lugna förhållanden\n• Bättre smärthantering\n• Kan prestera bra i förutsägbara situationer\n\nNACKDELAR:\n• Dopamin och adrenalin stannar längre = känsligare för stress\n• Kan känna dig överstimulerad av koffein, stress, stimulantia\n• Långsammare nedbrytning av östrogen\n• Mer benägen för ångest under press",
+      "why_recommendation": "Därför rekommenderas:\n• UNDVIK EGCG/grönt te-extrakt - hämmar COMT ytterligare, kan orsaka ångest\n• Begränsa koffein (<200mg/dag) - du är känsligare för stimulantia\n• L-Theanin - balanserar dopamin, ger lugn utan sedation\n• Magnesium - COMT-kofaktor, lugnande för nervsystemet\n• Stresshantering kritisk - meditation, yoga hjälper dig hantera högt dopamin\n• DIM för östrogenstöd - hjälper bryta ner östrogen via alternativ väg"
+    },
+    "VDR_impaired": {
+      "name": "VDR (Vitamin D-receptor) / CYP2R1",
+      "what_it_is": "VDR är receptorn som vitamin D binder till för att utöva sina effekter\ni cellerna. CYP2R1 är enzymet i levern som omvandlar D-vitamin till dess\ncirkulerande form (25-OH-D). Vitamin D är inte bara ett vitamin utan fungerar\nsom ett hormon som påverkar över 2000 gener.",
+      "what_variant_means": "Du har genetiska varianter som påverkar D-vitaminmetabolismen:\n\nVAD DET KAN BETYDA:\n• Lägre respons på samma mängd D-vitamin\n• Svårare att nå optimala blodnivåer (75-125 nmol/L)\n• Kan behöva 25-50% högre dos för samma effekt\n• Större behov av kofaktorer (K2, magnesium)\n\nVARFÖR D-VITAMIN ÄR VIKTIGT:\n• Immunförsvar (förebygger infektioner)\n• Benhälsa (kalciumupptag)\n• Muskelfunktion\n• Mental hälsa (depression kopplat till lågt D)\n• Kan påverka 5-10% av alla gener",
+      "why_recommendation": "Därför rekommenderas:\n• HÖGRE DOS D3 (3000-5000 IE/dag) - du behöver mer för samma effekt\n• K2 (MK-7) ALLTID MED D3 - styr kalcium till skelett, inte kärl\n• Magnesium - krävs för att aktivera D-vitamin (25-hydroxylering)\n• Testa blodnivåer 2x/år - sikta på 75-100 nmol/L\n• Solexponering 15-20 min/dag utan solskydd (när möjligt)\n• Ta med FET MÅLTID - D-vitamin är fettlösligt"
+    },
+    "inflammation_high": {
+      "name": "Pro-inflammatorisk Genetisk Profil (IL-6/TNF-α)",
+      "what_it_is": "IL-6 (Interleukin-6) och TNF-α (Tumörnekrosfaktor-alfa) är cytokiner -\nsignalmolekyler som styr inflammation. Viss inflammation är nödvändig för\nläkning och immunförsvar, men kronisk låggradig inflammation ('inflammaging')\när kopplat till de flesta kroniska sjukdomar.",
+      "what_variant_means": "Du har genetiska varianter som ger högre basal inflammation:\n\nVAD DET BETYDER:\n• Dina gener programmerar för högre IL-6 och/eller TNF-α produktion\n• Du har troligen kronisk låggradig inflammation\n• Starkare inflammatoriskt svar på triggers (stress, dålig kost, infektioner)\n\nÖKAD RISK FÖR:\n• Hjärt-kärlsjukdom (inflammation = åderförkalkning)\n• Typ 2-diabetes (inflammation stör insulinkänslighet)\n• Depression (inflammation påverkar hjärnan)\n• Autoimmuna tendenser\n• Snabbare åldrande\n\nTRIGGERS SOM FÖRVÄRRAR:\n• Socker, raffinerade kolhydrater\n• Omega-6 oljor (solros, majs, soja)\n• Stress\n• Dålig sömn\n• Visceralt bukfett",
+      "why_recommendation": "Därför rekommenderas:\n• OMEGA-3 HÖGDOS (2-3g EPA) - direkt antiinflammatoriskt\n• Kurkumin med piperin - naturlig COX-2/NF-κB hämmare\n• ELIMINERA socker och raffinerade kolhydrater\n• MINSKA omega-6 (byt solrosolja mot olivolja)\n• Anti-inflammatoriska livsmedel dagligen: fet fisk, bär, grönt te, ingefära\n• Träning (antiinflammatoriskt vid måttlig intensitet)\n• Sömn 7-9h (brist ökar inflammation dramatiskt)"
+    },
+    "estrogen_metabolism_impaired": {
+      "name": "Östrogenmetabolism (CYP1B1 + COMT)",
+      "what_it_is": "Östrogen bryts ner i levern via två steg:\n1. Fas I (CYP1B1, CYP1A1): Omvandlar östrogen till metaboliter (2-OH, 4-OH, 16-OH)\n2. Fas II (COMT): Metylerar och inaktiverar dessa metaboliter\n\n4-OH-östrogen är potentiellt cancerframkallande, medan 2-OH är säkrare.",
+      "what_variant_means": "Du har en ogynnsam kombination:\n• CYP1B1-variant: Producerar MER av den skadliga 4-OH-östrogen metaboliten\n• COMT slow: Bryter ner 4-OH-östrogen LÅNGSAMMARE\n\nKONSEKVENS:\n• 4-OH-östrogen ackumuleras\n• 4-OH-östrogen kan skada DNA (quinon-bildning)\n• Ökad risk för östrogenkänsliga cancerformer\n• Viktigare att stödja 2-OH-vägen istället\n\nGÄLLER SÄRSKILT:\n• Kvinnor (högre östrogennivåer)\n• Vid HRT/p-piller\n• Vid övervikt (fettvävnad producerar östrogen)",
+      "why_recommendation": "Därför rekommenderas:\n• DIM (Diindolylmetan) 100-200mg/dag - skiftar metabolism till säkra 2-OH-vägen\n• KORSBLOMMIGA GRÖNSAKER DAGLIGEN: broccoli, blomkål, grönkål, rucola, brysselkål\n• Broccoligroddar - extra högt I3C/DIM-innehåll\n• Fiber - binder och eliminerar östrogen via tarmen\n• Linfrön - lignaner stödjer hälsosam östrogenbalans\n• Diskutera med läkare vid HRT/p-piller\n• Undvik plastförpackningar (BPA = xenoöstrogen)\n• Begränsa alkohol (ökar östrogen)"
+    },
+    "detox_support": {
+      "name": "Avgiftningskapacitet (GST-enzymer)",
+      "what_it_is": "Glutathion S-transferaser (GSTM1, GSTT1, GSTP1) är fas II-avgiftningsenzymer\nsom kopplar glutathion till toxiner för att göra dem vattenlösliga och\nutsöndringsbara. De skyddar mot oxidativ stress, tungmetaller, cancerframkallande\nämnen och läkemedelsmetaboliter.",
+      "what_variant_means": "Du har varianter som minskar avgiftningskapaciteten:\n\nGSTM1 null (saknas helt): ~50% av befolkningen\nGSTT1 null (saknas helt): ~20% av befolkningen\nGSTP1 varianter: Reducerad aktivitet\n\nKONSEKVENSER:\n• Långsammare avgiftning av miljögifter\n• Ökad känslighet för oxidativ stress\n• Potentiellt sämre tolerans för vissa läkemedel\n• Viktigare att stödja andra avgiftningsvägar",
+      "why_recommendation": "Därför rekommenderas:\n• NAC (N-Acetyl Cystein) 600-1200mg - prekursor till glutathion\n• Korsblommiga grönsaker - aktiverar alternativa avgiftningsvägar\n• Lök, vitlök - svavelföreningar stödjer avgiftning\n• Minimera toxinexponering (ekologiskt när möjligt, filtrera vatten)\n• Undvik onödiga läkemedel\n• Svettning (bastu, träning) - eliminerar vissa toxiner via huden\n• Fiber - binder toxiner i tarmen"
+    }
+  }
 }
