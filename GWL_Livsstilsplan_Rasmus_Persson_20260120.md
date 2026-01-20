@@ -306,10 +306,10 @@ Därför rekommenderas:
 - Magnesiumrika livsmedel (mork choklad, pumpakaernor)
 
 **Undvik:**
-- Alkohol (okar ostrogen)
-- Stimulerande livsmedel pa kvallen
-- Alkohol
 - Hog koffein (>200mg/dag)
+- Stimulerande livsmedel pa kvallen
+- Alkohol (okar ostrogen)
+- Alkohol
 
 **Exempel:**
 - Ugnsbakad lax med sparris och sotpotatis
