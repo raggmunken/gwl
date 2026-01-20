@@ -1,43 +1,46 @@
 {
   "name": "Rasmus Persson",
-  "analysis_date": "2026-01-20T09:56:01.273633",
+  "analysis_date": "2026-01-20T10:26:31.791743",
   "total_snps_in_file": 602924,
-  "snps_analyzed": 34,
-  "snps_with_variants": 11,
+  "snps_analyzed": 50,
+  "snps_with_variants": 25,
   "analyzed_snps": [
     {
-      "rsid": "rs1799853",
+      "rsid": "rs1057910",
       "gene": "CYP2C9",
-      "genotype": "CT",
-      "risk_level": "Lätt förhöjd",
-      "effect": "Heterozygot *2",
-      "description": "Reducerad aktivitet (~70%)",
+      "genotype": "AA",
+      "risk_level": "Skyddande",
+      "effect": "normal; no effect on warfarin metabolism",
+      "description": "normal; no effect on warfarin metabolism",
+      "categories": [
+        "Farmakogenomik"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [],
+      "drug_interactions": [],
+      "priority": 2
+    },
+    {
+      "rsid": "rs4244285",
+      "gene": "CYP2C19",
+      "genotype": "GG",
+      "risk_level": "Normal",
+      "effect": "Normal CYP2C19 (*1)",
+      "description": "Fungerande enzym",
       "categories": [
         "Farmakogenomik"
       ],
       "nutrient_recommendations": [
         {
-          "nutrient": "Stabil K-vitaminintag",
-          "dose": "Konsekvent",
-          "reason": "Viktigt vid warfarin"
+          "nutrient": "Standard",
+          "dose": "Standard",
+          "reason": "Normal funktion"
         }
       ],
       "lifestyle_recommendations": [
-        "Informera läkare",
-        "Stabil kost vid warfarinbehandling"
+        "Standardrekommendationer"
       ],
-      "drug_interactions": [
-        {
-          "drug": "Warfarin",
-          "action": "Reducerad metabolism",
-          "note": "Lägre dos behövs"
-        },
-        {
-          "drug": "NSAID",
-          "action": "Ökade nivåer",
-          "note": "Ökad GI-blödningsrisk"
-        }
-      ],
+      "drug_interactions": [],
       "priority": 2
     },
     {
@@ -75,17 +78,19 @@
       "priority": 2
     },
     {
-      "rsid": "rs1057910",
-      "gene": "CYP2C9",
-      "genotype": "AA",
-      "risk_level": "Skyddande",
-      "effect": "normal; no effect on warfarin metabolism",
-      "description": "normal; no effect on warfarin metabolism",
+      "rsid": "rs13266634",
+      "gene": "SLC30A8",
+      "genotype": "CC",
+      "risk_level": "Betydligt förhöjd",
+      "effect": "increased risk for type-2 diabetes",
+      "description": "increased risk for type-2 diabetes",
       "categories": [
-        "Farmakogenomik"
+        "Inflammation"
       ],
       "nutrient_recommendations": [],
-      "lifestyle_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
       "drug_interactions": [],
       "priority": 2
     },
@@ -106,24 +111,70 @@
       "priority": 2
     },
     {
-      "rsid": "rs4244285",
-      "gene": "CYP2C19",
-      "genotype": "GG",
-      "risk_level": "Normal",
-      "effect": "Normal CYP2C19 (*1)",
-      "description": "Fungerande enzym",
+      "rsid": "rs1800462",
+      "gene": "TPMT",
+      "genotype": "CC",
+      "risk_level": "Betydligt förhöjd",
+      "effect": "incapable of detoxifying certain drugs",
+      "description": "incapable of detoxifying certain drugs",
+      "categories": [
+        "Farmakogenomik"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 2
+    },
+    {
+      "rsid": "rs1799853",
+      "gene": "CYP2C9",
+      "genotype": "CT",
+      "risk_level": "Lätt förhöjd",
+      "effect": "Heterozygot *2",
+      "description": "Reducerad aktivitet (~70%)",
       "categories": [
         "Farmakogenomik"
       ],
       "nutrient_recommendations": [
         {
-          "nutrient": "Standard",
-          "dose": "Standard",
-          "reason": "Normal funktion"
+          "nutrient": "Stabil K-vitaminintag",
+          "dose": "Konsekvent",
+          "reason": "Viktigt vid warfarin"
         }
       ],
       "lifestyle_recommendations": [
-        "Standardrekommendationer"
+        "Informera läkare",
+        "Stabil kost vid warfarinbehandling"
+      ],
+      "drug_interactions": [
+        {
+          "drug": "Warfarin",
+          "action": "Reducerad metabolism",
+          "note": "Lägre dos behövs"
+        },
+        {
+          "drug": "NSAID",
+          "action": "Ökade nivåer",
+          "note": "Ökad GI-blödningsrisk"
+        }
+      ],
+      "priority": 2
+    },
+    {
+      "rsid": "rs1333049",
+      "gene": "CDKN2A,CDKN2B",
+      "genotype": "CG",
+      "risk_level": "Betydligt förhöjd",
+      "effect": "1.5x increased risk for CAD",
+      "description": "1.5x increased risk for CAD",
+      "categories": [
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
       ],
       "drug_interactions": [],
       "priority": 2
@@ -167,29 +218,6 @@
       "priority": 3
     },
     {
-      "rsid": "rs7501331",
-      "gene": "BCO1",
-      "genotype": "CT",
-      "risk_level": "Måttligt förhöjd",
-      "effect": "Reduced conversion of beta-carotene to retinol",
-      "description": "Reduced conversion of beta-carotene to retinol",
-      "categories": [
-        "Antioxidant"
-      ],
-      "nutrient_recommendations": [
-        {
-          "nutrient": "A-vitamin (retinol)",
-          "dose": "5000 IE/dag",
-          "reason": "Sämre konvertering från betakaroten"
-        }
-      ],
-      "lifestyle_recommendations": [
-        "Förlita dig inte på morötter för A-vitamin - ät lever eller ta tillskott"
-      ],
-      "drug_interactions": [],
-      "priority": 3
-    },
-    {
       "rsid": "rs2187668",
       "gene": "HLA-DQ2.5",
       "genotype": "CC",
@@ -217,26 +245,212 @@
       "priority": 3
     },
     {
-      "rsid": "rs1695",
-      "gene": "GSTP1",
-      "genotype": "AG",
-      "risk_level": "Lätt förhöjd",
-      "effect": "Reducerad (Ile/Val)",
-      "description": "Måttligt reducerad aktivitet",
+      "rsid": "rs12255372",
+      "gene": "TCF7L2",
+      "genotype": "GT",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "1.3x increased type-2 diabetes risk",
+      "description": "1.3x increased type-2 diabetes risk",
       "categories": [
-        "Detox Fas II",
+        "Blodsocker"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs10811661",
+      "gene": "CDKN2A/B",
+      "genotype": "CT",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "1.2x increased risk for type-2 diabetes",
+      "description": "1.2x increased risk for type-2 diabetes",
+      "categories": [
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs7501331",
+      "gene": "BCO1",
+      "genotype": "CT",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "Reduced conversion of beta-carotene to retinol",
+      "description": "Reduced conversion of beta-carotene to retinol",
+      "categories": [
         "Antioxidant"
       ],
       "nutrient_recommendations": [
         {
-          "nutrient": "NAC",
-          "dose": "600-1200 mg/dag",
-          "reason": "Glutationstöd"
+          "nutrient": "A-vitamin (retinol)",
+          "dose": "5000 IE/dag",
+          "reason": "Sämre konvertering från betakaroten"
         }
       ],
       "lifestyle_recommendations": [
-        "Undvik onödig kemikalieexponering"
+        "Förlita dig inte på morötter för A-vitamin - ät lever eller ta tillskott"
       ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs53576",
+      "gene": "OXTR",
+      "genotype": "AG",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "Lack of empathy?",
+      "description": "Lack of empathy?",
+      "categories": [
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs182549",
+      "gene": "MCM6",
+      "genotype": "CC",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "possibly lactose intolerant",
+      "description": "possibly lactose intolerant",
+      "categories": [
+        "Immunsystem"
+      ],
+      "nutrient_recommendations": [
+        {
+          "nutrient": "Kalcium",
+          "dose": "1000 mg/dag",
+          "reason": "Kompensera för minskade mejeriprodukter"
+        }
+      ],
+      "lifestyle_recommendations": [
+        "Laktosfria alternativ rekommenderas"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs10757278",
+      "gene": "CDKN2A,CDKN2B",
+      "genotype": "AG",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "1.3x risk for Heart Attack. Normal risk for Abdominal Aortic Aneurysm and Brain Aneurysm.",
+      "description": "1.3x risk for Heart Attack. Normal risk for Abdominal Aortic Aneurysm and Brain Aneurysm.",
+      "categories": [
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs4343",
+      "gene": "ACE",
+      "genotype": "AA",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "ACE I/I genotype",
+      "description": "ACE I/I genotype",
+      "categories": [
+        "Muskel"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs4402960",
+      "gene": "IGF2BP2",
+      "genotype": "GT",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "1.2x increased risk for type-2 diabetes, ~1x risk for gestational diabetes",
+      "description": "1.2x increased risk for type-2 diabetes, ~1x risk for gestational diabetes",
+      "categories": [
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs5882",
+      "gene": "CETP",
+      "genotype": "AA",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "Faster aging. Increased risk for Dementia. Less good cholesterol.",
+      "description": "Faster aging. Increased risk for Dementia. Less good cholesterol.",
+      "categories": [
+        "Kardiovaskulär"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs228697",
+      "gene": "PER3",
+      "genotype": "CG",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "Somewhat more likely to prefer staying up late",
+      "description": "Somewhat more likely to prefer staying up late",
+      "categories": [
+        "Sömn"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs4633",
+      "gene": "COMT",
+      "genotype": "TT",
+      "risk_level": "Måttligt förhöjd",
+      "effect": "higher risk for endometrial cancer",
+      "description": "higher risk for endometrial cancer",
+      "categories": [
+        "Stress & Humör"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Denna variant kan påverka din hälsa - konsultera specialist vid behov"
+      ],
+      "drug_interactions": [],
+      "priority": 3
+    },
+    {
+      "rsid": "rs16944",
+      "gene": "IL1B",
+      "genotype": "AG",
+      "risk_level": "Lätt förhöjd",
+      "effect": "Minorly increased risk of mental illness and osteoarthritis",
+      "description": "Minorly increased risk of mental illness and osteoarthritis",
+      "categories": [
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [],
       "drug_interactions": [],
       "priority": 4
     },
@@ -252,6 +466,30 @@
       ],
       "nutrient_recommendations": [],
       "lifestyle_recommendations": [],
+      "drug_interactions": [],
+      "priority": 4
+    },
+    {
+      "rsid": "rs1056836",
+      "gene": "CYP1B1",
+      "genotype": "CG",
+      "risk_level": "Lätt förhöjd",
+      "effect": "Ökad aktivitet (Leu/Val)",
+      "description": "Mer 4-OH-östrogen",
+      "categories": [
+        "Detox Fas I",
+        "Hormonmetabolism"
+      ],
+      "nutrient_recommendations": [
+        {
+          "nutrient": "DIM (Diindolylmethane)",
+          "dose": "100-200 mg/dag",
+          "reason": "Skiftar till 2-OH-väg"
+        }
+      ],
+      "lifestyle_recommendations": [
+        "Korsblommiga grönsaker dagligen"
+      ],
       "drug_interactions": [],
       "priority": 4
     },
@@ -287,40 +525,25 @@
       "priority": 4
     },
     {
-      "rsid": "rs10741657",
-      "gene": "CYP2R1",
+      "rsid": "rs1695",
+      "gene": "GSTP1",
       "genotype": "AG",
       "risk_level": "Lätt förhöjd",
-      "effect": "Lätt reducerad",
-      "description": "Något lägre 25(OH)D",
+      "effect": "Reducerad (Ile/Val)",
+      "description": "Måttligt reducerad aktivitet",
       "categories": [
-        "D-vitamin"
-      ],
-      "nutrient_recommendations": [],
-      "lifestyle_recommendations": [],
-      "drug_interactions": [],
-      "priority": 4
-    },
-    {
-      "rsid": "rs1056836",
-      "gene": "CYP1B1",
-      "genotype": "CG",
-      "risk_level": "Lätt förhöjd",
-      "effect": "Ökad aktivitet (Leu/Val)",
-      "description": "Mer 4-OH-östrogen",
-      "categories": [
-        "Detox Fas I",
-        "Hormonmetabolism"
+        "Detox Fas II",
+        "Antioxidant"
       ],
       "nutrient_recommendations": [
         {
-          "nutrient": "DIM (Diindolylmethane)",
-          "dose": "100-200 mg/dag",
-          "reason": "Skiftar till 2-OH-väg"
+          "nutrient": "NAC",
+          "dose": "600-1200 mg/dag",
+          "reason": "Glutationstöd"
         }
       ],
       "lifestyle_recommendations": [
-        "Korsblommiga grönsaker dagligen"
+        "Undvik onödig kemikalieexponering"
       ],
       "drug_interactions": [],
       "priority": 4
@@ -380,18 +603,79 @@
       "priority": 4
     },
     {
-      "rsid": "rs3733890",
-      "gene": "BHMT",
+      "rsid": "rs10741657",
+      "gene": "CYP2R1",
+      "genotype": "AG",
+      "risk_level": "Lätt förhöjd",
+      "effect": "Lätt reducerad",
+      "description": "Något lägre 25(OH)D",
+      "categories": [
+        "D-vitamin"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [],
+      "drug_interactions": [],
+      "priority": 4
+    },
+    {
+      "rsid": "rs1801133",
+      "gene": "MTHFR",
       "genotype": "GG",
       "risk_level": "Normal",
-      "effect": "Normal BHMT",
+      "effect": "Normal MTHFR-aktivitet (100%)",
+      "description": "Wildtyp, normal folatmetabolism",
+      "categories": [
+        "Metylering"
+      ],
+      "nutrient_recommendations": [
+        {
+          "nutrient": "Folat",
+          "dose": "400 mcg DFE/dag",
+          "reason": "Standardbehov"
+        }
+      ],
+      "lifestyle_recommendations": [
+        "Balanserad kost med gröna bladgrönsaker"
+      ],
+      "drug_interactions": [],
+      "priority": 5
+    },
+    {
+      "rsid": "rs1800562",
+      "gene": "HFE",
+      "genotype": "GG",
+      "risk_level": "Normal",
+      "effect": "Normal HFE",
+      "description": "Standard järnreglering",
+      "categories": [
+        "Järn"
+      ],
+      "nutrient_recommendations": [
+        {
+          "nutrient": "Järn",
+          "dose": "Vid behov",
+          "reason": "Normal reglering"
+        }
+      ],
+      "lifestyle_recommendations": [
+        "Standardrekommendationer"
+      ],
+      "drug_interactions": [],
+      "priority": 5
+    },
+    {
+      "rsid": "rs1801394",
+      "gene": "MTRR",
+      "genotype": "AA",
+      "risk_level": "Normal",
+      "effect": "Normal MTRR",
       "description": "Wildtyp",
       "categories": [
         "Metylering"
       ],
       "nutrient_recommendations": [
         {
-          "nutrient": "Standard",
+          "nutrient": "B12",
           "dose": "Standard",
           "reason": "Normal funktion"
         }
@@ -426,25 +710,25 @@
       "priority": 5
     },
     {
-      "rsid": "rs174546",
-      "gene": "FADS1",
-      "genotype": "CT",
+      "rsid": "rs429358",
+      "gene": "APOE",
+      "genotype": "TT",
       "risk_level": "Normal",
-      "effect": "Intermediär",
-      "description": "Måttlig konvertering",
+      "effect": "e2 eller e3 möjlig",
+      "description": "Avgörs med rs7412",
       "categories": [
-        "Omega-3",
+        "Kardiovaskulär",
         "Inflammation"
       ],
       "nutrient_recommendations": [
         {
-          "nutrient": "Omega-3 (EPA/DHA)",
-          "dose": "2-3 g/dag",
-          "reason": "Kan inte förlita sig på konvertering"
+          "nutrient": "Standard",
+          "dose": "Standard",
+          "reason": "Avgörs med full APOE-genotyp"
         }
       ],
       "lifestyle_recommendations": [
-        "Fisk 2-3 ggr/vecka eller tillskott"
+        "Standardrekommendationer"
       ],
       "drug_interactions": [],
       "priority": 5
@@ -468,48 +752,60 @@
       "priority": 5
     },
     {
-      "rsid": "rs1801133",
-      "gene": "MTHFR",
-      "genotype": "GG",
+      "rsid": "rs1801260",
+      "gene": "CLOCK",
+      "genotype": "AA",
       "risk_level": "Normal",
-      "effect": "Normal MTHFR-aktivitet (100%)",
-      "description": "Wildtyp, normal folatmetabolism",
+      "effect": "Normal CLOCK",
+      "description": "Normal dygnsrytm, morgonmänniska.",
       "categories": [
-        "Metylering"
+        "Sömn",
+        "Dygnsrytm"
       ],
-      "nutrient_recommendations": [
-        {
-          "nutrient": "Folat",
-          "dose": "400 mcg DFE/dag",
-          "reason": "Standardbehov"
-        }
-      ],
+      "nutrient_recommendations": [],
       "lifestyle_recommendations": [
-        "Balanserad kost med gröna bladgrönsaker"
+        "Du är naturligt morgonmänniska"
       ],
       "drug_interactions": [],
       "priority": 5
     },
     {
-      "rsid": "rs429358",
-      "gene": "APOE",
-      "genotype": "TT",
-      "risk_level": "Normal",
-      "effect": "e2 eller e3 möjlig",
-      "description": "Avgörs med rs7412",
+      "rsid": "rs2802292",
+      "gene": "FOXO3",
+      "genotype": "GG",
+      "risk_level": "Skyddande",
+      "effect": "Dubbel longevity-allel",
+      "description": "Starkt associerat med 100+-årig livslängd. ~2.7x högre chans att nå 100.",
       "categories": [
-        "Kardiovaskulär",
-        "Inflammation"
+        "Antioxidant",
+        "Antioxidant"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Genetiskt skyddad - men livsstil förstärker fördelen"
+      ],
+      "drug_interactions": [],
+      "priority": 5
+    },
+    {
+      "rsid": "rs3733890",
+      "gene": "BHMT",
+      "genotype": "GG",
+      "risk_level": "Normal",
+      "effect": "Normal BHMT",
+      "description": "Wildtyp",
+      "categories": [
+        "Metylering"
       ],
       "nutrient_recommendations": [
         {
           "nutrient": "Standard",
           "dose": "Standard",
-          "reason": "Avgörs med full APOE-genotyp"
+          "reason": "Normal funktion"
         }
       ],
       "lifestyle_recommendations": [
-        "Standardrekommendationer"
+        "Standardkost"
       ],
       "drug_interactions": [],
       "priority": 5
@@ -562,30 +858,6 @@
       "priority": 5
     },
     {
-      "rsid": "rs7412",
-      "gene": "APOE",
-      "genotype": "CC",
-      "risk_level": "Normal",
-      "effect": "e3 eller e4 möjlig",
-      "description": "Avgörs med rs429358",
-      "categories": [
-        "Kardiovaskulär",
-        "Inflammation"
-      ],
-      "nutrient_recommendations": [
-        {
-          "nutrient": "Se full APOE-genotyp",
-          "dose": "Varierar",
-          "reason": "Beror på rs429358"
-        }
-      ],
-      "lifestyle_recommendations": [
-        "Se full APOE-genotyp"
-      ],
-      "drug_interactions": [],
-      "priority": 5
-    },
-    {
       "rsid": "rs73598374",
       "gene": "ADA",
       "genotype": "CT",
@@ -604,102 +876,17 @@
       "priority": 5
     },
     {
-      "rsid": "rs2802292",
-      "gene": "FOXO3",
-      "genotype": "GG",
-      "risk_level": "Skyddande",
-      "effect": "Dubbel longevity-allel",
-      "description": "Starkt associerat med 100+-årig livslängd. ~2.7x högre chans att nå 100.",
-      "categories": [
-        "Antioxidant",
-        "Antioxidant"
-      ],
-      "nutrient_recommendations": [],
-      "lifestyle_recommendations": [
-        "Genetiskt skyddad - men livsstil förstärker fördelen"
-      ],
-      "drug_interactions": [],
-      "priority": 5
-    },
-    {
-      "rsid": "rs9939609",
-      "gene": "FTO",
-      "genotype": "TT",
+      "rsid": "rs601338",
+      "gene": "FUT2",
+      "genotype": "AG",
       "risk_level": "Normal",
-      "effect": "Normal FTO",
-      "description": "Normal mättnadskänsla och hunger-reglering.",
-      "categories": [
-        "Blodsocker",
-        "Vikt"
-      ],
-      "nutrient_recommendations": [],
-      "lifestyle_recommendations": [
-        "Standardrekommendationer"
-      ],
-      "drug_interactions": [],
-      "priority": 5
-    },
-    {
-      "rsid": "rs1801394",
-      "gene": "MTRR",
-      "genotype": "AA",
-      "risk_level": "Normal",
-      "effect": "Normal MTRR",
-      "description": "Wildtyp",
+      "effect": "susceptible to Norovirus infections",
+      "description": "susceptible to Norovirus infections",
       "categories": [
         "Metylering"
       ],
-      "nutrient_recommendations": [
-        {
-          "nutrient": "B12",
-          "dose": "Standard",
-          "reason": "Normal funktion"
-        }
-      ],
-      "lifestyle_recommendations": [
-        "Standardkost"
-      ],
-      "drug_interactions": [],
-      "priority": 5
-    },
-    {
-      "rsid": "rs1800562",
-      "gene": "HFE",
-      "genotype": "GG",
-      "risk_level": "Normal",
-      "effect": "Normal HFE",
-      "description": "Standard järnreglering",
-      "categories": [
-        "Järn"
-      ],
-      "nutrient_recommendations": [
-        {
-          "nutrient": "Järn",
-          "dose": "Vid behov",
-          "reason": "Normal reglering"
-        }
-      ],
-      "lifestyle_recommendations": [
-        "Standardrekommendationer"
-      ],
-      "drug_interactions": [],
-      "priority": 5
-    },
-    {
-      "rsid": "rs12934922",
-      "gene": "BCMO1",
-      "genotype": "AA",
-      "risk_level": "Normal",
-      "effect": "Normal BCMO1",
-      "description": "Normal omvandling av betakaroten till A-vitamin.",
-      "categories": [
-        "D-vitamin",
-        "Antioxidant"
-      ],
       "nutrient_recommendations": [],
-      "lifestyle_recommendations": [
-        "Morötter och grönsaker ger tillräckligt A-vitamin"
-      ],
+      "lifestyle_recommendations": [],
       "drug_interactions": [],
       "priority": 5
     },
@@ -727,19 +914,49 @@
       "priority": 5
     },
     {
-      "rsid": "rs1801260",
-      "gene": "CLOCK",
-      "genotype": "AA",
+      "rsid": "rs762551",
+      "gene": "CYP1A2",
+      "genotype": "AC",
       "risk_level": "Normal",
-      "effect": "Normal CLOCK",
-      "description": "Normal dygnsrytm, morgonmänniska.",
+      "effect": "Intermediär metabolism",
+      "description": "Normal koffeinkänslighet",
       "categories": [
-        "Sömn",
-        "Dygnsrytm"
+        "Koffein",
+        "Detox Fas I"
       ],
-      "nutrient_recommendations": [],
+      "nutrient_recommendations": [
+        {
+          "nutrient": "Koffein",
+          "dose": "Max 300-400 mg/dag",
+          "reason": "Normal metabolism"
+        }
+      ],
       "lifestyle_recommendations": [
-        "Du är naturligt morgonmänniska"
+        "Måttligt kaffeintag (2-3 koppar/dag)"
+      ],
+      "drug_interactions": [],
+      "priority": 5
+    },
+    {
+      "rsid": "rs7412",
+      "gene": "APOE",
+      "genotype": "CC",
+      "risk_level": "Normal",
+      "effect": "e3 eller e4 möjlig",
+      "description": "Avgörs med rs429358",
+      "categories": [
+        "Kardiovaskulär",
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [
+        {
+          "nutrient": "Se full APOE-genotyp",
+          "dose": "Varierar",
+          "reason": "Beror på rs429358"
+        }
+      ],
+      "lifestyle_recommendations": [
+        "Se full APOE-genotyp"
       ],
       "drug_interactions": [],
       "priority": 5
@@ -767,6 +984,63 @@
         "Undvik mättat fett",
         "Regelbunden motion"
       ],
+      "drug_interactions": [],
+      "priority": 5
+    },
+    {
+      "rsid": "rs9939609",
+      "gene": "FTO",
+      "genotype": "TT",
+      "risk_level": "Normal",
+      "effect": "Normal FTO",
+      "description": "Normal mättnadskänsla och hunger-reglering.",
+      "categories": [
+        "Blodsocker",
+        "Vikt"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [
+        "Standardrekommendationer"
+      ],
+      "drug_interactions": [],
+      "priority": 5
+    },
+    {
+      "rsid": "rs174546",
+      "gene": "FADS1",
+      "genotype": "CT",
+      "risk_level": "Normal",
+      "effect": "Intermediär",
+      "description": "Måttlig konvertering",
+      "categories": [
+        "Omega-3",
+        "Inflammation"
+      ],
+      "nutrient_recommendations": [
+        {
+          "nutrient": "Omega-3 (EPA/DHA)",
+          "dose": "2-3 g/dag",
+          "reason": "Kan inte förlita sig på konvertering"
+        }
+      ],
+      "lifestyle_recommendations": [
+        "Fisk 2-3 ggr/vecka eller tillskott"
+      ],
+      "drug_interactions": [],
+      "priority": 5
+    },
+    {
+      "rsid": "rs6311",
+      "gene": "HTR2A",
+      "genotype": "CT",
+      "risk_level": "Skyddande",
+      "effect": "Normal risk of sexual dysfunction when taking SSRI Antidepressants.",
+      "description": "Normal risk of sexual dysfunction when taking SSRI Antidepressants.",
+      "categories": [
+        "Stress & Humör"
+      ],
+      "nutrient_recommendations": [],
+      "lifestyle_recommendations": [],
       "drug_interactions": [],
       "priority": 5
     },
@@ -803,25 +1077,19 @@
       "priority": 5
     },
     {
-      "rsid": "rs762551",
-      "gene": "CYP1A2",
-      "genotype": "AC",
+      "rsid": "rs12934922",
+      "gene": "BCMO1",
+      "genotype": "AA",
       "risk_level": "Normal",
-      "effect": "Intermediär metabolism",
-      "description": "Normal koffeinkänslighet",
+      "effect": "Normal BCMO1",
+      "description": "Normal omvandling av betakaroten till A-vitamin.",
       "categories": [
-        "Koffein",
-        "Detox Fas I"
+        "D-vitamin",
+        "Antioxidant"
       ],
-      "nutrient_recommendations": [
-        {
-          "nutrient": "Koffein",
-          "dose": "Max 300-400 mg/dag",
-          "reason": "Normal metabolism"
-        }
-      ],
+      "nutrient_recommendations": [],
       "lifestyle_recommendations": [
-        "Måttligt kaffeintag (2-3 koppar/dag)"
+        "Morötter och grönsaker ger tillräckligt A-vitamin"
       ],
       "drug_interactions": [],
       "priority": 5
@@ -859,22 +1127,46 @@
     }
   ],
   "high_priority_findings": [
-    "CYP2C9 rs1799853: Heterozygot *2",
-    "CYP2C19 rs12248560: Rapid metabolizer (*17)",
     "CYP2C9 rs1057910: normal; no effect on warfarin metabolism",
+    "CYP2C19 rs4244285: Normal CYP2C19 (*1)",
+    "CYP2C19 rs12248560: Rapid metabolizer (*17)",
+    "SLC30A8 rs13266634: increased risk for type-2 diabetes",
     "SLCO1B1 rs4149056: Reducerad (*5 het)",
-    "CYP2C19 rs4244285: Normal CYP2C19 (*1)"
+    "TPMT rs1800462: incapable of detoxifying certain drugs",
+    "CYP2C9 rs1799853: Heterozygot *2",
+    "CDKN2A,CDKN2B rs1333049: 1.5x increased risk for CAD"
   ],
   "nutrient_protocol": [
     {
       "nutrient": "Kalcium",
       "dose": "1000-1200 mg/dag",
       "reasons": [
+        "Kompensera för minskade mejeriprodukter",
         "Kompensera för minskade mejeriprodukter"
       ],
       "priority": "high",
       "genes": [
-        "LCT/MCM6"
+        "LCT/MCM6",
+        "MCM6"
+      ]
+    },
+    {
+      "nutrient": "Standard",
+      "dose": "Standard",
+      "reasons": [
+        "Normal funktion",
+        "Snabbare metabolism",
+        "Normal funktion",
+        "Avgörs med full APOE-genotyp",
+        "Normal funktion"
+      ],
+      "priority": "normal",
+      "genes": [
+        "CYP2C19",
+        "CYP2C19",
+        "TNF",
+        "APOE",
+        "BHMT"
       ]
     },
     {
@@ -886,25 +1178,6 @@
       "priority": "normal",
       "genes": [
         "CYP2C9"
-      ]
-    },
-    {
-      "nutrient": "Standard",
-      "dose": "Standard",
-      "reasons": [
-        "Snabbare metabolism",
-        "Normal funktion",
-        "Normal funktion",
-        "Normal funktion",
-        "Avgörs med full APOE-genotyp"
-      ],
-      "priority": "normal",
-      "genes": [
-        "CYP2C19",
-        "CYP2C19",
-        "BHMT",
-        "TNF",
-        "APOE"
       ]
     },
     {
@@ -930,17 +1203,6 @@
       ]
     },
     {
-      "nutrient": "A-vitamin (retinol)",
-      "dose": "5000 IE/dag",
-      "reasons": [
-        "Sämre konvertering från betakaroten"
-      ],
-      "priority": "normal",
-      "genes": [
-        "BCO1"
-      ]
-    },
-    {
       "nutrient": "Glutenfri multi-vitamin",
       "dose": "Vid glutenfri kost",
       "reasons": [
@@ -952,14 +1214,25 @@
       ]
     },
     {
-      "nutrient": "NAC",
-      "dose": "600-1200 mg/dag",
+      "nutrient": "A-vitamin (retinol)",
+      "dose": "5000 IE/dag",
       "reasons": [
-        "Glutationstöd"
+        "Sämre konvertering från betakaroten"
       ],
       "priority": "normal",
       "genes": [
-        "GSTP1"
+        "BCO1"
+      ]
+    },
+    {
+      "nutrient": "DIM (Diindolylmethane)",
+      "dose": "100-200 mg/dag",
+      "reasons": [
+        "Skiftar till 2-OH-väg"
+      ],
+      "priority": "normal",
+      "genes": [
+        "CYP1B1"
       ]
     },
     {
@@ -987,14 +1260,14 @@
       ]
     },
     {
-      "nutrient": "DIM (Diindolylmethane)",
-      "dose": "100-200 mg/dag",
+      "nutrient": "NAC",
+      "dose": "600-1200 mg/dag",
       "reasons": [
-        "Skiftar till 2-OH-väg"
+        "Glutationstöd"
       ],
       "priority": "normal",
       "genes": [
-        "CYP1B1"
+        "GSTP1"
       ]
     },
     {
@@ -1020,17 +1293,6 @@
       ]
     },
     {
-      "nutrient": "Omega-3 (EPA/DHA)",
-      "dose": "2-3 g/dag",
-      "reasons": [
-        "Kan inte förlita sig på konvertering"
-      ],
-      "priority": "normal",
-      "genes": [
-        "FADS1"
-      ]
-    },
-    {
       "nutrient": "Folat",
       "dose": "400 mcg DFE/dag",
       "reasons": [
@@ -1044,25 +1306,14 @@
       ]
     },
     {
-      "nutrient": "Kreatin",
-      "dose": "3-5 g/dag",
+      "nutrient": "Järn",
+      "dose": "Vid behov",
       "reasons": [
-        "Balanserad nytta"
+        "Normal reglering"
       ],
       "priority": "normal",
       "genes": [
-        "ACTN3"
-      ]
-    },
-    {
-      "nutrient": "Se full APOE-genotyp",
-      "dose": "Varierar",
-      "reasons": [
-        "Beror på rs429358"
-      ],
-      "priority": "normal",
-      "genes": [
-        "APOE"
+        "HFE"
       ]
     },
     {
@@ -1079,14 +1330,36 @@
       ]
     },
     {
-      "nutrient": "Järn",
-      "dose": "Vid behov",
+      "nutrient": "Kreatin",
+      "dose": "3-5 g/dag",
       "reasons": [
-        "Normal reglering"
+        "Balanserad nytta"
       ],
       "priority": "normal",
       "genes": [
-        "HFE"
+        "ACTN3"
+      ]
+    },
+    {
+      "nutrient": "Koffein",
+      "dose": "Max 300-400 mg/dag",
+      "reasons": [
+        "Normal metabolism"
+      ],
+      "priority": "normal",
+      "genes": [
+        "CYP1A2"
+      ]
+    },
+    {
+      "nutrient": "Se full APOE-genotyp",
+      "dose": "Varierar",
+      "reasons": [
+        "Beror på rs429358"
+      ],
+      "priority": "normal",
+      "genes": [
+        "APOE"
       ]
     },
     {
@@ -1103,14 +1376,14 @@
       ]
     },
     {
-      "nutrient": "Koffein",
-      "dose": "Max 300-400 mg/dag",
+      "nutrient": "Omega-3 (EPA/DHA)",
+      "dose": "2-3 g/dag",
       "reasons": [
-        "Normal metabolism"
+        "Kan inte förlita sig på konvertering"
       ],
       "priority": "normal",
       "genes": [
-        "CYP1A2"
+        "FADS1"
       ]
     },
     {
@@ -1126,61 +1399,47 @@
     }
   ],
   "lifestyle_protocol": [
-    "Informera läkare",
-    "Stabil kost vid warfarinbehandling",
     "Standardrekommendationer",
+    "Informera läkare",
+    "Denna variant kan påverka din hälsa - konsultera specialist vid behov",
+    "Stabil kost vid warfarinbehandling",
     "Undvik eller begränsa mjölkprodukter",
     "Laktosfria alternativ (havremjölk, mandelmjölk)",
     "Hårdost och yoghurt tolereras ofta bättre (fermenterade)",
     "Kalciumrika grönsaker: grönkål, broccoli, bok choy",
-    "Förlita dig inte på morötter för A-vitamin - ät lever eller ta tillskott",
     "HÖG genetisk risk för celiaki",
     "Testa för celiaki även utan uppenbara symtom",
     "Vid positivt test: strikt glutenfri kost",
     "Screena regelbundet (vart 2-3 år) om negativ",
-    "Undvik onödig kemikalieexponering",
+    "Förlita dig inte på morötter för A-vitamin - ät lever eller ta tillskott",
+    "Laktosfria alternativ rekommenderas",
+    "Korsblommiga grönsaker dagligen",
     "Begränsa raffinerade kolhydrater",
     "Regelbunden motion",
     "Monitorera fasteglukos årligen",
-    "Korsblommiga grönsaker dagligen",
+    "Undvik onödig kemikalieexponering",
     "UNDVIK grönt te-extrakt/EGCG (COMT-hämmare)",
     "Stresshantering kritisk - meditation, yoga",
     "Undvik stimulantia och höga doser koffein",
     "Regelbunden sömn viktigt",
-    "Standardkost",
-    "Fisk 2-3 ggr/vecka eller tillskott",
     "Balanserad kost med gröna bladgrönsaker",
+    "Standardkost",
+    "Du är naturligt morgonmänniska",
+    "Genetiskt skyddad - men livsstil förstärker fördelen",
     "Varierad träning fungerar bra",
     "Kombinera styrka och kondition",
-    "Se full APOE-genotyp",
     "Du har något bättre sömnkvalitet genetiskt",
-    "Genetiskt skyddad - men livsstil förstärker fördelen",
-    "Morötter och grönsaker ger tillräckligt A-vitamin",
-    "Du är naturligt morgonmänniska",
+    "Måttligt kaffeintag (2-3 koppar/dag)",
+    "Se full APOE-genotyp",
     "Omega-3-rik kost viktigt",
     "Undvik mättat fett",
+    "Fisk 2-3 ggr/vecka eller tillskott",
     "Uthållighetsträning fördelaktig",
     "Mer känslig för stress - stresshantering viktigt",
     "Kan behöva mer struktur i kost för viktkontroll",
-    "Måttligt kaffeintag (2-3 koppar/dag)"
+    "Morötter och grönsaker ger tillräckligt A-vitamin"
   ],
   "drug_alerts": [
-    {
-      "drug": "Warfarin",
-      "gene": "CYP2C9",
-      "genotype": "CT",
-      "action": "Reducerad metabolism",
-      "note": "Lägre dos behövs",
-      "rsid": "rs1799853"
-    },
-    {
-      "drug": "NSAID",
-      "gene": "CYP2C9",
-      "genotype": "CT",
-      "action": "Ökade nivåer",
-      "note": "Ökad GI-blödningsrisk",
-      "rsid": "rs1799853"
-    },
     {
       "drug": "Clopidogrel",
       "gene": "CYP2C19",
@@ -1196,6 +1455,22 @@
       "action": "Reducerad effekt",
       "note": "Kan behöva högre dos",
       "rsid": "rs12248560"
+    },
+    {
+      "drug": "Warfarin",
+      "gene": "CYP2C9",
+      "genotype": "CT",
+      "action": "Reducerad metabolism",
+      "note": "Lägre dos behövs",
+      "rsid": "rs1799853"
+    },
+    {
+      "drug": "NSAID",
+      "gene": "CYP2C9",
+      "genotype": "CT",
+      "action": "Ökade nivåer",
+      "note": "Ökad GI-blödningsrisk",
+      "rsid": "rs1799853"
     },
     {
       "drug": "SSRI",
@@ -1231,49 +1506,125 @@
     }
   ],
   "raw_genotypes": {
+    "rs228697": "CG",
     "rs1801131": "TT",
     "rs1801133": "GG",
+    "rs11591147": "GG",
+    "rs67376798": "TT",
+    "rs3918290": "CC",
+    "rs55886062": "AA",
+    "rs1205": "TT",
+    "rs6025": "CC",
+    "rs1800896": "CT",
+    "rs699": "GG",
+    "rs4762": "GG",
     "rs1805087": "AA",
     "rs1056836": "CG",
+    "rs1143634": "GG",
+    "rs16944": "AG",
     "rs4988235": "GG",
+    "rs182549": "CC",
+    "rs53576": "AG",
     "rs1801282": "CC",
+    "rs3811647": "GG",
+    "rs4402960": "GT",
+    "rs8192678": "CC",
+    "rs3749474": "CT",
     "rs1801260": "AA",
     "rs2282679": "GT",
+    "rs7041": "AA",
     "rs1801394": "AA",
+    "rs567754": "CC",
     "rs3733890": "GG",
     "rs1042713": "AA",
+    "rs1042714": "CC",
+    "rs953413": "AA",
+    "rs1142345": "TT",
+    "rs1800460": "CC",
+    "rs1800462": "CC",
     "rs1799945": "CC",
     "rs1800562": "GG",
     "rs1800629": "GG",
+    "rs361525": "GG",
     "rs2187668": "CC",
     "rs2802292": "GG",
+    "rs2764264": "CT",
     "rs4880": "AA",
+    "rs1800796": "GG",
     "rs1800795": "CG",
+    "rs662": "TT",
+    "rs776746": "TT",
+    "rs35599367": "GG",
+    "rs2740574": "TT",
+    "rs2070744": "CT",
+    "rs1041983": "CC",
+    "rs1801280": "CT",
+    "rs1799930": "GG",
+    "rs1799931": "GG",
+    "rs320": "GT",
+    "rs328": "CC",
     "rs4994": "AA",
+    "rs13266634": "CC",
+    "rs10757278": "AG",
+    "rs1333049": "CG",
+    "rs10811661": "CT",
+    "rs12722": "CC",
     "rs12248560": "CT",
+    "rs28399504": "AA",
     "rs4986893": "GG",
     "rs4244285": "GG",
     "rs1799853": "CT",
+    "rs7900194": "GG",
     "rs1057910": "AA",
     "rs7903146": "CT",
+    "rs12255372": "GT",
     "rs10741657": "AG",
     "rs5219": "CC",
     "rs6265": "CC",
     "rs174546": "CT",
     "rs174547": "CT",
+    "rs174548": "CG",
+    "rs174556": "CT",
+    "rs1535": "AG",
+    "rs174583": "CT",
     "rs1815739": "CT",
     "rs1695": "AG",
+    "rs1138272": "CC",
+    "rs1800497": "GG",
+    "rs2306283": "GG",
     "rs4149056": "CT",
+    "rs731236": "AG",
+    "rs7975232": "AA",
     "rs1544410": "CT",
+    "rs10877012": "GG",
+    "rs6313": "AG",
+    "rs6311": "CT",
     "rs762551": "AC",
+    "rs9934438": "AG",
     "rs9923231": "CT",
+    "rs1558902": "TT",
+    "rs1121980": "AG",
     "rs9939609": "TT",
+    "rs708272": "GG",
+    "rs5882": "AA",
     "rs1800566": "GG",
     "rs12934922": "AA",
     "rs7501331": "CT",
+    "rs4343": "AA",
+    "rs17782313": "TT",
     "rs429358": "TT",
     "rs7412": "CC",
+    "rs601338": "AG",
+    "rs602662": "AG",
     "rs73598374": "CT",
-    "rs4680": "AA"
+    "rs234706": "GG",
+    "rs2851391": "CC",
+    "rs6269": "AA",
+    "rs4633": "TT",
+    "rs4680": "AA",
+    "rs2298383": "CT",
+    "rs5751876": "CT",
+    "rs855791": "AG",
+    "rs4820268": "AG"
   }
 }

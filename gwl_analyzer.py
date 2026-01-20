@@ -31,6 +31,12 @@ try:
 except ImportError:
     pass  # Extended SNPs not available
 
+# Import clinical auto-fetched SNPs (80+ clinically relevant SNPs)
+try:
+    import gwl_clinical_auto
+except ImportError:
+    pass  # Clinical auto-SNPs not available
+
 # Import auto-fetch capability (optional)
 AUTO_FETCH_AVAILABLE = False
 try:
