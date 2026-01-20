@@ -1,0 +1,364 @@
+{
+  "name": "Rasmus Persson",
+  "generated_date": "2026-01-20T08:51:55.111437",
+  "genetic_summary": {
+    "Comt Slow": "Ja",
+    "Vdr Impaired": "Ja",
+    "Inflammation High": "Ja",
+    "Estrogen Metabolism Impaired": "Ja",
+    "Detox Support": "Ja"
+  },
+  "supplements_morning": [
+    {
+      "name": "D3-vitamin (kolecalciferol)",
+      "dose": "3000-5000 IE",
+      "timing": "SupplementTiming.MORNING_WITH_FOOD",
+      "priority": "high",
+      "reason": "VDR-variant - behover hogre dos",
+      "genes": [
+        "VDR",
+        "CYP2R1"
+      ],
+      "take_with": [
+        "K2 (MK-7)",
+        "Magnesium",
+        "Fett (maltid)"
+      ],
+      "avoid_with": [
+        "Hog dos A-vitamin >10000 IE"
+      ],
+      "drug_interactions": [
+        "Tiaziddiuretika - okat kalciumrisk"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "K2-vitamin (MK-7)",
+      "dose": "100-200 mcg",
+      "timing": "SupplementTiming.MORNING_WITH_FOOD",
+      "priority": "moderate",
+      "reason": "Styr kalcium till skelett (ej artarer)",
+      "genes": [
+        "VDR"
+      ],
+      "take_with": [
+        "D3-vitamin",
+        "Fett"
+      ],
+      "avoid_with": [],
+      "drug_interactions": [
+        "Warfarin - HAL K-vitamin STABILT, ej undvik"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "DIM (Diindolylmetan)",
+      "dose": "100-200 mg",
+      "timing": "SupplementTiming.MORNING_WITH_FOOD",
+      "priority": "high",
+      "reason": "CYP1B1+COMT - stodjer ostrogen 2-OH-vag",
+      "genes": [
+        "CYP1B1",
+        "COMT"
+      ],
+      "take_with": [
+        "Mat",
+        "B-vitaminer"
+      ],
+      "avoid_with": [],
+      "drug_interactions": [
+        "Hormoner - konsultera lakare vid HRT"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "NAC (N-Acetyl Cystein)",
+      "dose": "600-1200 mg",
+      "timing": "SupplementTiming.MORNING_EMPTY",
+      "priority": "moderate",
+      "reason": "Glutation-prekursor, detox-stod",
+      "genes": [
+        "GSTP1",
+        "GSTM1",
+        "GSTT1"
+      ],
+      "take_with": [
+        "C-vitamin",
+        "Glycin"
+      ],
+      "avoid_with": [
+        "Ta ej med mat (aminosyrekonkurrens)"
+      ],
+      "drug_interactions": [
+        "Nitroglycerid - forsiktighet"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "Selen (selenometionin)",
+      "dose": "100-200 mcg",
+      "timing": "SupplementTiming.MORNING_WITH_FOOD",
+      "priority": "moderate",
+      "reason": "Tyreoideafunktion, antioxidant",
+      "genes": [],
+      "take_with": [
+        "E-vitamin",
+        "Jod (synergi)"
+      ],
+      "avoid_with": [],
+      "drug_interactions": [
+        "Cisplatin - undvik under behandling"
+      ],
+      "notes": ""
+    }
+  ],
+  "supplements_with_meals": [
+    {
+      "name": "Omega-3 (EPA/DHA)",
+      "dose": "2000-3000 mg",
+      "timing": "SupplementTiming.WITH_LARGEST_MEAL",
+      "priority": "critical",
+      "reason": "FADS-variant/Inflammation - direkt EPA/DHA kravs",
+      "genes": [
+        "FADS1",
+        "FADS2",
+        "IL6",
+        "TNF",
+        "APOE"
+      ],
+      "take_with": [
+        "Fet maltid (okar upptag)",
+        "E-vitamin"
+      ],
+      "avoid_with": [
+        "Hog omega-6"
+      ],
+      "drug_interactions": [
+        "Warfarin/blodformande - overvaka INR vid >3g/dag"
+      ],
+      "notes": "rTG-form bast. EPA:DHA 2:1 for inflammation."
+    },
+    {
+      "name": "Kurkumin (med peperin)",
+      "dose": "500-1000 mg",
+      "timing": "SupplementTiming.WITH_LARGEST_MEAL",
+      "priority": "moderate",
+      "reason": "Anti-inflammatoriskt, neuroprotektivt",
+      "genes": [
+        "IL6",
+        "TNF",
+        "APOE"
+      ],
+      "take_with": [
+        "Svartpeppar (piperin)",
+        "Fett"
+      ],
+      "avoid_with": [],
+      "drug_interactions": [
+        "Blodformande (naturlig antiplatelet-effekt)"
+      ],
+      "notes": ""
+    }
+  ],
+  "supplements_evening": [
+    {
+      "name": "Magnesium (glycinat)",
+      "dose": "300-400 mg elemental",
+      "timing": "SupplementTiming.EVENING_BEFORE_BED",
+      "priority": "high",
+      "reason": "Stodjer D-vitamin aktivering, COMT-kofaktor, somn",
+      "genes": [
+        "VDR",
+        "COMT"
+      ],
+      "take_with": [
+        "B6 (okar cellulart upptag)",
+        "Taurin"
+      ],
+      "avoid_with": [
+        "Kalcium >500mg",
+        "Zink >30mg",
+        "Jarn >25mg (ta 2h isár)"
+      ],
+      "drug_interactions": [
+        "Antibiotika (tetracyklin, fluorokinolon) - 2-4h isár"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "L-Theanin",
+      "dose": "200-400 mg",
+      "timing": "SupplementTiming.DIVIDED_DOSES",
+      "priority": "moderate",
+      "reason": "COMT slow - stodjer lugn utan sedation",
+      "genes": [
+        "COMT"
+      ],
+      "take_with": [
+        "Magnesium (kvall)",
+        "Kaffe (morgon, 2:1 ratio)"
+      ],
+      "avoid_with": [],
+      "drug_interactions": [
+        "Blodtryckmedicin - kan sanka BT ytterligare"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "Zink (pikolinat)",
+      "dose": "15-30 mg",
+      "timing": "SupplementTiming.EVENING_BEFORE_BED",
+      "priority": "moderate",
+      "reason": "Immunfunktion, enzymer",
+      "genes": [],
+      "take_with": [
+        "Koppar 1-2mg (vid langvarig anvandning)"
+      ],
+      "avoid_with": [
+        "Kalcium",
+        "Jarn",
+        "Magnesium (ta 2h isár)",
+        "Fytater"
+      ],
+      "drug_interactions": [
+        "Antibiotika - 2-4h isár"
+      ],
+      "notes": ""
+    }
+  ],
+  "breakfast_recommendations": {
+    "meal_time": "MealTime.BREAKFAST",
+    "foods_to_emphasize": [
+      "Agg (kolin, B-vitaminer)",
+      "Avokado (halsosamt fett, K)",
+      "Spenat eller grankol (folat)",
+      "Bar (antioxidanter)",
+      "Havregrot med notter (fiber, magnesium)"
+    ],
+    "foods_to_avoid": [],
+    "example_meals": [
+      "Rorod agg med spenat och avokado",
+      "Grekisk yoghurt med bar, valnotter och honung",
+      "Smoothie med grankol, blabor, proteinpulver och linfro",
+      "Havregrot med kanelpumpakaernor och mandlar"
+    ],
+    "notes": "Ta D3+K2 och B-vitaminer med frukosten."
+  },
+  "lunch_recommendations": {
+    "meal_time": "MealTime.LUNCH",
+    "foods_to_emphasize": [
+      "Gronsaker - minst halva tallriken",
+      "Proteinrik kalla (fisk, kyckling, agg, bonor)",
+      "Korsblommiga gronsaker (broccoli, blomkal)",
+      "Olivolja som dressing",
+      "Komplexa kolhydrater (sötpotatis, quinoa)"
+    ],
+    "foods_to_avoid": [
+      "Socker och raffinerade kolhydrater",
+      "Processad mat med tillsatser",
+      "Processad mat"
+    ],
+    "example_meals": [
+      "Laxsallad med avokado, rodbeta och olivolja",
+      "Kycklingwok med broccoli, paprika och quinoa",
+      "Linssoppa med grankol och citron",
+      "Buddha bowl med rostade gronsaker, hummus och feta"
+    ],
+    "notes": "Storsta maltiden - ta Omega-3 har."
+  },
+  "dinner_recommendations": {
+    "meal_time": "MealTime.DINNER",
+    "foods_to_emphasize": [
+      "Fisk (lax, makrill) minst 3 ggr/vecka",
+      "Morkgrona gronsaker",
+      "Lugnade kryddor (kurkuma, ingefara)",
+      "Magnesiumrika livsmedel (mork choklad, pumpakaernor)"
+    ],
+    "foods_to_avoid": [
+      "Hog koffein (>200mg/dag)",
+      "Alkohol",
+      "Alkohol (okar ostrogen)",
+      "Stimulerande livsmedel pa kvallen"
+    ],
+    "example_meals": [
+      "Ugnsbakad lax med sparris och sotpotatis",
+      "Kycklinggryta med kurkuma, kokosmjolk och spenat",
+      "Makrill med rostad blomkal och tahini",
+      "Vegetarisk curry med kikarter och grankol"
+    ],
+    "notes": "Undvik tunga maltider 3h fore laggdags. Ta magnesium och zink efter middagen."
+  },
+  "snack_recommendations": {
+    "meal_time": "MealTime.SNACK",
+    "foods_to_emphasize": [
+      "Notter (valnotter, mandlar, brasilnotter)",
+      "Bar (blabor, hallonmorkachoklad)",
+      "Gronsakssticks med hummus",
+      "Gront te eller ortte"
+    ],
+    "foods_to_avoid": [
+      "Socker och raffinerade kolhydrater",
+      "Processad mat med tillsatser",
+      "Processad mat"
+    ],
+    "example_meals": [
+      "En handfull valnotter + en handfull blabor",
+      "Selleri med mandelsmorolja och gront te",
+      "2 rutor mark choklad (>70%) + brasilnotter",
+      "Avokado med havssalt och citron"
+    ],
+    "notes": "Mellanmal stabiliserar blodsockret. Undvik socker."
+  },
+  "weekly_meal_plan": {
+    "Måndag": {
+      "frukost": "Rorod agg med spenat, avokado och pumpakaernor",
+      "lunch": "Linsallad med broccoli, rodbeta, feta och olivolja",
+      "middag": "Ugnsbakad lax med sparris och sotpotatis"
+    },
+    "Tisdag": {
+      "frukost": "Havregrot med blabor, valnotter och kanel",
+      "lunch": "Kycklingwok med broccoli, paprika och quinoa",
+      "middag": "Vegetarisk linscurry med spenat och fullkornsris"
+    },
+    "Onsdag": {
+      "frukost": "Smoothie: grankol, blabor, banan, mandelmjolk, linfro",
+      "lunch": "Sallad med rostade kikarter, avokado och citronvinagrette",
+      "middag": "Grillad makrill med rostad blomkal och tahini"
+    },
+    "Torsdag": {
+      "frukost": "Agg-muffins med spenat och getost",
+      "lunch": "Buddha bowl med quinoa, rostade gronsaker och hummus",
+      "middag": "Kycklinggryta med kurkuma, kokosmjolk och grankol"
+    },
+    "Fredag": {
+      "frukost": "Grekisk yoghurt med granola, bar och valnotter",
+      "lunch": "Linssoppa med citron och persilja",
+      "middag": "Sardiner pa rostad surdegsbrod med avokado och tomat"
+    },
+    "Lördag": {
+      "frukost": "Pannkakor av bananoch agg med bar och mandelsmorolja",
+      "lunch": "Sallad nicoise med agg och gront te",
+      "middag": "Hemmagjord taco med svarta bonor, avokadosaslotpotatis"
+    },
+    "Söndag": {
+      "frukost": "Agg benedict med rokt lax och spenat",
+      "lunch": "Kyckling- och gronsakswok med cashewnotter",
+      "middag": "Ugnsrostad kyckling med rotfrukter och grankol"
+    }
+  },
+  "critical_warnings": [
+    "LAKEMEDEL: Warfarin - Reducerad metabolism",
+    "LAKEMEDEL: Clopidogrel - Ökad effekt",
+    "COMT: Undvik gront te-extrakt/EGCG-tillskott. Var forskrikt med stimulantia och hog koffeindos.",
+    "OSTROGEN: Var forsiktig vid HRT/p-piller. Diskutera med lakare. DIM och korsblommiga dagligen."
+  ],
+  "lifestyle_recommendations": [
+    "COMT: Prioritera stresshantering hogt. Yoga och meditation sarskilt fordelaktigt.",
+    "Solexponering 15-20 min/dag (utan solskydd) for D-vitamin",
+    "Regelbunden styrketraning 2-3 ggr/vecka",
+    "7-9 timmars somn per natt",
+    "Stresshantering dagligen (meditation, djupandning, promenader)",
+    "Begransat skarmtid 1h fore laggdags",
+    "Rikligt vatten (2-3 liter/dag)"
+  ]
+}
