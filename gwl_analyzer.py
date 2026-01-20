@@ -25,6 +25,12 @@ from gwl_unified_database import (
     get_database_stats
 )
 
+# Import extended SNPs (adds 15+ more SNPs to database)
+try:
+    import gwl_extended_snps
+except ImportError:
+    pass  # Extended SNPs not available
+
 # =============================================================================
 # DATA CLASSES FOR RESULTS
 # =============================================================================

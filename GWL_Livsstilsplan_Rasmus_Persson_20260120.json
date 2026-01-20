@@ -1,6 +1,6 @@
 {
   "name": "Rasmus Persson",
-  "generated_date": "2026-01-20T09:15:35.706010",
+  "generated_date": "2026-01-20T09:26:24.043443",
   "genetic_summary": {
     "Comt Slow": "Ja",
     "Vdr Impaired": "Ja",
@@ -254,9 +254,9 @@
       "Komplexa kolhydrater (sötpotatis, quinoa)"
     ],
     "foods_to_avoid": [
-      "Socker och raffinerade kolhydrater",
       "Processad mat",
-      "Processad mat med tillsatser"
+      "Processad mat med tillsatser",
+      "Socker och raffinerade kolhydrater"
     ],
     "example_meals": [
       "Laxsallad med avokado, rodbeta och olivolja",
@@ -275,10 +275,10 @@
       "Magnesiumrika livsmedel (mork choklad, pumpakaernor)"
     ],
     "foods_to_avoid": [
+      "Alkohol",
       "Hog koffein (>200mg/dag)",
       "Stimulerande livsmedel pa kvallen",
-      "Alkohol (okar ostrogen)",
-      "Alkohol"
+      "Alkohol (okar ostrogen)"
     ],
     "example_meals": [
       "Ugnsbakad lax med sparris och sotpotatis",
@@ -297,9 +297,9 @@
       "Gront te eller ortte"
     ],
     "foods_to_avoid": [
-      "Socker och raffinerade kolhydrater",
       "Processad mat",
-      "Processad mat med tillsatser"
+      "Processad mat med tillsatser",
+      "Socker och raffinerade kolhydrater"
     ],
     "example_meals": [
       "En handfull valnotter + en handfull blabor",
