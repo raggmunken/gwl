@@ -15,3 +15,6 @@ env/
 
 # OS
 .DS_Store
+
+# SNP cache (fetched from SNPedia)
+snp_cache/
