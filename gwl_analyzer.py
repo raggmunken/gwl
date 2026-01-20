@@ -145,6 +145,10 @@ def analyze_snp_from_file(rsid: str, genotype: str) -> Optional[AnalyzedSNP]:
     if not result:
         return None
 
+    # Handle case where genotype is unknown (no risk_level returned)
+    if 'risk_level' not in result:
+        return None
+
     # Bestäm prioritet baserat på risk och kategori
     risk = result['risk_level']
     priority = 5  # Default låg
@@ -182,46 +186,55 @@ def analyze_haplotypes(genotypes: Dict[str, str]) -> List[HaplotypeResult]:
 
     # APOE
     if 'rs429358' in genotypes and 'rs7412' in genotypes:
-        apoe = determine_apoe_genotype(genotypes['rs429358'], genotypes['rs7412'])
+        apoe_result = determine_apoe_genotype(genotypes['rs429358'], genotypes['rs7412'])
+        apoe_diplotype = apoe_result.get('diplotype', 'Unknown')
 
         risk = RiskLevel.NORMAL
-        desc = ""
-        recs = []
+        desc = apoe_result.get('description', '')
+        recs = apoe_result.get('recommendations', [])
 
-        if apoe == "e4/e4":
+        if apoe_diplotype == "e4/e4":
             risk = RiskLevel.HIGH
-            desc = "Hogsta risk for Alzheimer (10-15x) och CVD"
-            recs = [
-                "KRITISKT: Minimera mattat fett (<7%)",
-                "Omega-3 hogdos: EPA 2g + DHA 1g dagligen",
-                "MCT-olja for hjarnenergi",
-                "Undvik alkohol",
-                "Statinbehandling rekommenderas",
-                "Kognitiv uppfoljning fran 50 ars alder"
-            ]
-        elif "e4" in apoe:
+            if not desc:
+                desc = "Hogsta risk for Alzheimer (10-15x) och CVD"
+            if not recs:
+                recs = [
+                    "KRITISKT: Minimera mattat fett (<7%)",
+                    "Omega-3 hogdos: EPA 2g + DHA 1g dagligen",
+                    "MCT-olja for hjarnenergi",
+                    "Undvik alkohol",
+                    "Statinbehandling rekommenderas",
+                    "Kognitiv uppfoljning fran 50 ars alder"
+                ]
+        elif "e4" in apoe_diplotype:
             risk = RiskLevel.MODERATELY_INCREASED
-            desc = "Forhojd risk for Alzheimer (2-3x) och CVD"
-            recs = [
-                "Begransad mattat fett",
-                "Omega-3 2-3g/dag",
-                "Antioxidanter (E, C, kurkumin)",
-                "Regelbunden motion"
-            ]
-        elif apoe == "e2/e2":
+            if not desc:
+                desc = "Forhojd risk for Alzheimer (2-3x) och CVD"
+            if not recs:
+                recs = [
+                    "Begransad mattat fett",
+                    "Omega-3 2-3g/dag",
+                    "Antioxidanter (E, C, kurkumin)",
+                    "Regelbunden motion"
+                ]
+        elif apoe_diplotype == "e2/e2":
             risk = RiskLevel.SLIGHTLY_INCREASED
-            desc = "Skyddande mot Alzheimer men risk for hyperlipidemi"
-            recs = [
-                "Overvaka triglycerider",
-                "Omega-3 for TG-kontroll"
-            ]
+            if not desc:
+                desc = "Skyddande mot Alzheimer men risk for hyperlipidemi"
+            if not recs:
+                recs = [
+                    "Overvaka triglycerider",
+                    "Omega-3 for TG-kontroll"
+                ]
         else:
-            desc = f"Normal APOE ({apoe})"
-            recs = ["Standardrekommendationer"]
+            if not desc:
+                desc = f"Normal APOE ({apoe_diplotype})"
+            if not recs:
+                recs = ["Standardrekommendationer"]
 
         results.append(HaplotypeResult(
             gene="APOE",
-            haplotype=apoe,
+            haplotype=apoe_diplotype,
             risk_level=risk.value,
             description=desc,
             recommendations=recs
@@ -232,36 +245,42 @@ def analyze_haplotypes(genotypes: Dict[str, str]) -> List[HaplotypeResult]:
         mthfr = determine_mthfr_status(genotypes['rs1801133'], genotypes['rs1801131'])
 
         risk = RiskLevel.NORMAL
-        recs = []
+        recs = mthfr.get('recommendations', [])
 
-        if mthfr['severity'] == 'high':
+        # Handle Swedish severity levels from unified database
+        severity = mthfr.get('severity', 'NORMAL')
+        if severity in ['ALLVARLIG', 'ALLVARLIG (Compound)']:
             risk = RiskLevel.SIGNIFICANTLY_INCREASED
-            recs = [
-                "ENDAST metylfolat (5-MTHF) - UNDVIK folsyra",
-                "Metylkobalamin (B12) 1000-5000 mcg/dag",
-                "Riboflavin (B2) 50-100 mg/dag",
-                "P5P (B6) 25-50 mg/dag",
-                "Betain (TMG) som alternativ metyldonator",
-                "UNDVIK lustgas vid operation",
-                "Arlig homocysteinkontroll"
-            ]
-        elif mthfr['severity'] == 'moderate':
+            if not recs:
+                recs = [
+                    "ENDAST metylfolat (5-MTHF) - UNDVIK folsyra",
+                    "Metylkobalamin (B12) 1000-5000 mcg/dag",
+                    "Riboflavin (B2) 50-100 mg/dag",
+                    "P5P (B6) 25-50 mg/dag",
+                    "Betain (TMG) som alternativ metyldonator",
+                    "UNDVIK lustgas vid operation",
+                    "Arlig homocysteinkontroll"
+                ]
+        elif severity == 'MÅTTLIG':
             risk = RiskLevel.MODERATELY_INCREASED
-            recs = [
-                "Metylfolat rekommenderas",
-                "B-vitaminkomplex med aktiva former"
-            ]
-        elif mthfr['severity'] == 'mild':
+            if not recs:
+                recs = [
+                    "Metylfolat rekommenderas",
+                    "B-vitaminkomplex med aktiva former"
+                ]
+        elif severity == 'LÄTT':
             risk = RiskLevel.SLIGHTLY_INCREASED
-            recs = ["Metylfolat kan vara fordelaktigt"]
+            if not recs:
+                recs = ["Metylfolat kan vara fordelaktigt"]
         else:
-            recs = ["Standardrekommendationer"]
+            if not recs:
+                recs = ["Standardrekommendationer"]
 
         results.append(HaplotypeResult(
             gene="MTHFR",
-            haplotype=mthfr['phenotype'],
+            haplotype=mthfr.get('combined', 'Unknown'),
             risk_level=risk.value,
-            description=mthfr['status'],
+            description=mthfr.get('description', ''),
             recommendations=recs
         ))
 
