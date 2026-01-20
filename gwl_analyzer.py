@@ -31,6 +31,15 @@ try:
 except ImportError:
     pass  # Extended SNPs not available
 
+# Import auto-fetch capability (optional)
+AUTO_FETCH_AVAILABLE = False
+try:
+    from gwl_snp_fetcher import SNPediaFetcher, ClinicalSNPPrioritizer
+    from gwl_snp_converter import convert_cached_snp, add_to_database_directly
+    AUTO_FETCH_AVAILABLE = True
+except ImportError:
+    pass  # Auto-fetch not available
+
 # =============================================================================
 # DATA CLASSES FOR RESULTS
 # =============================================================================
@@ -445,16 +454,79 @@ def compile_drug_alerts(analyzed_snps: List[AnalyzedSNP]) -> List[Dict]:
     return alerts
 
 # =============================================================================
+# AUTO-FETCH FUNCTION
+# =============================================================================
+
+def auto_fetch_missing_snps(genotypes: Dict[str, str], limit: int = 30) -> int:
+    """
+    Automatiskt hämta kliniskt relevanta SNPs som saknas i databasen.
+
+    Args:
+        genotypes: Dict med rsid -> genotype från genomfilen
+        limit: Max antal SNPs att hämta
+
+    Returns:
+        Antal SNPs som lades till
+    """
+    if not AUTO_FETCH_AVAILABLE:
+        print("  Auto-fetch inte tillgängligt (installera gwl_snp_fetcher)")
+        return 0
+
+    # Get existing rsids
+    db_rsids = set(get_all_rsids())
+    file_rsids = set(genotypes.keys())
+
+    # Use prioritizer to find important missing SNPs
+    prioritizer = ClinicalSNPPrioritizer(genotypes)
+    to_fetch = []
+
+    # Get high-priority SNPs that are in genome but not in database
+    for rsid in prioritizer.HIGH_PRIORITY_SNPS:
+        rsid_lower = rsid.lower()
+        if rsid_lower in file_rsids and rsid_lower not in db_rsids:
+            to_fetch.append(rsid_lower)
+
+    if not to_fetch:
+        print("  Inga högprioriterade SNPs att hämta")
+        return 0
+
+    print(f"  Hämtar {min(len(to_fetch), limit)} kliniskt relevanta SNPs...")
+
+    # Fetch from SNPedia
+    fetcher = SNPediaFetcher()
+    fetched_snps = []
+
+    for rsid in to_fetch[:limit]:
+        snp_data = fetcher.fetch_snp(rsid)
+        if snp_data and snp_data.gene:
+            # Convert to UnifiedSNP
+            from gwl_snp_fetcher import asdict
+            cached_data = asdict(snp_data)
+            unified_snp = convert_cached_snp(rsid, cached_data, genotypes.get(rsid))
+            if unified_snp:
+                fetched_snps.append(unified_snp)
+                print(f"    + {rsid}: {snp_data.gene}")
+
+    # Add to database
+    if fetched_snps:
+        added = add_to_database_directly(fetched_snps)
+        print(f"  Lade till {added} nya SNPs i databasen")
+        return added
+
+    return 0
+
+# =============================================================================
 # MAIN ANALYSIS
 # =============================================================================
 
-def analyze_dna(filepath: str, name: str = "Anonym") -> AnalysisReport:
+def analyze_dna(filepath: str, name: str = "Anonym", auto_fetch: bool = False) -> AnalysisReport:
     """
     Huvudfunktion - analysera DNA-fil och generera rapport.
 
     Args:
         filepath: Sökväg till 23andMe-fil
         name: Namn för rapporten
+        auto_fetch: Om True, hämta saknade SNPs från SNPedia automatiskt
 
     Returns:
         AnalysisReport med alla resultat
@@ -470,6 +542,13 @@ def analyze_dna(filepath: str, name: str = "Anonym") -> AnalysisReport:
     genotypes = parse_23andme_file(filepath)
     if not genotypes:
         raise ValueError("Kunde inte läsa DNA-filen")
+
+    # Auto-fetch missing SNPs if enabled
+    if auto_fetch:
+        print("\nAuto-fetch aktiverat - hämtar saknade SNPs...")
+        fetched = auto_fetch_missing_snps(genotypes, limit=30)
+        if fetched > 0:
+            print(f"  Totalt {fetched} nya SNPs tillagda")
 
     # Hitta matchande SNPs
     db_rsids = set(get_all_rsids())
@@ -718,6 +797,7 @@ def main():
     parser.add_argument('--name', '-n', default='Anonym', help='Name for the report')
     parser.add_argument('--output', '-o', default='.', help='Output directory')
     parser.add_argument('--stats', action='store_true', help='Show database statistics')
+    parser.add_argument('--auto-fetch', action='store_true', help='Auto-fetch missing SNPs from SNPedia')
 
     args = parser.parse_args()
 
@@ -745,7 +825,7 @@ def main():
         return
 
     # Run analysis
-    report = analyze_dna(args.file, args.name)
+    report = analyze_dna(args.file, args.name, auto_fetch=args.auto_fetch)
 
     # Save reports
     save_report(report, args.output)
