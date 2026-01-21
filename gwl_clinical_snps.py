@@ -354,7 +354,34 @@ CLINICAL_SNPS = {
     "rs25531": {"gene": "SLC6A4", "category": "mental", "importance": 2, "notes": "5-HTTLPR"},
 
     # DRD2 - Dopamine receptor
-    "rs1800497": {"gene": "DRD2", "category": "mental", "importance": 2, "notes": "Taq1A"},
+    "rs1800497": {"gene": "DRD2", "category": "mental", "importance": 2, "notes": "Taq1A - dopamine receptor density"},
+    "rs6277": {"gene": "DRD2", "category": "mental", "importance": 2, "notes": "C957T - reward sensitivity"},
+    "rs2283265": {"gene": "DRD2", "category": "mental", "importance": 3, "notes": "Dopamine signaling"},
+
+    # DRD4 - ADHD strongly associated
+    "rs1800955": {"gene": "DRD4", "category": "mental", "importance": 2, "notes": "C-521T - ADHD risk"},
+    "rs747302": {"gene": "DRD4", "category": "mental", "importance": 3, "notes": "Novelty seeking"},
+
+    # DAT1/SLC6A3 - Dopamine transporter - major ADHD gene
+    "rs27072": {"gene": "SLC6A3", "category": "mental", "importance": 2, "notes": "DAT1 - dopamine reuptake"},
+    "rs2652511": {"gene": "SLC6A3", "category": "mental", "importance": 3, "notes": "ADHD association"},
+
+    # DBH - Dopamine beta-hydroxylase (converts dopamine to norepinephrine)
+    "rs1611115": {"gene": "DBH", "category": "mental", "importance": 2, "notes": "DBH activity - focus/attention"},
+    "rs2519152": {"gene": "DBH", "category": "mental", "importance": 3, "notes": "Norepinephrine levels"},
+
+    # SNAP25 - Synaptic function - ADHD associated
+    "rs3785143": {"gene": "SNAP25", "category": "mental", "importance": 2, "notes": "Synaptic vesicle - ADHD"},
+    "rs362204": {"gene": "SNAP25", "category": "mental", "importance": 3, "notes": "ADHD association"},
+
+    # TPH2 - Serotonin synthesis
+    "rs4570625": {"gene": "TPH2", "category": "mental", "importance": 2, "notes": "Serotonin production"},
+
+    # OPRM1 - Opioid receptor (reward, motivation)
+    "rs1799971": {"gene": "OPRM1", "category": "mental", "importance": 2, "notes": "Reward sensitivity"},
+
+    # ANKK1 (near DRD2)
+    "rs2734849": {"gene": "ANKK1", "category": "mental", "importance": 3, "notes": "Dopamine system"},
 
     # HTR2A - Serotonin receptor
     "rs6311": {"gene": "HTR2A", "category": "mental", "importance": 3, "notes": "A-1438G"},

@@ -1,7 +1,7 @@
 """
 GWL Auto-Fetched SNPs
 =====================
-Auto-generated from SNPedia cache on 2026-01-20
+Auto-generated from SNPedia cache on 2026-01-21
 
 These SNPs were automatically fetched and converted.
 Review and adjust recommendations as needed.
@@ -44,8 +44,8 @@ AUTO_FETCHED_SNPS = {
         gene="CYP2C9",
         chromosome="10",
         position=94981296,
-        ref_allele="C",
-        alt_allele="A",
+        ref_allele="A",
+        alt_allele="C",
         categories=[Category.PHARMACOGENOMICS],
         genotype_effects={
             "AA": {"risk": RiskLevel.PROTECTIVE, "effect": "normal; no effect on warfarin metabolism", "description": "normal; no effect on warfarin metabolism"},
@@ -103,8 +103,8 @@ AUTO_FETCHED_SNPS = {
         gene="DPYD",
         chromosome="1",
         position=97082391,
-        ref_allele="T",
-        alt_allele="A",
+        ref_allele="A",
+        alt_allele="T",
         categories=[Category.PHARMACOGENOMICS],
         genotype_effects={
             "AA": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "5-fluorouracil toxicity", "description": "5-fluorouracil toxicity"},
@@ -132,8 +132,8 @@ AUTO_FETCHED_SNPS = {
         gene="DPYD",
         chromosome="1",
         position=97515787,
-        ref_allele="C",
-        alt_allele="A",
+        ref_allele="A",
+        alt_allele="C",
         categories=[Category.PHARMACOGENOMICS],
         genotype_effects={
             "AC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "carrier of a null DPYD allele", "description": "carrier of a null DPYD allele"},
@@ -248,8 +248,8 @@ AUTO_FETCHED_SNPS = {
         gene="MC4R",
         chromosome="18",
         position=60183864,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.OBESITY],
         genotype_effects={
             "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "adults likely to be 0.44 BMI units higher", "description": "adults likely to be 0.44 BMI units higher"},
@@ -905,8 +905,8 @@ AUTO_FETCHED_SNPS = {
         gene="CETP",
         chromosome="16",
         position=56962376,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.CARDIOVASCULAR],
         genotype_effects={
             "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "Small reduction in coronary heart disease risk from alcohol consumption", "description": "Small reduction in coronary heart disease risk from alcohol consumption"},
@@ -1215,8 +1215,8 @@ AUTO_FETCHED_SNPS = {
         gene="SLC30A8",
         chromosome="8",
         position=117172544,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "increased risk for type-2 diabetes", "description": "increased risk for type-2 diabetes"},
@@ -1299,8 +1299,8 @@ AUTO_FETCHED_SNPS = {
         gene="MCM6",
         chromosome="2",
         position=135859184,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.IMMUNE],
         genotype_effects={
             "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "possibly lactose intolerant", "description": "possibly lactose intolerant"},
@@ -1462,8 +1462,8 @@ AUTO_FETCHED_SNPS = {
         gene="ANKK1",
         chromosome="11",
         position=113400106,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.PROTECTIVE, "effect": "Normal (A2/A2)", "description": "Normal (A2/A2)"},
@@ -1487,13 +1487,176 @@ AUTO_FETCHED_SNPS = {
         evidence_level="SNPedia"
     ),
 
+    "rs6277": UnifiedSNP(
+        rsid="rs6277",
+        gene="DRD2",
+        chromosome="11",
+        position=113412737,
+        ref_allele="T",
+        alt_allele="N",
+        categories=[Category.STRESS_MOOD],
+        genotype_effects={
+            "TT": {"risk": RiskLevel.PROTECTIVE, "effect": "normal schizophrenia risk, learns NoGo faster", "description": "normal schizophrenia risk, learns NoGo faster"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['19373123', '26445370', '21172166', '19158809', '21861710'],
+        clinical_significance="Note that",
+        evidence_level="SNPedia"
+    ),
+
+    "rs27072": UnifiedSNP(
+        rsid="rs27072",
+        gene="SLC6A3",
+        chromosome="5",
+        position=1394407,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "2x risk of severe alcohol withdrawal. Possible increased odds of ADHD.", "description": "2x risk of severe alcohol withdrawal. Possible increased odds of ADHD."},
+            "TT": {"risk": RiskLevel.PROTECTIVE, "effect": "Lower risk of alcohol withdrawal seizures, and probably lower odds of ADHD.", "description": "Lower risk of alcohol withdrawal seizures, and probably lower odds of ADHD."},
+            "CT": {"risk": RiskLevel.PROTECTIVE, "effect": "Lower risk of alcohol withdrawal seizures, and perhaps lower odds of ADHD.", "description": "Lower risk of alcohol withdrawal seizures, and perhaps lower odds of ADHD."},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "CC": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23647133', '25683821', '23340505', '24780147'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1611115": UnifiedSNP(
+        rsid="rs1611115",
+        gene="DBH",
+        chromosome="9",
+        position=133635393,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "This study concludes that", "description": "This study concludes that"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20621148', '23384717', '18180394', '18330705', '33204361'],
+        clinical_significance="This study concludes that",
+        evidence_level="SNPedia"
+    ),
+
+    "rs3785143": UnifiedSNP(
+        rsid="rs3785143",
+        gene="SLC6A2",
+        chromosome="16",
+        position=55661194,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "TT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "may be associated with ADHD", "description": "may be associated with ADHD"},
+            "CT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "may be associated with ADHD", "description": "may be associated with ADHD"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23266789', '25229170', '18937309', '22297068'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4570625": UnifiedSNP(
+        rsid="rs4570625",
+        gene="TPH2",
+        chromosome="12",
+        position=71938143,
+        ref_allele="G",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "GG": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "maybe: higher scores on anxiety-related personality traits; greater placebo response", "description": "maybe: higher scores on anxiety-related personality traits; greater placebo response"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['26013962', '21396719', '22698518', '22655589', '23628433'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1799971": UnifiedSNP(
+        rsid="rs1799971",
+        gene="OPRM1",
+        chromosome="6",
+        position=154039662,
+        ref_allele="G",
+        alt_allele="A",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "stronger cravings for alcohol. if alcoholic, naltrexone treatment 2x more successful", "description": "stronger cravings for alcohol. if alcoholic, naltrexone treatment 2x more successful"},
+            "GG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "more pain", "description": "more pain"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "AG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+            "GG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21277709', '25715171', '22046326', '26233486', '26832728'],
+        clinical_significance="However, subsequent research results are mixed, and there are other studies both agreeing or disagre",
+        evidence_level="SNPedia"
+    ),
+
     "rs699": UnifiedSNP(
         rsid="rs699",
         gene="AGT",
         chromosome="1",
         position=230710048,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.CARDIOVASCULAR],
         genotype_effects={
             "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "increased risk of hypertension", "description": "increased risk of hypertension"},
@@ -1606,8 +1769,8 @@ AUTO_FETCHED_SNPS = {
         gene="HLA-A",
         chromosome="6",
         position=29945521,
-        ref_allele="T",
-        alt_allele="A",
+        ref_allele="A",
+        alt_allele="T",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "AA": {"risk": RiskLevel.PROTECTIVE, "effect": "Normal carbamazepine sensitivity; common in clinvar", "description": "Normal carbamazepine sensitivity; common in clinvar"},
@@ -1662,8 +1825,8 @@ AUTO_FETCHED_SNPS = {
         gene="GSDMB",
         chromosome="17",
         position=39913696,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.PROTECTIVE, "effect": "0.69x lower risk of Childhood Asthma.", "description": "0.69x lower risk of Childhood Asthma."},
@@ -1717,8 +1880,8 @@ AUTO_FETCHED_SNPS = {
         gene="SLC2A2",
         chromosome="3",
         position=171014511,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.NORMAL, "effect": "normal sugar consumption", "description": "normal sugar consumption"},
@@ -1745,8 +1908,8 @@ AUTO_FETCHED_SNPS = {
         gene="FTO",
         chromosome="16",
         position=53767042,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.OBESITY],
         genotype_effects={
             "CC": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "~1.7x increased obesity risk", "description": "~1.7x increased obesity risk"},
@@ -1777,8 +1940,8 @@ AUTO_FETCHED_SNPS = {
         gene="TCF7L2",
         chromosome="10",
         position=112996282,
-        ref_allele="T",
-        alt_allele="A",
+        ref_allele="A",
+        alt_allele="T",
         categories=[Category.BLOOD_SUGAR],
         genotype_effects={
             "AT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "1.4x increased risk for type-2 diabetes", "description": "1.4x increased risk for type-2 diabetes"},
@@ -1932,7 +2095,7 @@ AUTO_FETCHED_SNPS = {
         haplotype_role=None,
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['30371560', '21372407', '19698717', '24553426', '23895337'],
-        clinical_significance="A study of over 3,800 cases of upper aerodigestive",
+        clinical_significance="A study of over 3800 cases of upper aerodigestive",
         evidence_level="SNPedia"
     ),
 
@@ -1970,8 +2133,8 @@ AUTO_FETCHED_SNPS = {
         gene="MYNN",
         chromosome="3",
         position=169774313,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.PROTECTIVE, "effect": "longer telomeres, longer life?", "description": "longer telomeres, longer life?"},
@@ -2027,8 +2190,8 @@ AUTO_FETCHED_SNPS = {
         gene="SIRT1",
         chromosome="10",
         position=67883584,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.ANTIOXIDANT],
         genotype_effects={
             "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "Normal (worse) aging.", "description": "Normal (worse) aging."},
@@ -2114,8 +2277,8 @@ AUTO_FETCHED_SNPS = {
         gene="CFH",
         chromosome="1",
         position=196690107,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "5.9x risk for AMD; higher mortality among nonagenarians", "description": "5.9x risk for AMD; higher mortality among nonagenarians"},
@@ -2315,8 +2478,8 @@ AUTO_FETCHED_SNPS = {
         gene="TM6SF2",
         chromosome="19",
         position=19268740,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CT": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "Complex; slightly lower risk of heart attacks, yet slightly higher risk for diabetes and NAFLD", "description": "Complex; slightly lower risk of heart attacks, yet slightly higher risk for diabetes and NAFLD"},
@@ -3003,13 +3166,65 @@ AUTO_FETCHED_SNPS = {
         evidence_level="SNPedia"
     ),
 
+    "rs2283265": UnifiedSNP(
+        rsid="rs2283265",
+        gene="DRD2",
+        chromosome="11",
+        position=113414814,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.STRESS_MOOD],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['18332877', '22579533', '19772578', '24495967', '19321766'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2734849": UnifiedSNP(
+        rsid="rs2734849",
+        gene="ANKK1",
+        chromosome="11",
+        position=113399438,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['31867628', '18354387'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
     "rs6311": UnifiedSNP(
         rsid="rs6311",
         gene="HTR2A",
         chromosome="13",
         position=46897343,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.STRESS_MOOD],
         genotype_effects={
             "CC": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "3.6x increased risk of sexual dysfunction when taking SSRI Antidepressants.", "description": "3.6x increased risk of sexual dysfunction when taking SSRI Antidepressants."},
@@ -3120,8 +3335,8 @@ AUTO_FETCHED_SNPS = {
         gene="NOS3",
         chromosome="7",
         position=150992991,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.CARDIOVASCULAR],
         genotype_effects={
             "CC": {"risk": RiskLevel.NORMAL, "effect": "increased prostate cancer risk", "description": "increased prostate cancer risk"},
@@ -3490,7 +3705,7 @@ AUTO_FETCHED_SNPS = {
         chromosome="1",
         position=114693436,
         ref_allele="G",
-        alt_allele="T",
+        alt_allele="A",
         categories=[Category.MUSCLE],
         genotype_effects={
             "AA": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "AMPD1 deficiency homozygous (orientation reversed)", "description": "AMPD1 deficiency homozygous (orientation reversed)"},
@@ -3526,8 +3741,8 @@ AUTO_FETCHED_SNPS = {
         gene="TAS2R38",
         chromosome="7",
         position=141972905,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.PROTECTIVE, "effect": "can taste bitter", "description": "can taste bitter"},
@@ -3554,8 +3769,8 @@ AUTO_FETCHED_SNPS = {
         gene="TAS2R38",
         chromosome="7",
         position=141972804,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "CC": {"risk": RiskLevel.NORMAL, "effect": "can taste bitter", "description": "can taste bitter"},
@@ -3582,8 +3797,8 @@ AUTO_FETCHED_SNPS = {
         gene="AGTR1",
         chromosome="3",
         position=148742201,
-        ref_allele="C",
-        alt_allele="A",
+        ref_allele="A",
+        alt_allele="C",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "AC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "~1.4x increased risk of hypertension", "description": "~1.4x increased risk of hypertension"},
@@ -3611,8 +3826,8 @@ AUTO_FETCHED_SNPS = {
         gene="FOXO3",
         chromosome="6",
         position=108678084,
-        ref_allele="C",
-        alt_allele="T",
+        ref_allele="T",
+        alt_allele="C",
         categories=[Category.ANTIOXIDANT],
         genotype_effects={
             "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "Reference", "description": "Reference"},
