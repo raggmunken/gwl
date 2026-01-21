@@ -18,3 +18,7 @@ env/
 
 # SNP cache (fetched from SNPedia)
 snp_cache/
+
+# Generated profile reports (contain personal data)
+GWL_Profil_*.md
+GWL_Profil_*.json
