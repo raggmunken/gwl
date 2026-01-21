@@ -596,6 +596,267 @@ CLINICAL_SNPS = {
     # Thyroid
     "rs965513": {"gene": "FOXE1", "category": "health", "importance": 3, "notes": "Thyroid cancer"},
     "rs944289": {"gene": "NKX2-1", "category": "health", "importance": 3, "notes": "Thyroid function"},
+
+    # =========================================================================
+    # PHASE 1 EXPANSION: PERSONALITY & BEHAVIOR GENETICS
+    # =========================================================================
+
+    # -------------------------------------------------------------------------
+    # HPA-AXIS / STRESS RESPONSE SYSTEM
+    # -------------------------------------------------------------------------
+    # These genes explain WHY some people handle stress well and others don't
+
+    # CRHR1 - Corticotropin-releasing hormone receptor 1
+    "rs110402": {"gene": "CRHR1", "category": "stress", "importance": 1, "notes": "Stress response - PTSD/depression risk"},
+    "rs242924": {"gene": "CRHR1", "category": "stress", "importance": 2, "notes": "Cortisol reactivity"},
+    "rs7209436": {"gene": "CRHR1", "category": "stress", "importance": 2, "notes": "Stress resilience haplotype"},
+
+    # FKBP5 - FK506 binding protein 5 (cortisol sensitivity regulator)
+    "rs1360780": {"gene": "FKBP5", "category": "stress", "importance": 1, "notes": "Cortisol sensitivity - trauma response"},
+    "rs9296158": {"gene": "FKBP5", "category": "stress", "importance": 2, "notes": "PTSD risk after trauma"},
+    "rs3800373": {"gene": "FKBP5", "category": "stress", "importance": 2, "notes": "HPA-axis feedback"},
+    "rs9470080": {"gene": "FKBP5", "category": "stress", "importance": 2, "notes": "Depression/anxiety risk"},
+
+    # NR3C1 - Glucocorticoid receptor
+    "rs6190": {"gene": "NR3C1", "category": "stress", "importance": 2, "notes": "ER22/23EK - GR sensitivity"},
+    "rs41423247": {"gene": "NR3C1", "category": "stress", "importance": 2, "notes": "BclI - cortisol resistance"},
+    "rs6198": {"gene": "NR3C1", "category": "stress", "importance": 2, "notes": "GR-beta isoform - inflammation"},
+
+    # NR3C2 - Mineralocorticoid receptor
+    "rs2070951": {"gene": "NR3C2", "category": "stress", "importance": 3, "notes": "MR function - stress coping"},
+    "rs5522": {"gene": "NR3C2", "category": "stress", "importance": 3, "notes": "I180V - salt/stress sensitivity"},
+
+    # NPY - Neuropeptide Y (stress resilience)
+    "rs16147": {"gene": "NPY", "category": "stress", "importance": 2, "notes": "NPY expression - stress protection"},
+    "rs5574": {"gene": "NPY", "category": "stress", "importance": 3, "notes": "Anxiety resistance"},
+
+    # -------------------------------------------------------------------------
+    # EXTENDED DOPAMINE SYSTEM
+    # -------------------------------------------------------------------------
+    # Additional genes explaining motivation, focus, ADHD, addiction risk
+
+    # DRD3 - Dopamine receptor D3
+    "rs6280": {"gene": "DRD3", "category": "dopamine", "importance": 2, "notes": "Ser9Gly - impulsivity/reward"},
+    "rs167771": {"gene": "DRD3", "category": "dopamine", "importance": 3, "notes": "Novelty seeking"},
+
+    # Extended DAT1/SLC6A3
+    "rs40184": {"gene": "SLC6A3", "category": "dopamine", "importance": 2, "notes": "DAT1 intronic - ADHD"},
+    "rs6347": {"gene": "SLC6A3", "category": "dopamine", "importance": 2, "notes": "Dopamine clearance rate"},
+    "rs463379": {"gene": "SLC6A3", "category": "dopamine", "importance": 3, "notes": "DAT expression level"},
+
+    # TH - Tyrosine hydroxylase (dopamine synthesis)
+    "rs6356": {"gene": "TH", "category": "dopamine", "importance": 2, "notes": "Val81Met - DA production"},
+    "rs10770141": {"gene": "TH", "category": "dopamine", "importance": 3, "notes": "TH expression level"},
+
+    # DDC - DOPA decarboxylase
+    "rs3837091": {"gene": "DDC", "category": "dopamine", "importance": 2, "notes": "DA/5-HT synthesis enzyme"},
+    "rs921451": {"gene": "DDC", "category": "dopamine", "importance": 3, "notes": "DDC activity level"},
+
+    # Extended COMT haplotype
+    "rs4818": {"gene": "COMT", "category": "dopamine", "importance": 2, "notes": "COMT haplotype - pain/cognition"},
+    "rs165599": {"gene": "COMT", "category": "dopamine", "importance": 3, "notes": "COMT 3'UTR - expression"},
+
+    # DARPP-32 / PPP1R1B
+    "rs907094": {"gene": "PPP1R1B", "category": "dopamine", "importance": 2, "notes": "DARPP-32 - DA signaling"},
+    "rs879606": {"gene": "PPP1R1B", "category": "dopamine", "importance": 3, "notes": "Reward processing"},
+
+    # -------------------------------------------------------------------------
+    # GABA SYSTEM - Calm & Anxiety
+    # -------------------------------------------------------------------------
+
+    # GABRA2 - GABA-A receptor alpha-2
+    "rs279858": {"gene": "GABRA2", "category": "gaba", "importance": 2, "notes": "Alcohol dependence/anxiety"},
+    "rs567926": {"gene": "GABRA2", "category": "gaba", "importance": 2, "notes": "Anxiety/impulsivity"},
+    "rs279826": {"gene": "GABRA2", "category": "gaba", "importance": 3, "notes": "GABA-A function"},
+
+    # GABRA6 - GABA-A receptor alpha-6
+    "rs3219151": {"gene": "GABRA6", "category": "gaba", "importance": 3, "notes": "Benzodiazepine sensitivity"},
+
+    # GABRG2 - GABA-A receptor gamma-2
+    "rs211037": {"gene": "GABRG2", "category": "gaba", "importance": 2, "notes": "Anxiety/epilepsy risk"},
+
+    # GAD1 - Glutamic acid decarboxylase 1 (GABA synthesis)
+    "rs3749034": {"gene": "GAD1", "category": "gaba", "importance": 2, "notes": "GABA production - anxiety"},
+    "rs2241165": {"gene": "GAD1", "category": "gaba", "importance": 3, "notes": "GAD67 expression"},
+
+    # GAD2 - Glutamic acid decarboxylase 2
+    "rs992990": {"gene": "GAD2", "category": "gaba", "importance": 3, "notes": "GAD65 - panic disorder"},
+
+    # -------------------------------------------------------------------------
+    # EXTENDED SEROTONIN SYSTEM
+    # -------------------------------------------------------------------------
+
+    # HTR1A - Serotonin receptor 1A (autoreceptor)
+    "rs6295": {"gene": "HTR1A", "category": "serotonin", "importance": 1, "notes": "C-1019G - anxiety/depression"},
+
+    # HTR1B - Serotonin receptor 1B
+    "rs130058": {"gene": "HTR1B", "category": "serotonin", "importance": 2, "notes": "G-861C - impulsivity/aggression"},
+    "rs6296": {"gene": "HTR1B", "category": "serotonin", "importance": 3, "notes": "Substance abuse risk"},
+
+    # Extended TPH2
+    "rs11178997": {"gene": "TPH2", "category": "serotonin", "importance": 2, "notes": "Serotonin synthesis - depression"},
+    "rs1386494": {"gene": "TPH2", "category": "serotonin", "importance": 3, "notes": "5-HT levels - mood"},
+
+    # Extended SLC6A4
+    "rs1042173": {"gene": "SLC6A4", "category": "serotonin", "importance": 2, "notes": "SERT 3'UTR - function"},
+    "rs140701": {"gene": "SLC6A4", "category": "serotonin", "importance": 3, "notes": "SSRI response"},
+
+    # Extended HTR2A
+    "rs7997012": {"gene": "HTR2A", "category": "serotonin", "importance": 3, "notes": "Anxiety risk variant"},
+
+    # -------------------------------------------------------------------------
+    # COGNITIVE FUNCTION GENES
+    # -------------------------------------------------------------------------
+
+    # KIBRA/WWC1 - Episodic memory
+    "rs17070145": {"gene": "KIBRA", "category": "cognitive", "importance": 2, "notes": "Memory performance - T allele better"},
+
+    # CHRNA4 - Nicotinic acetylcholine receptor alpha-4
+    "rs1044396": {"gene": "CHRNA4", "category": "cognitive", "importance": 2, "notes": "Attention/working memory"},
+    "rs6090384": {"gene": "CHRNA4", "category": "cognitive", "importance": 3, "notes": "Focus/concentration"},
+
+    # CHRNA7 - Nicotinic receptor alpha-7
+    "rs2337980": {"gene": "CHRNA7", "category": "cognitive", "importance": 3, "notes": "Cognitive function/schizophrenia"},
+
+    # TOMM40 - Mitochondrial transport (linked to APOE)
+    "rs2075650": {"gene": "TOMM40", "category": "cognitive", "importance": 2, "notes": "Cognitive aging - APOE linked"},
+
+    # NRG1 - Neuregulin 1
+    "rs6994992": {"gene": "NRG1", "category": "cognitive", "importance": 3, "notes": "Brain development/schizophrenia"},
+    "rs35753505": {"gene": "NRG1", "category": "cognitive", "importance": 3, "notes": "Cognitive function"},
+
+    # DTNBP1 - Dysbindin (schizophrenia/cognition)
+    "rs1011313": {"gene": "DTNBP1", "category": "cognitive", "importance": 3, "notes": "Working memory/processing speed"},
+    "rs2619538": {"gene": "DTNBP1", "category": "cognitive", "importance": 3, "notes": "General cognitive ability"},
+
+    # GRIN2B - NMDA receptor subunit
+    "rs1019385": {"gene": "GRIN2B", "category": "cognitive", "importance": 3, "notes": "Learning/memory - NMDA"},
+
+    # Extended BDNF
+    "rs7124442": {"gene": "BDNF", "category": "cognitive", "importance": 3, "notes": "BDNF expression - neuroplasticity"},
+
+    # -------------------------------------------------------------------------
+    # ENDOCANNABINOID SYSTEM
+    # -------------------------------------------------------------------------
+    # Explains anxiety regulation, pain, appetite, cannabis response
+
+    # CNR1 - Cannabinoid receptor 1
+    "rs1049353": {"gene": "CNR1", "category": "endocannabinoid", "importance": 2, "notes": "CB1 - addiction/anxiety"},
+    "rs806368": {"gene": "CNR1", "category": "endocannabinoid", "importance": 2, "notes": "Cannabis psychotropic effect"},
+    "rs2023239": {"gene": "CNR1", "category": "endocannabinoid", "importance": 3, "notes": "Impulse control"},
+
+    # FAAH - Fatty acid amide hydrolase
+    "rs324420": {"gene": "FAAH", "category": "endocannabinoid", "importance": 2, "notes": "Pro129Thr - lower anxiety"},
+    "rs2295633": {"gene": "FAAH", "category": "endocannabinoid", "importance": 3, "notes": "Endocannabinoid levels"},
+
+    # -------------------------------------------------------------------------
+    # NOREPINEPHRINE SYSTEM (Extended)
+    # -------------------------------------------------------------------------
+
+    # NET/SLC6A2 - Norepinephrine transporter
+    "rs5569": {"gene": "SLC6A2", "category": "norepinephrine", "importance": 2, "notes": "NET G1287A - NE reuptake"},
+    "rs2242446": {"gene": "SLC6A2", "category": "norepinephrine", "importance": 2, "notes": "ADHD association"},
+    "rs28386840": {"gene": "SLC6A2", "category": "norepinephrine", "importance": 3, "notes": "Stress response"},
+
+    # ADRA2A - Alpha-2A adrenergic receptor
+    "rs1800544": {"gene": "ADRA2A", "category": "norepinephrine", "importance": 2, "notes": "C-1291G - ADHD/focus"},
+
+    # Extended DBH
+    "rs6271": {"gene": "DBH", "category": "norepinephrine", "importance": 2, "notes": "Arg535Cys - DA to NE conversion"},
+    "rs1108580": {"gene": "DBH", "category": "norepinephrine", "importance": 3, "notes": "DBH enzyme activity"},
+
+    # -------------------------------------------------------------------------
+    # SOCIAL COGNITION & BONDING
+    # -------------------------------------------------------------------------
+
+    # Extended OXTR
+    "rs2254298": {"gene": "OXTR", "category": "social", "importance": 2, "notes": "Social anxiety/attachment"},
+    "rs1042778": {"gene": "OXTR", "category": "social", "importance": 3, "notes": "Empathy/prosocial behavior"},
+
+    # AVPR1A - Vasopressin receptor 1A
+    "rs3759292": {"gene": "AVPR1A", "category": "social", "importance": 2, "notes": "Pair bonding/social behavior"},
+    "rs1042615": {"gene": "AVPR1A", "category": "social", "importance": 3, "notes": "Altruism/social cognition"},
+
+    # CD38 - Oxytocin release
+    "rs3796863": {"gene": "CD38", "category": "social", "importance": 2, "notes": "Oxytocin secretion - social skills"},
+
+    # -------------------------------------------------------------------------
+    # PAIN SENSITIVITY
+    # -------------------------------------------------------------------------
+
+    # SCN9A - Sodium channel Nav1.7
+    "rs6746030": {"gene": "SCN9A", "category": "pain", "importance": 2, "notes": "Pain sensitivity - A allele more pain"},
+    "rs6754031": {"gene": "SCN9A", "category": "pain", "importance": 3, "notes": "Chronic pain risk"},
+
+    # TRPV1 - Capsaicin receptor
+    "rs8065080": {"gene": "TRPV1", "category": "pain", "importance": 3, "notes": "Heat/pain sensitivity"},
+
+    # -------------------------------------------------------------------------
+    # NICOTINE ADDICTION GENES
+    # -------------------------------------------------------------------------
+
+    # CHRNA5 - Nicotinic receptor alpha-5
+    "rs16969968": {"gene": "CHRNA5", "category": "nicotine", "importance": 2, "notes": "Nicotine dependence - heavy smoking"},
+    "rs1051730": {"gene": "CHRNA5", "category": "nicotine", "importance": 2, "notes": "Cigarettes per day"},
+    "rs588765": {"gene": "CHRNA5", "category": "nicotine", "importance": 3, "notes": "Lung cancer risk in smokers"},
+
+    # -------------------------------------------------------------------------
+    # TRAINING RESPONSE & RECOVERY (Extended)
+    # -------------------------------------------------------------------------
+
+    # IGF1 - Insulin-like growth factor 1
+    "rs35767": {"gene": "IGF1", "category": "fitness", "importance": 2, "notes": "IGF1 promoter - muscle growth"},
+    "rs7136446": {"gene": "IGF1", "category": "fitness", "importance": 3, "notes": "Anabolic response"},
+
+    # GDF5 - Growth differentiation factor 5
+    "rs143383": {"gene": "GDF5", "category": "fitness", "importance": 2, "notes": "Joint/cartilage - osteoarthritis risk"},
+
+    # HIF1A - Hypoxia-inducible factor 1-alpha
+    "rs11549465": {"gene": "HIF1A", "category": "fitness", "importance": 2, "notes": "Pro582Ser - endurance/altitude"},
+
+    # VEGFA - Vascular endothelial growth factor A
+    "rs2010963": {"gene": "VEGFA", "category": "fitness", "importance": 2, "notes": "Angiogenesis - VO2max response"},
+    "rs699947": {"gene": "VEGFA", "category": "fitness", "importance": 3, "notes": "Vascular adaptation to training"},
+
+    # -------------------------------------------------------------------------
+    # MACRONUTRIENT RESPONSE (Extended)
+    # -------------------------------------------------------------------------
+
+    # ADIPOQ - Adiponectin
+    "rs266729": {"gene": "ADIPOQ", "category": "nutrition", "importance": 2, "notes": "Insulin sensitivity - diet response"},
+    "rs2241766": {"gene": "ADIPOQ", "category": "nutrition", "importance": 3, "notes": "Fat storage regulation"},
+
+    # APOA5 - Apolipoprotein A5
+    "rs662799": {"gene": "APOA5", "category": "nutrition", "importance": 2, "notes": "Triglyceride response to fat"},
+
+    # PPARD - Peroxisome proliferator-activated receptor delta
+    "rs2016520": {"gene": "PPARD", "category": "nutrition", "importance": 2, "notes": "Fat oxidation - low carb response"},
+
+    # -------------------------------------------------------------------------
+    # TASTE & FOOD PREFERENCES (Extended)
+    # -------------------------------------------------------------------------
+
+    # CD36 - Fat taste receptor
+    "rs1761667": {"gene": "CD36", "category": "taste", "importance": 2, "notes": "Fat taste perception - dietary fat"},
+
+    # TAS1R3 - Sweet taste receptor
+    "rs307355": {"gene": "TAS1R3", "category": "taste", "importance": 3, "notes": "Sweet taste sensitivity"},
+
+    # OR6A2 - Cilantro/coriander taste
+    "rs72921001": {"gene": "OR6A2", "category": "taste", "importance": 3, "notes": "Cilantro soap taste"},
+
+    # -------------------------------------------------------------------------
+    # MICRONUTRIENT NEEDS (Extended)
+    # -------------------------------------------------------------------------
+
+    # SLC23A1 - Vitamin C transporter
+    "rs33972313": {"gene": "SLC23A1", "category": "vitamin", "importance": 2, "notes": "Vitamin C absorption"},
+
+    # NBPF3 - Vitamin B6 levels
+    "rs4654748": {"gene": "NBPF3", "category": "vitamin", "importance": 2, "notes": "B6 plasma levels"},
+
+    # ALPL - Vitamin B6 metabolism
+    "rs4654739": {"gene": "ALPL", "category": "vitamin", "importance": 3, "notes": "B6 metabolism"},
 }
 
 
