@@ -857,6 +857,278 @@ CLINICAL_SNPS = {
 
     # ALPL - Vitamin B6 metabolism
     "rs4654739": {"gene": "ALPL", "category": "vitamin", "importance": 3, "notes": "B6 metabolism"},
+
+    # =========================================================================
+    # PHASE 2 EXPANSION: ADDITIONAL SIGNIFICANT GENES
+    # =========================================================================
+
+    # -------------------------------------------------------------------------
+    # GLUTAMATE SYSTEM - Excitatory neurotransmission
+    # -------------------------------------------------------------------------
+    # Counterpart to GABA - affects learning, memory, anxiety
+
+    # GRIN2A - NMDA receptor subunit 2A
+    "rs1805247": {"gene": "GRIN2A", "category": "glutamate", "importance": 2, "notes": "NMDA receptor - learning/memory"},
+    "rs4998386": {"gene": "GRIN2A", "category": "glutamate", "importance": 3, "notes": "Epilepsy/cognition"},
+
+    # GRIN2B - NMDA receptor subunit 2B
+    "rs1805502": {"gene": "GRIN2B", "category": "glutamate", "importance": 2, "notes": "Cognitive function/schizophrenia"},
+    "rs7301328": {"gene": "GRIN2B", "category": "glutamate", "importance": 3, "notes": "Memory consolidation"},
+
+    # GRM7 - Metabotropic glutamate receptor 7
+    "rs11564750": {"gene": "GRM7", "category": "glutamate", "importance": 2, "notes": "Anxiety/ADHD risk"},
+    "rs3792452": {"gene": "GRM7", "category": "glutamate", "importance": 3, "notes": "Depression association"},
+
+    # GRIK4 - Glutamate receptor kainate 4
+    "rs1954787": {"gene": "GRIK4", "category": "glutamate", "importance": 2, "notes": "Antidepressant response"},
+
+    # SLC1A2 - Glutamate transporter
+    "rs4354668": {"gene": "SLC1A2", "category": "glutamate", "importance": 2, "notes": "Glutamate clearance - excitotoxicity"},
+
+    # -------------------------------------------------------------------------
+    # HORMONE METABOLISM
+    # -------------------------------------------------------------------------
+
+    # Estrogen metabolism
+    "rs700518": {"gene": "CYP19A1", "category": "hormones", "importance": 2, "notes": "Aromatase - T to E2 conversion"},
+    "rs10046": {"gene": "CYP19A1", "category": "hormones", "importance": 2, "notes": "Estrogen levels"},
+    "rs4646": {"gene": "CYP19A1", "category": "hormones", "importance": 3, "notes": "Breast cancer risk"},
+    "rs2414096": {"gene": "CYP19A1", "category": "hormones", "importance": 3, "notes": "Hormone levels"},
+
+    # Testosterone/SHBG
+    "rs6258": {"gene": "SHBG", "category": "hormones", "importance": 2, "notes": "Free testosterone levels"},
+    "rs1799941": {"gene": "SHBG", "category": "hormones", "importance": 2, "notes": "Sex hormone binding"},
+    "rs12150660": {"gene": "SHBG", "category": "hormones", "importance": 3, "notes": "SHBG levels"},
+
+    # 5-alpha reductase (DHT)
+    "rs523349": {"gene": "SRD5A2", "category": "hormones", "importance": 2, "notes": "DHT conversion - hair loss/prostate"},
+    "rs9282858": {"gene": "SRD5A2", "category": "hormones", "importance": 3, "notes": "V89L - DHT levels"},
+
+    # Thyroid - T4 to T3 conversion
+    "rs225014": {"gene": "DIO2", "category": "thyroid", "importance": 1, "notes": "Thr92Ala - T4 to T3 conversion critical"},
+    "rs2235544": {"gene": "DIO1", "category": "thyroid", "importance": 2, "notes": "T4 to T3 peripheral conversion"},
+    "rs11206244": {"gene": "DIO1", "category": "thyroid", "importance": 3, "notes": "Thyroid hormone activation"},
+    "rs1991517": {"gene": "TSHR", "category": "thyroid", "importance": 2, "notes": "TSH receptor sensitivity"},
+    "rs12885526": {"gene": "TSHR", "category": "thyroid", "importance": 3, "notes": "Thyroid function"},
+    "rs2268458": {"gene": "DIO2", "category": "thyroid", "importance": 3, "notes": "T3 levels in brain"},
+
+    # -------------------------------------------------------------------------
+    # HISTAMINE INTOLERANCE
+    # -------------------------------------------------------------------------
+    # Common cause of food sensitivities, headaches, skin issues
+
+    # DAO/ABP1 - Diamine oxidase (primary histamine degradation)
+    "rs10156191": {"gene": "AOC1", "category": "histamine", "importance": 1, "notes": "DAO enzyme - histamine breakdown"},
+    "rs2052129": {"gene": "AOC1", "category": "histamine", "importance": 2, "notes": "DAO activity level"},
+    "rs2071514": {"gene": "AOC1", "category": "histamine", "importance": 2, "notes": "Histamine intolerance risk"},
+    "rs1049742": {"gene": "AOC1", "category": "histamine", "importance": 2, "notes": "DAO C47T - reduced activity"},
+
+    # HNMT - Histamine N-methyltransferase (intracellular histamine)
+    "rs1050891": {"gene": "HNMT", "category": "histamine", "importance": 2, "notes": "HNMT activity - histamine clearance"},
+    "rs11558538": {"gene": "HNMT", "category": "histamine", "importance": 2, "notes": "Thr105Ile - reduced HNMT"},
+
+    # HDC - Histidine decarboxylase (histamine production)
+    "rs17740607": {"gene": "HDC", "category": "histamine", "importance": 3, "notes": "Histamine synthesis"},
+
+    # HRH1/HRH2 - Histamine receptors
+    "rs2067474": {"gene": "HRH1", "category": "histamine", "importance": 3, "notes": "H1 receptor - allergic response"},
+
+    # -------------------------------------------------------------------------
+    # SKIN AGING & SUN SENSITIVITY
+    # -------------------------------------------------------------------------
+
+    # Pigmentation genes
+    "rs16891982": {"gene": "SLC45A2", "category": "skin", "importance": 2, "notes": "Skin pigmentation - sun sensitivity"},
+    "rs1426654": {"gene": "SLC24A5", "category": "skin", "importance": 2, "notes": "Light skin - UV damage risk"},
+    "rs1800401": {"gene": "OCA2", "category": "skin", "importance": 2, "notes": "Eye/skin pigmentation"},
+    "rs12913832": {"gene": "HERC2", "category": "skin", "importance": 2, "notes": "Eye color/skin type"},
+
+    # UV damage response
+    "rs2228479": {"gene": "MC1R", "category": "skin", "importance": 2, "notes": "Val92Met - UV sensitivity"},
+    "rs1805006": {"gene": "MC1R", "category": "skin", "importance": 2, "notes": "D84E - red hair/fair skin"},
+    "rs11547464": {"gene": "MC1R", "category": "skin", "importance": 3, "notes": "R142H - melanoma risk"},
+
+    # Skin aging/wrinkles
+    "rs2228145": {"gene": "IL6R", "category": "skin", "importance": 2, "notes": "Skin inflammation/aging"},
+    "rs1800629": {"gene": "TNF", "category": "skin", "importance": 2, "notes": "Skin inflammation"},
+    "rs1799750": {"gene": "MMP1", "category": "skin", "importance": 2, "notes": "Collagen breakdown - wrinkles"},
+    "rs243865": {"gene": "MMP2", "category": "skin", "importance": 3, "notes": "Matrix remodeling - skin elasticity"},
+
+    # Collagen/elastin
+    "rs1800255": {"gene": "COL3A1", "category": "skin", "importance": 2, "notes": "Collagen type III - skin elasticity"},
+    "rs2276109": {"gene": "MMP12", "category": "skin", "importance": 3, "notes": "Elastin degradation"},
+
+    # -------------------------------------------------------------------------
+    # HAIR LOSS (Androgenetic Alopecia)
+    # -------------------------------------------------------------------------
+
+    "rs2180439": {"gene": "EDA2R", "category": "hair", "importance": 2, "notes": "Male pattern baldness - X-linked"},
+    "rs6625163": {"gene": "HDAC4", "category": "hair", "importance": 2, "notes": "Hair follicle regulation"},
+    "rs756853": {"gene": "WNT10A", "category": "hair", "importance": 2, "notes": "Hair follicle development"},
+    "rs7349332": {"gene": "WNT10A", "category": "hair", "importance": 3, "notes": "Hair structure"},
+    "rs929626": {"gene": "EBF1", "category": "hair", "importance": 2, "notes": "Hair thickness"},
+    "rs12565727": {"gene": "TARDBP", "category": "hair", "importance": 3, "notes": "Hair loss association"},
+    "rs1998076": {"gene": "AR", "category": "hair", "importance": 2, "notes": "Androgen receptor - hair loss"},
+
+    # Hair graying
+    "rs12821256": {"gene": "KITLG", "category": "hair", "importance": 3, "notes": "Hair color/graying"},
+    "rs4959270": {"gene": "IRF4", "category": "hair", "importance": 3, "notes": "Hair graying"},
+
+    # -------------------------------------------------------------------------
+    # AUTOPHAGY & CELLULAR AGING
+    # -------------------------------------------------------------------------
+    # mTOR pathway, autophagy, cellular cleanup
+
+    # mTOR pathway
+    "rs2295080": {"gene": "MTOR", "category": "longevity", "importance": 2, "notes": "mTOR activity - aging pathway"},
+    "rs1130214": {"gene": "AKT1", "category": "longevity", "importance": 2, "notes": "Cell survival/growth"},
+
+    # Autophagy genes
+    "rs510432": {"gene": "ATG5", "category": "longevity", "importance": 2, "notes": "Autophagy initiation"},
+    "rs2245214": {"gene": "ATG16L1", "category": "longevity", "importance": 2, "notes": "Autophagosome formation - Crohn's"},
+    "rs1864183": {"gene": "BECN1", "category": "longevity", "importance": 3, "notes": "Beclin-1 - autophagy regulation"},
+    "rs12212067": {"gene": "FOXO1", "category": "longevity", "importance": 2, "notes": "Longevity transcription factor"},
+
+    # Sirtuins (extended)
+    "rs12778366": {"gene": "SIRT1", "category": "longevity", "importance": 2, "notes": "SIRT1 promoter - calorie restriction"},
+    "rs10410544": {"gene": "SIRT2", "category": "longevity", "importance": 3, "notes": "Cell cycle regulation"},
+
+    # Klotho - anti-aging
+    "rs9536314": {"gene": "KL", "category": "longevity", "importance": 2, "notes": "Klotho KL-VS - longevity/cognition"},
+    "rs9527025": {"gene": "KL", "category": "longevity", "importance": 3, "notes": "Klotho levels"},
+
+    # -------------------------------------------------------------------------
+    # IMMUNE SYSTEM (Extended)
+    # -------------------------------------------------------------------------
+
+    # Toll-like receptors (innate immunity)
+    "rs4986790": {"gene": "TLR4", "category": "immune", "importance": 2, "notes": "Bacterial recognition - sepsis risk"},
+    "rs4986791": {"gene": "TLR4", "category": "immune", "importance": 2, "notes": "LPS response"},
+    "rs5743708": {"gene": "TLR2", "category": "immune", "importance": 2, "notes": "Gram-positive bacteria response"},
+    "rs352139": {"gene": "TLR9", "category": "immune", "importance": 3, "notes": "DNA virus recognition"},
+
+    # Interferons
+    "rs12979860": {"gene": "IFNL3", "category": "immune", "importance": 1, "notes": "Hepatitis C clearance"},
+    "rs8099917": {"gene": "IFNL3", "category": "immune", "importance": 2, "notes": "Interferon response"},
+
+    # Natural killer cells
+    "rs1264457": {"gene": "KLRD1", "category": "immune", "importance": 3, "notes": "NK cell function"},
+
+    # Complement system
+    "rs1065489": {"gene": "CFH", "category": "immune", "importance": 2, "notes": "Complement factor H"},
+    "rs800292": {"gene": "CFH", "category": "immune", "importance": 2, "notes": "I62V - AMD/immune"},
+
+    # -------------------------------------------------------------------------
+    # BONE HEALTH (Extended)
+    # -------------------------------------------------------------------------
+
+    # Bone mineral density
+    "rs3801387": {"gene": "WLS", "category": "bone", "importance": 2, "notes": "Wnt signaling - bone mass"},
+    "rs2062377": {"gene": "TNFRSF11B", "category": "bone", "importance": 2, "notes": "OPG - bone resorption"},
+    "rs6469804": {"gene": "FAM210A", "category": "bone", "importance": 2, "notes": "Bone mineral density"},
+    "rs2887571": {"gene": "TNFRSF11A", "category": "bone", "importance": 2, "notes": "RANK - osteoclast function"},
+    "rs7524102": {"gene": "MEPE", "category": "bone", "importance": 3, "notes": "Bone mineralization"},
+
+    # Vitamin D receptor (bone-specific)
+    "rs11568820": {"gene": "VDR", "category": "bone", "importance": 2, "notes": "Cdx2 - calcium absorption"},
+
+    # -------------------------------------------------------------------------
+    # EYE HEALTH (Extended)
+    # -------------------------------------------------------------------------
+
+    # Glaucoma
+    "rs7495174": {"gene": "LOXL1", "category": "eye", "importance": 2, "notes": "Exfoliation glaucoma"},
+    "rs1048661": {"gene": "LOXL1", "category": "eye", "importance": 2, "notes": "R141L - glaucoma risk"},
+    "rs4236601": {"gene": "CAV1", "category": "eye", "importance": 2, "notes": "Primary open-angle glaucoma"},
+    "rs10483727": {"gene": "SIX1/SIX6", "category": "eye", "importance": 2, "notes": "Optic nerve - glaucoma"},
+
+    # Myopia
+    "rs524952": {"gene": "GJD2", "category": "eye", "importance": 2, "notes": "Myopia/nearsightedness"},
+    "rs634990": {"gene": "RASGRF1", "category": "eye", "importance": 2, "notes": "Myopia risk"},
+
+    # Cataracts
+    "rs1048315": {"gene": "EPHA2", "category": "eye", "importance": 2, "notes": "Age-related cataracts"},
+
+    # Blue light sensitivity
+    "rs1129038": {"gene": "HERC2", "category": "eye", "importance": 3, "notes": "Eye color - light sensitivity"},
+
+    # -------------------------------------------------------------------------
+    # CIRCADIAN/MELATONIN (Extended)
+    # -------------------------------------------------------------------------
+
+    # Melatonin receptors
+    "rs10830963": {"gene": "MTNR1B", "category": "circadian", "importance": 1, "notes": "Melatonin receptor - diabetes/sleep"},
+    "rs1387153": {"gene": "MTNR1B", "category": "circadian", "importance": 2, "notes": "Glucose metabolism timing"},
+    "rs2119882": {"gene": "MTNR1A", "category": "circadian", "importance": 2, "notes": "Melatonin receptor 1A"},
+
+    # Clock genes (extended)
+    "rs12649507": {"gene": "ARNTL", "category": "circadian", "importance": 2, "notes": "BMAL1 - master clock gene"},
+    "rs7221412": {"gene": "ARNTL", "category": "circadian", "importance": 3, "notes": "Circadian rhythm"},
+    "rs57875989": {"gene": "PER2", "category": "circadian", "importance": 2, "notes": "FASPS - extreme morning type"},
+    "rs228669": {"gene": "PER3", "category": "circadian", "importance": 2, "notes": "Sleep duration preference"},
+
+    # AANAT - Melatonin synthesis
+    "rs3760138": {"gene": "AANAT", "category": "circadian", "importance": 2, "notes": "Melatonin production"},
+
+    # -------------------------------------------------------------------------
+    # GUT HEALTH & MICROBIOME
+    # -------------------------------------------------------------------------
+
+    # FUT2 - Secretor status (affects gut microbiome)
+    "rs601338": {"gene": "FUT2", "category": "gut", "importance": 1, "notes": "Secretor status - microbiome/B12"},
+    "rs1047781": {"gene": "FUT2", "category": "gut", "importance": 2, "notes": "Non-secretor - different microbiome"},
+
+    # Intestinal barrier
+    "rs2241880": {"gene": "ATG16L1", "category": "gut", "importance": 1, "notes": "Autophagy - Crohn's disease"},
+    "rs13361189": {"gene": "IRGM", "category": "gut", "importance": 2, "notes": "IBD risk - autophagy"},
+
+    # Bile acid metabolism
+    "rs11887534": {"gene": "ABCG8", "category": "gut", "importance": 2, "notes": "Cholesterol/bile absorption"},
+    "rs4148217": {"gene": "ABCG5", "category": "gut", "importance": 3, "notes": "Plant sterol absorption"},
+
+    # -------------------------------------------------------------------------
+    # KIDNEY FUNCTION
+    # -------------------------------------------------------------------------
+
+    "rs4293393": {"gene": "UMOD", "category": "kidney", "importance": 2, "notes": "Uromodulin - CKD risk"},
+    "rs12917707": {"gene": "UMOD", "category": "kidney", "importance": 2, "notes": "Kidney function/gout"},
+    "rs6088580": {"gene": "PRKAG2", "category": "kidney", "importance": 3, "notes": "Kidney function"},
+    "rs1260326": {"gene": "GCKR", "category": "kidney", "importance": 2, "notes": "Uric acid levels"},
+
+    # -------------------------------------------------------------------------
+    # HEARING
+    # -------------------------------------------------------------------------
+
+    "rs7598759": {"gene": "GRHL2", "category": "hearing", "importance": 2, "notes": "Age-related hearing loss"},
+    "rs161927": {"gene": "GJB2", "category": "hearing", "importance": 2, "notes": "Connexin 26 - hearing"},
+    "rs17430756": {"gene": "SIK3", "category": "hearing", "importance": 3, "notes": "Noise-induced hearing loss"},
+
+    # -------------------------------------------------------------------------
+    # DENTAL/ORAL HEALTH
+    # -------------------------------------------------------------------------
+
+    "rs2274327": {"gene": "CA6", "category": "dental", "importance": 2, "notes": "Taste perception/caries risk"},
+    "rs17878486": {"gene": "AMELX", "category": "dental", "importance": 3, "notes": "Enamel formation"},
+    "rs7217186": {"gene": "MMP20", "category": "dental", "importance": 3, "notes": "Enamel maturation"},
+
+    # -------------------------------------------------------------------------
+    # ADDITIONAL PHARMACOGENOMICS
+    # -------------------------------------------------------------------------
+
+    # Opioid response
+    "rs1799971": {"gene": "OPRM1", "category": "pharmacogenomics", "importance": 1, "notes": "A118G - opioid dosing"},
+    "rs678849": {"gene": "OPRD1", "category": "pharmacogenomics", "importance": 2, "notes": "Delta opioid receptor"},
+
+    # Beta-blockers
+    "rs1801253": {"gene": "ADRB1", "category": "pharmacogenomics", "importance": 2, "notes": "Arg389Gly - beta-blocker response"},
+    "rs1801252": {"gene": "ADRB1", "category": "pharmacogenomics", "importance": 2, "notes": "Ser49Gly - heart rate"},
+
+    # Metformin
+    "rs2282143": {"gene": "SLC22A1", "category": "pharmacogenomics", "importance": 2, "notes": "OCT1 - metformin response"},
+    "rs622342": {"gene": "SLC22A1", "category": "pharmacogenomics", "importance": 2, "notes": "Metformin efficacy"},
+
+    # Statins (extended)
+    "rs2231142": {"gene": "ABCG2", "category": "pharmacogenomics", "importance": 2, "notes": "Statin transport - rosuvastatin"},
 }
 
 

@@ -44,8 +44,8 @@ AUTO_FETCHED_SNPS = {
         gene="CYP2C9",
         chromosome="10",
         position=94981296,
-        ref_allele="A",
-        alt_allele="C",
+        ref_allele="C",
+        alt_allele="A",
         categories=[Category.PHARMACOGENOMICS],
         genotype_effects={
             "AA": {"risk": RiskLevel.PROTECTIVE, "effect": "normal; no effect on warfarin metabolism", "description": "normal; no effect on warfarin metabolism"},
@@ -132,8 +132,8 @@ AUTO_FETCHED_SNPS = {
         gene="DPYD",
         chromosome="1",
         position=97515787,
-        ref_allele="A",
-        alt_allele="C",
+        ref_allele="C",
+        alt_allele="A",
         categories=[Category.PHARMACOGENOMICS],
         genotype_effects={
             "AC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "carrier of a null DPYD allele", "description": "carrier of a null DPYD allele"},
@@ -243,6 +243,34 @@ AUTO_FETCHED_SNPS = {
         evidence_level="SNPedia"
     ),
 
+    "rs601338": UnifiedSNP(
+        rsid="rs601338",
+        gene="FUT2",
+        chromosome="19",
+        position=48703417,
+        ref_allele="G",
+        alt_allele="A",
+        categories=[Category.METHYLATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.PROTECTIVE, "effect": "resistance to Norovirus infection", "description": "resistance to Norovirus infection"},
+            "AG": {"risk": RiskLevel.NORMAL, "effect": "susceptible to Norovirus infections", "description": "susceptible to Norovirus infections"},
+            "GG": {"risk": RiskLevel.NORMAL, "effect": "susceptible to Norovirus infections", "description": "susceptible to Norovirus infections"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['30376117', '23075394', '28824326', '24816252', '22521342'],
+        clinical_significance="It also appears to affect the composition of the microbiome",
+        evidence_level="SNPedia"
+    ),
+
     "rs17782313": UnifiedSNP(
         rsid="rs17782313",
         gene="MC4R",
@@ -269,6 +297,35 @@ AUTO_FETCHED_SNPS = {
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['20881960', '29466028', '22310352', '20017980', '21147891'],
         clinical_significance="Note that",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1799971": UnifiedSNP(
+        rsid="rs1799971",
+        gene="OPRM1",
+        chromosome="6",
+        position=154039662,
+        ref_allele="G",
+        alt_allele="A",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "stronger cravings for alcohol. if alcoholic, naltrexone treatment 2x more successful", "description": "stronger cravings for alcohol. if alcoholic, naltrexone treatment 2x more successful"},
+            "GG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "more pain", "description": "more pain"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "AG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+            "GG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21277709', '25715171', '22046326', '26233486', '26832728'],
+        clinical_significance="However, subsequent research results are mixed, and there are other studies both agreeing or disagre",
         evidence_level="SNPedia"
     ),
 
@@ -492,6 +549,93 @@ AUTO_FETCHED_SNPS = {
         haplotype_role=None,
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['22890315', '25247748', '26544898', '16626484', '19725031'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs12979860": UnifiedSNP(
+        rsid="rs12979860",
+        gene="IFNL4",
+        chromosome="19",
+        position=39248147,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.PROTECTIVE, "effect": "~80% of such hepatitis C patients respond to treatment", "description": "~80% of such hepatitis C patients respond to treatment"},
+            "TT": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "~20-25% of such hepatitis C patients respond to treatment", "description": "~20-25% of such hepatitis C patients respond to treatment"},
+            "CT": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "~20-40% of such hepatitis C patients respond to treatment", "description": "~20-40% of such hepatitis C patients respond to treatment"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "TT": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+            "CT": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['22790387', '23020144', '22253715', '23029188', '23291588'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs10830963": UnifiedSNP(
+        rsid="rs10830963",
+        gene="MTNR1B",
+        chromosome="11",
+        position=92975544,
+        ref_allele="G",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "GG": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "increased type-2 diabetes risk; higher gestational diabetes risk", "description": "increased type-2 diabetes risk; higher gestational diabetes risk"},
+            "CG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "increased type-2 diabetes risk; higher gestational diabetes risk", "description": "increased type-2 diabetes risk; higher gestational diabetes risk"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "GG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+            "CG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20712903', '19651812', '22096510', '21036910', '20839289'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2241880": UnifiedSNP(
+        rsid="rs2241880",
+        gene="ATG16L1",
+        chromosome="2",
+        position=233274722,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.IMMUNE],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "2x-3x increased risk for Crohn's disease in Caucasians", "description": "2x-3x increased risk for Crohn's disease in Caucasians"},
+            "CT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "1.4x increased risk for Crohn's disease in Caucasians", "description": "1.4x increased risk for Crohn's disease in Caucasians"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "CC": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['25906181', '31654602', '19174780', '19575361', '27128681'],
         clinical_significance="Auto-fetched from SNPedia",
         evidence_level="SNPedia"
     ),
@@ -788,34 +932,6 @@ AUTO_FETCHED_SNPS = {
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['17697348', '23882023', '17119116', '20565774', '18708408'],
         clinical_significance="Auto-fetched from SNPedia",
-        evidence_level="SNPedia"
-    ),
-
-    "rs601338": UnifiedSNP(
-        rsid="rs601338",
-        gene="FUT2",
-        chromosome="19",
-        position=48703417,
-        ref_allele="G",
-        alt_allele="A",
-        categories=[Category.METHYLATION],
-        genotype_effects={
-            "AA": {"risk": RiskLevel.PROTECTIVE, "effect": "resistance to Norovirus infection", "description": "resistance to Norovirus infection"},
-            "AG": {"risk": RiskLevel.NORMAL, "effect": "susceptible to Norovirus infections", "description": "susceptible to Norovirus infections"},
-            "GG": {"risk": RiskLevel.NORMAL, "effect": "susceptible to Norovirus infections", "description": "susceptible to Norovirus infections"},
-        },
-        nutrient_recommendations={
-        },
-        lifestyle_recommendations={
-        },
-        drug_interactions={},
-        pathways=[],
-        interacts_with=[],
-        haplotype_gene=None,
-        haplotype_role=None,
-        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
-        pmids=['30376117', '23075394', '28824326', '24816252', '22521342'],
-        clinical_significance="It also appears to affect the composition of the microbiome",
         evidence_level="SNPedia"
     ),
 
@@ -1702,35 +1818,6 @@ AUTO_FETCHED_SNPS = {
         evidence_level="SNPedia"
     ),
 
-    "rs1799971": UnifiedSNP(
-        rsid="rs1799971",
-        gene="OPRM1",
-        chromosome="6",
-        position=154039662,
-        ref_allele="G",
-        alt_allele="A",
-        categories=[Category.INFLAMMATION],
-        genotype_effects={
-            "AG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "stronger cravings for alcohol. if alcoholic, naltrexone treatment 2x more successful", "description": "stronger cravings for alcohol. if alcoholic, naltrexone treatment 2x more successful"},
-            "GG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "more pain", "description": "more pain"},
-        },
-        nutrient_recommendations={
-        },
-        lifestyle_recommendations={
-            "AG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
-            "GG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
-        },
-        drug_interactions={},
-        pathways=[],
-        interacts_with=[],
-        haplotype_gene=None,
-        haplotype_role=None,
-        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
-        pmids=['21277709', '25715171', '22046326', '26233486', '26832728'],
-        clinical_significance="However, subsequent research results are mixed, and there are other studies both agreeing or disagre",
-        evidence_level="SNPedia"
-    ),
-
     "rs699": UnifiedSNP(
         rsid="rs699",
         gene="AGT",
@@ -1927,6 +2014,33 @@ AUTO_FETCHED_SNPS = {
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['18439551', '23028483', '19714205', '20503266', '19732864'],
         clinical_significance="A large study of Scottish",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2052129": UnifiedSNP(
+        rsid="rs2052129",
+        gene="AOC1",
+        chromosome="7",
+        position=150851884,
+        ref_allele="A",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "related to Histamine intolerance", "description": "related to Histamine intolerance"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "AA": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=[],
+        clinical_significance="No association between the promoter SNP",
         evidence_level="SNPedia"
     ),
 
@@ -2176,7 +2290,7 @@ AUTO_FETCHED_SNPS = {
         haplotype_role=None,
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['30371560', '21372407', '19698717', '24553426', '23895337'],
-        clinical_significance="A study of over 3,800 cases of upper aerodigestive",
+        clinical_significance="A study of over 3,800 cases of 'upper aerodigestive'",
         evidence_level="SNPedia"
     ),
 
@@ -2520,6 +2634,32 @@ AUTO_FETCHED_SNPS = {
         haplotype_role=None,
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['19570052', '28506689', '18715515', '20412372', '22563200'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4293393": UnifiedSNP(
+        rsid="rs4293393",
+        gene="UMOD",
+        chromosome="16",
+        position=20353266,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20686651', '19959715', '20222955'],
         clinical_significance="Auto-fetched from SNPedia",
         evidence_level="SNPedia"
     ),
@@ -2924,7 +3064,7 @@ AUTO_FETCHED_SNPS = {
         haplotype_role=None,
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['22085192', '29353877', '23010766', '23407780', '23337343'],
-        clinical_significance="In this 2013 article titled Translational evidence for the involvement of the endocannabinoid syste",
+        clinical_significance="In this 2013 article titled 'Translational evidence for the involvement of the endocannabinoid syste'",
         evidence_level="SNPedia"
     ),
 
@@ -3382,6 +3522,963 @@ AUTO_FETCHED_SNPS = {
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['19744961', '19303062'],
         clinical_significance="This is one of the SNPs reported by",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1805502": UnifiedSNP(
+        rsid="rs1805502",
+        gene="GRIN2B",
+        chromosome="12",
+        position=13561247,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['22578441', '24114429', '23070074', '22433450'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1954787": UnifiedSNP(
+        rsid="rs1954787",
+        gene="GRIK4",
+        chromosome="11",
+        position=120792654,
+        ref_allele="T",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "TT": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "~10% less likely to respond to citalopram", "description": "~10% less likely to respond to citalopram"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21172166', '21208417', '19924111', '23394390'],
+        clinical_significance="From the abstract of this article:",
+        evidence_level="SNPedia"
+    ),
+
+    "rs700518": UnifiedSNP(
+        rsid="rs700518",
+        gene="CYP19A1",
+        chromosome="15",
+        position=51236915,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['17002564', '19921206', '26379441', '19194457', '21442439'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs6258": UnifiedSNP(
+        rsid="rs6258",
+        gene="SHBG",
+        chromosome="17",
+        position=7631360,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21998597', '22829776'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1799941": UnifiedSNP(
+        rsid="rs1799941",
+        gene="SHBG",
+        chromosome="17",
+        position=7630105,
+        ref_allele="A",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "Sex Hormone-Binding Globulin levels are 0.4 standard deviations higher", "description": "Sex Hormone-Binding Globulin levels are 0.4 standard deviations higher"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['17411440', '19679209', '19091090', '25647406', '25671407'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs523349": UnifiedSNP(
+        rsid="rs523349",
+        gene="SRD5A2",
+        chromosome="2",
+        position=31580636,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20215396', '18603647', '23505265', '26751392', '23867117'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2235544": UnifiedSNP(
+        rsid="rs2235544",
+        gene="DIO1",
+        chromosome="1",
+        position=53909897,
+        ref_allele="C",
+        alt_allele="A",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "Risk of significantly decreased T4-T3 thyroid conversion, may worsen bone loss, brain effects", "description": "Risk of significantly decreased T4-T3 thyroid conversion, may worsen bone loss, brain effects"},
+            "AC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "Risk of decreased thyroid hormone metabolism in peripheral tissues", "description": "Risk of decreased thyroid hormone metabolism in peripheral tissues"},
+            "CC": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "no increased risk of thyroid hormone metabolism problems", "description": "no increased risk of thyroid hormone metabolism problems"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "AA": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+            "AC": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['18492748', '18815314', '23502783', '29134650', '23408906'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2071514": UnifiedSNP(
+        rsid="rs2071514",
+        gene="AOC1",
+        chromosome="7",
+        position=150857799,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=[],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1050891": UnifiedSNP(
+        rsid="rs1050891",
+        gene="LOC107985948",
+        chromosome="2",
+        position=138014190,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=[],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs16891982": UnifiedSNP(
+        rsid="rs16891982",
+        gene="SLC45A2",
+        chromosome="5",
+        position=33951588,
+        ref_allele="G",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "GG": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "Generally European; Light skin; Possibly an increased risk of melanoma", "description": "Generally European; Light skin; Possibly an increased risk of melanoma"},
+            "CC": {"risk": RiskLevel.PROTECTIVE, "effect": "generally non-European, but if European, 7x more likely to have black hair", "description": "generally non-European, but if European, 7x more likely to have black hair"},
+            "CG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "if European, 7x more likely to have black hair", "description": "if European, 7x more likely to have black hair"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['19710684', '20585627', '28242083', '20457063', '22912732'],
+        clinical_significance="This snp influences",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1426654": UnifiedSNP(
+        rsid="rs1426654",
+        gene="SLC24A5",
+        chromosome="15",
+        position=48134287,
+        ref_allele="G",
+        alt_allele="A",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "probably light-skinned, European ancestry", "description": "probably light-skinned, European ancestry"},
+            "AG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "mixed European + (African or Asian) ancestry possible", "description": "mixed European + (African or Asian) ancestry possible"},
+            "GG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "probably darker-skinned, Asian or African ancestry", "description": "probably darker-skinned, Asian or African ancestry"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['16357253', '16255080', '19503611', '19384953', '19884608'],
+        clinical_significance="The 3 SNPs are:",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1800401": UnifiedSNP(
+        rsid="rs1800401",
+        gene="OCA2",
+        chromosome="15",
+        position=28014907,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "blue/gray eyes possible", "description": "blue/gray eyes possible"},
+            "TT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "brown/black eyes more likely", "description": "brown/black eyes more likely"},
+            "CT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "brown/black eyes more likely", "description": "brown/black eyes more likely"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20042077', '19384953', '28242083', '12163334', '15889046'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs12913832": UnifiedSNP(
+        rsid="rs12913832",
+        gene="HERC2",
+        chromosome="15",
+        position=28120472,
+        ref_allele="G",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "GG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "blue eye color, 99% of the time", "description": "blue eye color, 99% of the time"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23543094', '22234890', '19340012', '23100201', '20018053'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2228479": UnifiedSNP(
+        rsid="rs2228479",
+        gene="MC1R",
+        chromosome="16",
+        position=89919532,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20042077', '23744330', '16463023', '7581459', '20670983'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1799750": UnifiedSNP(
+        rsid="rs1799750",
+        gene="MMP1",
+        chromosome="11",
+        position=102799765,
+        ref_allele="G",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "GG": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "in breast cancer patients, slightly higher risk for poorer prognosis", "description": "in breast cancer patients, slightly higher risk for poorer prognosis"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23370084', '19551141', '25950130', '18787421', '20038976'],
+        clinical_significance="Subsequently, a 2012 meta-analysis based on about 10,000 cancer cases, half of which metastasized, c",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1800255": UnifiedSNP(
+        rsid="rs1800255",
+        gene="COL3A1",
+        chromosome="2",
+        position=188999354,
+        ref_allele="G",
+        alt_allele="A",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "increased risk for pelvic organ prolapse", "description": "increased risk for pelvic organ prolapse"},
+            "AG": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "benign", "description": "benign"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "AA": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['30121816', '29086084', '21219851', '22241462', '23013106'],
+        clinical_significance="A meta-analysis published in 2014 reported that the",
+        evidence_level="SNPedia"
+    ),
+
+    "rs12778366": UnifiedSNP(
+        rsid="rs12778366",
+        gene="SIRT1",
+        chromosome="10",
+        position=67883321,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.ANTIOXIDANT],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21882241', '28919817', '19014491', '20977650', '23505545'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4986790": UnifiedSNP(
+        rsid="rs4986790",
+        gene="TLR4",
+        chromosome="9",
+        position=117713024,
+        ref_allele="G",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "GG": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "complex; numerous associations reported", "description": "complex; numerous associations reported"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "GG": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23867959', '17827388', '23447684', '30529560', '18298826'],
+        clinical_significance="*",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4986791": UnifiedSNP(
+        rsid="rs4986791",
+        gene="TLR4",
+        chromosome="9",
+        position=117713324,
+        ref_allele="T",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "TT": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "complex; see details", "description": "complex; see details"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['32349318', '23867959', '18422738', '19586676', '24028589'],
+        clinical_significance="*",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1065489": UnifiedSNP(
+        rsid="rs1065489",
+        gene="CFH",
+        chromosome="1",
+        position=196740644,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['19162324', '18483746', '23423485', '26296146', '20694013'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs800292": UnifiedSNP(
+        rsid="rs800292",
+        gene="CFH",
+        chromosome="1",
+        position=196673103,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "5% higher risk of Age related macular degeneration", "description": "5% higher risk of Age related macular degeneration"},
+            "TT": {"risk": RiskLevel.PROTECTIVE, "effect": "5% decreased risk of macular degeneration", "description": "5% decreased risk of macular degeneration"},
+            "CT": {"risk": RiskLevel.PROTECTIVE, "effect": "1% decreased risk of macular degeneration", "description": "1% decreased risk of macular degeneration"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "CC": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['22065918', '31988359', '28192798', '23919682', '24865191'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs3801387": UnifiedSNP(
+        rsid="rs3801387",
+        gene="WNT16",
+        chromosome="7",
+        position=121334711,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23074152', '22504420', '22792070'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2062377": UnifiedSNP(
+        rsid="rs2062377",
+        gene="COLEC10",
+        chromosome="8",
+        position=118995181,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23437003', '22504420', '19801982'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs6469804": UnifiedSNP(
+        rsid="rs6469804",
+        gene="COLEC10",
+        chromosome="8",
+        position=119032590,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20554715', '19181680', '18455228', '20548944'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2887571": UnifiedSNP(
+        rsid="rs2887571",
+        gene="LOC107984507",
+        chromosome="12",
+        position=1529005,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['22504420'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs7495174": UnifiedSNP(
+        rsid="rs7495174",
+        gene="OCA2",
+        chromosome="15",
+        position=28099092,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20042077', '18483556', '18252221', '19340012', '18683857'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs10483727": UnifiedSNP(
+        rsid="rs10483727",
+        gene="LOC105378189",
+        chromosome="14",
+        position=60606157,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['25849520', '22584021', '20395239', '22570617', '21398277'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1387153": UnifiedSNP(
+        rsid="rs1387153",
+        gene="MIR194-2",
+        chromosome="11",
+        position=92940662,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20712903', '19324940', '19651812', '20858683', '29871606'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs12649507": UnifiedSNP(
+        rsid="rs12649507",
+        gene="CLOCK",
+        chromosome="4",
+        position=55514317,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.CIRCADIAN],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['28777361', '20149345', '25527757'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1047781": UnifiedSNP(
+        rsid="rs1047781",
+        gene="FUT2",
+        chromosome="19",
+        position=48703374,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.METHYLATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23300138', '22367966', '24941225', '28824326'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs13361189": UnifiedSNP(
+        rsid="rs13361189",
+        gene="IRGM",
+        chromosome="5",
+        position=150843825,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "2.6x increased risk for Crohn's disease", "description": "2.6x increased risk for Crohn's disease"},
+            "CT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "1.3x increased risk for Crohn's disease", "description": "1.3x increased risk for Crohn's disease"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "CC": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['18580884', '24859836', '21304977', '19165925', '24232856'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs12917707": UnifiedSNP(
+        rsid="rs12917707",
+        gene="UMOD",
+        chromosome="16",
+        position=20356368,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20383146', '32011449', '20686651', '24578125', '19430482'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1801253": UnifiedSNP(
+        rsid="rs1801253",
+        gene="ADRB1",
+        chromosome="10",
+        position=114045297,
+        ref_allele="C",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "responds well to bucindolol; may also depend on rs1801252", "description": "responds well to bucindolol; may also depend on rs1801252"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21172166', '33451866', '19553224', '22703382', '17150099'],
+        clinical_significance="Also known as Arg389, variation at this SNP, located in the",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2282143": UnifiedSNP(
+        rsid="rs2282143",
+        gene="SLC22A1",
+        chromosome="6",
+        position=160136611,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['23612856'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs622342": UnifiedSNP(
+        rsid="rs622342",
+        gene="SLC22A1",
+        chromosome="6",
+        position=160151834,
+        ref_allele="C",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "influences dosage for Parkinson's patients", "description": "influences dosage for Parkinson's patients"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['19381165', '22882994', '25398212', '20680652', '23612856'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2231142": UnifiedSNP(
+        rsid="rs2231142",
+        gene="ABCG2",
+        chromosome="4",
+        position=88131171,
+        ref_allele="C",
+        alt_allele="A",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "causes gout", "description": "causes gout"},
+            "AC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "1.74x increased gout risk; gefinitib takers 4x more susceptible to diarrhea", "description": "1.74x increased gout risk; gefinitib takers 4x more susceptible to diarrhea"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+            "AA": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+            "AC": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['22015057', '23280364', '20470424', '20858603', '23438071'],
+        clinical_significance="Among non-small cell lung cancer patients treated with",
         evidence_level="SNPedia"
     ),
 
@@ -4532,33 +5629,6 @@ AUTO_FETCHED_SNPS = {
         evidence_level="SNPedia"
     ),
 
-    "rs2052129": UnifiedSNP(
-        rsid="rs2052129",
-        gene="AOC1",
-        chromosome="7",
-        position=150851884,
-        ref_allele="A",
-        alt_allele="N",
-        categories=[Category.INFLAMMATION],
-        genotype_effects={
-            "AA": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "related to Histamine intolerance", "description": "related to Histamine intolerance"},
-        },
-        nutrient_recommendations={
-        },
-        lifestyle_recommendations={
-            "AA": ['Denna variant kan påverka din hälsa - konsultera specialist vid behov'],
-        },
-        drug_interactions={},
-        pathways=[],
-        interacts_with=[],
-        haplotype_gene=None,
-        haplotype_role=None,
-        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
-        pmids=[],
-        clinical_significance="No association between the promoter SNP",
-        evidence_level="SNPedia"
-    ),
-
     "rs780094": UnifiedSNP(
         rsid="rs780094",
         gene="GCKR",
@@ -4683,8 +5753,8 @@ AUTO_FETCHED_SNPS = {
         gene="AGTR1",
         chromosome="3",
         position=148742201,
-        ref_allele="A",
-        alt_allele="C",
+        ref_allele="C",
+        alt_allele="A",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "AC": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "~1.4x increased risk of hypertension", "description": "~1.4x increased risk of hypertension"},
@@ -5009,32 +6079,6 @@ AUTO_FETCHED_SNPS = {
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=['27888068', '18776148', '22891215', '29979892', '24270470'],
         clinical_significance="In a study of 395 Spanish patients with",
-        evidence_level="SNPedia"
-    ),
-
-    "rs4293393": UnifiedSNP(
-        rsid="rs4293393",
-        gene="UMOD",
-        chromosome="16",
-        position=20353266,
-        ref_allele="N",
-        alt_allele="N",
-        categories=[Category.INFLAMMATION],
-        genotype_effects={
-            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
-        },
-        nutrient_recommendations={
-        },
-        lifestyle_recommendations={
-        },
-        drug_interactions={},
-        pathways=[],
-        interacts_with=[],
-        haplotype_gene=None,
-        haplotype_role=None,
-        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
-        pmids=['20686651', '19959715', '20222955'],
-        clinical_significance="Auto-fetched from SNPedia",
         evidence_level="SNPedia"
     ),
 
@@ -5594,8 +6638,8 @@ AUTO_FETCHED_SNPS = {
         gene="OR10A2",
         chromosome="11",
         position=6868417,
-        ref_allele="A",
-        alt_allele="C",
+        ref_allele="C",
+        alt_allele="A",
         categories=[Category.INFLAMMATION],
         genotype_effects={
             "AC": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "Less likely to think cilantro tastes like soap", "description": "Less likely to think cilantro tastes like soap"},
@@ -5612,6 +6656,399 @@ AUTO_FETCHED_SNPS = {
         haplotype_role=None,
         frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
         pmids=[],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4998386": UnifiedSNP(
+        rsid="rs4998386",
+        gene="GRIN2A",
+        chromosome="16",
+        position=9976688,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['31942532', '24915238'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4646": UnifiedSNP(
+        rsid="rs4646",
+        gene="CYP19A1",
+        chromosome="15",
+        position=51210647,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['19438456', '18603647', '23129173', '23540392', '26379441'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs9282858": UnifiedSNP(
+        rsid="rs9282858",
+        gene="SRD5A2",
+        chromosome="2",
+        position=31580756,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['18566991', '18163429', '26751392', '19914946'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs11206244": UnifiedSNP(
+        rsid="rs11206244",
+        gene="DIO1",
+        chromosome="1",
+        position=53910028,
+        ref_allele="T",
+        alt_allele="C",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "CC": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "no increased risk of thyroid hormone metabolism problems", "description": "no increased risk of thyroid hormone metabolism problems"},
+            "TT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "Risk of reduced thyroid hormone metabolism", "description": "Risk of reduced thyroid hormone metabolism"},
+            "CT": {"risk": RiskLevel.SLIGHTLY_INCREASED, "effect": "Slight risk of decreased thyroid hormone metabolism", "description": "Slight risk of decreased thyroid hormone metabolism"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['18492748', '18815314', '32807452'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs2067474": UnifiedSNP(
+        rsid="rs2067474",
+        gene="HRH2",
+        chromosome="5",
+        position=175682216,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['19450133', '25922853', '18366640', '22720301', '22615049'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs11547464": UnifiedSNP(
+        rsid="rs11547464",
+        gene="MC1R",
+        chromosome="16",
+        position=89919683,
+        ref_allele="G",
+        alt_allele="A",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "AA": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "red hair", "description": "red hair"},
+            "AG": {"risk": RiskLevel.SIGNIFICANTLY_INCREASED, "effect": "red hair carrier", "description": "red hair carrier"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20585627', '30531825'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs243865": UnifiedSNP(
+        rsid="rs243865",
+        gene="MMP2",
+        chromosome="16",
+        position=55477894,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20157405', '28750369', '19822020', '23242659', '18784838'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs7349332": UnifiedSNP(
+        rsid="rs7349332",
+        gene="WNT10A",
+        chromosome="2",
+        position=218891661,
+        ref_allele="T",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "TT": {"risk": RiskLevel.MODERATELY_INCREASED, "effect": "hair curl", "description": "hair curl"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21547848', '20585627', '23358095', '26414620'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs12565727": UnifiedSNP(
+        rsid="rs12565727",
+        gene="C1orf127",
+        chromosome="1",
+        position=10973025,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['22693459'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs12821256": UnifiedSNP(
+        rsid="rs12821256",
+        gene="KITLG",
+        chromosome="12",
+        position=88934558,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "A 2007 study based on the Icelanders and Dutch concluded that individuals with an", "description": "A 2007 study based on the Icelanders and Dutch concluded that individuals with an"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20042077', '23548203', '20585627', '18483556'],
+        clinical_significance="A 2007 study based on the Icelanders and Dutch concluded that individuals with an",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4959270": UnifiedSNP(
+        rsid="rs4959270",
+        gene="LOC105374875",
+        chromosome="6",
+        position=457748,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20383147', '18483556', '17952075', '19340012', '21197618'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs352139": UnifiedSNP(
+        rsid="rs352139",
+        gene="TLR9",
+        chromosome="3",
+        position=52224356,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['25948535', '21872627', '19284650', '24971461', '19034965'],
+        clinical_significance="Auto-fetched from SNPedia",
+        evidence_level="SNPedia"
+    ),
+
+    "rs7524102": UnifiedSNP(
+        rsid="rs7524102",
+        gene="ZBTB40",
+        chromosome="1",
+        position=22371954,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "rs7524102 increases susceptibility to Bone mineral density variations, lower for carriers of the A a", "description": "rs7524102 increases susceptibility to Bone mineral density variations, lower for carriers of the A a"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21732829', '19079262', '21297633', '22824048', '19915572'],
+        clinical_significance="rs7524102 increases susceptibility to Bone mineral density variations, lower for carriers of the A a",
+        evidence_level="SNPedia"
+    ),
+
+    "rs1129038": UnifiedSNP(
+        rsid="rs1129038",
+        gene="HERC2",
+        chromosome="15",
+        position=28111713,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "The \"h-1\" haplotype found in homozygous state in 97% of individuals with blue", "description": "The \"h-1\" haplotype found in homozygous state in 97% of individuals with blue"},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['20042077', '22561518', '20463881', '20457063', '33167923'],
+        clinical_significance="The 'h-1' haplotype found in homozygous state in 97% of individuals with blue",
+        evidence_level="SNPedia"
+    ),
+
+    "rs4148217": UnifiedSNP(
+        rsid="rs4148217",
+        gene="ABCG8",
+        chromosome="2",
+        position=43872294,
+        ref_allele="N",
+        alt_allele="N",
+        categories=[Category.INFLAMMATION],
+        genotype_effects={
+            "normal": {"risk": RiskLevel.NORMAL, "effect": "", "description": ""},
+        },
+        nutrient_recommendations={
+        },
+        lifestyle_recommendations={
+        },
+        drug_interactions={},
+        pathways=[],
+        interacts_with=[],
+        haplotype_gene=None,
+        haplotype_role=None,
+        frequencies={"EUR": 0.0, "EAS": 0.0, "AFR": 0.0},
+        pmids=['21062971', '19005228', '22548731', '32647408', '15996216'],
         clinical_significance="Auto-fetched from SNPedia",
         evidence_level="SNPedia"
     ),
